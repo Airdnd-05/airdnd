@@ -1,0 +1,64 @@
+name: '🛠️코드 리팩토링'
+description: '코드의 가독성, 유지보수성을 향상시키기 위한 작업을 수행합니다.'
+title: '[Refactor] '
+labels:
+  - 'refactor'
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 리팩토링 설명
+
+  - type: input
+    id: refactor_area
+    attributes:
+      label: 리팩토링 영역
+      description: 리팩토링할 코드의 영역을 입력하세요.
+      placeholder: 예) React-Router-Dom
+    validations:
+      required: true
+
+  - type: textarea
+    id: refactor_description
+    attributes:
+      label: 리팩토링 설명
+      description: 리팩토링할 부분에 대한 설명을 입력하세요.
+      placeholder: 예) 이 기능은 라우팅을 처리하는 라이브러리입니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason_for_refactor
+    attributes:
+      label: 이유
+      description: 리팩토링이 필요한 이유를 설명하세요.
+      placeholder: 예) Next.js에서 제공하는 디렉토리 기반 라우팅을 사용하기로 결정했습니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation_details
+    attributes:
+      label: 구현 세부 사항
+      description: 리팩토링의 세부 사항을 작성해주세요.
+      placeholder: |
+        예시
+        1. React-Router-Dom 라이브러리와 관련된 코드를 제거합니다.
+        2. Next.js 프로젝트를 설치합니다.
+        3. 관련 컴포넌트 및 페이지 파일 구조를 변경합니다.
+
+  - type: textarea
+    id: test_instructions
+    attributes:
+      label: 테스트 방법
+      description: 리팩토링 후 테스트 방법을 작성해주세요.
+      placeholder: |
+        - REST 테스트 도구를 사용하여 API 테스트를 수행합니다.
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: 추가 정보
+      description: 추가로 필요한 정보가 있다면 적어주세요.
+      placeholder: 기타 필요한 정보가 있다면 여기에 추가하세요.

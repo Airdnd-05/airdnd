@@ -1,0 +1,63 @@
+name: '🗑️ 기능 삭제'
+description: '프로젝트에서 기존 기능을 삭제합니다.'
+title: '[Feature] '
+labels:
+  - 'enhancement'
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 기능 설명
+
+  - type: input
+    id: feature_name
+    attributes:
+      label: 삭제할 기능 이름
+      description: 삭제할 기능의 이름을 입력하세요.
+      placeholder: 예) Oauth 1.0 인증
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature_description
+    attributes:
+      label: 기능 설명
+      description: 삭제할 기능에 대한 설명을 입력하세요.
+      placeholder: 예) 이 기능은 사용자가 소셜 미디어 계정을 통해 로그인할 수 있도록 합니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature_reason
+    attributes:
+      label: 이유
+      description: 이 기능을 삭제하는 이유를 설명하세요.
+      placeholder: 예) 보안 문제로 인해 Oauth 2.0으로 업데이트합니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: removal_details
+    attributes:
+      label: 삭제 세부 사항
+      description: 기능 삭제에 필요한 세부 사항을 설명하세요.
+      placeholder: |
+        예시
+        1. Oauth 1.0 관련 코드를 제거합니다.
+        2. 관련된 사용자 데이터를 삭제합니다.
+        3. Oauth 2.0 관련 코드를 추가합니다.
+
+  - type: textarea
+    id: reference_material
+    attributes:
+      label: 참고 자료
+      description: 관련 문서나 레퍼런스 링크를 추가해주세요.
+      placeholder: 예) https://developer.mozilla.org/ko/docs/Web/HTTP/Authentication
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: 추가 정보
+      description: 추가로 필요한 정보가 있다면 적어주세요.
+      placeholder: 기타 필요한 정보가 있다면 여기에 추가하세요.

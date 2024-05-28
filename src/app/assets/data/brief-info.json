@@ -1,0 +1,247 @@
+{
+  "accommodationInfo": [
+    {
+      "accommodationId": 1,
+      "accommodationName": "여주 남한강 전거도로1분, 금은모래 캠핑장3분, 썬밸리호텔5초",
+      "locationName": "여주시, 한국의 방",
+      "briefRoomInfo": [
+        "이층 침대 6개",
+        "공용 욕실 2개"
+      ],
+      "guestFavorite": true,
+      "rating": "4.78",
+      "reviewCount": "23",
+      "hostName": "Shinku",
+      "hostSince": 2014,
+      "pricePerDay": 30000,
+      "imageUrl":[
+        "https://a0.muscache.com/im/pictures/69079e4a-818c-4a07-97c4-34c51f6bd265.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/68eb49d8-6e11-4a93-ad63-94a34111b3a3.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/93256836/7542399a_original.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/93256810/5550edfc_original.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/93256813/a293c632_original.jpg?im_w=720"
+
+      ],
+      "amenities": [
+        {
+         "amenityName": "수변에 인접",
+         "icon": "AmenityWater"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "세탁기",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "공용 파티오 또는 발코니",
+          "icon": "AmenityPatio"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "TV + 일반 케이블 TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1,
+              "icon": "RoomBunkBed"
+            },
+            {
+              "bedType": "소파",
+              "count": 1,
+              "icon": "RoomCouch"
+            },
+            {
+              "bedType": "바닥용 에어 매트리스",
+              "count": 1,
+              "icon": "RoomAirMattress"
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 2,
+              "icon": "RoomFloorMattress"
+            }
+          ]
+        },
+        {
+          "roomId": 2,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1,
+              "icon": "RoomBunkBed"
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1,
+              "icon": "RoomFloorMattress"
+            }
+          ]
+        },
+        {
+          "roomId": 3,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1,
+              "icon": "RoomBunkBed"
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1,
+              "icon": "RoomFloorMattress"
+            }
+          ]
+        },
+        {
+          "roomId": 4,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1,
+              "icon": "RoomBunkBed"
+            },
+            {
+              "bedType": "바닥용 에어 매트리스",
+              "count": 1,
+              "icon": "RoomAirMattress"
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 2,
+              "icon": "RoomFloorMattress"
+            }
+          ]
+        },
+        {
+          "roomId": 5,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1,
+              "icon": "RoomBunkBed"
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1,
+              "icon": "RoomFloorMattress"
+            }
+          ]
+        },
+        {
+          "roomId": 6,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1,
+              "icon": "RoomBunkBed"
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1,
+              "icon": "RoomFloorMattress"
+            }
+          ]
+        }
+      ],
+      "desc": "고아웃 게스트하우스는 자전거여행, 국토종주, 여주여행, 워터파크 및 웨이크보드등... 경기도에서 볼거리와 즐길거리가 가장 많은 지역입니다.\n\n자전거도로 인접 1분내 진입할 수 있으며, 서울인천에서 출발시 1박하기에 가장 적합한 장소입니다.\n\n게스트하우스 에서의 술자리와 바베큐파티등은 가급적 지양하며, 조용하게 휴식을 원하시는 분들이 많습니다.\n\n향후 저희 고아웃게스트하우스는 무인게스트하우스를 지향할 예정이므로 많은 관심 부탁드립니다.\n\n숙소\n\n캠핑장5분거리, 숙소 정원내 텐트설치가능, 바로앞 썬밸리호텔 워터파크, 여주아울렛, 이마트, 하나로마트\n\n게스트 이용 가능 공간/시설\n\n주말별장으로 사용하던 숙소이므로 비치된 모든 생필품은 그대로 사용하셔도 됩니다^^\n\n기타 주의사항\n\n애완견은 소형견 1마리정도는 가능하나 협의 후 가능합니다!"
+    },
+    {
+      "accommodationId": 2,
+      "accommodationName": "{양양 죽도해변} 오션스테이 #2023신축 #오픈특가 할로우#6",
+      "locationName": "Hyeonnam-myeon, Yangyang-gun, 한국의 레지던스 전체",
+      "briefRoomInfo": [
+        "최대 인원 2명",
+        "침실 1개",
+        "욕실 1개"
+      ],
+      "guestFavorite": false,
+      "rating": "4.87",
+      "reviewCount": "67",
+      "pricePerDay": 79705,
+      "hostName": "Blue Twelve 양양네오스",
+      "hostSince": 2023,
+      "imageUrl":[
+        "https://a0.muscache.com/im/pictures/miso/Hosting-806929901183102808/original/a749aafc-189e-497e-b2da-b5c8bbb31ec6.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-806929901183102808/original/50dfcb34-eb3e-45fc-8840-707c60dc695f.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-806929901183102808/original/8a416820-81b1-4599-9f06-eddf59f871ef.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-806929901183102808/original/46bcf8e2-fdf8-4f93-a5e0-4a2a293aea7c.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-806929901183102808/original/9a61d532-4c41-4325-90b7-b485cd35b948.jpeg?im_w=720"
+
+      ],
+      "amenities": [
+        {
+          "amenityName": "바다 전망",
+          "icon": "AmenityOcean"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "40인치 HDTV + 넷플릭스",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "세탁기 무료 사용 - 숙소 내",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "공용 해변과 인접 - 해변",
+          "icon": "AmenityBeach"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차 차고 - 1대 주차 가능",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "엘리베이터",
+          "icon": "AmenityElevator"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+
+      ],
+      "desc": "동산항 해변에 위치하고 있는 깔끔하고 심플한 객실과 트렌디한 인테리어가 돋보이는 매력적인 숙소입니다.\n\n서퍼들의 성지 양양 죽도해변과 이어져 있으며 전 객실 발코니를 설계해 동해의 장관과 일출을, 오대산의 파노라마 전망을 누릴 수 있으며, 바닷가가 보이는 동향, 죽도봉을 바라보는 남향, 동산항을 향해 산과 바다의 조화로움을 맛 볼 수 있는 북향의 다양한 전망의 객실을 보유하고 있습니다.\n\n양양 국제공항에서 차량으로 15분, 고속버스터미널에서 20분 거리에 위치하고 있습니다.\n\n바다를 품고 있어 바로 눈 앞에서 일출을 감상할 수 있습니다.\n✔ 비대면 체크인 (숙소의 키패드 번호 입력하여 입실 가능)\n✔ 전문 세탁소에서 고온 살균 된 침구 제공\n✔ 소독제, 살포를 통한 객실 소독, 방역\n✔ 취사 가능 (냄비, 프라이팬 등의 조리도구와 식기제공)\n✔ 넷플릭스 (본인 계정으로 로그인하여 시청)\n✔ 메세지 응답 시간 : 오전 09:00 ~ 오후 10:00\n숙소\n✔ 지하 1층 ~ 지하 3층 주차장"
+    }
+  ]
+}

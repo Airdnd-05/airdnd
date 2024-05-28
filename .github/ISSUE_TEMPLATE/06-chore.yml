@@ -1,0 +1,69 @@
+name: '🔧기타 이슈'
+description: '프로젝트의 의존성, 환경변수, 빌드 관련 등의 작업을 수행합니다.'
+title: '[Chore] '
+labels:
+  - 'chore'
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 작업 설명
+
+  - type: input
+    id: chore_title
+    attributes:
+      label: 작업 제목
+      description: 작업의 제목을 입력하세요.
+      placeholder: 예) 의존성 업데이트
+    validations:
+      required: true
+
+  - type: textarea
+    id: chore_description
+    attributes:
+      label: 작업 설명
+      description: 작업에 대한 설명을 입력하세요.
+      placeholder: 예) 프로젝트의 의존성을 최신 버전으로 업데이트합니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason_for_chore
+    attributes:
+      label: 이유
+      description: 이 작업이 필요한 이유를 설명하세요.
+      placeholder: 예) 최신 기능 사용 및 보안 업데이트를 위해 필요합니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation_details
+    attributes:
+      label: 작업 세부 사항
+      description: 작업의 세부 사항을 작성해주세요.
+      placeholder: |
+        예시
+        - package.json 업데이트
+        - .env.example 파일 수정
+        - build.gradle 수정
+    validations:
+      required: true
+
+  - type: textarea
+    id: test_instructions
+    attributes:
+      label: 테스트 방법
+      description: 작업 후 테스트 방법을 작성해주세요.
+      placeholder: |
+        예시
+        - npm install 후 정상적으로 동작하는지 확인
+        - 환경변수가 제대로 설정되어 있는지 확인
+        - 빌드가 성공적으로 완료되는지 확인
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: 추가 정보
+      description: 추가로 필요한 정보가 있다면 적어주세요.
+      placeholder: 기타 필요한 정보가 있다면 여기에 추가하세요.
