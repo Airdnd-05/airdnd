@@ -1,21 +1,15 @@
 import DetailPageBanner from '@components/accommodation/detailBanner/DetailPageBanner'
-import Layout from '../components/Layout/Layout.jsx'
-import HostDetail from '../components/hostDetail/HostDetail.jsx'
-import BriefInfo from '../components/briefInfo/BriefInfo.jsx'
-import AmenityInfo from '../components/briefInfo/AmenityInfo.jsx'
+import HostDetail from '@components/accommodation/hostDetail/HostDetail'
+import BriefInfo from '@components/accommodation/briefInfo/BriefInfo'
+import AmenityInfo from '@components/accommodation/amenityInfo/AmenityInfo'
 
-function AccommodationPage({ params }) {
-  const { id } = params
-
+function AccommodationPage() {
   return (
     <>
-      {/* <DetailPageBanner id={id} /> */}
-      {/* <BriefInfo id={id} /> */}
-      {/* <AmenityInfo id={id} /> */}
-      {/* <HostDetail id={id} /> */}
-      <div className="flex items-center justify-center bg-red-100 h-[1000px]">
-        상세 페이지의 컴포넌트가 위치할 자리입니다
-      </div>
+      <DetailPageBanner />
+      <BriefInfo />
+      <AmenityInfo />
+      <HostDetail />
     </>
   )
 }

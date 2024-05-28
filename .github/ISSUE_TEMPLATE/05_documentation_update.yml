@@ -1,0 +1,62 @@
+name: '📝 문서 수정'
+description: '프로젝트의 문서에 대한 수정을 요청합니다.'
+title: '[Docs] '
+labels:
+  - 'documentation'
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 문서 설명
+
+  - type: input
+    id: document_name
+    attributes:
+      label: 문서 이름
+      description: 수정할 문서의 이름을 입력하세요.
+      placeholder: 예) README.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: document_changes
+    attributes:
+      label: 수정할 내용
+      description: 문서에 추가하거나 수정할 내용을 입력하세요.
+      placeholder: 예) 프로젝트 설정 부분을 업데이트합니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason_for_changes
+    attributes:
+      label: 이유
+      description: 이 문서를 수정하는 이유를 설명하세요.
+      placeholder: 예) 새로운 설정 방식에 맞게 문서를 갱신합니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: update_details
+    attributes:
+      label: 수정 세부 사항
+      description: 문서 수정의 세부 사항을 설명해주세요.
+      placeholder: |
+        예시
+        - 프로젝트 설정 업데이트
+        - 새로운 기능 추가
+
+  - type: textarea
+    id: reference_material
+    attributes:
+      label: 참고 자료
+      description: 관련 문서나 레퍼런스 링크를 추가해주세요.
+      placeholder: 예) https://developer.mozilla.org/ko/docs/Web/HTTP/Authentication
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: 추가 정보
+      description: 추가로 필요한 정보가 있다면 적어주세요.
+      placeholder: 기타 필요한 정보가 있다면 여기에 추가하세요.
