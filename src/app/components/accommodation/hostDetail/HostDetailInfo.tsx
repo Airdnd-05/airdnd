@@ -11,7 +11,7 @@ function HostDetailInfo() {
       </button>
 
       <div className="mt-[1.5rem] underline text-sm">
-        <a href="https://www.naver.com" className="text-black">
+        <a  className="text-black">
           사업자 정보
         </a>
       </div>

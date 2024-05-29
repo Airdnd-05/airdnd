@@ -39,7 +39,7 @@ function HostDetail() {
         </div>
 
         <div className="flex flex-row ml-[2rem] items-center">
-          <Notice className="pr-[0.4rem]  w-[1.8rem]" />
+          <Notice width="20" height="20" className="mr-[0.5rem]" />
           <div className=" w-full text-left text-[0.8em]">
             안전한 결제를 위해 에어비앤비 웹사이트나 외부에서 송금하거나 대화를 나누지 마세요.
           </div>
