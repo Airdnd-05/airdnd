@@ -1,0 +1,2668 @@
+{
+  "accommodationInfo": [
+    {
+      "accommodationId": 1,
+      "accommodationName": "여주 남한강 전거도로1분, 금은모래 캠핑장3분, 썬밸리호텔5초",
+      "locationName": "여주시, 한국의 방",
+      "briefRoomInfo": ["이층 침대 6개", "공용 욕실 2개"],
+      "guestFavorite": true,
+      "rating": "4.78",
+      "reviewCount": "23",
+      "hostName": "Shinku",
+      "hostSince": 2014,
+      "pricePerDay": 30000,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/69079e4a-818c-4a07-97c4-34c51f6bd265.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/68eb49d8-6e11-4a93-ad63-94a34111b3a3.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/93256836/7542399a_original.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/93256810/5550edfc_original.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/93256813/a293c632_original.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "수변에 인접",
+          "icon": "AmenityWater"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "세탁기",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "공용 파티오 또는 발코니",
+          "icon": "AmenityPatio"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "TV + 일반 케이블 TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1
+            },
+            {
+              "bedType": "소파",
+              "count": 1
+            },
+            {
+              "bedType": "바닥용 에어 매트리스",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "roomId": 2,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "roomId": 3,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "roomId": 4,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1
+            },
+            {
+              "bedType": "바닥용 에어 매트리스",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "roomId": 5,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "roomId": 6,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "고아웃 게스트하우스는 자전거여행, 국토종주, 여주여행, 워터파크 및 웨이크보드등... 경기도에서 볼거리와 즐길거리가 가장 많은 지역입니다.\n\n자전거도로 인접 1분내 진입할 수 있으며, 서울인천에서 출발시 1박하기에 가장 적합한 장소입니다.\n\n게스트하우스 에서의 술자리와 바베큐파티등은 가급적 지양하며, 조용하게 휴식을 원하시는 분들이 많습니다.\n\n향후 저희 고아웃게스트하우스는 무인게스트하우스를 지향할 예정이므로 많은 관심 부탁드립니다.\n\n숙소\n\n캠핑장5분거리, 숙소 정원내 텐트설치가능, 바로앞 썬밸리호텔 워터파크, 여주아울렛, 이마트, 하나로마트\n\n게스트 이용 가능 공간/시설\n\n주말별장으로 사용하던 숙소이므로 비치된 모든 생필품은 그대로 사용하셔도 됩니다^^\n\n기타 주의사항\n\n애완견은 소형견 1마리정도는 가능하나 협의 후 가능합니다!"
+    },
+    {
+      "accommodationId": 2,
+      "accommodationName": "{양양 죽도해변} 오션스테이 #2023신축 #오픈특가 할로우#6",
+      "locationName": "Hyeonnam-myeon, Yangyang-gun, 한국의 레지던스 전체",
+      "briefRoomInfo": ["최대 인원 2명", "침실 1개", "욕실 1개"],
+      "guestFavorite": false,
+      "rating": "4.87",
+      "reviewCount": "67",
+      "pricePerDay": 79705,
+      "hostName": "Blue Twelve 양양네오스",
+      "hostSince": 2023,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-806929901183102808/original/a749aafc-189e-497e-b2da-b5c8bbb31ec6.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-806929901183102808/original/50dfcb34-eb3e-45fc-8840-707c60dc695f.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-806929901183102808/original/8a416820-81b1-4599-9f06-eddf59f871ef.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-806929901183102808/original/46bcf8e2-fdf8-4f93-a5e0-4a2a293aea7c.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-806929901183102808/original/9a61d532-4c41-4325-90b7-b485cd35b948.jpeg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "바다 전망",
+          "icon": "AmenityOceanView"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "40인치 HDTV + 넷플릭스",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "세탁기 무료 사용 - 숙소 내",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "공용 해변과 인접 - 해변",
+          "icon": "AmenityBeach"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차 차고 - 1대 주차 가능",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "엘리베이터",
+          "icon": "AmenityElevator"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [],
+      "desc": "동산항 해변에 위치하고 있는 깔끔하고 심플한 객실과 트렌디한 인테리어가 돋보이는 매력적인 숙소입니다.\n\n서퍼들의 성지 양양 죽도해변과 이어져 있으며 전 객실 발코니를 설계해 동해의 장관과 일출을, 오대산의 파노라마 전망을 누릴 수 있으며, 바닷가가 보이는 동향, 죽도봉을 바라보는 남향, 동산항을 향해 산과 바다의 조화로움을 맛 볼 수 있는 북향의 다양한 전망의 객실을 보유하고 있습니다.\n\n양양 국제공항에서 차량으로 15분, 고속버스터미널에서 20분 거리에 위치하고 있습니다.\n\n바다를 품고 있어 바로 눈 앞에서 일출을 감상할 수 있습니다.\n✔ 비대면 체크인 (숙소의 키패드 번호 입력하여 입실 가능)\n✔ 전문 세탁소에서 고온 살균 된 침구 제공\n✔ 소독제, 살포를 통한 객실 소독, 방역\n✔ 취사 가능 (냄비, 프라이팬 등의 조리도구와 식기제공)\n✔ 넷플릭스 (본인 계정으로 로그인하여 시청)\n✔ 메세지 응답 시간 : 오전 09:00 ~ 오후 10:00\n숙소\n✔ 지하 1층 ~ 지하 3층 주차장"
+    },
+    {
+      "accommodationId": 3,
+      "accommodationName": "나인하우스 #독채",
+      "locationName": "가평군, 한국의 저택 전체",
+      "briefRoomInfo": ["최대 인원 8명", "침실 3개", "욕실 3개"],
+      "guestFavorite": false,
+      "rating": "5.0",
+      "reviewCount": "3",
+      "hostName": "Sahee",
+      "hostSince": 2022,
+      "pricePerDay": 1320000,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-617784885502078213/original/56b74c47-1dda-4dea-8d86-ac909c1d6961.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-617784885502078213/original/cca153d6-555c-4846-be7e-eddf233ad076.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-617784885502078213/original/19253af6-f8ca-4bbd-99f5-b2882e0111f6.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-617784885502078213/original/b299e13f-95a1-41f3-b74d-ea3f91544ea2.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-617784885502078213/original/722f0362-111e-4eb8-ac51-fa8692873475.jpeg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "산 전망",
+          "icon": "AmenityMountainView"
+        },
+        {
+          "amenityName": "강 전망",
+          "icon": "AmenityRiver"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "세탁기",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "50인치TV + 넷플릭스, 일반 케이블 TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "전용 온수 욕조",
+          "icon": "AmenityHottub"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        }
+      ],
+      "roomInfo": [],
+      "desc": "가족여행시 모두가 만족 할 숙소입니다.\n 건물 뒤로는 산, 앞으로는 1,200평의 넓은 정원과 계곡이 자리하고 있으며 특색있는 외형의 건물에서 자연과 어울어지는 세련됨을 만끽 하실 수 있습니다.\n#경기도건축대상수상 #방송에소개된그집 #서울엔우리집이없다 #스몰웨딩"
+    },
+    {
+      "accommodationId": 4,
+      "accommodationName": "VILLA 포지타노(69평 전체) #하루한팀#모닥불&바베큐장#넓은 주차공간#확트인 전망",
+      "locationName": "양평군, 한국의 별장 전체",
+      "briefRoomInfo": ["최대 인원 8명", "침실 4개", "침실 7개", "욕실 3개"],
+      "guestFavorite": true,
+      "rating": "4.93",
+      "reviewCount": "213",
+      "pricePerDay": 360000,
+      "hostName": "Sangkuk",
+      "hostSince": 2020,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/38929911-53df-44ce-9ab2-12551da8333c.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/5dae1e8c-eefb-4107-b6f3-e68d5fd7e2ed.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-43087591/original/9f5944d9-3404-4a72-a428-9bc7aaf8f581.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/49512171-d0fa-44b4-87de-fd42ae439032.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/9c02c324-5ea9-4745-8196-885993a911f1.jpg?im_w=1200"
+      ],
+      "amenities": [
+        {
+          "amenityName": "바다 전망",
+          "icon": "AmenityOceanView"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "40인치 HDTV + 넷플릭스",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "세탁기 무료 사용 - 숙소 내",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "공용 해변과 인접 - 해변",
+          "icon": "AmenityBeach"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차 차고 - 1대 주차 가능",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "엘리베이터",
+          "icon": "AmenityElevator"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "슈퍼싱글",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "roomId": 2,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "스탠드 에어컨2대, 방마다 벽걸이 에어컨, 선풍기 4대가 준비되어 있습니다\n\n저희집은 마을상단에 위치하고 있어서, 머무시는 동안 외부의 시선이나 소음으로부터 자유로움을 만끽 하실 수 있습니다.\n외부는 아이들이 뛰어놀기에 충분한 넓은 정원(300평+환경청 정원 990평)이 있어서 아이들이 좋아하고, 실내는 2층 통창을 통해서 내려다 보이는 남한강 뷰와 1층 각 공간에서 보는 풍경이 다양하고 예뻐서 어른들이 더 좋아합니다\n집에서 100미터 거리에 마을전용 등산로(개군산)도 있어서 가벼운 트래킹(왕복1시간) 하기에 좋습니다"
+    },
+    {
+      "accommodationId": 5,
+      "accommodationName": "강이바로앞 강변하우스. 예쁘고 넓은정원과 마당.데크에서 보는 풍경과 전망이 좋아요",
+      "locationName": "Chilseong-myeon, Goesan, 한국의 게스트용 별채 전체",
+      "briefRoomInfo": ["최대 인원 2명", "침실 1개", "침대 1개", "욕실 1개"],
+      "guestFavorite": true,
+      "rating": "4.88",
+      "reviewCount": "124",
+      "hostName": "Miyoung",
+      "hostSince": 2021,
+      "pricePerDay": 100000,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/0f06bb80-228a-4c8b-8fa2-d3b39ddf488f.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/4389c2af-b7a1-4006-9157-de0ac399399b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/bbabb094-7098-4bf9-bc43-50d1506245d7.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/e0c9a920-c9c5-4ce7-9240-59f1ea9f3c3a.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/90e4e6b8-3568-43af-8c6a-7b6c0c5bc622.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "안뜰 전망",
+          "icon": "AmenityYardView"
+        },
+        {
+          "amenityName": "수변에 인접",
+          "icon": "AmenityWater"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "TV + 일반 케이블 TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "정원 전망",
+          "icon": "AmenityGardenView"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "반려동물 입실 가능",
+          "icon": "AmenityPet"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "강변에위치한 게스트용 풀옵션.\n 원룸형 별채로 퀸침대.티브이.와이파이.에어컨.소파.티테이블.주방에는 인덕션 조리기구.냉장고.전자렌지등 있으며 야외는 조망조은데크와테이블,그릴있으며식사와차마시기에좋은곳입니다. 단독별채1층이므로.다른여행객이없어 소형애견동반도가능함니다.숙소앞이바로강이며 강건너는 넓은들판에강변둑은산책하기좋으며,자전거타기도좋슴니다 숙소내차주차공간도많으며 음악좋아하시면본채에서 엘피로음악 감상할수있습니다 1분거리에편의점,식당.마트,치킨 약국이있으며5분거리내에 학생군사학교 극장,헬스,사우나,재래시장등과역시5분거리내에갈론계곡,쌍곡계곡,산막이옛길,연하엽구름다리등이있으며.15분거리에 문광저수지.연풍성지 수안보온천,문경새재가있슴니다\n\n숙소\n침실과 데크에서.바라보는강전망이아주 좋슴니다,주인이꽃과 음악을 좋아해서 다양한꽃과.야생화와 엘피레코드가수천장있슴니다\n\n게스트 이용 가능 공간/시설\n강가의정자나데크이용할수있슴니다\n그릴준비되있으며 숯과석쇠는1만원추가이나직접준비해오셔도됨니다\n\n기타 주의사항\n7평원룸형식이어 성인2명이 지내기에적당하며 어린이동반3명까지가능함니다."
+    },
+    {
+      "accommodationId": 6,
+      "accommodationName": "클로드에덴 : 트리하우스",
+      "locationName": "Jipyeong-myeon, Yangpyeong-gun, 한국의 트리하우스",
+      "briefRoomInfo": ["최대 인원 2명", "침실1 1개", "침대 1개", "욕실 1.5개"],
+      "guestFavorite": true,
+      "rating": "4.96",
+      "reviewCount": "94",
+      "pricePerDay": 297000,
+      "hostName": "Kwanghoe",
+      "hostSince": 2024,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-713419345905850852/original/1a001eb0-466a-4e7d-bf91-5f99067a31ee.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/3681b9e1-1d86-4f94-87be-f20759ded2de.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/391c9050-dc29-4f7c-b52b-9c2d2df9a0be.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/8fa1a142-ad7d-459e-8062-ecdaa3ea0565.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/2fbb0551-d537-4b50-a88a-31668df40afb.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "정원 전망",
+          "icon": "AmenityGardenView"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "반려동물 입실 가능",
+          "icon": "AmenityPet"
+        },
+        {
+          "amenityName": "욕조",
+          "icon": "AmenityTub"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "전용 온수 욕조",
+          "icon": "AmenityHottub"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "헤어드라이어",
+          "icon": "AmenityHairDryer"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "아주 특별한곳 아름다운추억과 힐링을 원하시는분 이색숙소를 찾으시는분 커플을위한 최적화된 이상형장소를 찾고 계신다면 떡갈나무 트리하우스를 진심 추천합니다\n\n양평에서 가장아름다운 정원 양평군 공식지정정원 팜포레스트는 삼면이 백합나무숲으로 둘러 쌓여 아늑하면서도 신비로운 곳 2300여평의 정원내에 위치해 있으며 오직 단2팀을 위한 공간으로 전체를 활용하고 있습니다\n\n트리하우스를 이용하시는분들만을 위한공간이 약500평정도니 프라이빗은 기본입니다\n\n트리하우스에서 내려다 보는 뷰는 정말이지 환상적이고 침실은 고급나무로만 만들어져\n포근하고 달콤한 꿀잠을 선사합니다\n\n별도의 공간으로 삼나무와 히노끼로만들어져\n나무향 가득한 욕실과 자쿠지를 겸한공간은\n특별한 경험을 즐기실수있습니다\n\n바베큐와 모닥불은 별도의 야외에 준비되어있어\n계절 기후와 관계없이 이용하실수 있습니다\n\n봄 여름 가을에는 약300평의 연못에서\n붕어 잉어 향어낚시를 즐길수 있으며\n정원은 꽃과 나무 새들로 가득합니다\n\n숙소\n[시설소개 및 시설별 제공되는 옵션]\n\n[떡갈나무 트리하우스 약10평정도의 공간으로 침실1 화장실1 주방1로 구성되어 있으며 침실에는 퀸침대 1개와 테이블 안락의자2개가 비치되어있습니다\n\n옵션:\n\n냉장고\n전기포트\n전기압력밥솥\n인덕션\n냉난방기(침실)\n전자레인지\n핸드폰충전기\n난방기 에어컨(주방)\n드라이기\n각종 취사 주방용기\n\n\n[야외욕실]\n원형욕조가 갖춰진 자연광이 스미는 샤워와 목욕이 가능한 따스한 온실형 욕실은 삼나무와 히노끼로 만들어져 색다른 체험을 제공합니다\n옵션:\n헤어드라이기, 일회용품(치약, 칫솔, 비누)\n타월 , 원형욕조,샤워기\n\n[바베큐장]\n비 눈이 와도 계절 기후에 관계없이 바베큐와 모닥불을 즐기실수있습니다\n\n기타 주의사항\n사진작가들이 특별히 선호하는 곳이라\n뉴진스를 비롯 많은 아이돌가수 패션 cf등 촬영이 끊이질 않습니다\n게스트가 없는날만 촬영이 허락됩니다\n\n저히가 가장신경쓰는 부분은 청결과 위생입니다\n침실 침구 조리기구는 매회 세탁과 소독을 하고 있으니 안심하셔도 됩니다\n\n클로드에덴은 애견전용 숙소가 아닙니다\n소형반려견은 최대 2견까지 가능하며 견당 3만원이 부과됩니다\n\n20kg이상 반려견은 1견만 가능하며 5만원이 부과됩니다\n훈련되지 않은 반려견은 소형견이라도 동반 불가입니다\n법으로 지정된 5대 맹견은 훈련되어있더라도\n절대 동반불가합니다\n\n숙박인원은 정원2인이며 추가 1인 까지 가능합니다 정원 1인외 추가인원은 인당\n3만원이 부과됩니다\n추가 인원이 있을경우는 미리 연락주시기를 바랍니다\n예약된 인원외 이용불가합니다\n\n\n[바베큐 모닥불]\n\n\n바베큐그릴 숯 1만원\n모닥불장작 20kg 2만원입니다\n\n결재는 현장에서 하게됩니다\n\n낚시를 원하시는 분은 미리 문자 보내주세요\n낚시대 떡밥등 기타필요물품 포함 인당 1만원이니 참고하세요\n현장결제입니다"
+    },
+    {
+      "accommodationId": 7,
+      "accommodationName": "Y1호 #포차바베큐 #독채 #불멍 #빔프로젝터#마샬 민트&크림 다락방",
+      "locationName": "상면, 가평군, 한국의 게스트용 별채 전체",
+      "briefRoomInfo": ["최대 인원 2명", "침실 1개", "침대 1개", "욕실 1개"],
+      "guestFavorite": true,
+      "rating": "4.91",
+      "reviewCount": "149",
+      "hostName": "Yeoulmok",
+      "hostSince": 2021,
+      "pricePerDay": 99000,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/d84393fd-db4d-4e42-854c-e8dc8f926d1e.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTAxMDYwODk%3D/original/28076e37-c981-4aa6-b7c1-72d4c1a513ff.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTAxMDYwODk%3D/original/c7f8737c-131d-440b-a55f-13ccbe32899a.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/ec73da0c-2a6a-42bc-bce3-ebf57218e3e9.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTAxMDYwODk%3D/original/9783dabd-9133-444d-8110-5467bd5183af.jpeg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "산 전망",
+          "icon": "AmenityMountainView"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "공용 야외 수영장 - 계절에 따라 예약 가능, 특정 시간대만 이용 가능",
+          "icon": "AmenityPublicOutdoorPool"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "뒷마당",
+          "icon": "AmenityBackyard"
+        },
+        {
+          "amenityName": "헤어드라이어",
+          "icon": "AmenityHairDryer"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "더블 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "[예약전 확인사항]\n\n\n* 예약시 환불규정을 꼭 확인하여주시고 입실일이 5일미만은 예약변경 불가하며 1회에 한하여 가능합니다.\n\n* 에어비앤비에는 2세 미만 유아 추가요금이 부과되지 않으나\n저희 숙소는 나이상관없이 모든 인원 20,\n000원씩 비용발생됩니다.\n\n* 미성년자는 보호자의 동행 없이는 투숙이 불가합니다.\n\n* 애견동반 불가숙소 입니다.\n\n* 입실시간 15시, 퇴실시간 11시 입니다.\n\n청소를 조금 천천히 하는 편이다보니 얼리체크인을 하시면 못챙기는 부분이 생길 수 있어\n*얼리체크인은 불가합니다.\n시간맞춰서 입실 부탁드려요~\n*레이트체크아웃시 2만원 비용추가 되며,\n12시까지만 가능합니다.\n\n* 숙소내 흡연 금지입니다.\n\n※ 최대숙박인원 외 숙박은 불가하며 방문만(식사만, 수영장만이용)하셔도 모든비용 숙박과 동일하게 지불하셔야 합니다.\n\n※ 숙소가 캠핑이나 글램핑이 아닌 펜션이다보니\n개인으로 준비하시는 그릴&화로 절대 이용불가합니다.\n숙소\n[숙소\n]\n-복층형 원룸으로\n복층에 침대가 있으며,\n1층에 화장실, 주방, 객실 앞 개별바베큐장, 빔프로젝터(TV겸용으로 이용가능) 이용 가능합니다.\n\n- 객실내 사진에 보여지는 조리도구, 수건4개, 샴푸, 컨디셔너, 바디워시, 핸드워시,\n1회용칫솔2개, 치약2개, 샤워타올, 수세미, 행주가 제공됩니다.\n개인의 피부타입이 다르다보니 '클렌징폼'은 준비되지 않습니다. 구비해오셔야 합니다.\n\n-조미료는 허브솔트, 소금, 후추, 설탕, 참기름이 제공됩니다.\n필요하신 분들은 관리실로 문의주세요\n\n\n- 2층 야외테라스가 없는 숙소이므로 꼭 숙지 부탁드립니다.\n\n-숙소이용시 모든 객실내 집기류 파손시 배상하셔야합니다.\n\n- 숙소에 TV기기가 없고 빔프로젝터로 TV시청이 가능합니다.\n별도로 노트북, USB없이 계정 로그인만 하시면 넷플릭스, 웨이브, 유투브 등 이용 가능합니다.(노트북,USB 이용시 필요커넥터는 준비하셔야 합니다.)\n\n- 소방법상 숙소 내 버너사용이 불가합니다. 객실내에서는 인덕션 이용하여주시고 버너이용하실 경우 객실외부 1층 테라스에서 이용해주시기 바랍니다.)\n- 객실 내 굽는요리(생선,고기)는 양해부탁드립니다.\n\n(***객실냄비 불멍&바베큐시 화로에 올리시면 안됩니다. 버너와 다르게 그을음이 발생되어 냄비가 망가지므로 배상하셔야합니다.\n불멍&바베큐화로에 올려 이용시 직접 개인냄비 준비해주세요)\n\n- 여러 게스트가 이용중 이다보니 숙소 외부등이 12시에 소등되는점 양해부탁드려요\n\n[불멍,숯불]\n]\n-숯불은 우천시 이용가능하나 불멍은 이용이 불가하여 취소됩니다.\n-모든 이용비용은 선불입니다.\n-숯불set [숯, 석쇠, 그릴, 조리도구, 이용요금]\n 25,000원\n-불멍set [화로, 캠핑의자, 장작20kg 1망, 집게, 캠핑용테이블, 오로라가루1개& 마시멜로우 2개]\n 25,000원\n-장작 추가구매시 10,\n000원 비용발생됩니다.\n\n숯불&불멍 불피워드리는 시간은 최대 9시까지 이며 이후 소등시(12시)까지 자유이용 가능합니다.\n\n***숯불과 불멍 이용시 숙소에서 제공하는 숯과 장작 외에는 사용 불가합니다.\n(만약 가져오셔서 몰래 이용하시는게 확인되면 1set이용금액 외에 장작&숯 추가비용과 동일하게 받겠습니다.)\n\n- 동절기 바베큐장에 포차천막이 설치되어있어 추위를 막아주고 있으나 날이 많이 춥다보니 패딩, 담요 등 따뜻하게 준비해주세요\n게스트 이용 가능 공간/시설\n[수영장]\n\n5m x 10m 깊이 1m 공용시설입니다.\n(성수기만 이용가능합니다 7월~8월)\n\n\n[마트이용]\n\n- 숙소근처는 차로 2-3분 / 도보 7-8분 거리에 편의점이 있으나, 마트가 없습니다. 이용하실분들은\n청평역쪽으로 오시면 365마트, 레몬마트, 하나로마트 이용\n별내쪽으로 오시면 조종면 현리에 하나로마트, 플러스마트 이용\n가평역으로 오시는 분들은 조은마트 이용하시면 됩니다.\n\n(마트픽업은 365마트, 레몬마트, 조은마트만 가능하며 자세한 내용은 마트로 문의주시기 바랍니다.)\n기타 주의사항\n대중교통 이용시\n청평역에서 내리셔서 1번출구 아침고요수목원 방향 30-6 / 30-8 버스 이용\n또는 택시&마트픽업이용 가능합니다."
+    },
+    {
+      "accommodationId": 8,
+      "accommodationName": "[ 마당있는 한옥 ]",
+      "locationName": "Seosan-si, 한국의 집 전체",
+      "briefRoomInfo": ["최대 인원 2명", "원룸", "욕실 1개"],
+      "guestFavorite": true,
+      "rating": "4.97",
+      "reviewCount": "121",
+      "pricePerDay": 150000,
+      "hostName": "Mia",
+      "hostSince": 2022,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/18cdfcdc-9841-4c27-a196-621c8f5ac0b0.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/bb594da5-c6dc-4190-957f-089ae3164b04.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/c75b49cd-791c-4819-8f60-6fb663cab0fe.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/49512171-d0fa-44b4-87de-fd42ae439032.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/bfa0dcab-cb25-40fb-8366-26170b6e7291.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "도로 주차(무료)",
+          "icon": "AmenityRoadParking"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "전용 뒷마당 - 울타리 완비",
+          "icon": "AmenityBackyard"
+        },
+        {
+          "amenityName": "헤어드라이어",
+          "icon": "AmenityHairDryer"
+        },
+        {
+          "amenityName": "냉장고",
+          "icon": "AmenityFridge"
+        },
+        {
+          "amenityName": "전자레인지",
+          "icon": "AmenityMicrowave"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        }
+      ],
+      "roomInfo": [],
+      "desc": "'마음이 쉬어가는 곳' 입니다.\n느림채입니다 : ) ( 네×버 블로그 참조 )\n\n☆ 1층 마당있는 단독이고 서까래가 보이는 한옥집이에요 : ) 2인 숙소로 적합해요\n\n마당에 풀멍 가능해요\n더불어 모기들도 자주 찾아옵니다~\n\n카모메식당 같은 주방에서 맛있는 로컬음식 조리해먹는 감성데이트하세요 ♡\n\n전용마당이 있어 준비된 그리들과 버너로\n캠핑느낌도 내실수 있어요\n\n감성 에세이책과\n소설책 읽으시면서 갬성충전하세요♡\n서재에 갬성서적들이 가득♡\n\n\n전선코드가 되게 낮아요 !! 모두의 행복한여행과 아가의 안전을 위해서 노키즈존 할게요 !!!! ( 7세미만 금지 )\n숙소\n체크인/아웃 : 오후3시/ 오후12시\n\n주차 : 집 근처 공영주차장\n마당 : 작은 마당\n들마루 : 마당을 바라볼수 있고,\n들마루가 있음\n주방 : 카페같은 공간\n파우더룸 : 주방과 화장실 사이위치\n마루 : 서까래가 보이는 북카페 같은곳\n방1 : 빔프로젝트를 시청할수 있는 침실\n방2 : 책방\n기타 주의사항\n주택가에 있기에 깨끗하게 조용히 쉬고 가실분들 환영합니다.\n( 고성방가, 과도한파티X, 예약고객 외 인원 출입금지 )\n\n□ 취약점 사전공지 □\n문턱높고 문이 낮아서 키 크신 분들은 신경써서 입출입 하셔야 함\n나무문이라 미닫이에 어려움 있음\n곳곳에 오래된 집의 흔적이 있음"
+    },
+    {
+      "accommodationId": 9,
+      "accommodationName": "파스텔 글램핑",
+      "locationName": "Buk-myeon, Gapyeong-gun, 한국의 캠핑카의 개인실",
+      "briefRoomInfo": ["최대 인원 4명", "침실 1개", "침대 2개", "공동 사용 욕실 4개"],
+      "guestFavorite": false,
+      "rating": "4.39",
+      "reviewCount": "23",
+      "hostName": "Pastel Gapyeong",
+      "hostSince": 2017,
+      "pricePerDay": 99800,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/5ed3d00a-4f88-455e-8f6a-c4bc1d036f10.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/abd053bd-76f7-4472-9650-58f3dfd7232e.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-22108688/original/488a7625-f734-4d0d-a1fd-816c5408f4d3.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-22108688/original/4c75bd81-009e-4e83-acfe-194bc93119ac.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/81dbb44c-22f9-4bea-ae3f-8ff1913b84b6.jpg?im_w=480"
+      ],
+      "amenities": [
+        {
+          "amenityName": "정원 전망",
+          "icon": "AmenityGardenView"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "전용 뒷마당-울타리 미완비",
+          "icon": "AmenityBackyard"
+        },
+        {
+          "amenityName": "수변에 인접",
+          "icon": "AmenityWater"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "산 전망",
+          "icon": "AmenityMountainView"
+        },
+        {
+          "amenityName": "여행 가방 보관 가능",
+          "icon": "AmenityKeepingBag"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "공용 야외 수영장 - 계절에 따라 예약 가능, 특정 시간대만 이용 가능, 물놀이용 장난감, 워터 슬라이드",
+          "icon": "AmenityPublicOutdoorPool"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 2
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "desc": "자연과 어울려 힐링할수있는 캠핑공간 트레일러 글램핑 입니다. 일상에 벗어나 자연속 힐캠핑을 즐기시는 분들에게 추천!  현재 야외수영장 23년 6월 예정입니다 (수영모 혹은 모자필참)"
+    },
+    {
+      "accommodationId": 10,
+      "accommodationName": "{[천안터미널5분] Main Location ★인스타갬성,포근한숙소,주차장x,★방역&알콜소독",
+      "locationName": "Dongnam-gu, Cheonan-si, 한국의 집 전체",
+      "briefRoomInfo": ["최대 인원 4명", "침실 2개", "침대 3개", "욕실 1개"],
+      "guestFavorite": false,
+      "rating": "4.82",
+      "reviewCount": "304",
+      "pricePerDay": 49999,
+      "hostName": "Nene",
+      "hostSince": 2019,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/0ccb1155-1b65-486d-af36-b735071f0ec7.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/d3328589-e819-4b88-9e90-7c4b587e4cf0.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/93256836/7542399a_original.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/93256810/5550edfc_original.jpg?im_w=480",
+        "https://a0.muscache.com/im/pictures/93256813/a293c632_original.jpg?im_w=480"
+      ],
+      "amenities": [
+        {
+          "amenityName": "수변에 인접",
+          "icon": "AmenityWater"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "TV + 일반 케이블 TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "세탁기",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "공용 파티오 또는 발코니",
+          "icon": "AmenityPatio"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1
+            },
+            {
+              "bedType": "소파",
+              "count": 1
+            },
+            {
+              "bedType": "에어매트리스",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "roomId": 2,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "roomId": 3,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "roomId": 4,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1
+            },
+            {
+              "bedType": "바닥용 에어매트리스",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "roomId": 5,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "roomId": 6,
+          "beds": [
+            {
+              "bedType": "이층 침대",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "고아웃 게스트하우스는 자전거여행, 국토종주, 여주여행, 워터파크 및 웨이크보드등... 경기도에서 볼거리와 즐길거리가 가장 많은 지역입니다.\n\n자전거도로 인접 1분내 진입할 수 있으며, 서울인천에서 출발시 1박하기에 가장 적합한 장소입니다.\n\n게스트하우스 에서의 술자리와 바베큐파티등은 가급적 지양하며, 조용하게 휴식을 원하시는 분들이 많습니다.\n\n향후 저희 고아웃게스트하우스는 무인게스트하우스를 지향할 예정이므로 많은 관심 부탁드립니다.\n숙소\n캠핑장5분거리, 숙소 정원내 텐트설치가능, 바로앞 썬밸리호텔 워터파크, 여주아울렛, 이마트, 하나로마트\n게스트 이용 가능 공간/시설\n주말별장으로 사용하던 숙소이므로 비치된 모든 생필품은 그대로 사용하셔도 됩니다^^\n기타 주의사항\n애완견은 소형견 1마리정도는 가능하나 협의 후 가능합니다!"
+    },
+    {
+      "accommodationId": 11,
+      "accommodationName": "홍천터미널 도보3분 | 마운틴뷰 | 무료주차 | 넷플릭스(개인계정) | 장기숙박 가능",
+      "locationName": "홍천, 한국의 집 전체",
+      "briefRoomInfo": ["최대 인원 2명", "침실 1개", "욕실 1개"],
+      "guestFavorite": true,
+      "rating": "4.96",
+      "reviewCount": "28",
+      "hostName": "Yunji 님",
+      "hostSince": "2023",
+      "pricePerDay": 78200,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/7bd38f35-3e9f-4967-a701-975e2b9c462f.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/ff27a26b-4251-4d61-82bc-f1094456cbc7.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/faab0875-487d-4403-9ff1-e5821dd98963.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/81a7a6c7-851b-420a-ab3b-d97fb034ccc0.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/08e23c1f-4db3-4214-88e0-ee9c87a66bfb.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "수변에 인접",
+          "icon": "AmenityWater"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "세탁기",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "헤어드라이어",
+          "icon": "AmenityHairDryer"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "홍천 중심부에 위치하면서도 조용한 숲속에서 힐링을 찾아가세요.\n\n홍천시외버스터미널과 도보 3분 거리의 교통 역세권에 위치해 있습니다./n/n숲경관을 감상하며 산책로를 이용하기 편리합니다."
+    },
+    {
+      "accommodationId": 12,
+      "accommodationName": "[신불당, 천안아산역] 편안하고 감성적인 바이브가 넘치는 청춘하우스",
+      "locationName": "Seobuk-gu, Cheonan-si, 한국의 집 전체",
+      "briefRoomInfo": ["최대 인원 2명", "침실 1개", "욕실 1개"],
+      "guestFavorite": true,
+      "rating": "4.92",
+      "reviewCount": "83",
+      "hostName": "Ye Eun 님",
+      "hostSince": "2024",
+      "pricePerDay": 55000,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/8918bf63-a25b-4365-8cd8-b8c669af0c20.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/95dafa00-7989-4378-997c-db1eb4f907a2.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/78e7efb0-ba96-477e-a761-6462dc00e24d.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/c930bf4e-df94-4136-a921-783d86f9b415.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/db69b900-5376-482f-b8ab-ba3a22f250e4.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건조기 무료 사용 - 숙소 내",
+          "icon": "AmenityDryer"
+        },
+        {
+          "amenityName": "세탁기",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "헤어드라이어",
+          "icon": "AmenityHairDryer"
+        },
+        {
+          "amenityName": "냉장고",
+          "icon": "AmenityFridge"
+        },
+        {
+          "amenityName": "화재경보기",
+          "icon": "AmenitySmoke"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "안녕하세요. 청춘하우스 입니다.\n\n저희 공간은 신불당동에 위치했으며, 신불당동 먹자골목 도보5분, 천안아산역 차로 5분, 그리고 집 근처 많은 맛집과 힙한 술집들이 즐비합니다. 친구와 좋은 추억을 만들어도 좋고 업무차 출장 오시는 분들께서도 지내시는 동안 너무 심심하지 않게 지내실 수 있는 위치와 환경을 제공합니다."
+    },
+    {
+      "accommodationId": 13,
+      "accommodationName": "호재 (乎哉) Hojae 25평 독채숙소",
+      "locationName": "Tanhyeon-myeon, Paju-si, 한국의 타운하우스 전체",
+      "briefRoomInfo": ["최대 인원 4명", "침실 1개", "침대 2개", "욕실 1개"],
+      "guestFavorite": true,
+      "rating": "4.88",
+      "reviewCount": "124",
+      "pricePerDay": 137800,
+      "hostName": "호재",
+      "hostSince": 2021,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/502f3f0a-ec82-457d-a70a-0237cd1a8824.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/215351dd-060c-449d-a049-1256f99899a4.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-51548486/original/80cd9475-76e4-4a3f-8c42-7d7beb1a3cb9.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/8c6185f8-09bb-460d-829f-a61e02463bf5.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-51548486/original/d87c8629-e688-49e2-bf61-78827d6b58c1.jpeg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "정원 전망",
+          "icon": "AmenityGardenView"
+        },
+        {
+          "amenityName": "산 전망",
+          "icon": "AmenityMountainView"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "전용 수영장",
+          "icon": "AmenityPool"
+        },
+        {
+          "amenityName": "TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        }
+      ],
+      "roomInfo": [],
+      "desc": "최대 4인까지 입실이 가능하나 성인은 3명까지만 입실이 가능합니다.\n최대인원 4인 방문시에만 2층 작은방이 제공됩니다. 이점 참고 부탁 드립니다.\n\n사전 예약 인원 외 지인의 방문 및 입실 절대 불가 (적발시 환불없이 전원퇴실)\n반려동물 입실 불가 (적발시 환불없이 전원퇴실)\n\n미니풀 이용은 추가요금이 발생됩니다.\n미니풀 이용을 원하시는 고객님들은 사전에 미리 호스트에게 말씀주세요!\n\n체크인 : 입실 당일 오후 3시 (얼리 체크인 불가)\n체크아웃 : 퇴실 당일 오전 11시(레이트 체크아웃 불가)\n\n숙박업 정식 허가 업체로 고객님들께 쾌적하고 편안한 공간을 제공해 드리기 위해 노력하고 있습니다.\n\n청결 강화 준수 업체로 안정성을 인증받은 천연 피톤치드 방역 및 소독을 매회 실시하며 매트리스커버 및 침구류 세탁 교체를 실시합니다.\n\n예약변경은 최소 2주전 요청을 주셔야 가능하며, 입실전 1회만 가능합니다."
+    },
+    {
+      "accommodationId": 14,
+      "accommodationName": "신축/서울근교/대명인근/마당넓은집/온수풀무료/파격세일/연박할인/마감할인/불멍/독채실내풀빌라",
+      "locationName": "Seo-myeon, Hongcheon-gun, 한국의 저택 전체",
+      "briefRoomInfo": ["최대 인원 8명", "침실 2개", "침대 3개", "욕실 2개"],
+      "guestFavorite": true,
+      "rating": "4.96",
+      "reviewCount": "77",
+      "pricePerDay": 275500,
+      "hostName": "서현",
+      "hostSince": 2022,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NzM4NDQzMzE1NjYxMDUzNzEx/original/7213803a-418b-4361-a18f-8f758d1eebcb.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NzM4NDQzMzE1NjYxMDUzNzEx/original/7e698926-0f45-402a-b2de-ebfaf137d2ed.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-738443315661053711/original/8492768d-9192-4335-aff9-8a27502abcde.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NzM4NDQzMzE1NjYxMDUzNzEx/original/bac2307a-c6bc-48c0-9dc9-72b550f4f50d.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NzM4NDQzMzE1NjYxMDUzNzEx/original/736fca34-efb8-4d80-a12e-3d092a0b1687.jpeg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "산 전망",
+          "icon": "AmenityMountainView"
+        },
+        {
+          "amenityName": "계곡 전망",
+          "icon": "AmenityValleyView"
+        },
+        {
+          "amenityName": "수변에 인접",
+          "icon": "AmenityWater"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "초고속 와이파이 – 85Mbps",
+          "icon": "AmenityWifi"
+        },
+
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "건물 내 무료 주차 - 4대 주차 가능",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "전용 실내 수영장 - 연중 언제든 예약 가능, 24시간 이용 가능, 물놀이용 장난감, 온수",
+          "icon": "AmenityPool"
+        },
+        {
+          "amenityName": "전용 온수 욕조 - 연중 언제든 예약 가능",
+          "icon": "AmenityHottub"
+        },
+        {
+          "amenityName": "50인치 HDTV + 넷플릭스, 프리미엄 케이블 TV",
+          "icon": "AmenityTv"
+        }
+      ],
+      "roomInfo": [],
+      "desc": "🍾 웰컴드링크 증정 이벤트 🥂\n❤️ 신축풀빌라라서 깨끗해요\n❤️ 사진보다 실물이 더좋아요\n❤️ 경치가 끝내줘요\n❤️ 사계절 온수 수영장 무료\n❤️ 온전히 이용객들만을 위한 넓은 개별마당\n❤️ 밤하늘의 별을보며 불멍 가능\n❤️ 아기놀이방 있어요 (정글짐,비행기,블럭,곰돌이,책,공,자동차)"
+    },
+    {
+      "accommodationId": 15,
+      "accommodationName": "벽화마을 내 자쿠지 독채 한옥 [자사녹]",
+      "locationName": "Gimcheon, 한국의 통나무집 전체",
+      "briefRoomInfo": ["최대 인원 6명", "침실 1개", "침대 1개", "욕실 2개"],
+      "guestFavorite": true,
+      "rating": "4.83",
+      "reviewCount": "6",
+      "hostName": "Ns",
+      "hostSince": 2023,
+      "pricePerDay": 324000,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1053856174102938583/original/f898c10c-f11f-4e30-bc40-e1d2533ba215.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1053856174102938583/original/8762819c-12f5-427a-bf37-6022725106ae.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1053856174102938583/original/c5270619-bf8b-4cd5-b5d2-e36f86e038d8.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1053856174102938583/original/263fbafd-bdf9-4cab-bce3-3d680b64ebc0.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1053856174102938583/original/700231a8-7dd4-4145-9c63-f4089e0ece9b.jpeg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "공원 전망",
+          "icon": "AmenityParkView"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "전용 온수 욕조",
+          "icon": "AmenityHottub"
+        },
+        {
+          "amenityName": "욕조",
+          "icon": "AmenityTub"
+        },
+        {
+          "amenityName": "안뜰 전망",
+          "icon": "AmenityYardView"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "전용 수영장",
+          "icon": "AmenityPool"
+        },
+        {
+          "amenityName": "에어컨 - 분리형 무배관 시스템",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        }
+      ],
+      "desc": "사계절 산세와 낮은 하늘이 맞닿는 꼭대기.\n소나무 서까래와 삼나무 향이 가득한 한옥 [자사녹]\n\n벽화마을 광장에 도착하여 높은 기와 목대문을 열면 보이는 본채와 누마루.\n동글동글한 강자갈을 밟다보면 금새 현관입니다.\n\n실내에 들어서면 다도 다과상을 중심으로 퀸사이즈의 넓은 침상과 전망이 비치는 큰 창들 그리고 주방이 있는 아늑한 공간이 한 눈에 들어옵니다.\n\n돌아서면 오로지 자쿠지 스파만 가능한 별채가 연결됩니다.\n서까래와 삼나무가 나란한 천장을 따라가면 통창과 양개창 너머로 산의 등줄기와 함께 시내가 내려다 보입니다.\n창호를 열어젖히면 나만의 오롯한 노천입니다.\n대나무발이 드리워진 따뜻한 스파의 시간도 좋습니다.\n\n달항아리가 놓인 다도장 사이로 보이는 문을 열어 오르면 뒤뜰입니다.\n바람개비 광장과 공원을 등지고 위치합니다.\n\n내려와 본채와 담 둘레로 돌아 다시 누마루.\n대청에 앉고 누워보세요.\n\n그리고 이제 모든 공간을 온전히 누려보세요.\n\n@jasannok\n\n숙소\n침실-퀸사이즈 저상침대\n추가인원은 요와 이불이 제공됩니다.\n(2인 당 퀸사이즈 1채 제공됩니다)\n\n자쿠지 공간과 별도의 샤워 욕실,\n주방, 거실로 이루어져 있으며\n앞 마당에는 누마루 대청이 있고 본채 뒷편으로 뒤뜰 마당이 있습니다.\n(내부에서 나가는 문도 있습니다)\n\n게스트 이용 가능 공간/시설\n담장 안 모든 공간을 단독으로 사용하실 수 있습니다.\n\n기타 주의사항\n마당과 담 방향으로 방범 CCTV가 녹화되고 있습니다.\n고정형이며 절대 내부를 향하고 있지 않습니다.\n내부에는 화재경보기만 있을 뿐 어떠한 장비도 없으니 안심하셔도 좋습니다.\n\nTV가 없는 숙소입니다.\n연박 시 청소 서비스를 제공하지 않습니다."
+    },
+    {
+      "accommodationId": 16,
+      "accommodationName": "동마루 캐빈",
+      "locationName": "Nami-myeon, Geumsan, 한국의 게스트용 별채 전체",
+      "briefRoomInfo": ["최대 인원 6명", "침실 1개", "욕실 1개"],
+      "guestFavorite": true,
+      "rating": "4.96",
+      "reviewCount": "16",
+      "pricePerDay": 116000,
+      "hostName": "나경",
+      "hostSince": 2023,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-776593980755715305/original/8d6ce1f4-b748-4864-a4a7-f4f03f7aaa47.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/d2643553-0804-4341-bfef-1929bb5f6ee0.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-776593980755715305/original/2aa77297-fe5f-4041-a197-7ccb7ec5a804.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-776593980755715305/original/9ce4507f-aa40-4db0-b2d1-7bbf461856d2.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-776593980755715305/original/f8f35261-a7b6-4aad-b943-6f34a56ce137.jpeg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "정원 전망",
+          "icon": "AmenityGardenView"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityInternet"
+        },
+        {
+          "amenityName": "수영장",
+          "icon": "AmenitySwim"
+        },
+        {
+          "amenityName": "TV",
+          "icon": "AmenityTV"
+        },
+        {
+          "amenityName": "뒷마당",
+          "icon": "AmenityBackyard"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "반려동물 입실 가능",
+          "icon": "AmenityPet"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "여행 가방 보관 가능",
+          "icon": "AmenityKeepingBag"
+        }
+      ],
+      "roomInfo": [],
+      "desc": "안녕하세요. 반갑습니다.\n저희 동마루 펜션은 동마루 농원안에 위치해 있습니다.\n감성적인 스타일로 꾸며진 안온한 공간입니다.\n농원에서 사계절 변화하는 다양한 꽃과 식물들을 감상하실 수 있는 건 덤입니다.\n회색빛 도시를 떠나 자연에 머물고 싶은 분,\n일상으로부터 탈출하고 싶은 분,\n문득 다가오는 그리움이 마음을 일렁이게 하는 분,\n멀리 떨어져 사는 가족들과 함께하는 다정한 시간이 필요한 분들을 위해 준비하였습니다.\n꼭 한번 오세요.\n결코 후회하지 않는 선택이 될 거라고 확신합니다.\n감사합니다.\n\n숙소\n동마루 펜션은 다른 게스트 일행과 공간을 공유하지 않는 원룸형 독채 펜션입니다.\n넓은 거실과 주방, 화장실, 테라스를 갖추고 있고, 전용 바비큐 (솥뚜껑) 공간이 마련돼 있습니다.\n\n여름철에는 게스트 전용 간이 풀장이 숙소 옆에 설치돼 있고 사전 예약제로 운영하고 있습니다.\n또 숙소 앞에는 작은 계곡이 있어서 가족들과 물놀이를 선택적으로 즐길 수 있습니다.\n\n머무시는 동안 동마루 농원을 산책하며 변화무쌍한 식물들의 향연을 감상하시는 것도 좋을 듯합니다.\n\n게스트 이용 가능 공간/시설\n원룸형 독채 온돌 펜션입니다.\n최대 6명까지 수용 가능합니다.\n주방에는 가스렌지와 전자렌지, 커피 포트, 캡슐커피, 냉장고 등이 구비돼 있습니다.\n\n화장실에는 타올과 치약, 헤어드라이어, 목욕용품 등이 구비돼 있습니다.\n다만 칫솔과 면도기는 개별적으로 준비해 주세요.\n\n여름철에는 전용 간이 수영장을 사전 예약제로 이용할 수 있어요.\n노래방 (1시간 무료이용)\n\n테라스에서 바베큐 파티를 즐기실 수 있습니다.\n바베큐 이용(솥뚜껑)은 2만원 입니다.\n\n기타 주의사항\n☆숙소 도착 시 호스트에게 연락 주시면 현관 비번을 알려드립니다.\n\n☆입실 후에는 숙소 이용 매뉴얼에 따라 청결하게 이용해 주실 것을 당부합니다.\n\n☆실내에서는 절대 금연입니다.\n적발 시 환불 없이 퇴실 조치됩니다.\n흡연은 야외 지정된 장소에서만 가능합니다.\n☆냉난방 시설의 작동법을 숙지해 주시고\n작동법을 잘 모르거나 불편한 점이 있다면 호스트가 안내해 드리겠습니다.\n\n☆저희 숙소는 반려동물 동반 가능 숙소이지만 전용 숙소가 아닙니다.\n따라서 청소 보증금 외의 별도 비용을 청구하지 않습니다.\n다만 반려동물을 동반하고자 할 경우 호스트의 사전 동의를 받아야 합니다.\n10킬로 이하 소형견 두 마리까지만 허용합니다.\n반려동물 침구는 게스트께서 갖고 오셔야 하고 숙소 침구는 절대 사용할 수 없습니다.\n반려동물과 함께 내방하는 게스트에게는 청소보증금 3만원을 받고 있습니다.\n퇴실 시 기초 청소가 완료되고 오염이나 시설 훼손이 없을 경우 보증금은 즉시 반환합니다.\n\n☆귀중품 분실 시 책임지지 않으니 문단속을 철저히 해주시기 바랍니다.\n\n☆솥뚜껑 바베큐 이용 시 별도 비용 20,000원을 받고 있습니다.\n\n\n☆예약인원보다 내방하는 게스트가 더 많을 경우 1인 1박에 20,000원의 추가 요금이 발생합니다.\n\n☆퇴실 시 분리수거는 필수입니다.\n음식물 쓰레기, 일반 쓰레기, 재활용 쓰레기를 펜션 옆에 비치된 비닐 바구니에 분리 배출하여 주세요.\n사용하신 침구는 한 곳에 모아두세요.\n사용한 집기는 제자리에 두시고,\n주방 용품은 꼭!!! 설거지를 해주세요.\n\n☆퇴실 시 모든 전원을 꺼주시고 호스트에게 퇴실 통보를 해주세요.\n\n-펜션 내 비치된 모든 물품의 파손/분실 시 고지 및 변상 의무가 있습니다.\n\n-욕실에서 미끄러짐 및 계단, 화기 이용 시 안전사고에 유의해 주세요.\n(개인의 부주의로 인한 사고는 책임지지 않습니다. 어린이, 노약자, 반려동물은 각별한 주의 부탁드립니다)\n\n-육류, 생선의 튀김 등 냄새, 연기가 심한 음식의 조리는 실내에서 불가합니다.\n\n-싱크대, 세면대, 샤워시설 이용 시 온수의 온도가 뜨거우니 천천히 조절해 이용 부탁드립니다.\n\n☆☆☆\n그 어떤 가치보다 우선하는 가치는\n게스트의 안전입니다.\n불편하거나 궁금한 점이 있다면,\n주저말고 호스트에게 연락 주십시오.\n감사합니다.\n☆☆☆"
+    },
+    {
+      "accommodationId": 17,
+      "accommodationName": "태안에서 반려견과 함께 즐겁게 보낼 수 있는 위드독 독채 풀빌라(스파,애견)",
+      "locationName": "Taean-gun, 한국의 펜션",
+      "briefRoomInfo": ["침실 2개", "침대 4개", "욕실 2개"],
+      "guestFavorite": false,
+      "rating": "5.00",
+      "reviewCount": "4",
+      "hostName": "Onda",
+      "hostSince": 2023,
+      "pricePerDay": 272420,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-944688949784349638/original/43e8f4d0-0a26-4258-8ea2-2b5a402474e9.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-944688949784349638/original/0cb0671e-3446-4dea-b56c-03a8146eb29d.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-944688949784349638/original/b1ef1ff4-8697-4fcc-bae8-322d66ffc9b0.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-944688949784349638/original/5b729162-e5ee-4fdf-bea1-3aa4d4cc97da.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-944688949784349638/original/4b0f157e-9f7b-4462-a4c9-a51972bcb82c.jpeg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "해변과 인접 - 해변",
+          "icon": "AmenityBeach"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "수영장",
+          "icon": "AmenityPool"
+        },
+        {
+          "amenityName": "반려동물 입실 가능",
+          "icon": "AmenityPet"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "자쿠지 욕조",
+          "icon": "AmenityJacuzzi"
+        },
+        {
+          "amenityName": "TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "퀸 사이즈 침대",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "roomId": 2,
+          "beds": [
+            {
+              "bedType": "퀸 사이즈 침대",
+              "count": 1
+            },
+            {
+              "bedType": "싱글 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "안녕하세요. 저희는 다양한 휴식 공간을 연구하고 제공하는 ONDA입니다. 이 곳에서 머무르실 모든 분들께서 편안하고 행복한 시간을 보내기를 바랍니다.\n\n[숙소 소개]\n반려견 동반이 가능하며 프라이빗한 나만의 공간에서 다양한 부대시설을 즐기실 수 있습니다.\n깨끗한 시설과 최고의 서비스가 준비되어 있는 애견 스파 풀빌라에서 사랑하는 사람들과 반려견과 함께 행복한 추억을 만들어 가세요.\n\n[객실 유형]\n복층형 :\n- 1층: 침대룸2(퀸 3, 슈퍼싱글1) + 화장실1 + 거실 +주방\n- 2층: 테라스 + 화장실1(샤워실, 스파시설 및 애견 씻길 수 있는 공간) + 거실 + 주방\n* 침구는 예약하신 인원에 맞게 제공됩니다.\n\n[공지사항]\n※ 반려견과 동반하지 않는 분들도 이용 가능합니다.\n※ 화기류 객실 반입 금지입니다.\n※ 마킹하는 반려견은 실내에서 매너벨트(기저귀) 착용 필수입니다.\n* 반려견 마킹으로 인한 객실 비품 손상 및 오염 시 비용이 청구될 수 있습니다.\n※ 반려견에 의한 침구류 세탁이 필요한 경우, 세탁 비용이 청구될 수 있어 유의 부탁드립니다.\n※ 반려견만 객실에 두고 외출 불가하여 외출 시 반려견과 동반 부탁드립니다.\n※ 반려견의 실외 대변 및 객실 내 대,소변은 견주님께서 처리하셔야합니다.\n(배변패드, 매너밸트 구비되어있음)\n※ 부주의로 인한 사고 발생 시 책임지지 않습니다.\n\n[입/퇴실안내]\n입실시간:16시\n퇴실시간:12시\n\n[인원 추가 요금]\n(1박기준)\n- 1인 30,000원 (중학생 이상부터 ~ 성인까지)\n※ 노키즈존으로 운영하는 펜션으로 중학생 이상부터 입실 가능\n※ 기준 인원을 초과한 인원은 추가요금이 발생되며, 미결제 인원에 대한 추가요금은 현장결제입니다.\n# 야외수영장(무료)\n- 운영 기간 : 5월 초 ~ 10월 31일까지\n- 이용 시간 : 입실 후 ~ 22시\n- 이용 복장 : 수영복, 래쉬가드, 면티, 반바지\n※ 면티,반바지 착용 가능하나 물빠짐 없는 밝은 색 옷으로 착용 부탁드립니다.\n※ 애견도 사용 가능합니다.\n※ 애견 튜브 2개 준비되어 있습니다.\n※ 이불셋팅은 인원수에 맞춰 셋팅됩니다.\n- 침구 추가시 침구 1셋트당 2만원\n\n[제트스파]\n(무료)\n- 이용 시간 : 입실 후부터 ~ 23시\n- 횟수 제한 : 제한 없음\n※ 입욕제 사용 불가\n※ 애견은 스파 이용 불가\n\n[숯불바베큐]\n- 이용 금액 : 2인~4인 기준 30,000원 / 4인 초과 시 1인 당 5,000원(현장결제)\n- 준비 시간 : 이용 시 당일 오전 11시 전까지 사전 문의 필수\n- 이용 시간 : 입실 후 ~ 23시\n※ 비대면 안내로, 바베큐 이용은 셀프입니다.\n※ 숯,그릴 개인지참 불가입니다.\n※ 우천 및 동계 시 사용 가능\n\n[전기그릴]\n- 이용요금 :30,000원\n※ 개인준비한 바비큐 용품 일체 사용 금지(자이글 및 에어프라이어)\n\n[애견동반]\n- 추가 요금: 1마리당 6kg 미만 20,000원 / 6kg~12kg미만 30,000원 / 12kg~16kg 40,000원\n- 키로수 및 마리수 제한 : 6kg미만 최대 6마리까지 / 6kg~12kg미만 최대 4마리까지 / 12kg~16kg 최대 3마리까지 (16kg초과 입실 불가)\n- 구비 용품: 애견 밥그릇, 애견 방석 2개, 애견 드라이기, 애견 드라이룸\n\n[주차 및 Wifi 이용 안내]\n- 주차 및 Wifi 가능합니다.\n- 3대 주차 가능\n\n부대시설은 날씨 및 현장 상황에 따라서 이용 가능여부가 달라질 수 있습니다. 부대시설 이용 불가는 환불 사유에 해당이 되지 않으니 예약 전 꼭 이용 가능여부를 사전 확인해주세요!\n기타 주의사항\n주의사항을 읽지 않아 발생하는 모든 문제는 호스트가 책임질 수 없으니 예약 전 반드시 숙지해 주세요.\n\n객실내외 시설 사용은 객실상황에 따라 이용이 어려울수 있습니다. 에어비앤비 메시지 기능을 통해 확인해주세요\n\n추가인원 요금 및 유아 입실 인원 포함 안내\n- 기준 인원을 초과한 인원은 추가요금이 발생되며, 미결제 인원에 대한 추가요금은 현장결제입니다.\n- 2세 미만 유아는 현장에 도착해서 추가 결제를 해야 입실 가능합니다.\n- 2세 미만 유아를 포함한 입실 인원이 객실의 최대인원을 초과할 경우 이용 및 환불이 불가합니다.\n\n숙소와의 연락\n- '호스트에게 연락하기'를 통해선 연락이 어렵습니다. 호스트와의 연락은 아래 방법을 확인해주세요.\n1. Airbnb 메시지 기능을 통해 메시지로 문의해주세요. (Onda 답변 가능 시간: 매주 평일 10:00~18:00)\n2. 예약 확정 고객은 문자 메시지를 확인해주세요. 예약 확정 즉시 숙소 연락처가 문자로 발송됩니다.\n3. 만약 예약 확정 후 문자를 받지 못하셨다면 Airbnb 메시지 기능을 통해 알려주세요.\n4. 예약시 한국 내에서 수신받을 수 있는 연락처를 필히 기재해주세요.\n5. 연락처를 기재하지 않아 발생하는 불이익은 호스트가 책임질 수 없습니다.\n\n숙소 및 부대시설 이용 수칙\n- 오후 7시 이후 체크인 예정이라면 예약 완료시 발송되는 숙소 연락처로 전화해서 알려주세요.\n- 숙박 외 부대시설은 날씨나 현장 여건에 따라 이용이 어려울 수 있습니다.\n- 예약 전 부대시설 이용 가능 여부를 에어비앤비 메시지 기능을 통해 확인해 주세요.\n- 부대시설은 숙소에서 부가적으로 제공하는 시설입니다. 따라서 부대시설 이용은 환불 사유에 해당되지 않습니다."
+    },
+    {
+      "accommodationId": 18,
+      "accommodationName": "한가로운 휴일의 시작 춘천 유유자적 삼동",
+      "locationName": "Seo-myeon, Chuncheon-si, 한국의 집 전체",
+      "briefRoomInfo": ["최대 인원 2명", "침실 1개", "침대 1개", "욕실 1개"],
+      "guestFavorite": true,
+      "rating": "4.97",
+      "reviewCount": "144",
+      "pricePerDay": 234000,
+      "hostName": "유자",
+      "hostSince": 2021,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-49336798/original/f4fcd93c-0991-49d6-b39a-2e54122c0818.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/6c7811d0-d8d1-40fb-849f-116f5fb52e1b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/c09ac227-30eb-4b46-8c4e-e2938e980a81.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/a3c8be8b-764f-4ce4-9c1d-3c5191f52323.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/b1b65205-ea9f-4943-8aea-9ec4ba6782d4.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "강 전망",
+          "icon": "AmenityRiverView"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "건물 진입로 무료 주차 – 2대 주차 가능",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "100인치 HDTV + 일반 케이블 TV, 넷플릭스",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        },
+        {
+          "amenityName": "수변에 인접",
+          "icon": "AmenityWater"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "공용 야외 수영장 - 온수",
+          "icon": "AmenityPool"
+        },
+        {
+          "amenityName": "세탁기 무료 사용 – 숙소 내",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [],
+      "desc": "최대2인만(영아1 별도) 가능. 인원초과시 환불없이 퇴실입니다. 자연과 벗한 지역이라 곤충이 있을 수 있습니다.\n\n계절마다 반짝이는 북한강을 바라보며 적정한 온도의 미온수에서 수영을 즐겨요. 강이 보이는 따끈한 욕조에 누워 몸을 담가 쌓였던 피로를 풀어보세요. 폭신한 침대에 누워 사각거리는 이불을 덮고 그동안 바빠서 놓쳤던 영화도 보세요. 그러다 어느새 단잠에 빠질 거예요. 아침엔 강물 위를 노니는 귀여운 새들을 보며 준비된 가벼운 식사로 하루를 시작해요. 그렇게 유유자적 하루를 지내보면 지쳤던 몸과 마음에 위로가 될 거예요.\n\n이곳에서 쉬어가는 동안에 여유롭고 편안하시길 바라는 마음으로 정성을 다해 준비했습니다.\n\n기본인원 2명 최대인원 2인이며, 예약 시 인원수에 맞게 침구, 어메니티, 조식을 준비해 드립니다. 침구는 항상 깨끗하게 유지하며, 사계절 온수풀 매일 순환식으로 수질관리하고 있습니다. 깨끗한 청소와 연무 소독으로 청결한 숙소를 유지합니다.\n\n하루 딱 3팀만 이용 가능한 개별 독채 숙소 입니다.\n\n삼동은 노천탕이 없습니다.(실내욕조만있습니다.)\n\n숙소는 거실과 주방 욕실 침실. 야외에는 정원과 주차장 수영장이 준비되어있습니다. 온수수영장은 공용입니다. 보통 30~60분 정도 이용 하시기때문에 다른 게스트와 간섭없이 사용 가능합니다.\n\n게스트 이용 가능 공간/시설\n주소: 춘천시 서면 경춘로 768 춘천 유유자적\n주차공간은 2대이상 여유롭습니다. 바베큐 가능합니다.(캠핑그리들 : 유료:20,000원)\n\n기타 주의사항\n예약인원(최대인원) 외에 초과 인원은 입실 불가합니다.\n지인의방문 (밥만먹고 갈게요.잠깐만 있다갈께요. 등) 불가하며, 예약인원 초과 방문시 환불없이 퇴실조치 사유입니다.\n\n일동, 이동 4인 숙소에 2커플은 예약이 제한 됩니다. 가족 및 동성만 가능하며, 2커플이상 예약시 2객실을 예약 하셔야합니다.\n\n삼동은 노천탕이 없습니다.(실내욕조만있습니다.)\n반려동물은 입실 불가합니다.\n미성년자는 보호자 없이 예약 및 숙박이 불가합니다.\n숙소내에서는 고기.생선, 어패류를 굽거나 튀기는 행위를 금지합니다.\n\n개인용 캠핑장비, 그릴,화롯대,전기그릴,장작,숯,스토브 등 안전,냄새관리를 위해 반입을 금지합니다.\n실내, 화장실, 잔디밭은 금연입니다.\n\n입실시간은 오후 3시. 퇴실 시간은 다음날 오전 11시입니다. 퇴실시 주방 정리와 분리수거 배출을 요청합니다.\n\n화재 위험 방지를 위해 폭죽, 불꽃놀이, 실내 양초 등 금지하고있습니다.\n수영장 및 노천탕에서 물풍선, 바스붐 사용을 금지합니다. 여과기와 배수구가 고장납니다.\n수영장 및 노천탕 이용시 뛰거나 다이빙 과격한 행동을 금지합니다.\n수영장 및 노천탕 이용시 미성년자는 반드시 보호자의 보호 아래에서 활동해야 합니다.\n\n쇼핑몰 촬영, 드론 촬영, 타객실 촬영 등 반드시 사전 협의가 있어야합니다.\n모든 비품은 반출이 불가하며, 파손 및 도난시 새제품의 구입비용이 청구 됩니다. 침구류 이염시 바로 말씀 해주시면, 대부분 복구가 가능합니다.\n\n숙소 이용중 부주의로 인한 사고는 책임지지 않습니다.\n\n위의 숙소 주의사항을 동의 하신 분에 한하여 예약이 가능합니다."
+    },
+    {
+      "accommodationId": 19,
+      "accommodationName": "양양의 푸르름 속 맑은 자연을 느낄 수 있는 6.다온빌(스파/개별풀)",
+      "locationName": "Seo-myeon, Yangyang, 한국의 펜션",
+      "briefRoomInfo": ["최대 인원 10명", "침실 2개", "침대 2개", "욕실 2개"],
+      "guestFavorite": false,
+      "rating": "undefined",
+      "reviewCount": "0",
+      "hostName": "Onda",
+      "hostSince": 2018,
+      "pricePerDay": 410220,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-842470660285049495/original/85ca260c-0cdc-430c-9fd7-6038fa4263c6.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-842470660285049495/original/150630c9-52b4-491e-a64d-efc214c18baa.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-842470660285049495/original/25d35097-3e35-4158-befd-a2918c7fbb97.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-842470660285049495/original/f027027a-fe70-4bab-adf5-d2bc65cf99f2.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-842470660285049495/original/accf2203-d4d6-4c95-8e18-dae8b78033b5.jpeg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "강 전망",
+          "icon": "AmenityRiverView"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "건물 진입로 무료 주차 – 2대 주차 가능",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "100인치 HDTV + 일반 케이블 TV, 넷플릭스",
+          "icon": "AmenityTV"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        },
+        {
+          "amenityName": "수변에 인접",
+          "icon": "AmenityWater"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "공용 야외 수영장 - 온수",
+          "icon": "AmenityPool"
+        },
+        {
+          "amenityName": "세탁기 무료 사용 – 숙소 내",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "최대2인만(영아1 별도) 가능. 인원초과시 환불없이 퇴실입니다. 자연과 벗한 지역이라 곤충이 있을 수 있습니다.\n\n계절마다 반짝이는 북한강을 바라보며 적정한 온도의 미온수에서 수영을 즐겨요. 강이 보이는 따끈한 욕조에 누워 몸을 담가 쌓였던 피로를 풀어보세요. 폭신한 침대에 누워 사각거리는 이불을 덮고 그동안 바빠서 놓쳤던 영화도 보세요. 그러다 어느새 단잠에 빠질 거예요. 아침엔 강물 위를 노니는 귀여운 새들을 보며 준비된 가벼운 식사로 하루를 시작해요. 그렇게 유유자적 하루를 지내보면 지쳤던 몸과 마음에 위로가 될 거예요.\n\n이곳에서 쉬어가는 동안에 여유롭고 편안하시길 바라는 마음으로 정성을 다해 준비했습니다.\n\n기본인원 2명 최대인원 2인이며, 예약 시 인원수에 맞게 침구, 어메니티, 조식을 준비해 드립니다. 침구는 항상 깨끗하게 유지하며, 사계절 온수풀 매일 순환식으로 수질관리하고 있습니다. 깨끗한 청소와 연무 소독으로 청결한 숙소를 유지합니다.\n\n하루 딱 3팀만 이용 가능한 개별 독채 숙소 입니다.\n\n삼동은 노천탕이 없습니다.(실내욕조만있습니다.)\n\n숙소는 거실과 주방 욕실 침실. 야외에는 정원과 주차장 수영장이 준비되어있습니다. 온수수영장은 공용입니다. 보통 30~60분 정도 이용 하시기때문에 다른 게스트와 간섭없이 사용 가능합니다.\n\n게스트 이용 가능 공간/시설\n주소: 춘천시 서면 경춘로 768 춘천 유유자적\n주차공간은 2대이상 여유롭습니다. 바베큐 가능합니다.(캠핑그리들 : 유료:20,000원)\n\n기타 주의사항\n예약인원(최대인원) 외에 초과 인원은 입실 불가합니다.\n지인의방문 (밥만먹고 갈게요.잠깐만 있다갈께요. 등) 불가하며, 예약인원 초과 방문시 환불없이 퇴실조치 사유입니다.\n\n일동, 이동 4인 숙소에 2커플은 예약이 제한 됩니다. 가족 및 동성만 가능하며, 2커플이상 예약시 2객실을 예약 하셔야합니다.\n\n삼동은 노천탕이 없습니다.(실내욕조만있습니다.)\n반려동물은 입실 불가합니다.\n미성년자는 보호자 없이 예약 및 숙박이 불가합니다.\n숙소내에서는 고기.생선, 어패류를 굽거나 튀기는 행위를 금지합니다.\n\n개인용 캠핑장비, 그릴,화롯대,전기그릴,장작,숯,스토브 등 안전,냄새관리를 위해 반입을 금지합니다.\n실내, 화장실, 잔디밭은 금연입니다.\n\n입실시간은 오후 3시. 퇴실 시간은 다음날 오전 11시입니다. 퇴실시 주방 정리와 분리수거 배출을 요청합니다.\n\n화재 위험 방지를 위해 폭죽, 불꽃놀이, 실내 양초 등 금지하고있습니다.\n수영장 및 노천탕에서 물풍선, 바스붐 사용을 금지합니다. 여과기와 배수구가 고장납니다.\n수영장 및 노천탕 이용시 뛰거나 다이빙 과격한 행동을 금지합니다.\n수영장 및 노천탕 이용시 미성년자는 반드시 보호자의 보호 아래에서 활동해야 합니다.\n\n쇼핑몰 촬영, 드론 촬영, 타객실 촬영 등 반드시 사전 협의가 있어야합니다.\n모든 비품은 반출이 불가하며, 파손 및 도난시 새제품의 구입비용이 청구 됩니다. 침구류 이염시 바로 말씀 해주시면, 대부분 복구가 가능합니다.\n\n숙소 이용중 부주의로 인한 사고는 책임지지 않습니다.\n\n위의 숙소 주의사항을 동의 하신 분에 한하여 예약이 가능합니다."
+    },
+    {
+      "accommodationId": 20,
+      "accommodationName": "느티나무방 *노루목68＊ 비발디, 홍천강 인근 편안한 펜션",
+      "locationName": "Bukbang-myeon, Hongcheon-gun, 한국의 펜션의 개인실",
+      "briefRoomInfo": ["최대 인원 8명", "침실 1개", "침대 1개", "욕실 2개"],
+      "guestFavorite": true,
+      "rating": "5.00",
+      "reviewCount": "10",
+      "hostName": "진영",
+      "hostSince": 2023,
+      "pricePerDay": 150000,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-844563589844055805/original/6da79413-6fce-47e7-9460-1e90c8276f5d.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-844563589844055805/original/08c928b6-7661-40ab-8944-1bb3d6a74547.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-844563589844055805/original/64b2565e-8cdd-4599-a250-ceaa52bc2638.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-844563589844055805/original/6dbc5715-5283-4eb0-b724-a332b8f152b8.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-844563589844055805/original/2ce2e915-04f0-45f3-b988-e66580368cb4.jpeg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "산 전망",
+          "icon": "AmenityMountainView"
+        },
+        {
+          "amenityName": "호수에 인접",
+          "icon": "AmenityRiver"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "강 전망",
+          "icon": "AmenityRiverView"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "공용 수영장",
+          "icon": "AmenityPool"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        }
+      ],
+      "roomInfo": [],
+      "desc": "**객실별 바베큐장,(4인기준30,000) 펜션 내부 노래방 시설(공용)** **객실별 스마트TV(유튜브 등)** **비발디파크 인근, 홍천강 앞**\n\n안녕하세요. 행복한 기억을 남길 수 있는 홍천 노루목68펜션입니다. 노루목68 펜션은 앞에 홍천강이 굽어 흐르고 뒤로 아름다운 산에 둘러싸여 사계절 경치가 좋아 휴식을 취하기에 좋은 곳입니다. 펜션 앞 홍천강은 폭이 넓고 물이 매우 맑으며 강변에 자갈이 넓게 깔려있어 낚시 등을 즐길 수 있습니다."
+    },
+    {
+      "accommodationId": 21,
+      "accommodationName": "pool villa 201/노래방/영화관/실내히노끼탕[60평]",
+      "locationName": "인천, 한국의 별장 전체",
+      "briefRoomInfo": ["최대 인원 8명", "침실 2개", "침실 3개", "욕실 3.5개"],
+      "guestFavorite": false,
+      "rating": "4.81",
+      "reviewCount": "48",
+      "hostName": "Stay",
+      "hostSince": 2022,
+      "pricePerDay": 306000,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-638236455500487522/original/c897c623-8351-4af4-9db8-f5ddb8a3b311.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-638236455500487522/original/a1ff48ea-0ef6-493a-ba37-818ea16c9799.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjM4MjM2NDU1NTAwNDg3NTIy/original/9b30641f-38aa-43da-8391-89f19d19c1f2.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjM4MjM2NDU1NTAwNDg3NTIy/original/78077480-1d9e-42f1-8d0c-28281593df61.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjM4MjM2NDU1NTAwNDg3NTIy/original/8d9bce1e-d34d-4de5-9840-2d6dd79eace8.jpeg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "산 전망",
+          "icon": "AmenityMountainView"
+        },
+        {
+          "amenityName": "해변과 인접 - 해변",
+          "icon": "AmenityBeach"
+        },
+        {
+          "amenityName": "전용 야외 수영장 - 계절에 따라 예약 가능, 특정 시간대만 이용 가능, 루프톱, 온수",
+          "icon": "AmenityPool"
+        },
+        {
+          "amenityName": "사우나",
+          "icon": "AmenitySauna"
+        },
+        {
+          "amenityName": "바다 전망",
+          "icon": "AmenityOceanView"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "전용 온수 숙소",
+          "icon": "AmenityHottub"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "더블 침대",
+              "count": 1
+            },
+            {
+              "bedType": "슈퍼싱글",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "roomId": 2,
+          "beds": [
+            {
+              "bedType": "더블 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "🎁 엘리베이터 이용 가능\n🎁 인천대교 전망, 석양감상\n🎁 방역 해충 업체인 세스코 맴버쉽가입업체\n🎁 정수기 설치\n🎁 수영장 이용안내 : 미온수 ,냉수 선택(당일이용가능)\n🎁 실내 BBQ(전기그릴) 이용 가능\n🎁 2박 이용시(전기그릴제공)\n🎁 노래방 무료 이용(밤9시까지)\n생일파티를 할 수 있는 최신 노래방 시설 및 영화관을 갖춘 파티룸 같은 곳입니다. 벽난로가 분위기를 한껏 업시켜드립니다. 주방 및 식당공간이 따로 있습니다. 동절기는 실내에서 BBQ이용이 가능합니다. 침대는 더불침대2개, 싱글침대1개 있습니다. 5명 이외의 인원은 한실이불을 제공합니다.\n\n@별도비용\n1)히노끼탕 4만원\n2)루프탑개별수영장 [냉수8만원, 미온수15만원]\n당일 저녁까지만 이용 가능\n3)전기그릴2만원\n꼭 이용시 체크인 전날까지 이용요금 지급 및 이용여부 확인 부탁.\n\n분리수거장은 엘리베이터 루프층 앞\n음식물쓰레기 1층 외부\n\n[집 구성]\n1층: 거실,주방식당,테라스1,테라스2,히노끼탕(유아수영장),화장실,세면대\n2층: 침실1(더블침대1개,싱글침대1개),오픈침실1(더블침대1개),멀티룸(노래방,영화관),화장실,마스터룸화장실,욕실2개\n\n게스트 이용 가능 공간/시설\n넓은 주방과 8인용 식탁이 겸비\n거실에서 TV(넷플릭스,올레TV)\n아이들이 물놀이 할 수 있는 공간\n어른들이 히노끼 반신욕시설\n노래방이용시간은 밤10시\n그 이후 이용시 호스트가 연락할 수 있습니다.\n\n기타 주의사항\n1.음향시설이 되어 있는 노래방,영화관이 있습니다.노래방이용시간 10시 이전(9시이후에는 볼륨을 줄여주세요)\n2.어른은 히노끼탕, 아이들은 미니수영장을 실내에서 이용할 수 있습니다.(4만원)\n3.주방식당에서 식사할때 발코니에서 전기그릴(2만원)을 이용할 수 있습니다.\n4.재활용은 우선 현관앞에 하시고 퇴실시 옥상 재활용장에서 해주세요.(종이,비닐,투명페트병(비닐제거),기타(스티로폼,캔,병 등)\n5.음식물쓰레기는 1층 외부 음식물쓰레기통에 비닐체 버려주시면 됩니다.\n6.세탁기 ,건조기 이용시 5천원(꼭 필요하실때 이용바랍니다)\n7.수건 인당 1개씩 제공(걸레로 이용하여 오염시 3000원의 비용을 부담하겠습니다)\n8.침대가 더블침대2개, 싱글침대1개이며 그 외는 이불을 제공합니다.8명 이용시 최대 이불 3개 제공\n9.주방기구 : 가위,소주잔,와인오프너,집게,그릇,냄비(대,중,소),인덕션후라이팬웍\n10.체크아웃 시간(오전11시)은 꼭 지켜주세요.\n11.체크인시 출입 비밀번호는 당일 알려드립니다.\n12.수영장 이용시 하루전날 꼭 말씀해주세요. 이용은 체크인 당일에만 이용 가능합니다. 다음날오전에 물을 퇴수합니다.\n\n객실이용안내\n입실 check-in\n1. 체크인 시간은 오후3시부터 (7월,8월은 오후4시부터) 가능하며 20시 이후 입실은 체크인 전 호스트에게 꼭 연락바랍니다.\n퇴실안내 check-out\n1. 음식물쓰레기는 커피숍 밖 주차장 도로쪽 음식물스레기통에 비닐체 버려주세요.\n2. 분리수거는 옥상층 승강기 홀에 분리수거장이 있습니다. 일반쓰레기도 함께 버려주세요.\n3. 주방정리, 그릇, 비품 정리\n4. 퇴실시간 엄수 (오전 11시까지 퇴실, 30분이상 지연시 2만원의 비용 청구, 30분마다 2만원 비용청구 1시 이후 퇴실은 객실요금의 ½ 요금이 부과됩니다.)\n\n객실정원안내\n1. 정해진 정원이외 체크인시 1인당 3만원 비용 발생\n2. 침구류 추가 요청시 1세트당 2만원의 추가요금\n3. 만2세 이상의 아동은 성인요금을 받습니다.\n4. 정해진 인원의 타올 개수를 제공합니다. (히노끼탕 및 수영장 이용시 3개까지 추가 지급)\n\n이용수칙\n1. 객실 내(루프층 포함) 휴대용 버너, 숯 이용금지 – 화재에 취약 할 수 있어 절대 사용금지\n2. 반려동물 동반 금지\n3. 객실 비품 손망실 발생시 보상 청구\n4. 고성방가 금지 : 투숙기간 중 늦은시간(저녁8시 이후) 때 고성방가나 타인에게 불편함을 주는 행위 (호스트가 연락합니다) 노래방 이용시간은 오후 10시까지 입니다. 잘 지켜지지 않을 때가 있습니다. 꼭 지켜주시기 바랍니다.\n5. 세스코를 통해 방역을 하고 있으나 주변 지리적 특성상 작은 곤충 및 벌레를 100% 차단하는 건 어렵습니다. (벌레 출현으로 인한 보상 불가)\n6. 객실 내 흡연 금지 (흡연 냄새 및 꽁초 발견시 3만원의 보상금을 청구합니다.)-강력\n7. 음식물 등 침실에서 취식으로 인한 오염시 (바닥시트, 이불 ), 수건을 걸레사용으로 오염시 – 배상금 1만원 이상을 청구합니다.\n8. 에어비엔비 등으로 예약은 에어비엔비를 통한 보상금 지급을 요청할 수 있으며, 기타 방법으로의 예약은 보증금 5만원을 현금으로 받습니다. 체크아웃 당일 입금된 계좌로 지급\n배상금 안내 : 시트 오염으로 인한 손실 5만원이내, 수건 오염 1만원, 베개 1만원, 실내슬리퍼 분실 1만원, 옥상슬리퍼 분실 2만원이내, 매트리스오염시 10만원이내,청소상태매우 불량일경우 6만원의 청소비를 더 추가할 수 있습니다."
+    },
+    {
+      "accommodationId": 22,
+      "accommodationName": "베리더힐 송도 berry the hill /고층/퀸침대/장박환영",
+      "locationName": "Songdo-dong, Yeonsu-gu, 한국의 레지던스 전체",
+      "briefRoomInfo": ["최대 인원 2명", "침실 1개", "침대 1개", "욕실 1개"],
+      "guestFavorite": true,
+      "rating": "4.93",
+      "reviewCount": "148",
+      "hostName": "힐즈",
+      "hostSince": 2021,
+      "pricePerDay": 86000,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/ee61b6f0-72f3-40d1-9ebb-a5a4cd2c11df.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/59795733-518a-4bb6-9d37-d484e9eeb2b9.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-50258491/original/fdb3bdef-b875-4927-adb2-bd9cf529754d.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-50258491/original/5dc1185e-16a1-49ff-a203-2cff9c2b6ddd.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-50258491/original/8f757a3f-11ed-4e6c-8cda-654dfb9d52aa.jpeg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "도시 스카이라인 전망",
+          "icon": "AmenityCityView"
+        },
+        {
+          "amenityName": "수변에 인접",
+          "icon": "AmenityWater"
+        },
+        {
+          "amenityName": "초고속 와이파이 – 89Mbps",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차 차고 – 1대 주차 가능",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "공용 온수 욕조",
+          "icon": "AmenityHottub"
+        },
+        {
+          "amenityName": "호수 전망",
+          "icon": "AmenityLakeView"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "공용 야외 수영장 - 계절에 따라 예약 가능, 특정 시간대만 이용 가능, 루프톱",
+          "icon": "AmenityPool"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 1
+            },
+            {
+              "bedType": "바닥용 에어매트리스",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "베리더힐은 인천 연수구 송도국제도시에 위치한 2021년 완공된 신축레지던스 건물입니다. 다양한 커뮤니티 시설이 구비되어 있어, 건물안에서 편안하게 휴식을 즐기실 수 있는 공간입니다.\n\n숙소\n✔ 숙박 정원은 2명 입니다.\n✔ 실내, 화장실 모든 공간 금연 입니다.\n✔ 반려동물은 입실이 불가합니다.\n\n게스트 이용 가능 공간/시설\n✔ 인천1호선 달빛축제공원역\n✔ 건물 내 지하주차장 무료 이용\n\n기타 주의사항\n✔ 건조기능 세탁기 세제,섬유유연제\n✔ 욕실용품은 샴푸,린스,바디워시,치약,핸드워시,드라이기,수건 있습니다.\n\n✔ ▶️야외수영장 오픈\n야외수영장 이용가능하며, 객실이용객은 할인된금액으로 입장권 구매가능합니다!\n월요일,화요일 수영장은 휴무이며, 자세한 안내는 문의부탁드립니다😁\n\n✔현재 부대시설로 헬스장 이용가능합니다!\n매주 월요일, 법정공휴일 휴무\n\n✔ 넷플릭스 시청가능합니다!(본인 계정 필요!)\n✔ 상가 1층 편의점(CU, GS25시) 그 외 음식점 입점\n\n✔ 화재 주의 Keep Fire Safety\n✔ 절대 흡연 금지! No Smoking in this Area ✘\n✔ 고기류, 생선류 실내 조리 금지 ✘\n✔ 객실물품은 가져가시면 안됩니다~ ✘\n✉ 문의사항은 연락주시면 답변 드리겠습니다~"
+    },
+    {
+      "accommodationId": 23,
+      "accommodationName": "하버하우스-[여성3인실]우든보트를 제작하는 청년들이 지은 이야기가 있는 집",
+      "locationName": "제주시 조천읍, 한국의 방",
+      "briefRoomInfo": ["싱글 침대 3개", "공용 욕실 3개"],
+      "guestFavorite": true,
+      "rating": "4.82",
+      "reviewCount": "113",
+      "hostName": "라보드",
+      "hostSince": 2019,
+      "pricePerDay": 34000,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/af7f7d1a-b1cc-40f8-bfb0-9b43d62ec4f9.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/31e6a743-462f-4bfa-a8c2-d931fa79234c.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/e66ad06d-ceb7-44f0-8803-e6603d8151e3.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/09afb917-6c3b-4ed8-bb09-9040009eaab0.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/a69c0e9e-83e8-4f47-a4c0-a82ef7b30eb4.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "해변과 인접 - 해변",
+          "icon": "AmenityBeach"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "세탁기",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "실내 벽난로",
+          "icon": "AmenityFireplace"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "건조기",
+          "icon": "AmenityDryer"
+        },
+        {
+          "amenityName": "뒷마당",
+          "icon": "AmenityBackyard"
+        },
+        {
+          "amenityName": "헤어드라이어",
+          "icon": "AmenityHairDryer"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "싱글 침대",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "roomId": 2,
+          "beds": [
+            {
+              "bedType": "싱글 침대",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "roomId": 3,
+          "beds": [
+            {
+              "bedType": "싱글 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "하버하우스는 보트빌더(Boat builder)들이 운영하는 게스트하우스입니다.\n제주도 동쪽 신촌포구에 위치해 있어 조용한 제주어촌 마을의 정취를 느낄 수 있습니다.\n공항에서 버스로 30분. 자동차로는 20분 소요\n*개인 객실무료 비품：수건, 샴푸, 바디워시, 린스, 옷걸이, 컵, 헤어드라이\n*시설。냉장고, 전자렌지, 토스트기, 커피머신 등。공용공간에서 편하게 쉴 수 있습니다.\n*무료 조식 매일 8:30am – 10:30am 공용공간에서 즐길 수 있습니다.\n*무료 와이파이&차& 커피。수하물 보관은 체크인 전과 체크아웃 후에 무료로 할 수\n있습니다.\n*화장실과 샤워실은 남녀 분리되어있습니다.\n\n숙소\n단독 주택을 쉐어하는 형태로 운영하고 있습니다.\n남성 3인실, 여성3인실, 더블룸, 트윈룸이 있으며, 주방은 외부공용시설에 있습니다. 여성샤워부스 2개, 여성화장실 2개, 남성은 화장실과 샤워실이 분리되어있지 않습니다.\n\n숙소\n하버하우스는 보트빌더(Boat builder)들이 운영하는 게스트하우스입니다.\n제주도 동쪽 신촌포구에 위치해 있어 조용한 제주어촌 마을의 정취를 느낄 수 있습니다."
+    },
+    {
+      "accommodationId": 24,
+      "accommodationName": "나무사이로 햇살이",
+      "locationName": "구좌읍, 제주시, 한국의 집 전체",
+      "briefRoomInfo": ["최대 인원 4명", "침실 2개", "침대 2개", "욕실 1개"],
+      "guestFavorite": true,
+      "rating": "4.95",
+      "reviewCount": "211",
+      "hostName": "지오",
+      "hostSince": 2016,
+      "pricePerDay": 1385000,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/ff4bd504-fc1a-46e2-a6c4-3665db56d11a.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/d85a0a38-f4ef-4b6b-99eb-d046d2369bbb.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/7e8618f0-3d33-44f7-b144-3127cde745b5.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/07293619-08c7-46b6-aafc-1352f29eefb2.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/a65fb7b2-ea12-4cf0-8cf1-794fb63e9466.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "헤어드라이어",
+          "icon": "AmenityHairDryer"
+        },
+        {
+          "amenityName": "아침 식사",
+          "icon": "AmenityBreakfast"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "TV + 일반 케이블 TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "뒷마당",
+          "icon": "AmenityBackyard"
+        },
+        {
+          "amenityName": "냉장고",
+          "icon": "AmenityFridge"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "roomId": 2,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "제주에서 나무가 많아 공기가 좋다는 구좌읍 송당리 마을안에 있어요.\n집 주변이 편백나무로 둘러싸여 피톤치드향을 느낄 수 있으며 어릴적 누구나 꿈꾸던 다락방이 있는 따뜻한 색감의 목조주택으로 자연주의 감성을 느낄수 있는 복층형 독채민박입니다.\n맛집으로 걸어서 3분거리에 풍림다방과 친봉산장이 있고 ,차로 15분거리에 가까운 바다로는 평대, 세화,월정,김녕, 성산일출봉이 있으며\n비자림, 메이즈랜드, 다랑쉬오름, 용눈이 오름, 아부오름, 백약이오름 등이 있습니다,"
+    },
+    {
+      "accommodationId": 25,
+      "accommodationName": "클로드에덴 : 트리하우스",
+      "locationName": "Jipyeong-myeon, Yangpyeong-gun, 한국의 트리하우스",
+      "briefRoomInfo": ["최대 인원 2명", "침실 1개", "침대 1개", "욕실 1.5개"],
+      "guestFavorite": true,
+      "rating": "4.96",
+      "reviewCount": "93",
+      "hostName": "광회",
+      "hostSince": 2024,
+      "pricePerDay": 297000,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/1ee30d58-0658-40ad-8cff-5e34eaef7798.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/3681b9e1-1d86-4f94-87be-f20759ded2de.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/391c9050-dc29-4f7c-b52b-9c2d2df9a0be.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/8fa1a142-ad7d-459e-8062-ecdaa3ea0565.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/2fbb0551-d537-4b50-a88a-31668df40afb.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "정원 전망",
+          "icon": "AmenityGardenView"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "반려동물 입실 가능",
+          "icon": "AmenityPet"
+        },
+        {
+          "amenityName": "세탁기",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "전용 온수 욕조",
+          "icon": "AmenityHottub"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "아주 특별한곳 아름다운 추억과 힐링을 원하시는분 이색숙소를 찾으시는분 커플을위한 최적화된 이상형장소를 찾고 계신다면 떡갈나무 트리하우스를 진심 추천합니다.\n\n양평에서 가장아름다운 정원 양평군 공식지정정원 팜포레스트는 삼면이 백합나무숲으로 둘러 쌓여 아늑하면서도 신비로운 곳 2300여평의 정원내에 위치해 있으며 오직 단2팀을 위한 공간으로 전체를 활용하고 있습니다.\n\n트리하우스에서 내려다 보는 뷰는 정말이지 환상적이고 침실은 고급나무로만 만들어져 포근하고 달콤한 꿀잠을 선사합니다."
+    },
+    {
+      "accommodationId": 26,
+      "accommodationName": "커플 및 가족을 위한 우아하고 한적한 오두막",
+      "locationName": "나가노, 일본의 통나무집 전체",
+      "briefRoomInfo": ["최대 인원 4명", "침실 1개", "침대 3개", "욕실 1개"],
+      "guestFavorite": false,
+      "rating": "4.92",
+      "reviewCount": "370",
+      "pricePerDay": 198567,
+      "hostName": "Matt and Maya",
+      "hostSince": 2016,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/07eda303-0a89-419e-a7b8-1b788ef4e6f0.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/ed750929-3e90-4b43-a309-8a50439779c4.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/fd0a5f30-5a6c-41ff-9ee9-1a7c4a8e1aaf.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/9c142ac7-34d3-49ed-98d2-5c25e878e9c3.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/9765fc4f-5e91-46ae-8e59-0931ab2dadee.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "산 전망",
+          "icon": "AmenityMountainView"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "TV + 넷플릭스",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "세탁기 무료 사용 - 숙소 내",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "건조기 무료 사용 - 숙소 내",
+          "icon": "AmenityDryer"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "더블 침대",
+              "count": 1
+            },
+            {
+              "bedType": "소파 베드",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "roomId": 2,
+          "beds": [
+            {
+              "bedType": "소파 베드",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "나가노 Iizuna의 해발 1,300미터 (4,265피트) 의 숲이 우거진 자연 그대로의 지역에 위치한 세련된 통나무 오두막입니다.\n이 숙소는 커플, 가족 단위 또는 소규모 단체 여행객에게 완벽한 휴양지입니다.\n장작 난로, 대형 TV, 블루레이/DVD 플레이어, 스테레오, 가죽 의자, 완비된 주방이 있습니다.\n이 지역에서 하이킹, 스키, 바비큐, 골프 또는 온천 목욕을 즐겨보세요. 숙소는 JR 호쿠리코 신칸센 총알 열차와 시나노 철도의 나가노역에서 차로 약 20분 거리입니다."
+    },
+    {
+      "accommodationId": 27,
+      "accommodationName": "노지리 호수의 멋진 전망을 감상할 수 있는 전용 사우나를 갖춘 아노이 주택",
+      "locationName": "Shinano, Kamiminochi District, 일본의 초소형 주택",
+      "briefRoomInfo": ["최대 인원 6명", "침실 1개", "침대 5개", "욕실 1개"],
+      "guestFavorite": false,
+      "rating": "4.94",
+      "reviewCount": "321",
+      "hostName": "Go",
+      "hostSince": 2022,
+      "pricePerDay": 601055,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/b2c0f556-f726-4db8-985f-25a668369fe7.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/9a171a31-bc08-4254-98c7-b996121aa32b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-49556931/original/783dd9d1-28cb-4672-8136-009ee49ff096.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/d6dc46ed-36dd-4bba-99af-d4cd8793bde6.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/e50f6a2d-1b26-42a1-9c71-84ae47172c88.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "호수 전망",
+          "icon": "AmenityLakeView"
+        },
+        {
+          "amenityName": "수변에 인접",
+          "icon": "AmenityWater"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        },
+        {
+          "amenityName": "산 전망",
+          "icon": "AmenityMountainView"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "전용 온수 욕조",
+          "icon": "AmenityHottub"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 1
+            },
+            {
+              "bedType": "싱글 침대",
+              "count": 4
+            }
+          ]
+        }
+      ],
+      "desc": "노지리 호수가 내려다보이는 멋진 전망을 자랑하는 주택입니다.\n\n약 15 ~ 20분 거리에 여러 스키 슬로프 (Myoko, Kurohime, Masao) 가 있어 겨울 스포츠를 즐기기에 안성맞춤입니다.\n\n장작을 태우는 사우나와 멋진 수변을 즐겨보세요.\n주변에 독채가 없어서 시끄러운 소음으로 음악과 영화도 감상할 수 있습니다.\n\n산속 깊숙한 곳에 자리 잡은 집이기 때문에 최선을 다하지만, 따뜻한 계절에는 곤충이 있습니다.겨울에는 눈이 많이 옵니다.가을에는 나뭇잎이 춤을 춥니다.\n또한 장작 난로의 불도 직접 조정하셔야 합니다.\n\n살기 편한 집은 아니지만 멋진 전망과 경험을 선사합니다.\n\n멋진 전망과 양념과 밥솥이 있는 카운터 주방이 완비되어 있어 요리를 즐길 수 있습니다.(바비큐 장비 없음)\n숙소\n객실은 대형 1R입니다.\n로프트 부분은 침실입니다.\n퀸사이즈 침대 1개\n싱글 사이즈 이불 4개가 있습니다.\n게스트 이용 가능 공간/시설\n도로를 따라 약 3대의 주차 공간이 있습니다.\n기타 주의사항\n호숫가에서 자연을 즐길 수 있는 집입니다.\n\n조치가 취해졌지만, 따뜻한 계절에는 곤충을 발견할 수 있습니다.\n가을에는 가을, 겨울에는 눈이 내립니다.\n\n최선을 다해 통제하고 대책을 강구하겠습니다만, 경우에 따라서는 예방이 되지 않을 수도 있으니 양해하여 이용하시기 바랍니다.\n\n장작을 태우는 스토브와 벽난로도 마련되어 있습니다.\n이용을 원하실 경우, 불은 소중히 다뤄주세요.\n장갑 등은 구비되어 있으니 화상을 입지 않도록 본인 부담으로 즐기시기 바랍니다.\n등록번호\n여관업법 허가번호 | 長野県長野保健所 | 長野県長野保健所指令03長保第24-19号\n"
+    },
+    {
+      "accommodationId": 28,
+      "accommodationName": "서나와 할아버지 통나무집 - 산님",
+      "locationName": "Hwachon-myeon, Hongcheon, 한국의 통나무집 전체",
+      "briefRoomInfo": ["최대 인원 4명", "침실 1개", "침대 1개", "욕실 1.5개"],
+      "guestFavorite": true,
+      "rating": "4.88",
+      "reviewCount": "299",
+      "hostName": "서나 아빠",
+      "hostSince": 2022,
+      "pricePerDay": 136888,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/32e8b4a0-83ff-4dba-8253-5340d8d05215.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/a9caa9b8-3029-4f0b-b6f8-0ed33e8006b4.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/45053040-1549-49e5-a1a8-f89629b36401.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/09c2ac0e-6fea-4bb0-8724-1544f5bbe75c.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/97a6907d-478e-43fa-b49e-52cd8580bccc.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "산 전망",
+          "icon": "AmenityMountainView"
+        },
+        {
+          "amenityName": "초고속 와이파이 - 72Mbps",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차 - 30대 주차 가능",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "55인치 HDTV + 넷플릭스, 프리미엄 케이블 TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "건조기 무료 사용 - 건물 내",
+          "icon": "AmenityDryer"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "반려동물 입실 가능",
+          "icon": "AmenityPet"
+        },
+        {
+          "amenityName": "세탁기 무료 사용 - 건물 내",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "에어컨 - 분리형 무배관 시스템",
+          "icon": "AmenityAc"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "desc": "서나와 할아버지 통나무집_산님에 오신 걸 환영합니다.\n\n산님은 머무시는 분들의 몸과 마음이 편안히 숨, 쉼 하시길 바라는 마음으로 지어서 가꿔가고 있어요.\n\n산님으로 들어서시면,\n울창한 벚나무랑 짝을 이룬 넉넉한 데크와 핀란드산 편백 통나무 향으로 가득한 실내가 반겨드릴 거에요.\n\n산님의 매력덩이인 벚나무는 봄에는 꽃구름으로, 여름에는 시원하게 반짝이는 그늘로, 가을에는 팔랑팔랑 떨어지는 금빛 나뭇잎으로, 겨울에는 하얀 눈을 얹은 나뭇가지로 산님을 감싸준답니다.\n\n산님은 다락방이 있는 16평 독채예요.\n산님의 침실, 마루, 데크에 편안히 자리잡으시면 공작산과 그 위 하늘에서 펼쳐지는 구름과 바람의 춤을 즐기실 수 있을 거에요.\n새랑 풀벌레의 조잘거림과 가만히 귀 기울이면 들리는 길 건너 냇물 소리도 맘을 편하게 해드릴 거구요.\n\n네분까지 머무실 수 있는 산님은 배변 훈련이 잘된 모든 반려동물과의 동반 투숙을 환영합니다!\n\n숙소\n산님은 서나네가 해외에 있을 때 서나 할아버님께서 지으신 집이에요. 서나 아빠는 가끔 귀국했을 때 손거듬했어요.\n서나네가 귀국한 뒤로는 서나 아빠가 집 안 밖을 새로 고쳐가고 있답니다.\n2023년 봄에는 서나 아빠가 화장실과 침실 수납장, 아일랜드 테이블과 실내 일부를 새로 고쳤어요. 데크도 더 넓게 새로 만들었어요.\n\n산님은 자연스러움을 좋아해서 집 안에 아무런 칠을 하지 않았어요. 그래서 편백나무의 향을 고스란히 즐기실 수 있어요.\n\n가구와 집기류도 차츰 더 자연과 함께하는 방향으로 고쳐나갈 거에요. 가끔 오셔서 산님이 바뀌어 가는 모습을 함께 즐기시기 바래요^^\n\n산님 실내가 아무런 칠을 하지 않은 나무 벽이어서 냄새가 많이 나는 음식을 해 드시거나 향이 강한 화장품, 향수를 쓰시면 냄새가 나무에 달라붙어 잘 없어지지 않아요.\n산님의 나무향이 마음에 드신다면 다음 손님도 나무향을 즐기시는데 방해되지 않도록 실내에서 고기를 굽거나 냄새가 많이 나는 조리는 피해 주시기 바래요. 향이 강한 화장품과 향수도요^^\n\n불가피한 상황으로 냄새나 향이 남을 것 같으면 퇴실 전에 창문을 열어 충분히 환기해주시기를 부탁드려요!\n\n반려동물과 함께 오시면 예약하실 때 반려동물 마리 수를 선택해주세요. 결재하실 때 해당 비용이 함께 결재되며 배변으로 인한 오염이나 기물 파손이 발생하지 않으면 추가되는 비용은 없어요.\n산님은 차도에서 직선거리로 약 30~40여미터 정도 떨어져 있어요. 차가 자주 다니지는 않지만 차도와 숙소 사이가 터진 전망이라 차 소리가 들릴 수 있어요. 반려동물과 함께 오시는 분들은 차도와의 거리를 참고하셔서 예약하시기 바래요.\n\n산님 거실의 주 조명은 이승원 작가의 작품이에요.\n이승원 작가는 한국인으로 처음 독일 금속공예 관련 상을 받으신 한국 금속공예계의 원로 작가세요. 저서로는 \"작업 속의 미학_금속공예에서 얻은 비움과 채움\"이 있어요^^\n\n바쁜 일상이나 복작거리는 휴양지를 벗어나 내안으로 조용히 가라앉는 시간을 가지고 싶거나 좋은 사람들과 도란도란 시간을 보내고 싶은 분들에게 산님을 추천합니다!\n\n산님에 머무시면서 나들이 다녀오실 만한 곳들은,\n1. 공작산: 차로 10분 내외\n2. 수타사: 차로 25분 내외\n3. 용소계곡: 차로 25분 내외\n4. 홍천온천 / 홍천 무궁화 수목원: 차로 25분 내외\n5. 알파카월드: 차로 30분 내외\n6. 비발디파크: 차로 45분 내외\n7. 춘천 / 월드온천24: 차로 50분 내외\n8. 자작나무숲: 차로 1시간\n9. 치악산 / 설악산 국립공원: 차로 1시간 내외\n10. 대포항 / 척산온천 / 양양해수욕장 등: 차로 1시간 내외.\n등 이에요^^\n\n산님에 머무시는 동안 즐기실 만한 추천 먹거리는,\n서나와 할머니 된장, 행운爱사과(사과, 사과파이, 사과 주스), 별하도원(복숭아, 복숭아청, 복숭아잼), 고향 밥상(시골한식), 리버 972(이탈리안 레스토랑), 원조 생곡막국수 본점, 뚜레장어, 길매식당(잣두부), 식당별하(버섯요리), 원조 왔다 다슬기 해장국, 푸주옥 홍천점(도가니탕, 설렁탕, 냉면), 홍천한우사랑말(홍천 한우), 하나로마트, 피콕빌리지(카페), 커피홀릭(카페), 진심커피(카페), 러스틱라이프(정원 카페)등이에요^^\n게스트 이용 가능 공간/시설\n산님은 16평 정도되는 넉넉한 데크에서 낮잠, 이야기 나누기, 책보기 등 여유를 즐기실 수 있어요.\n\n서나와 할아버지 통나무집은 천여평 정도의 비탈에 햇님, 달님, 별님, 산님과 서나 아빠 엄마가 지내는 벽돌집, 서나 할아버님과 할머님이 지내시는 벽돌집이 흩어져 자리잡고 있어요.\n그 사이사이에 자금자금한 텃밭이 있고요. 약을 안치고 키운 제철 야채가 올라올 때 함께 나누어 드시면 되어요.\n또 단지 곳곳에서 5월 딸기, 6월 오디와 블루베리, 7월 자두 등이 차례로 달리니 오셨을 때 보이는 과일들을 따 드시기 바래요^^\n\n산님의 내부는,\n-침대와 화장실이 딸린 안방\n- 주방과 일체형 거실\n- 변기와 세면대가 있는 작은 화장실(거실)\n- 다락방\n으로 구성되어 있어요.\n\n갖추어 놓은 것들은,\n- TV, 와이파이, 에어컨, 작은 밥솥, 전자레인지, 드라이기, 커피포트\n- 수건, 샴푸, 린스, 바디워시, 치약, 비누, 옷걸이, 휴지\n- 기본 조미료(소금, 설탕, 소금)와 식용유\n- 수저 세트, 집게, 가위, 국자, 뒤집개, 과도와 식도\n- 포도주잔, 스파클링 포도주잔, 머그잔, 소주잔, 밥그릇, 국그릇, 접시, 후라이팬, 작은 냄비, 중형 냄비, 주방 세제, 수세미등이에요.\n\n추가 비용이 있는 즐길 거리는,\n- 숯불 준비: 3만원. 숯불구이 그릴, 숯, 숯불 피우기 포함.\n- 불멍 준비: 3만원. 불멍 화로, 장작, 불 피우기 포함.\n입니다!\n\n* 2022년 6월 전에는 개인 화구를 쓰시거나 직접 불을 피우실 수도 있었어요. 하지만 이러다 보니 데크와 그릴이 망가질 때가 많아 불과 관련한 사항은 꼭 숯불이나 불멍 서비스를 신청해 주시기 바래요!\n\n* 숯불이나 불멍을 원하시는 분들은 늦어도 입실 전날 18시까지 하시려는 시간을 예약해 주시기 바래요^^\n참고로 숯불 시작 시간은 해지기 30분 전 무렵, 불멍은 해지고 한시간 뒤부터 시작을 추천드려요. 원하는 시간에 하시려면 최대한 일찍 시간을 정하셔야 해요. 다른 분들과 동시에 준비해드릴 수가 없거든요^^;\n\n예약하시면 비용 입금 계좌를 알려드려요. 예약하신 분 이름과 다른 분이 입금하시면 꼭 입금자 성함을 알려주세요.\n기타 주의사항\n서나와 할아버지 통나무집은 햇님, 달님, 별님, 산님 네채가 천여평의 산비탈에 흩어져 자리잡고 있어요. 오전 11시 부터 오후4시까지 숙소 정비를 하기 때문에 일부 건물의 정비가 끝나도 다른 건물 정비 때문에 단지 안도 어수선할 수 있고 응대도 원활하지 않을 수 있어 불가피한 경우가 아니면 이른 입실과 늦은 퇴실은 사양하고 있답니다.\n저희도 어렵게 만나 뵌 분들과 좀 더 긴 시간 함께 하고 싶지만 이 공간의 나무향과 정갈함을 기대하고 오시는 다음 손님들께도 좋은 기억을 가져가실 수 있게 하기 위해 정한 입, 퇴실 시간이니 꼭 지켜 주시면 고맙겠어요^^\n\n서나와 할아버지 통나무집은 시골 버스를 타고 오실 수는 있지만 뚜벅이 여행 전문가나 엄청난 용기를 내기로 하신 분이 아니면 차를 몰고 오시는 걸 추천 드려요. 특히 외국에서 오시는 분들은 대중 교통만으로 오시는 게 거의 불가능해요. 오셔서도 숙소에만 계실 게 아니라면 차가 없으면 저희 집 주변의 즐길 거리를 만끽하시기 어려워요.\n\n장을 볼만한 큰 마트가 차로 20분 거리에 있어서 미리 장을 보고 오시는 걸 추천 드려요. 서울 경기권이나 춘천, 원주에서 오시는 분들은 출발지 -> 홍천한우사랑말 -> 홍천하나로마트 -> 서나와 할아버지 통나무집 으로 노선을 잡으시 길 추천 드려요.\n\n술 맛을 흠뻑 즐기시는 분들을 위해 포도주 잔을 슈피겔라우(SPIEGELAU)로 넣어 놓았어요. 얇은 잔이라 무슨 술을 넣어 마셔도 술을 두배쯤은 맛있게 해주지만 주의를 기울여 다루시지 않으면 깨지기 쉬워요. 잔은 깨져도 괜찮지만 다치시면 안되니 조심해 다루어 주세요. 잔을 씻다 깨실 수도 있으니 익숙하지 않은 분들은 포도주잔 씻는 방법을 검색하셔서 참고하시면 도움이 될거에요.\n값이 좀 있는 잔들이라 깨지면 잔 값은 받을 게요^^;\n\n서나와 할아버지 통나무집에는 놀기 좋아하는 고양이 보리가 함께 살고 있어요. 풀어놓고 기르는 아이라 단지 안을 맘껏 돌아다니기에 언제 집에 들어와 있을지는 보리 맘이랍니다^^; 보리와의 만남을 기대하시는 분들은 보리를 꾈 수 있는 뇌물을 준비해 오시기 바래요^^\n보리는 사람을 무척 좋아해 애교를 부리거나 집안으로 따라 들어가려 할 수 있으니, 혹시 불편하신 분들께서는 저희에게 알려주세요.\n\n*분리수거는 산님 옆에 서나 아빠 엄마가 머무는 벽돌집 뒤에 있는 분리 수거 구역에 하시면 되어요.\n- 일반 쓰레기는 집안의 쓰레기 통에 모아두셨다가 분리 수거 구역에 있는 노란색 뚜껑의 큰 쓰레기 통에 부어 주세요. 방, 화장실, 주방에 있는 쓰레기통을 모두 비워 주시기 바래요.\n- 음식물 쓰레기는 싱크대 서랍에 넣어둔 음식물 쓰레기 봉투에 넣어서 분리 수거 구역의 회색 뚜껑 작은 쓰레기 통에 넣어 주세요.\n- 재활용 분리수거는 노란 뚜껑 쓰레기통 오른쪽으로 쑥 들어간 분리 수거 구역에 종류별로 큰 푸대가 있고 푸대 위에 명찰이 붙어 있어요. 꼭 종류별로 넣어주세요. 페트병 라벨을 떼지 않고 넣으시는 분들이 적지 않아요. 땅별을 위해 페트병의 라벨을 꼭 떼고 분리수거해 주세요.\n- 종이 상자는 노란 뚜껑 쓰레기통 옆에 놓아 두시면 되어요."
+    },
+    {
+      "accommodationId": 29,
+      "accommodationName": "통나무집 1 - 바툴라오 전망을 감상할 수 있는 산악 럭셔리 오두막",
+      "locationName": "Calaca, 필리핀의 통나무집 전체",
+      "briefRoomInfo": ["최대 인원 8명", "침실 2개", "침대 3개", "욕실 2개"],
+      "guestFavorite": true,
+      "rating": "4.83",
+      "reviewCount": "176",
+      "hostName": "Camper And Cabin",
+      "hostSince": 2014,
+      "pricePerDay": 586995,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/52d8dc82-66cc-4edd-8457-2bf158067077.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/13ee20e4-8255-4e9b-9252-cf5146fc4599.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/6c49f73e-284c-4e69-8012-9870e122f086.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/aa766fff-6122-4367-be1a-5025bd1c2a10.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/d3adb718-2905-43da-9423-956520b982e2.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f62597bd-243b-4866-8f0c-f8fe0a8d5a1e.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/b2298cc1-2df3-4d26-ac9c-15391b17e5a1.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/b5332d35-00ef-410c-8565-7af9989ddc4e.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/70d13fba-87e9-4799-8336-6130189fc07f.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/947d5d01-57f0-42df-b267-2560e5e4b7b9.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "산 전망",
+          "icon": "AmenityMountainView"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "전용 수영장",
+          "icon": "AmenityPool"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "일산화탄소 경보기",
+          "icon": "AmenityCo"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        },
+        {
+          "amenityName": "화재경보기",
+          "icon": "AmenitySmoke"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "더블 침대",
+              "count": 2
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "roomId": 2,
+          "beds": [
+            {
+              "bedType": "킹사이즈 침대",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "산뜻한 타가이테이 언덕 마을과 맑은 푸른 나수그부 해변에 가까운 이 숙소는 북적거리는 도시 생활에서 벗어날 수 있습니다.\n트윈 레이크에서 7분 거리에 위치하고 있습니다. 이곳은 두 곳의 유명한 결혼식 장소인 언덕의 예배당과 변신의 칼라루에가 예배당도 함께 즐길 수 있습니다.\n이 지역 근처에서 가장 눈에 띄는 개발은 세계 최초로 살아 숨쉬는 예술 공원으로 불리는 센추리 프로퍼티스의 바툴라오 아트스케이프와 산악 웰니스 커뮤니티인 산다리 바툴라오가 있습니다.\n* 트윈레이크에서 7분\n* 나수그부 해변에서 30분\n* 언덕의 예배당에서 2분\n* 칼라루에가에서 3분\n* 구원의 산에서 1분!"
+    },
+    {
+      "accommodationId": 30,
+      "accommodationName": "언덕 위의 통나무집 프로젝트 ph",
+      "locationName": "Antipolo, 필리핀의 통나무집 전체",
+      "briefRoomInfo": ["최대 인원 7명", "침실 2개", "침대 2개", "욕실 1.5개"],
+      "guestFavorite": true,
+      "rating": "4.86",
+      "reviewCount": "78",
+      "pricePerDay": 78845,
+      "hostName": "Sheila",
+      "hostSince": 2023,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/b21bf387-d240-463c-a073-9755e58fe769.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-871412734935173328/original/1e154097-2d0d-42f8-af5f-4fb551b90af7.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/60df8eb8-58f7-474c-9a10-be41c5367717.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-871412734935173328/original/f7f4f8e5-2eee-4be1-9441-65d0995e7d24.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/6a225a89-a2e6-49a1-8fd3-aa22a14acb54.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-871412734935173328/original/33f9c273-7833-4609-8534-c807f96356a8.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/69d82bc5-3b8b-4f6a-9229-609374daaf92.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/930e9fae-d4bb-489e-8837-f687b2daf3e5.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/930e9fae-d4bb-489e-8837-f687b2daf3e5.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "산 전망",
+          "icon": "AmenityMountainView"
+        },
+        {
+          "amenityName": "정원 전망",
+          "icon": "AmenityGardenView"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "반려동물 입실 가능",
+          "icon": "AmenityPet"
+        },
+        {
+          "amenityName": "공용 파티오 또는 발코니",
+          "icon": "AmenityPatio"
+        },
+        {
+          "amenityName": "뒷마당",
+          "icon": "AmenityBackyard"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "슈퍼 싱글",
+              "count": 1
+            },
+            {
+              "bedType": "요와 이불",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "roomId": 2,
+          "beds": [
+            {
+              "bedType": "더블 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "Antipolo, Calabarzon, 필리핀\n지도/웨이즈를 통해 검색 가능: RRC Divina Gracia Property, Brgy Pinugay Baras Rizal. \nMasungi Georeserve, Garden Cottages, Palo Alto Falls까지 차로 12 ~ 15분 거리입니다. 유명한 \n리잘 카페와 레스토랑에서 불과 15 ~ 20분 거리. 쿨리스 산에서 30분 거리. 7R 망고 농장 리조트에서 10분 \n거리. 빅 C 델리카페까지 차로 15분 거리. 리힘 나 바티스, 바라스까지 차로 10분 거리. 에린의 숙소 리조트까지 \n차로 10분 거리."
+    },
+    {
+      "accommodationId": 31,
+      "accommodationName": "바다까지 0초! 무료 바비큐! 바닷가를 즐겨보세요!",
+      "locationName": "Onjuku, Isumi District, 일본의 별장 전체",
+      "briefRoomInfo": ["최대 인원 5명", "침실 2개", "욕실 1개"],
+      "guestFavorite": true,
+      "rating": "4.80",
+      "reviewCount": "98",
+      "hostName": "Kazuto",
+      "hostSince": 2022,
+      "pricePerDay": 170734,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-638687891243657194/original/594156f4-2b40-44d4-a8d2-67c4e667beec.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-638687891243657194/original/7197e97b-ea0e-4d38-b84a-0db1c3674f1a.png?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-638687891243657194/original/42e6eace-f7cb-4884-b804-59f37fa630aa.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-638687891243657194/original/7091fa94-77de-429e-9843-576cf69dbcfd.jpeg?im_w=480",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-638687891243657194/original/55f53e0f-dd00-494a-a3c5-680a06093de0.jpeg?im_w=480"
+      ],
+      "amenities": [
+        {
+          "amenityName": "바다 전망",
+          "icon": "AmenityOceanView"
+        },
+        {
+          "amenityName": "해변과 인접 - 해변",
+          "icon": "AmenityBeach"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "초고속 와이파이 - 480Mbps",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "자쿠지 욕조",
+          "icon": "AmenityJacuzzi"
+        },
+        {
+          "amenityName": "100인치 TV + 아마존 프라임 비디오, 일반 케이블 TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "세탁기 무료 사용 - 숙소 내",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenitySecurity"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "요와 이불",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": 2,
+          "beds": [
+            {
+              "bedType": "요와 이불",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "desc": "지역 정보 지역 정보"
+    },
+    {
+      "accommodationId": 32,
+      "accommodationName": "인스타그램에서 10% 할인해드립니다! 北軽井沢전용 빌라 ~ D-place つまごい~",
+      "locationName": "大字, Tsumagoi, Agatsuma District, 일본의 집 전체",
+      "briefRoomInfo": ["최대 인원 10명", "침실 3개", "욕실 1개"],
+      "guestFavorite": true,
+      "rating": "4.41",
+      "reviewCount": "29",
+      "hostName": "D-Place",
+      "hostSince": 2023,
+      "pricePerDay": 217773,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-972349742729113224/original/a1094405-0419-422c-91d8-2bada9006c43.jpeg?im_w=960",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-972349742729113224/original/8290e6d3-e786-4234-8a5e-28ff0ae8af13.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-972349742729113224/original/ebe0ab06-9fee-43f2-9c9c-6c9790c98d1f.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/1563d250-7663-4295-b118-5c1b15843a31.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-972349742729113224/original/bf72af40-0b30-4fdf-bc9f-4c8389bc759b.jpeg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "강 전망",
+          "icon": "AmenityRiverView"
+        },
+        {
+          "amenityName": "수변에 인접",
+          "icon": "AmenityWater"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "초고속 와이파이 - 111Mbps",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "반려동물 입실 가능",
+          "icon": "AmenityPet"
+        },
+        {
+          "amenityName": "TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "숙소 내 실외 보안 카메라",
+          "icon": "AmenityTv"
+        }
+      ],
+      "roomInfo": [],
+      "desc": ""
+    },
+    {
+      "accommodationId": 33,
+      "accommodationName": "강원도 영월에 위치한 통나무집 A",
+      "locationName": "Yeongwol-gun, 한국의 통나무집 전체",
+      "briefRoomInfo": ["최대 인원 4명", "원룸", "침대 1개", "욕실 1개"],
+      "guestFavorite": true,
+      "rating": "4.96",
+      "reviewCount": "746",
+      "pricePerDay": 100000,
+      "hostName": "Geumju",
+      "hostSince": 2015,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/e4a65b99-ca44-4e3f-96d2-42072fb7ad62.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/b538f736-29b9-4626-8eea-81284704b403.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/584cfc49-e0ac-4663-b004-d4a709ec6c7c.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/a826d242-2eba-4c4a-bc35-a876c84e7656.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f81de197-d5b5-415f-a366-8a697333481f.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "정원 전망",
+          "icon": "AmenityGardenView"
+        },
+        {
+          "amenityName": "산 전망",
+          "icon": "AmenityMountainView"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "업무 전용 공간",
+          "icon": "AmenityDesk"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "세탁기 무료 사용 - 건물 내",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "에어컨 - 분리형 무배관 시스템",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "전기차 충전시설",
+          "icon": "AmenityElectricCar"
+        },
+        {
+          "amenityName": "전용 뒷마당 - 울타리 완비",
+          "icon": "AmenityBackyard"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "Yeongwol-gun, 강원도, 한국\n조용한 산골마을이며 자연과 벗삼아 오롯이 쉼을 가지실수 있는 곳입니다!"
+    },
+    {
+      "accommodationId": 34,
+      "accommodationName": "힐링과 방갈로, 개울이 있는 자연의 집 - 양평 4계절",
+      "locationName": "Gangha-myeon, Yangpyeong, 한국의 통나무집 전체",
+      "briefRoomInfo": ["최대 인원 8명", "침실 3개", "침대 2개", "욕실 2개"],
+      "guestFavorite": true,
+      "rating": "4.95",
+      "reviewCount": "478",
+      "pricePerDay": 148000,
+      "hostName": "Terence",
+      "hostSince": 2019,
+      "imageUrl": [
+        "https://a0.muscache.com/im/pictures/e2ff0726-e249-42dc-a794-7fe8bdc68fd9.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/ce360a70-3290-4737-82fe-fc0de190de90.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/1e255122-1cf4-442d-9b30-b43a4990084f.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/2e677082-10df-45c0-a24e-1f184fe83fd9.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/eface97a-c3fb-4523-89dc-359b88ffc48e.jpg?im_w=720"
+      ],
+      "amenities": [
+        {
+          "amenityName": "수변에 인접",
+          "icon": "AmenityWater"
+        },
+        {
+          "amenityName": "주방",
+          "icon": "AmenityKitchen"
+        },
+        {
+          "amenityName": "무선 인터넷",
+          "icon": "AmenityWifi"
+        },
+        {
+          "amenityName": "건물 내 무료 주차",
+          "icon": "AmenityParking"
+        },
+        {
+          "amenityName": "TV + 일반 케이블 TV",
+          "icon": "AmenityTv"
+        },
+        {
+          "amenityName": "세탁기",
+          "icon": "AmenityWasher"
+        },
+        {
+          "amenityName": "에어컨",
+          "icon": "AmenityAc"
+        },
+        {
+          "amenityName": "공용 파티오 또는 발코니",
+          "icon": "AmenityPatio"
+        },
+        {
+          "amenityName": "뒷마당",
+          "icon": "AmenityBackyard"
+        },
+        {
+          "amenityName": "실내 벽난로",
+          "icon": "AmenityFireplace"
+        }
+      ],
+      "roomInfo": [
+        {
+          "roomId": 1,
+          "beds": [
+            {
+              "bedType": "더블 침대",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "roomId": 2,
+          "beds": [
+            {
+              "bedType": "퀸사이즈 침대",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "desc": "Gangha-myeon, Yangpyeong, 경기도, 한국\n3km에 강변 공원이 있습니다.\n자동차로 10분 거리에 강하면 하나마트가 있습니다."
+    }
+  ]
+}
