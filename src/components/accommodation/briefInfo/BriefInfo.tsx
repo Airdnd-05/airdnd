@@ -1,9 +1,9 @@
 'use client'
 
-import RoomBedsInfo from '@components/accommodation/briefInfo/RoomBedsInfo'
-import Summary from '@components/accommodation/briefInfo/Summary'
-import briefInfo from '@/app/assets/data/brief-info.json'
-import ReservationCard from '@components/accommodation/briefInfo/ReservationCard'
+import RoomBedsInfo from '@/components/accommodation/briefInfo/RoomBedsInfo'
+import Summary from '@/components/accommodation/briefInfo/Summary'
+import briefInfo from '@data/brief-info.json'
+import ReservationCard from '@/components/accommodation/briefInfo/ReservationCard'
 
 const accommodation = briefInfo.accommodationInfo[0]
 

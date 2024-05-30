@@ -1,9 +1,9 @@
 'use client'
 
 import { useRef, useState } from 'react'
-import HeaderProfileModal from '@/app/modals/HeaderProfileModal'
-import HeaderProfileLogo from '@icons/HeaderProfile.svg'
-import useOnClickOutside from '@hooks/useOnclickOutside'
+import HeaderProfileModal from '@/modals/HeaderProfileModal'
+import useOnClickOutside from '@/hooks/useOnclickOutside'
+import Image from 'next/image'
 
 function HeaderProfile() {
   const [modal, setModal] = useState(false)
@@ -25,7 +25,7 @@ function HeaderProfile() {
             <div className="w-3.5 h-[0px] border border-solid border-gray-800"></div>
             <div className="w-3.5 h-[0px] border border-solid border-gray-800"></div>
           </div>
-          <HeaderProfileLogo />
+          <Image alt={'HeaderProfile'} src={'/images/HeaderProfile.svg'} width={34} height={36} />
         </div>
       </div>
       {modal && <HeaderProfileModal ref={ref} />}

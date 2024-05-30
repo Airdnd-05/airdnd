@@ -1,4 +1,4 @@
-import FilterButton from '@/app/components/common/button/FilterButton'
+import FilterButton from '@/components/common/button/FilterButton'
 
 export default function Home() {
   return (
