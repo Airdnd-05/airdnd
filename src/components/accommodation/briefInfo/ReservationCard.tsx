@@ -1,13 +1,13 @@
 'use client'
 
-import ReservationCardJson from '@/app/assets/data/ReservationCardJson.json'
+import ReservationCardJson from '@data/ReservationCardJson.json'
 
 function ReservationCard() {
   const data = ReservationCardJson
 
   return (
     <>
-      <div className="w-[373px] relative shadow absolute bg-white rounded-xl border border-solid border-neutral-200 p-6">
+      <div className="w-[373px] shadow bg-white rounded-xl border border-solid border-neutral-200 p-6">
         <div className="Text-neutral-800 text-[22px] font-[’SF Pro’] mb-6 font-bold text-left">
           {`₩${data['fee'].toLocaleString()}`} <div className="inline text-base font-light">/박</div>
         </div>

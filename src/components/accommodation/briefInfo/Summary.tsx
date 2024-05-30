@@ -1,7 +1,7 @@
 'use client'
 
-import RatingStar from '@icons/RatingStar.svg'
-import GuestFavorite from '@components/accommodation/briefInfo/GuestFavorite'
+import GuestFavorite from '@/components/accommodation/briefInfo/GuestFavorite'
+import Image from 'next/image'
 
 function Summary({ locationName, briefRoomInfo, guestFavorite, rating, reviewCount }) {
   return (
@@ -24,7 +24,7 @@ function Summary({ locationName, briefRoomInfo, guestFavorite, rating, reviewCou
           {!guestFavorite && (
             <div className="mt-2">
               <div className="flex items-center gap-1">
-                <RatingStar alt="ratingStar" className="w-4 h-4" />
+                <Image alt={'RatingStar'} src={`/images/RatingStar.svg`} width={32} height={32} />
                 <span className="text-base font-semibold">{rating}</span>
                 {reviewCount && (
                   <>

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import Header from '@components/common/layout/Header'
-import Footer from '@components/common/layout/Footer'
+import Header from '@/components/common/layout/Header'
+import Footer from '@/components/common/layout/Footer'
 
 function Layout({ children }) {
   // 최상단에 크기 조정 px로 ! full로 잡고 안에 컨텐츠들을 수정한다.

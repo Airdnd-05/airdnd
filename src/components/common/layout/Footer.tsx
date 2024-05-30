@@ -1,5 +1,4 @@
-import FooterIcon from '@icons/FooterIcon.svg'
-import HeaderWorld from '@icons/HeaderWorld.svg'
+import Image from 'next/image'
 
 function Footer() {
   const FooterItem = [
@@ -71,14 +70,16 @@ function Footer() {
             </ul>
             <ul className="flex flex-row items-center pr-10 text-sm">
               <li className="flex pr-2">
-                <HeaderWorld alt="world" className="pr-2" />
+                <Image alt={'HeaderWorld'} src={`/images/HeaderWorld.svg`} width={18} height={18} />
+                {/* <HeaderWorld alt="world" className="pr-2" /> */}
                 한국어(KR)
               </li>
               <li className="pr-2">
                 <b>₩</b> KRW
               </li>
               <li>
-                <FooterIcon />
+                <Image alt={'FooterIcon'} src={`/images/FooterIcon.svg`} width={27} height={27} />
+                {/* <FooterIcon /> */}
               </li>
             </ul>
           </div>

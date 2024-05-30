@@ -1,8 +1,7 @@
 'use client'
 
-import hostInfo from '@/app/assets/data/host-detail.json'
-import IsSuperHostIcon from '@icons/isSuperHostIcon.svg'
-import HostRate from '@icons/HostRate.svg'
+import hostInfo from '@data/host-detail.json'
+import Image from 'next/image'
 
 function HostInfoBox() {
   return (
@@ -15,8 +14,9 @@ function HostInfoBox() {
             <div className="text-xs font-bold">
               {hostInfo.hostProfile.isSuperHost ? (
                 <div className="flex flex-row">
-                  
-                  <IsSuperHostIcon width={16} height={16}/> <div className="text-[0.8rem]"> 슈퍼 호스트</div>
+                  <Image alt={'isSuperHostIcon'} src={`/images/isSuperHostIcon.svg`} width={16} height={16} />
+                  {/* <IsSuperHostIcon width={16} height={16} /> */}
+                  <div className="text-[0.8rem]"> 슈퍼 호스트</div>
                 </div>
               ) : (
                 <div>호스트</div>
@@ -40,7 +40,8 @@ function HostInfoBox() {
             <div className="text-[0.6rem] font-bold">평점</div>
             <div className="flex flex-row">
               <div className="text-2xl font-bold">{hostInfo.hostProfile.hostRate}</div>{' '}
-              <HostRate className="mt-[0.3rem]"/>
+              <Image alt={'HostRate'} src={`/images/HostRate.svg`} width={20} height={20} />
+              {/* <HostRate className="mt-[0.3rem]" /> */}
             </div>
             <hr className="mt-[0.4rem] w-[6rem] border-t border-gray-300"></hr>
           </div>

@@ -1,6 +1,6 @@
 'use client'
 
-import hostInfo from '@/app/assets/data/host-detail.json'
+import hostInfo from '@data/host-detail.json'
 
 const currentDate = new Date()
 const YEAR = currentDate.getFullYear()

@@ -1,15 +1,10 @@
 'use client'
 
 import React from 'react'
-import briefInfo from '@/app/assets/data/brief-info.json'
+import briefInfo from '@data/brief-info.json'
+import Image from 'next/image'
 
 const { amenities } = briefInfo.accommodationInfo[0]
-
-const AmenityIcon = ({ icon, alt }) => {
-  // Assuming icons are stored in a way that require can access them
-  const Icon = require(`@/app/assets/icons/${icon}.svg`).default
-  return <Icon alt={alt} />
-}
 
 function AmenityInfo() {
   return (
@@ -18,7 +13,7 @@ function AmenityInfo() {
       <div className="grid grid-cols-2 gap-4">
         {amenities.map((amenity, index) => (
           <div key={index} className="flex items-center">
-            <AmenityIcon icon={amenity.icon} alt={amenity.amenityName} />
+            <Image alt={amenity.amenityName} src={`/images/${amenity.icon}.svg`} width={32} height={32} />
             <p>{amenity.amenityName}</p>
           </div>
         ))}

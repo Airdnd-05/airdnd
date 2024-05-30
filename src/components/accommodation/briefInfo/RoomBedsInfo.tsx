@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useState } from 'react'
 
 function RoomBedsInfo({ roomInfo }) {
@@ -20,12 +21,6 @@ function RoomBedsInfo({ roomInfo }) {
 
   const displayedRooms = roomInfo.slice(currentIndex, currentIndex + itemsPerPage)
 
-  const BedIcon = ({ icon, alt }) => {
-    // Assuming icons are stored in a way that require can access them
-    const Icon = require(`@/app/assets/icons/${icon}.svg`).default
-    return <Icon alt={alt} />
-  }
-
   return (
     <div>
       <h2 className="mb-4 text-xl font-bold">숙박 장소</h2>
@@ -40,7 +35,7 @@ function RoomBedsInfo({ roomInfo }) {
             <div key={index} className="p-4 overflow-hidden border border-solid rounded-lg border-neutral-400">
               <div className="flex mb-2 justify-left">
                 {room.beds.map((bed, bedIndex) => (
-                  <BedIcon key={bedIndex} icon={bed.icon} alt={bed.bedType} />
+                  <Image alt={bed.icon} src={`/images/${bed.icon}.svg`} width={32} height={32} />
                 ))}
               </div>
               <div className="text-left">
