@@ -15,8 +15,8 @@ function HostInfoBox() {
             <div className="text-xs font-bold">
               {hostInfo.hostProfile.isSuperHost ? (
                 <div className="flex flex-row">
-                  {' '}
-                  <IsSuperHostIcon className="pr-[0.3rem] w-[1rem]" /> <div className="text-[0.8rem]"> 슈퍼 호스트</div>
+                  
+                  <IsSuperHostIcon width={16} height={16}/> <div className="text-[0.8rem]"> 슈퍼 호스트</div>
                 </div>
               ) : (
                 <div>호스트</div>
@@ -40,7 +40,7 @@ function HostInfoBox() {
             <div className="text-[0.6rem] font-bold">평점</div>
             <div className="flex flex-row">
               <div className="text-2xl font-bold">{hostInfo.hostProfile.hostRate}</div>{' '}
-              <HostRate className=" w-[0.8rem]" />
+              <HostRate className="mt-[0.3rem]"/>
             </div>
             <hr className="mt-[0.4rem] w-[6rem] border-t border-gray-300"></hr>
           </div>
