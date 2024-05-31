@@ -1,12 +1,16 @@
 'use client'
 
 import GuestFavorite from '@/components/accommodation/briefInfo/GuestFavorite'
+import clsx from 'clsx'
 import Image from 'next/image'
 
 function Summary({ locationName, briefRoomInfo, guestFavorite, rating, reviewCount }) {
   return (
     <>
-      <div className="z-50 flex flex-col justify-between h-auto py-8">
+      <div
+        className={clsx('z-50 flex flex-col justify-between h-auto py-8', {
+          'border-b border-neutral-300 border-solid': !guestFavorite,
+        })}>
         <section>
           <div className="mb-1">
             <h2 className="text-2xl font-semibold">{locationName}</h2>
