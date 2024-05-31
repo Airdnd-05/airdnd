@@ -4,6 +4,8 @@ import RoomBedsInfo from '@/components/accommodation/briefInfo/RoomBedsInfo'
 import Summary from '@/components/accommodation/briefInfo/Summary'
 import briefInfo from '@data/brief-info.json'
 import ReservationCard from '@/components/accommodation/briefInfo/ReservationCard'
+import HostProfile from './HostProfile'
+import AccomodationDesc from './AccomodationDesc'
 
 const accommodation = briefInfo.accommodationInfo[0]
 
@@ -18,6 +20,8 @@ function BriefInfo() {
           rating={accommodation.rating}
           reviewCount={accommodation.reviewCount}
         />
+        <HostProfile />
+        <AccomodationDesc desc={accommodation.desc} />
         {accommodation.roomInfo.length > 0 && <RoomBedsInfo roomInfo={accommodation.roomInfo} />}
       </div>
       <div className="flex justify-end w-4/12 pt-8 hidden md:inline">
