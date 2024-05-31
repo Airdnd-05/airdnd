@@ -20,7 +20,7 @@ function BriefInfo() {
         />
         {accommodation.roomInfo.length > 0 && <RoomBedsInfo roomInfo={accommodation.roomInfo} />}
       </div>
-      <div className="flex justify-end w-4/12 pt-8">
+      <div className="flex justify-end w-4/12 pt-8 hidden md:inline">
         <ReservationCard />
       </div>
     </div>
