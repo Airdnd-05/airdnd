@@ -14,9 +14,9 @@ function HeartButton() {
       }}>
       {/* {valid ? <UseHeartSvg className="mt-0.5 mr-2 size-5" /> : <UnUseHeartSvg className="mt-0.5 mr-2 size-5" />} */}
       {valid ? (
-        <Image alt={'useHeartIcon'} src={`/images/useHeartIcon.svg`} width={32} height={32} />
+        <Image alt={'useHeartIcon'} src={`/images/useHeartIcon.svg`} width={16} height={16} className="m-1" />
       ) : (
-        <Image alt={'unUseHeartIcon'} src={`/images/unUseHeartIcon.svg`} width={32} height={32} />
+        <Image alt={'unUseHeartIcon'} src={`/images/unUseHeartIcon.svg`} width={16} height={16} className="m-1" />
       )}
       <div className="underline">{valid ? '저장 목록' : '저장'}</div>
     </button>
@@ -26,7 +26,7 @@ function HeartButton() {
 function ShareButton() {
   return (
     <button className="flex p-2 mr-4 hover:bg-gray-200">
-      <Image alt={'shareIcon'} src={`/images/shareIcon.svg`} width={32} height={32} />
+      <Image alt={'shareIcon'} src={`/images/shareIcon.svg`} width={16} height={16} className="m-1" />
       <div className="underline">공유하기</div>
     </button>
   )
@@ -43,12 +43,11 @@ function DetailPageBanner() {
   const titleInfo = detailPageBanner.detailPage1.titleInfo
 
   return (
-    <div className="mx-20">
-      <div className="flex justify-between mb-3">
-        <div className="text-2xl font-bold">{titleInfo}</div>
+    <div>
+      <div className="flex justify-between mb-5">
+        <div className="text-2xl font-bold mt-6">{titleInfo}</div>
         <div className="flex items-end">
           <ShareButton />
-
           <HeartButton />
         </div>
       </div>

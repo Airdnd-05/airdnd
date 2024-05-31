@@ -1,15 +1,16 @@
 'use client'
 
 import ReservationCardJson from '@data/ReservationCardJson.json'
+import { formatWithComma, totalPrice, priceWithDays } from '@/utils/formatingPrice'
 
 function ReservationCard() {
   const data = ReservationCardJson
 
   return (
     <>
-      <div className="w-[373px] shadow bg-white rounded-xl border border-solid border-neutral-200 p-6">
-        <div className="Text-neutral-800 text-[22px] font-[’SF Pro’] mb-6 font-bold text-left">
-          {`₩${data['fee'].toLocaleString()}`} <div className="inline text-base font-light">/박</div>
+      <div className=" shadow-lg bg-white rounded-xl border border-solid border-neutral-200 p-5">
+        <div className="Text-neutral-800 text-[22px] font-[’SF Pro’] mb-6 font-semibold text-left">
+          {formatWithComma(data.fee)} <div className="inline text-base font-normal">/박</div>
         </div>
         <div className="mb-3 text-left border border-solid rounded-lg border-neutral-400">
           <div className="flex flex-row">
@@ -28,17 +29,17 @@ function ReservationCard() {
           </div>
         </div>
         <button className="w-full py-4 my-1 text-white rounded-lg bg-rose-600"> 예약하기 </button>
-        <div className="text-zinc-600 text-sm font-normal font-['SF Pro'] my-3">
+        <div className="text-center text-zinc-600 text-sm font-normal font-['SF Pro'] my-3">
           예약 확정 전에는 요금이 청구되지 않습니다.
         </div>
-        <div className="flex flex-row justify-between my-8 ">
-          <div className="underline">{`₩${data['fee'].toLocaleString()} x ${data['days']}박`}</div>
-          <div>{`₩${(data['fee'] * data['days']).toLocaleString()}`}</div>
+        <div className="flex flex-row justify-between my-6 ">
+          <div className="underline">{priceWithDays(data.fee, data.days)}</div>
+          <div>{totalPrice(data.fee, data.days)}</div>
         </div>
         <hr />
-        <div className="flex flex-row justify-between mb-1 font-semibold mt-7">
+        <div className="flex flex-row justify-between mb-1 font-semibold mt-6">
           <div>총 합계</div>
-          <div>{`₩${(data['fee'] * data['days']).toLocaleString()}`}</div>
+          <div>{totalPrice(data.fee, data.days)}</div>
         </div>
       </div>
     </>
