@@ -1,29 +1,10 @@
-'use client'
-import { useState } from 'react'
-import HeaderNavItem from '@/components/common/Header/HeaderNavItem'
-import SearchBar from '@/components/common/Header/SearchBar'
 import HeaderProfile from '@/components/common/Header/HeaderProfile'
 import Image from 'next/image'
 
 function Header() {
-  const [selected, setSelected] = useState('accommodation')
-  const MainNav = [
-    {
-      key: 'accommodation',
-      title: '숙소',
-    },
-    {
-      key: 'experience',
-      title: '체험',
-    },
-    {
-      key: 'online',
-      title: '온라인 체험',
-    },
-  ]
   return (
     <>
-      <header className="h-[168px] bg-white border-b border-solid border-gray-200 px-20">
+      <header className="h-[80px] bg-white border-b border-solid border-gray-200 px-20">
         <div className="grid grid-cols-3 h-[80px] mx-[8.5rem]">
           <div className="flex">
             <Image
@@ -31,17 +12,27 @@ function Header() {
               src={`/images/HeaderLogo.svg`}
               width={0}
               height={0}
-              priority
               style={{ width: 120, height: 32 }}
             />
           </div>
-          <nav className="flex items-center justify-center">
-            <ul className="flex items-center justify-center">
-              {MainNav.map(nav => (
-                <HeaderNavItem nav={nav} selected={selected} onSelected={setSelected} key={nav.key} />
-              ))}
-            </ul>
-          </nav>
+          <div className="flex items-center justify-center">
+            <div className="bg-white rounded-full shadow border border-solid border-gray-200 flex justify-center items-center gap-1 p-1 h-[50px] text-sm">
+              <button className="ml-3">어디든지</button>
+              <span className="w-6 h-[0px] rotate-90 border border-solid border-gray-200 inline"></span>
+              <button>언제든 일주일</button>
+              <span className="w-6 h-[0px] rotate-90 border border-solid border-gray-200"></span>
+              <button>게스트 추가</button>
+              <button className="ml-3 mr-1">
+                <Image
+                  alt={'HeaderSearch'}
+                  src={`/images/HeaderSearch.svg`}
+                  width={0}
+                  height={0}
+                  style={{ width: 32, height: 32 }}
+                />
+              </button>
+            </div>
+          </div>
           <div className="flex flex-row justify-end">
             <div className="flex flex-row items-center">
               <p className="mr-5 text-sm">당신의 공간을 에어비앤비하세요.</p>
@@ -56,7 +47,6 @@ function Header() {
             <HeaderProfile />
           </div>
         </div>
-        <SearchBar />
       </header>
     </>
   )

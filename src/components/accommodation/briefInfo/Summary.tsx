@@ -1,9 +1,11 @@
-'use client'
-
 import GuestFavorite from '@/components/accommodation/briefInfo/GuestFavorite'
-import Image from 'next/image'
+import NonGuestFavorite from '@/components/accommodation/briefInfo/NonGuestFavorite'
+import fetchRoomsData from '@/utils/fetchRoomsData'
 
-function Summary({ locationName, briefRoomInfo, guestFavorite, rating, reviewCount }) {
+async function Summary({ id }) {
+  const fields = ['locationName', 'briefRoomInfo', 'guestFavorite']
+  const { locationName, briefRoomInfo, guestFavorite } = await fetchRoomsData(id, fields)
+
   return (
     <>
       <div className="z-50 flex flex-col justify-between h-auto py-8">
@@ -21,23 +23,10 @@ function Summary({ locationName, briefRoomInfo, guestFavorite, rating, reviewCou
               ))}
             </ol>
           </div>
-          {!guestFavorite && (
-            <div className="mt-2">
-              <div className="flex items-center gap-1">
-                <Image alt={'RatingStar'} src={`/images/RatingStar.svg`} width={32} height={32} />
-                <span className="text-base font-semibold">{rating}</span>
-                {reviewCount && (
-                  <>
-                    <span> · </span>
-                    <span className="text-base underline cursor-pointer">후기 {reviewCount}개</span>
-                  </>
-                )}
-              </div>
-            </div>
-          )}
+          {!guestFavorite && <NonGuestFavorite id={id} />}
         </section>
       </div>
-      {guestFavorite && <GuestFavorite rating={rating} reviewCount={reviewCount} />}
+      {guestFavorite && <GuestFavorite id={id} />}
     </>
   )
 }

@@ -4,6 +4,8 @@ import Image from 'next/image'
 import { useState } from 'react'
 
 function RoomBedsInfo({ roomInfo }) {
+  if (!roomInfo?.length) return null
+
   const [currentIndex, setCurrentIndex] = useState(0)
   const itemsPerPage = 3
 
@@ -22,7 +24,7 @@ function RoomBedsInfo({ roomInfo }) {
   const displayedRooms = roomInfo.slice(currentIndex, currentIndex + itemsPerPage)
 
   return (
-    <div>
+    <div className="py-12 border-b border-solid border-neutral-300 ">
       <h2 className="mb-4 text-xl font-bold">숙박 장소</h2>
       <div className="flex items-center">
         {currentIndex > 0 && (
@@ -32,10 +34,12 @@ function RoomBedsInfo({ roomInfo }) {
         )}
         <div className="grid flex-grow grid-cols-1 gap-4 md:grid-cols-3">
           {displayedRooms.map((room, index) => (
-            <div key={index} className="p-4 overflow-hidden border border-solid rounded-lg border-neutral-400">
+            <div
+              key={index}
+              className="p-4 overflow-hidden border border-solid rounded-lg border-neutral-400 h-[212px]">
               <div className="flex mb-2 justify-left">
                 {room.beds.map((bed, bedIndex) => (
-                  <Image alt={bed.icon} src={`/images/${bed.icon}.svg`} width={32} height={32} />
+                  <Image key={bedIndex} alt={bed.icon} src={`/images/${bed.icon}.svg`} width={32} height={32} />
                 ))}
               </div>
               <div className="text-left">

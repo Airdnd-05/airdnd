@@ -1,8 +1,7 @@
 'use client'
-
 import { useRef, useState } from 'react'
-import HeaderProfileModal from '@/modals/HeaderProfileModal'
 import useOnClickOutside from '@/hooks/useOnclickOutside'
+import HeaderProfileModal from '@/modals/HeaderProfileModal'
 import Image from 'next/image'
 
 function HeaderProfile() {
@@ -18,8 +17,10 @@ function HeaderProfile() {
 
   return (
     <div className="relative flex">
-      <div className="relative flex items-center ml-5 cursor-pointer flex-column" onClick={handleButtonClick}>
-        <div className="w-[81px] h-[41px] flex flex-row items-center justify-around bg-white rounded-[29px] border border-solid border-gray-200 p-1px hover:shadow-md">
+      <button type="button" className="relative flex items-center ml-5 cursor-pointer flex-column">
+        <div
+          className="w-[81px] h-[41px] flex flex-row items-center justify-around bg-white rounded-[29px] border border-solid border-gray-200 p-1px hover:shadow-md"
+          onClick={handleButtonClick}>
           <div className="inline-flex flex-col items-start justify-start gap-1">
             <div className="w-3.5 h-[0px] border border-solid border-gray-800"></div>
             <div className="w-3.5 h-[0px] border border-solid border-gray-800"></div>
@@ -27,7 +28,7 @@ function HeaderProfile() {
           </div>
           <Image alt={'HeaderProfile'} src={'/images/HeaderProfile.svg'} width={34} height={36} />
         </div>
-      </div>
+      </button>
       {modal && <HeaderProfileModal ref={ref} />}
     </div>
   )
