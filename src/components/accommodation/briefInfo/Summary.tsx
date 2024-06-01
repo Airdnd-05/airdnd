@@ -1,13 +1,10 @@
-'use client'
-
 import GuestFavorite from '@/components/accommodation/briefInfo/GuestFavorite'
 import NonGuestFavorite from '@/components/accommodation/briefInfo/NonGuestFavorite'
-import { useAccommodationId } from '@/context/AccommodationContext'
-import clsx from 'clsx'
-import Image from 'next/image'
+import fetchRoomsData from '@/utils/fetchRoomsData'
 
-function Summary({ locationName, briefRoomInfo, guestFavorite, id, children }) {
-  // const id = useAccommodationId()
+async function Summary({ id }) {
+  const fields = ['locationName', 'briefRoomInfo', 'guestFavorite']
+  const { locationName, briefRoomInfo, guestFavorite } = await fetchRoomsData(id, fields)
 
   return (
     <>
@@ -26,9 +23,10 @@ function Summary({ locationName, briefRoomInfo, guestFavorite, id, children }) {
               ))}
             </ol>
           </div>
-          {children}
+          {!guestFavorite && <NonGuestFavorite id={id} />}
         </section>
       </div>
+      {guestFavorite && <GuestFavorite id={id} />}
     </>
   )
 }

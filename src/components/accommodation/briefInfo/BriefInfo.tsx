@@ -3,29 +3,24 @@ import Summary from '@/components/accommodation/briefInfo/Summary'
 import briefInfo from '@data/brief-info.json'
 import ReservationCard from '@/components/accommodation/briefInfo/ReservationCard'
 import HostProfile from './HostProfile'
-import AccomodationDesc from './AccomodationDesc'
-import GuestFavorite from '@/components/accommodation/briefInfo/GuestFavorite'
-import NonGuestFavorite from '@/components/accommodation/briefInfo/NonGuestFavorite'
+import AccommodationDesc from './AccommodationDesc'
+import fetchRoomsData from '@/utils/fetchRoomsData'
 
 const accommodation = briefInfo.accommodationInfo[1]
 
-function BriefInfo({ id }) {
+async function BriefInfo({ id }) {
+  const fields = ['roomInfo']
+  const roomInfo = await fetchRoomsData(id, fields)
+
   return (
     <div className="flex flex-row justify-between">
       <div className="flex flex-col w-7/12">
-        <Summary
-          locationName={accommodation.locationName}
-          briefRoomInfo={accommodation.briefRoomInfo}
-          guestFavorite={accommodation.guestFavorite}
-          id={id}>
-          <NonGuestFavorite id={id} />
-        </Summary>
-        <GuestFavorite id={id} />
-        <HostProfile />
-        <AccomodationDesc desc={accommodation.desc} />
-        {accommodation.roomInfo.length > 0 && <RoomBedsInfo roomInfo={accommodation.roomInfo} />}
+        <Summary id={id} />
+        <HostProfile id={id} />
+        <AccommodationDesc id={id} />
+        <RoomBedsInfo roomInfo={roomInfo.roomInfo} />
       </div>
-      <div className="flex justify-end hidden w-4/12 pt-8 md:inline">
+      <div className="flex justify-end w-4/12 pt-8 md:inline">
         <ReservationCard />
       </div>
     </div>
