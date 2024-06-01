@@ -8,7 +8,7 @@ const { amenities } = briefInfo.accommodationInfo[0]
 
 function AmenityInfo() {
   return (
-    <div className="p-4 pl-0 border rounded-lg">
+    <div className="py-12 border-b border-solid border-neutral-300 ">
       <h2 className="mb-4 text-xl font-bold">숙소 편의시설</h2>
       <div className="grid grid-cols-2 gap-4">
         {amenities.map((amenity, index) => (

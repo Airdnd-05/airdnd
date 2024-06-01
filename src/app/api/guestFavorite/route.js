@@ -20,18 +20,32 @@ export async function GET(request) {
     // 2 데이터베이스 연산 작업을 모의로 수행한다.
     /*
     SELECT
-            accommodationId, accommodationName, imageUrl
+            guestFavorite, rating, reviewCount
     FROM
             accommodation_info 
+    WHERE
+            accommodationId = id;
     */
-    const accommodationInfo = accommodations.map(accommodation => ({
-      accommodationId: accommodation.accommodationId,
-      accommodationName: accommodation.accommodationName,
-      imageUrl: accommodation.imageUrl[0],
-    }))
+    const id = new URL(request.url).searchParams.get('id')
+
+    if (!id) {
+      throw new Error('Accommodation ID is missing')
+    }
+
+    const accommodation = accommodations.find(accommodation => accommodation.accommodationId == id)
+
+    if (!accommodation) {
+      return NextResponse.json({ error: 'Accommodation not found' }, { status: 404 })
+    }
+
+    const record = {
+      guestFavorite: accommodation.guestFavorite,
+      rating: accommodation.rating,
+      reviewCount: accommodation.reviewCount,
+    }
 
     // 3 클라이언트에게 JSON 형식으로 응답한다.
-    return NextResponse.json(accommodationInfo, {
+    return NextResponse.json(record, {
       status: 200,
       headers: {
         'Content-Type': 'application/json',
