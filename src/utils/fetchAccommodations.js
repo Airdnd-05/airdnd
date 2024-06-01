@@ -1,4 +1,5 @@
-import { isDynamicServerError } from 'next/dist/client/components/hooks-server-context'
+// import 'server-only'
+// import { isDynamicServerError } from 'next/dist/client/components/hooks-server-context'
 
 async function fetchAccommodations() {
   try {
@@ -7,8 +8,14 @@ async function fetchAccommodations() {
       headers: {
         'Content-Type': 'application/json',
       },
-      cache: 'no-store',
     })
+    // const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/accommodations`, {
+    //   method: 'GET',
+    //   headers: {
+    //     'Content-Type': 'application/json',
+    //   },
+    //   cache: 'no-store',
+    // })
     // console.log('----------------------Accommodations response: ', response)
 
     if (!response.ok) {
@@ -24,9 +31,6 @@ async function fetchAccommodations() {
 
     return records
   } catch (error) {
-    if (isDynamicServerError(error)) {
-      throw error
-    }
     throw new Error(error)
   }
 }

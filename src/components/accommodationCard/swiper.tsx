@@ -1,4 +1,3 @@
-
 // export default function App() {
 //   return (
 //     <>
@@ -24,13 +23,8 @@
 //     </>
 //   );
 // }
-function SwiperCard({imgUrl}){
-
-    return ( 
-
-        <></>
-            
-    )
+function SwiperCard() {
+  return <></>
 }
 
 export default SwiperCard
