@@ -41,8 +41,8 @@ function SearchBar() {
   }
 
   return (
-    <div className="flex items-center justify-center">
-      <div className="bg-white rounded-full shadow border border-solid border-gray-200 flex items-center h-[66px] text-sm w-full max-w-3xl">
+    <div className='flex items-center justify-center'>
+      <div className='flex h-[66px] w-full max-w-3xl items-center rounded-full border border-solid border-gray-200 bg-white text-sm shadow'>
         <div
           ref={el => {
             MenuRef.current[0] = el
@@ -50,16 +50,16 @@ function SearchBar() {
           onClick={() => handleClick(0)}
           onMouseEnter={() => handleHover(0, true)}
           onMouseLeave={() => handleHover(0, false)}
-          className="flex flex-col justify-center flex-grow px-2 relative group hover:bg-gray-200 rounded-full h-full pl-[14px]">
-          <div className="text-xs pb-1">여행지</div>
+          className='group relative flex h-full flex-grow flex-col justify-center rounded-full px-2 pl-[14px] hover:bg-gray-200'>
+          <div className='pb-1 text-xs'>여행지</div>
           <input
-            type="search"
-            name="q"
-            placeholder="여행지 검색"
-            className="w-full focus:outline-none bg-inherit font-bold"
+            type='search'
+            name='q'
+            placeholder='여행지 검색'
+            className='w-full bg-inherit font-bold focus:outline-none'
           />
         </div>
-        <div className="border-r border-gray-300 border-solid h-5"></div>
+        <div className='h-5 border-r border-solid border-gray-300'></div>
 
         <div
           ref={el => {
@@ -68,11 +68,11 @@ function SearchBar() {
           onClick={() => handleClick(1)}
           onMouseEnter={() => handleHover(1, true)}
           onMouseLeave={() => handleHover(1, false)}
-          className="relative group flex flex-col justify-center display-block py-[10px] px-[14px] flex-grow hover:bg-gray-200 rounded-full h-full">
-          <div className="text-xs pb-1 ">체크인</div>
-          <div className="">날짜 추가</div>
+          className='display-block group relative flex h-full flex-grow flex-col justify-center rounded-full px-[14px] py-[10px] hover:bg-gray-200'>
+          <div className='pb-1 text-xs'>체크인</div>
+          <div className=''>날짜 추가</div>
         </div>
-        <div className="border-r border-gray-300 border-solid h-5"></div>
+        <div className='h-5 border-r border-solid border-gray-300'></div>
 
         <div
           ref={el => {
@@ -81,11 +81,11 @@ function SearchBar() {
           onClick={() => handleClick(2)}
           onMouseEnter={() => handleHover(2, true)}
           onMouseLeave={() => handleHover(2, false)}
-          className="relative group flex flex-col justify-center display-block py-[10px] px-[14px] flex-grow hover:bg-gray-200 rounded-full h-full">
-          <div className="text-xs pb-1">체크아웃</div>
-          <div className="relative z-10">날짜 추가</div>
+          className='display-block group relative flex h-full flex-grow flex-col justify-center rounded-full px-[14px] py-[10px] hover:bg-gray-200'>
+          <div className='pb-1 text-xs'>체크아웃</div>
+          <div className='relative z-10'>날짜 추가</div>
         </div>
-        <div className="border-r border-gray-300 border-solid h-5"></div>
+        <div className='h-5 border-r border-solid border-gray-300'></div>
 
         <div
           ref={el => {
@@ -94,10 +94,10 @@ function SearchBar() {
           onClick={() => handleClick(3)}
           onMouseEnter={() => handleHover(3, true)}
           onMouseLeave={() => handleHover(3, false)}
-          className="flex justify-between relative group display-block py-[10px] px-[14px] flex-grow hover:bg-gray-200 rounded-full h-full">
-          <div className="flex flex-col justify-center">
-            <div className="text-xs pb-1">여행자</div>
-            <div className="">게스트 추가</div>
+          className='display-block group relative flex h-full flex-grow justify-between rounded-full px-[14px] py-[10px] hover:bg-gray-200'>
+          <div className='flex flex-col justify-center'>
+            <div className='pb-1 text-xs'>여행자</div>
+            <div className=''>게스트 추가</div>
           </div>
           <div>
             <button>
