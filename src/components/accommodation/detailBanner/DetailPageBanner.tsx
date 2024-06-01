@@ -45,7 +45,7 @@ function DetailPageBanner() {
   return (
     <div>
       <div className="flex justify-between mb-5">
-        <div className="text-2xl font-bold mt-6">{titleInfo}</div>
+        <div className="mt-6 text-2xl font-bold">{titleInfo}</div>
         <div className="flex items-end">
           <ShareButton />
           <HeartButton />
@@ -58,10 +58,16 @@ function DetailPageBanner() {
             <img className="w-full hover:brightness-75" src={mainIng.https}></img>
           </div>
         </div>
-        {detailImg.map(eachImg => {
+        {detailImg.map((eachImg, index) => {
           return (
-            <div>
-              <img className="w-full hover:brightness-75" src={eachImg.https}></img>
+            <div key={index} className="relative">
+              <Image
+                alt={'대체 이미지'}
+                className="w-full hover:brightness-75"
+                src={eachImg.https}
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
             </div>
           )
         })}

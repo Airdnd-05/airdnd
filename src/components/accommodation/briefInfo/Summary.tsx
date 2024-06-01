@@ -1,16 +1,17 @@
 'use client'
 
 import GuestFavorite from '@/components/accommodation/briefInfo/GuestFavorite'
+import NonGuestFavorite from '@/components/accommodation/briefInfo/NonGuestFavorite'
+import { useAccommodationId } from '@/context/AccommodationContext'
 import clsx from 'clsx'
 import Image from 'next/image'
 
-function Summary({ locationName, briefRoomInfo, guestFavorite, rating, reviewCount }) {
+function Summary({ locationName, briefRoomInfo, guestFavorite, id, children }) {
+  // const id = useAccommodationId()
+
   return (
     <>
-      <div
-        className={clsx('z-50 flex flex-col justify-between h-auto py-8', {
-          'border-b border-neutral-300 border-solid': !guestFavorite,
-        })}>
+      <div className="z-50 flex flex-col justify-between h-auto py-8">
         <section>
           <div className="mb-1">
             <h2 className="text-2xl font-semibold">{locationName}</h2>
@@ -25,23 +26,9 @@ function Summary({ locationName, briefRoomInfo, guestFavorite, rating, reviewCou
               ))}
             </ol>
           </div>
-          {!guestFavorite && (
-            <div className="mt-2">
-              <div className="flex items-center gap-1">
-                <Image alt={'RatingStar'} src={`/images/RatingStar.svg`} width={32} height={32} />
-                <span className="text-base font-semibold">{rating}</span>
-                {reviewCount && (
-                  <>
-                    <span> · </span>
-                    <span className="text-base underline cursor-pointer">후기 {reviewCount}개</span>
-                  </>
-                )}
-              </div>
-            </div>
-          )}
+          {children}
         </section>
       </div>
-      {guestFavorite && <GuestFavorite rating={rating} reviewCount={reviewCount} />}
     </>
   )
 }
