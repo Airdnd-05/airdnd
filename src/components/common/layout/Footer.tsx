@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import FooterSection from '@/components/common/Footer/FooterSection'
+import FooterInfoItem from '@/components/common/Footer/FooterInfoItem'
 
 function Footer() {
   const FooterItem = [
@@ -47,14 +49,7 @@ function Footer() {
       <div className="flex flex-col mx-[8.5rem] bg-gray-100">
         <div className="grid grid-cols-3 gap-16px border-y-2 py-[30px]">
           {FooterItem.map((section, index) => (
-            <ul key={index} className="flex flex-col items-start space-y-2 text-sm">
-              <li className="first:font-bold">{section.title}</li>
-              {section.items.map((item, idx) => (
-                <li className="cursor-pointer hover:underline" key={idx}>
-                  {item}
-                </li>
-              ))}
-            </ul>
+            <FooterSection key={index} section={section} />
           ))}
         </div>
 
@@ -62,24 +57,19 @@ function Footer() {
           <div className="flex justify-between w-full">
             <ul className="flex flex-row items-center pr-10 text-sm">
               {FooterInfo.map((item, index) => (
-                <li className="pr-2 cursor-pointer hover:underline" key={index}>
-                  {index !== 0 && <span className="mr-2"></span>}
-                  {item.title}
-                </li>
+                <FooterInfoItem key={index} item={item} index={index} />
               ))}
             </ul>
             <ul className="flex flex-row items-center pr-10 text-sm">
               <li className="flex pr-2">
-                <Image alt={'HeaderWorld'} src={`/images/HeaderWorld.svg`} width={18} height={18} />
-                {/* <HeaderWorld alt="world" className="pr-2" /> */}
+                <Image className="mr-2" alt={'HeaderWorld'} src={`/images/HeaderWorld.svg`} width={18} height={18} />
                 한국어(KR)
               </li>
               <li className="pr-2">
                 <b>₩</b> KRW
               </li>
               <li>
-                <Image alt={'FooterIcon'} src={`/images/FooterIcon.svg`} width={27} height={27} />
-                {/* <FooterIcon /> */}
+                <Image alt={'FooterIcon'} src={`/images/FooterIcon.svg`} width={160} height={27} />
               </li>
             </ul>
           </div>
