@@ -1,15 +1,7 @@
 import FilterButton from '@/components/common/button/FilterButton'
 import Image from 'next/image'
 import Link from 'next/link'
-
-async function fetchAccommodations() {
-  const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/accommodations`)
-  if (!response.ok) {
-    throw new Error('Failed to fetch accommodation data')
-  }
-  const data = await response.json()
-  return data.accommodationInfo
-}
+import fetchAccommodations from '@/utils/fetchAccommodations'
 
 export default async function Home() {
   const accommodations = await fetchAccommodations()
@@ -29,7 +21,13 @@ export default async function Home() {
             key={index}
             className="w-full p-2 border border-gray-200 rounded-lg shadow-md sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 2xl:w-1/6">
             <div className="relative w-full pt-[100%]">
-              <Image src={accommodation.imageUrl} alt={accommodation.accommodationName} fill className="object-cover" />
+              <Image
+                src={accommodation.imageUrl}
+                alt={accommodation.accommodationName}
+                fill
+                className="object-cover"
+                sizes="(min-width: 229px) 50vw, 100vw"
+              />
             </div>
             <div className="p-2">
               <h2 className="text-lg font-semibold">{accommodation.accommodationName}</h2>

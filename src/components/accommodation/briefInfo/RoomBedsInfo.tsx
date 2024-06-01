@@ -4,6 +4,8 @@ import Image from 'next/image'
 import { useState } from 'react'
 
 function RoomBedsInfo({ roomInfo }) {
+  if (!roomInfo?.length) return null
+
   const [currentIndex, setCurrentIndex] = useState(0)
   const itemsPerPage = 3
 
@@ -37,7 +39,7 @@ function RoomBedsInfo({ roomInfo }) {
               className="p-4 overflow-hidden border border-solid rounded-lg border-neutral-400 h-[212px]">
               <div className="flex mb-2 justify-left">
                 {room.beds.map((bed, bedIndex) => (
-                  <Image alt={bed.icon} src={`/images/${bed.icon}.svg`} width={32} height={32} />
+                  <Image key={bedIndex} alt={bed.icon} src={`/images/${bed.icon}.svg`} width={32} height={32} />
                 ))}
               </div>
               <div className="text-left">

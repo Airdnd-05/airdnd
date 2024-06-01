@@ -11,10 +11,10 @@ function AccommodationPage({ params }) {
   return (
     // <AccommodationProvider id={id}>
     <>
-      <DetailPageBanner />
+      <DetailPageBanner id={id} />
       <BriefInfo id={id} />
-      <AmenityInfo />
-      <HostDetail />
+      <AmenityInfo id={id} />
+      <HostDetail id={id} />
       <BedsInfo />
     </>
     // </AccommodationProvider>

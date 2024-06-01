@@ -8,6 +8,7 @@
       "guestFavorite": true,
       "rating": "4.78",
       "reviewCount": "23",
+      "hostId": 1,
       "hostName": "Shinku",
       "hostSince": 2014,
       "pricePerDay": 30000,
@@ -66,19 +67,23 @@
           "beds": [
             {
               "bedType": "이층 침대",
-              "count": 1
+              "count": 1,
+              "icon": "RoomBunkBed"
             },
             {
               "bedType": "소파",
-              "count": 1
+              "count": 1,
+              "icon": "RoomCouch"
             },
             {
               "bedType": "바닥용 에어 매트리스",
-              "count": 1
+              "count": 1,
+              "icon": "RoomAirMattress"
             },
             {
               "bedType": "요와 이불",
-              "count": 2
+              "count": 2,
+              "icon": "RoomFloorMattress"
             }
           ]
         },
@@ -87,11 +92,13 @@
           "beds": [
             {
               "bedType": "이층 침대",
-              "count": 1
+              "count": 1,
+              "icon": "RoomBunkBed"
             },
             {
               "bedType": "요와 이불",
-              "count": 1
+              "count": 1,
+              "icon": "RoomFloorMattress"
             }
           ]
         },
@@ -100,11 +107,13 @@
           "beds": [
             {
               "bedType": "이층 침대",
-              "count": 1
+              "count": 1,
+              "icon": "RoomBunkBed"
             },
             {
               "bedType": "요와 이불",
-              "count": 1
+              "count": 1,
+              "icon": "RoomFloorMattress"
             }
           ]
         },
@@ -113,15 +122,18 @@
           "beds": [
             {
               "bedType": "이층 침대",
-              "count": 1
+              "count": 1,
+              "icon": "RoomBunkBed"
             },
             {
               "bedType": "바닥용 에어 매트리스",
-              "count": 1
+              "count": 1,
+              "icon": "RoomAirMattress"
             },
             {
               "bedType": "요와 이불",
-              "count": 2
+              "count": 2,
+              "icon": "RoomFloorMattress"
             }
           ]
         },
@@ -130,11 +142,13 @@
           "beds": [
             {
               "bedType": "이층 침대",
-              "count": 1
+              "count": 1,
+              "icon": "RoomBunkBed"
             },
             {
               "bedType": "요와 이불",
-              "count": 1
+              "count": 1,
+              "icon": "RoomFloorMattress"
             }
           ]
         },
@@ -143,11 +157,13 @@
           "beds": [
             {
               "bedType": "이층 침대",
-              "count": 1
+              "count": 1,
+              "icon": "RoomBunkBed"
             },
             {
               "bedType": "요와 이불",
-              "count": 1
+              "count": 1,
+              "icon": "RoomFloorMattress"
             }
           ]
         }
@@ -163,6 +179,7 @@
       "rating": "4.87",
       "reviewCount": "67",
       "pricePerDay": 79705,
+      "hostId": 2,
       "hostName": "Blue Twelve 양양네오스",
       "hostSince": 2023,
       "imageUrl": [
@@ -225,6 +242,7 @@
       "guestFavorite": false,
       "rating": "5.0",
       "reviewCount": "3",
+      "hostId": 3,
       "hostName": "Sahee",
       "hostSince": 2022,
       "pricePerDay": 1320000,
@@ -293,6 +311,7 @@
       "rating": "4.93",
       "reviewCount": "213",
       "pricePerDay": 360000,
+      "hostId": 4,
       "hostName": "Sangkuk",
       "hostSince": 2020,
       "imageUrl": [
@@ -374,6 +393,7 @@
       "guestFavorite": true,
       "rating": "4.88",
       "reviewCount": "124",
+      "hostId": 5,
       "hostName": "Miyoung",
       "hostSince": 2021,
       "pricePerDay": 100000,
@@ -448,6 +468,7 @@
       "rating": "4.96",
       "reviewCount": "94",
       "pricePerDay": 297000,
+      "hostId": 6,
       "hostName": "Kwanghoe",
       "hostSince": 2024,
       "imageUrl": [
@@ -520,6 +541,7 @@
       "guestFavorite": true,
       "rating": "4.91",
       "reviewCount": "149",
+      "hostId": 7,
       "hostName": "Yeoulmok",
       "hostSince": 2021,
       "pricePerDay": 99000,
@@ -594,6 +616,7 @@
       "rating": "4.97",
       "reviewCount": "121",
       "pricePerDay": 150000,
+      "hostId": 8,
       "hostName": "Mia",
       "hostSince": 2022,
       "imageUrl": [
@@ -652,6 +675,7 @@
       "guestFavorite": false,
       "rating": "4.39",
       "reviewCount": "23",
+      "hostId": 9,
       "hostName": "Pastel Gapyeong",
       "hostSince": 2017,
       "pricePerDay": 99800,
@@ -714,7 +738,8 @@
             },
             {
               "bedType": "요와 이불",
-              "count": 2
+              "count": 2,
+              "icon": "RoomFloorMattress"
             }
           ]
         }
@@ -730,6 +755,7 @@
       "rating": "4.82",
       "reviewCount": "304",
       "pricePerDay": 49999,
+      "hostId": 10,
       "hostName": "Nene",
       "hostSince": 2019,
       "imageUrl": [
@@ -787,11 +813,13 @@
           "beds": [
             {
               "bedType": "이층 침대",
-              "count": 1
+              "count": 1,
+              "icon": "RoomBunkBed"
             },
             {
               "bedType": "소파",
-              "count": 1
+              "count": 1,
+              "icon": "RoomCouch"
             },
             {
               "bedType": "에어매트리스",
@@ -799,7 +827,8 @@
             },
             {
               "bedType": "요와 이불",
-              "count": 2
+              "count": 2,
+              "icon": "RoomFloorMattress"
             }
           ]
         },
@@ -808,11 +837,13 @@
           "beds": [
             {
               "bedType": "이층 침대",
-              "count": 1
+              "count": 1,
+              "icon": "RoomBunkBed"
             },
             {
               "bedType": "요와 이불",
-              "count": 1
+              "count": 1,
+              "icon": "RoomFloorMattress"
             }
           ]
         },
@@ -821,11 +852,13 @@
           "beds": [
             {
               "bedType": "이층 침대",
-              "count": 1
+              "count": 1,
+              "icon": "RoomBunkBed"
             },
             {
               "bedType": "요와 이불",
-              "count": 1
+              "count": 1,
+              "icon": "RoomFloorMattress"
             }
           ]
         },
@@ -834,7 +867,8 @@
           "beds": [
             {
               "bedType": "이층 침대",
-              "count": 1
+              "count": 1,
+              "icon": "RoomBunkBed"
             },
             {
               "bedType": "바닥용 에어매트리스",
@@ -842,7 +876,8 @@
             },
             {
               "bedType": "요와 이불",
-              "count": 2
+              "count": 2,
+              "icon": "RoomFloorMattress"
             }
           ]
         },
@@ -851,11 +886,13 @@
           "beds": [
             {
               "bedType": "이층 침대",
-              "count": 1
+              "count": 1,
+              "icon": "RoomBunkBed"
             },
             {
               "bedType": "요와 이불",
-              "count": 1
+              "count": 1,
+              "icon": "RoomFloorMattress"
             }
           ]
         },
@@ -864,11 +901,13 @@
           "beds": [
             {
               "bedType": "이층 침대",
-              "count": 1
+              "count": 1,
+              "icon": "RoomBunkBed"
             },
             {
               "bedType": "요와 이불",
-              "count": 1
+              "count": 1,
+              "icon": "RoomFloorMattress"
             }
           ]
         }
@@ -883,6 +922,7 @@
       "guestFavorite": true,
       "rating": "4.96",
       "reviewCount": "28",
+      "hostId": 11,
       "hostName": "Yunji 님",
       "hostSince": "2023",
       "pricePerDay": 78200,
@@ -952,6 +992,7 @@
       "guestFavorite": true,
       "rating": "4.92",
       "reviewCount": "83",
+      "hostId": 12,
       "hostName": "Ye Eun 님",
       "hostSince": "2024",
       "pricePerDay": 55000,
@@ -1026,6 +1067,7 @@
       "rating": "4.88",
       "reviewCount": "124",
       "pricePerDay": 137800,
+      "hostId": 13,
       "hostName": "호재",
       "hostSince": 2021,
       "imageUrl": [
@@ -1089,6 +1131,7 @@
       "rating": "4.96",
       "reviewCount": "77",
       "pricePerDay": 275500,
+      "hostId": 14,
       "hostName": "서현",
       "hostSince": 2022,
       "imageUrl": [
@@ -1119,7 +1162,6 @@
           "amenityName": "초고속 와이파이 – 85Mbps",
           "icon": "AmenityWifi"
         },
-
         {
           "amenityName": "업무 전용 공간",
           "icon": "AmenityDesk"
@@ -1152,6 +1194,7 @@
       "guestFavorite": true,
       "rating": "4.83",
       "reviewCount": "6",
+      "hostId": 15,
       "hostName": "Ns",
       "hostSince": 2023,
       "pricePerDay": 324000,
@@ -1215,6 +1258,7 @@
       "rating": "4.96",
       "reviewCount": "16",
       "pricePerDay": 116000,
+      "hostId": 16,
       "hostName": "나경",
       "hostSince": 2023,
       "imageUrl": [
@@ -1277,6 +1321,7 @@
       "guestFavorite": false,
       "rating": "5.00",
       "reviewCount": "4",
+      "hostId": 17,
       "hostName": "Onda",
       "hostSince": 2023,
       "pricePerDay": 272420,
@@ -1364,6 +1409,7 @@
       "rating": "4.97",
       "reviewCount": "144",
       "pricePerDay": 234000,
+      "hostId": 18,
       "hostName": "유자",
       "hostSince": 2021,
       "imageUrl": [
@@ -1426,6 +1472,7 @@
       "guestFavorite": false,
       "rating": "undefined",
       "reviewCount": "0",
+      "hostId": 19,
       "hostName": "Onda",
       "hostSince": 2018,
       "pricePerDay": 410220,
@@ -1499,6 +1546,7 @@
       "guestFavorite": true,
       "rating": "5.00",
       "reviewCount": "10",
+      "hostId": 20,
       "hostName": "진영",
       "hostSince": 2023,
       "pricePerDay": 150000,
@@ -1562,6 +1610,7 @@
       "guestFavorite": false,
       "rating": "4.81",
       "reviewCount": "48",
+      "hostId": 21,
       "hostName": "Stay",
       "hostSince": 2022,
       "pricePerDay": 306000,
@@ -1644,6 +1693,7 @@
       "guestFavorite": true,
       "rating": "4.93",
       "reviewCount": "148",
+      "hostId": 22,
       "hostName": "힐즈",
       "hostSince": 2021,
       "pricePerDay": 86000,
@@ -1710,7 +1760,8 @@
             },
             {
               "bedType": "요와 이불",
-              "count": 1
+              "count": 1,
+              "icon": "RoomFloorMattress"
             }
           ]
         }
@@ -1725,6 +1776,7 @@
       "guestFavorite": true,
       "rating": "4.82",
       "reviewCount": "113",
+      "hostId": 23,
       "hostName": "라보드",
       "hostSince": 2019,
       "pricePerDay": 34000,
@@ -1816,6 +1868,7 @@
       "guestFavorite": true,
       "rating": "4.95",
       "reviewCount": "211",
+      "hostId": 24,
       "hostName": "지오",
       "hostSince": 2016,
       "pricePerDay": 1385000,
@@ -1898,6 +1951,7 @@
       "guestFavorite": true,
       "rating": "4.96",
       "reviewCount": "93",
+      "hostId": 25,
       "hostName": "광회",
       "hostSince": 2024,
       "pricePerDay": 297000,
@@ -1968,6 +2022,7 @@
       "rating": "4.92",
       "reviewCount": "370",
       "pricePerDay": 198567,
+      "hostId": 26,
       "hostName": "Matt and Maya",
       "hostSince": 2016,
       "imageUrl": [
@@ -2029,7 +2084,8 @@
             },
             {
               "bedType": "요와 이불",
-              "count": 2
+              "count": 2,
+              "icon": "RoomFloorMattress"
             }
           ]
         },
@@ -2053,6 +2109,7 @@
       "guestFavorite": false,
       "rating": "4.94",
       "reviewCount": "321",
+      "hostId": 27,
       "hostName": "Go",
       "hostSince": 2022,
       "pricePerDay": 601055,
@@ -2130,6 +2187,7 @@
       "guestFavorite": true,
       "rating": "4.88",
       "reviewCount": "299",
+      "hostId": 28,
       "hostName": "서나 아빠",
       "hostSince": 2022,
       "pricePerDay": 136888,
@@ -2203,6 +2261,7 @@
       "guestFavorite": true,
       "rating": "4.83",
       "reviewCount": "176",
+      "hostId": 29,
       "hostName": "Camper And Cabin",
       "hostSince": 2014,
       "pricePerDay": 586995,
@@ -2270,7 +2329,8 @@
             },
             {
               "bedType": "요와 이불",
-              "count": 1
+              "count": 1,
+              "icon": "RoomFloorMattress"
             }
           ]
         },
@@ -2283,7 +2343,8 @@
             },
             {
               "bedType": "요와 이불",
-              "count": 1
+              "count": 1,
+              "icon": "RoomFloorMattress"
             }
           ]
         }
@@ -2299,6 +2360,7 @@
       "rating": "4.86",
       "reviewCount": "78",
       "pricePerDay": 78845,
+      "hostId": 30,
       "hostName": "Sheila",
       "hostSince": 2023,
       "imageUrl": [
@@ -2356,7 +2418,8 @@
             },
             {
               "bedType": "요와 이불",
-              "count": 1
+              "count": 1,
+              "icon": "RoomFloorMattress"
             }
           ]
         },
@@ -2380,6 +2443,7 @@
       "guestFavorite": true,
       "rating": "4.80",
       "reviewCount": "98",
+      "hostId": 31,
       "hostName": "Kazuto",
       "hostSince": 2022,
       "pricePerDay": 170734,
@@ -2434,7 +2498,8 @@
           "beds": [
             {
               "bedType": "요와 이불",
-              "count": 3
+              "count": 3,
+              "icon": "RoomFloorMattress"
             }
           ]
         },
@@ -2443,7 +2508,8 @@
           "beds": [
             {
               "bedType": "요와 이불",
-              "count": 2
+              "count": 2,
+              "icon": "RoomFloorMattress"
             }
           ]
         }
@@ -2458,6 +2524,7 @@
       "guestFavorite": true,
       "rating": "4.41",
       "reviewCount": "29",
+      "hostId": 32,
       "hostName": "D-Place",
       "hostSince": 2023,
       "pricePerDay": 217773,
@@ -2518,6 +2585,7 @@
       "rating": "4.96",
       "reviewCount": "746",
       "pricePerDay": 100000,
+      "hostId": 33,
       "hostName": "Geumju",
       "hostSince": 2015,
       "imageUrl": [
@@ -2591,6 +2659,7 @@
       "rating": "4.95",
       "reviewCount": "478",
       "pricePerDay": 148000,
+      "hostId": 34,
       "hostName": "Terence",
       "hostSince": 2019,
       "imageUrl": [

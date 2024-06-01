@@ -1,12 +1,10 @@
-'use client'
-
 import React from 'react'
-import briefInfo from '@data/brief-info.json'
 import Image from 'next/image'
+import fetchRoomsData from '@/utils/fetchRoomsData'
 
-const { amenities } = briefInfo.accommodationInfo[0]
+async function AmenityInfo({ id }) {
+  const { amenities } = await fetchRoomsData(id, ['amenities'])
 
-function AmenityInfo() {
   return (
     <div className="py-12 border-b border-solid border-neutral-300 ">
       <h2 className="mb-4 text-xl font-bold">숙소 편의시설</h2>
