@@ -65,45 +65,44 @@ const buttonDuration = 'opacity-0 group-hover:opacity-100 transition-opacity dur
 function Card({ accommodation }) {
   const [like, setLike] = useState(false)
   return (
-    <div className='absolute relative relative h-[24.19rem] w-[19.468rem] rounded-xl bg-white'>
-      <div className='absolute h-[17.938rem] w-full rounded-xl bg-slate-100'>
+    <div className=' h-[24.19rem] w-[19.468rem] rounded-xl bg-white'>
+      <div className='h-[17.938rem] w-full rounded-xl bg-slate-100'>
         {guestFavorite(accommodation.guestFavorite)}
         {wishHeart(like, setLike)}
 
         <Carousel className='group h-full'>
+          {/* <Link href={`/rooms/${accommodation.accommodationId}`}> */}
           <CarouselContent className='h-full '>
             {accommodation.imageUrl.map((eachImg, index) => (
               <CarouselItem key={index} className='relative h-full w-full rounded-xl'>
-                <Image className='z-10' alt={`banner-${index}`} src={eachImg} layout='fill' />
+                <Image className='' alt={`banner-${index}`} src={eachImg} layout='fill' />
               </CarouselItem>
             ))}
           </CarouselContent>
+          <div className='mt-[1rem] flex w-full flex-col '>
+            <div className='flex w-full flex-row '>
+              <div className='  h-[1.5rem] w-[75%] items-center truncate font-bold'>
+                {accommodation.accommodationName}
+              </div>
+              <span className='ml-[1rem] w-[15%] '>★{accommodation.rating}</span>
+            </div>
 
-          <CarouselPrevious className={buttonDuration} />
-          <CarouselNext className={buttonDuration} />
+            <div className='inline-flex items-center justify-start gap-1'>
+              <div>
+                <div className='mb-[0.5rem] text-[1rem] text-slate-500 '>
+                  {getNextThreeDays(new Date())}
+                </div>
+                <div className='text-sm font-bold text-neutral-800'>
+                  {formatWithComma(accommodation.pricePerDay)}
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* </Link> */}
+          <CarouselPrevious className={`z-30 ${buttonDuration}`} />
+          <CarouselNext className={`z-30 ${buttonDuration}`} />
         </Carousel>
       </div>
-
-      <div className='absolute top-[310px] inline-flex  w-full flex-col '>
-        <div className='flex w-full  flex-row '>
-          <div className='  h-[1.5rem] w-[75%] items-center truncate font-bold'>
-            {accommodation.accommodationName}
-          </div>
-          <span className='ml-[1rem] w-[15%] '>★{accommodation.rating}</span>
-        </div>
-
-        <div className='inline-flex items-center justify-start gap-1'>
-          <div>
-            <div className='mb-[0.5rem] text-[1rem] text-slate-500 '>
-              {getNextThreeDays(new Date())}
-            </div>
-            <div className='text-sm font-bold text-neutral-800'>
-              {formatWithComma(accommodation.pricePerDay)}
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className='absolute left-[255px] top-[303px] inline-flex items-center justify-end gap-1'></div>
     </div>
   )
 }

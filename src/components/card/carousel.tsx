@@ -64,22 +64,30 @@ const Carousel = React.forwardRef<
     setCanScrollNext(api.canScrollNext())
   }, [])
 
-  const scrollPrev = React.useCallback(() => {
-    api?.scrollPrev()
-  }, [api])
+  const scrollPrev = React.useCallback(
+    event => {
+      event.preventDefault()
+      api?.scrollPrev()
+    },
+    [api],
+  )
 
-  const scrollNext = React.useCallback(() => {
-    api?.scrollNext()
-  }, [api])
+  const scrollNext = React.useCallback(
+    event => {
+      event.preventDefault()
+      api?.scrollNext()
+    },
+    [api],
+  )
 
   const handleKeyDown = React.useCallback(
     (event: React.KeyboardEvent<HTMLDivElement>) => {
       if (event.key === 'ArrowLeft') {
         event.preventDefault()
-        scrollPrev()
+        scrollPrev(event)
       } else if (event.key === 'ArrowRight') {
         event.preventDefault()
-        scrollNext()
+        scrollNext(event)
       }
     },
     [scrollPrev, scrollNext],
@@ -213,7 +221,7 @@ const CarouselNext = React.forwardRef<HTMLButtonElement, React.ComponentProps<ty
         variant={variant}
         size={size}
         className={cn(
-          'absolute h-8 w-8 rounded-full shadow transition-transform  duration-200 hover:scale-105 hover:shadow-lg',
+          'absolute z-30 h-8 w-8 rounded-full shadow transition-transform  duration-200 hover:scale-105 hover:shadow-lg',
           orientation === 'horizontal'
             ? '-right-1 top-1/2 mr-[1rem] -translate-y-1/2'
             : '-bottom-12 left-1/2 -translate-x-1/2 rotate-90',

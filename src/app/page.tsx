@@ -19,7 +19,7 @@ export default async function Home() {
       </div>
       <div className='flex flex-wrap gap-4'>
         {accommodations.map((accommodation, index) => (
-          <Link href={`/rooms/${accommodation.accommodationId}`}>
+          <Link href={`/rooms/${accommodation.accommodationId}`} className='z-10'>
             <Card accommodation={accommodation}></Card>
           </Link>
         ))}
