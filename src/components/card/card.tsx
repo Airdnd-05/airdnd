@@ -7,6 +7,7 @@ import { useState } from 'react'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/card/carousel'
 
 const bannerImg = briefInfo.accommodationInfo[0].imageUrl
+const buttonDuration = 'opacity-0 group-hover:opacity-100 transition-opacity duration-300'
 
 function Card() {
   const [like, setLike] = useState(false)
@@ -25,7 +26,7 @@ function Card() {
             )}
           </div>
         </div>
-        <Carousel className="h-full ">
+        <Carousel className="group h-full">
           <CarouselContent className="h-full ">
             {bannerImg.map((eachImg, index) => (
               <CarouselItem key={index} className="w-full h-full relative rounded-xl">
@@ -33,8 +34,8 @@ function Card() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className={buttonDuration} />
+          <CarouselNext className={buttonDuration} />
         </Carousel>
       </div>
 
