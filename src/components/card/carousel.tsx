@@ -46,6 +46,7 @@ const Carousel = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivEl
         ...opts,
         axis: orientation === 'horizontal' ? 'x' : 'y',
         dragFree: false,
+        watchDrag: false,
       },
       plugins,
     )
