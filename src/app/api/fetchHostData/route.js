@@ -1,38 +1,25 @@
+/* eslint-disable import/prefer-default-export */
+
 import { NextResponse } from 'next/server'
+import data from '@data/Host.json'
 
-export async function GET(request) {
+export function GET(request) {
+  // 1 호스트 조회의 기준이 되는 hostId를 가져온다.
+  const url = new URL(request.url)
+  // console.log('----------------------url: ', url)
+
+  const { searchParams } = url
+  // console.log('----------------------searchParams: ', searchParams)
+
   try {
-    // 1 호스트 조회의 기준이 되는 hostId를 가져온다.
-    const url = new URL(request.url)
-    // console.log('----------------------url: ', url)
-
-    const searchParams = url.searchParams
-    // console.log('----------------------searchParams: ', searchParams)
-
-    const hostId = url.searchParams.get('hostId')
+    const hostId = Number(searchParams.get('hostId'))
     // console.log('----------------------hostId: ', hostId)
 
     if (!hostId) {
       throw new Error('hostId is missing')
     }
 
-    // 2 데이베이스 역할의 JSON 파일을 fetch로 가져온다.
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/Host.json`)
-    // const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/Host.json`, {
-    //   cache: 'no-store',
-    // })
-    // console.log('----------------------response: ', response)
-
-    if (!response.ok) {
-      throw new Error('Failed to fetch rooms data')
-    }
-
-    const data = await response.json()
-    // console.log('----------------------data: ', data)
-
-    if (!data) {
-      throw new Error('Failed to parse response')
-    }
+    // 2 데이베이스 역할의 JSON 파일을 가져온다.
 
     const hosts = data.hostInfo
     // console.log('----------------------hosts: ', hosts)
@@ -51,7 +38,7 @@ export async function GET(request) {
             host_id = hostId;
     */
 
-    const host = hosts.find(host => host.hostProfile.hostId == hostId)
+    const host = hosts.find(host => host.hostProfile.hostId === hostId)
     // console.log('----------------------host: ', host)
 
     if (!host) {
@@ -87,7 +74,6 @@ export async function GET(request) {
     })
     // 5 에러가 발생하면 클라이언트에게 에러 메시지를 응답한다.
   } catch (error) {
-    console.error('Error fetching accommodations:', error)
     return NextResponse.json({ error: 'Failed to fetch accommodation data' }, { status: 500 })
   }
 }

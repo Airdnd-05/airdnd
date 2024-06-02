@@ -1,24 +1,11 @@
+/* eslint-disable import/prefer-default-export */
+
 import { NextResponse } from 'next/server'
+import data from '@data/Accommodation.json'
 
-export async function GET(request) {
+export function GET() {
   try {
-    // 1 데이베이스 역할의 JSON 파일을 fetch로 가져온다.
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/Accommodation.json`)
-    // const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/Accommodation.json`, {
-    //   cache: 'no-store',
-    // })
-    // console.log('----------------------response: ', response)
-
-    if (!response.ok) {
-      throw new Error('Failed to fetch data')
-    }
-
-    const data = await response.json()
-    // console.log('----------------------data: ', data)
-
-    if (!data) {
-      throw new Error('Failed to parse response')
-    }
+    // 1 데이베이스 역할의 JSON 파일을 가져온다.
 
     const accommodations = data.accommodationInfo
     // console.log('----------------------accommodations: ', accommodations)
@@ -55,7 +42,6 @@ export async function GET(request) {
     })
     // 4 에러가 발생하면 클라이언트에게 에러 메시지를 응답한다.
   } catch (error) {
-    console.error('Error fetching accommodations:', error)
     return NextResponse.json({ error: 'Failed to fetch accommodation data' }, { status: 500 })
   }
 }

@@ -8,13 +8,13 @@ async function Summary({ id }) {
 
   return (
     <>
-      <div className="z-50 flex flex-col justify-between h-auto py-8">
+      <div className='z-50 flex h-auto flex-col justify-between py-8'>
         <section>
-          <div className="mb-1">
-            <h2 className="text-2xl font-semibold">{locationName}</h2>
+          <div className='mb-1'>
+            <h2 className='text-2xl font-semibold'>{locationName}</h2>
           </div>
           <div>
-            <ol className="flex flex-row space-x-1">
+            <ol className='flex flex-row space-x-1'>
               {briefRoomInfo.map((info, index) => (
                 <li key={index}>
                   {index > 0 && '· '}
