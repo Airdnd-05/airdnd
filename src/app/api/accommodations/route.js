@@ -21,11 +21,13 @@ export function GET() {
     FROM
             accommodation_info 
     */
-    const records = accommodations.map(accommodation => ({
-      accommodationId: accommodation.accommodationId,
-      accommodationName: accommodation.accommodationName,
-      imageUrl: accommodation.imageUrl[0],
-    }))
+    // const records = accommodations.map(accommodation => ({
+    //   accommodationId: accommodation.accommodationId,
+    //   accommodationName: accommodation.accommodationName,
+    //   imageUrl: accommodation.imageUrl[0],
+    // }))
+
+    const records = accommodations
 
     // console.log('----------------------records: ', records)
 
