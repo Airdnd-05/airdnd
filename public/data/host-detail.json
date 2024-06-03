@@ -1,0 +1,22 @@
+
+
+{
+    "hostProfile": {
+      "hostName": "Steven",
+      "hostReviewCount": 1000,
+      "hostRate": 4.8,
+      "hostExperience": 6,
+      "hostLanguage": "한국어",
+      "hostLocation": "스위스",
+      "isSuperHost": true,
+      "hostImageUrl":"https://a0.muscache.com/im/pictures/user/User-40468353/original/c2062c24-0b9a-45f2-90e2-349c3d48c62c.jpeg?im_w=240"
+    },
+
+    "hostContact": {
+      "hostResponseRate": 100,
+      "hostResponseTime": 1
+    },
+
+    "hostDescription": "안녕하세요. 셀라마트 다탕님 저는 친절한 호스트인 와얀입니다. 아름다운 발리 섬인 그린 빌리지에 위치한"
+
+}

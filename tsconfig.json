@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": ".",
     "allowJs": true,
     "checkJs": true, // Auto Import를 위한 추가 설정
     "skipLibCheck": true,
@@ -21,12 +22,9 @@
     "paths": {
       "@/*": ["./src/*"],
       // 커스텀 경로 설정
-      "@api/*": ["./src/app/api/*"],
-      "@icons/*": ["./src/app/assets/icons/*"],
-      "@components/*": ["./src/app/components/*"],
-      "@hooks/*": ["./src/app/hooks/*"],
-      "@modals/*": ["./src/app/modals"]
-    }
+      "@data/*": ["./public/data/*"]
+    },
+    "allowImportingTsExtensions": true // Auto Import를 위한 추가 설정
   },
   "include": [
     "next-env.d.ts",

@@ -1,19 +1,40 @@
-import FilterButton from '@/app/components/common/button/FilterButton'
+import Link from 'next/link'
+import FilterButton from '@/components/common/button/FilterButton'
+import fetchAccommodations from '@/utils/fetchAccommodations'
+import Card from '@/components/card/card'
 
-export default function Home() {
+function RoomsItem({ accommodation }) {
   return (
-    <>
-      <div className="flex flex-col items-center justify-start">
-        <div className="flex flex-row items-center justify-between w-full bg-slate-300 h-[100px]">
-          <div className="flex flex-row items-center justify-center w-full">캐로셀 카테고리가 위치할 자리입니다.</div>
-          <div className="flex flex-row items-center justify-between bg-white">
-            <FilterButton />
-          </div>
+    <Link href={`/rooms/${accommodation.accommodationId}`}>
+      <Card
+        accommodationName={accommodation.accommodationName}
+        imageUrl={accommodation.imageUrl}
+        pricePerDay={accommodation.pricePerDay}
+        rating={accommodation.rating}
+        guestFavorite={accommodation.guestFavorite}
+      />
+    </Link>
+  )
+}
+
+export default async function Home() {
+  const accommodations = await fetchAccommodations()
+
+  return (
+    <div className='flex flex-col items-center justify-start'>
+      <div className='flex h-[100px] w-full flex-row items-center justify-between bg-slate-300'>
+        <div className='flex w-full flex-row items-center justify-center'>
+          캐로셀 카테고리가 위치할 자리입니다.
         </div>
-        <div className="grid items-center justify-center w-full h-[1980px] grid-cols-5 grid-rows-5 gap-3 bg-blue-300">
-          이미지 카드가 나열될 자리입니다.
+        <div className='flex flex-row items-center justify-between bg-white'>
+          <FilterButton />
         </div>
       </div>
-    </>
+      <div className='flex flex-wrap gap-4'>
+        {accommodations.map((accommodation, index) => (
+          <RoomsItem key={`RoomsItem-${index}`} accommodation={accommodation} />
+        ))}
+      </div>
+    </div>
   )
 }
