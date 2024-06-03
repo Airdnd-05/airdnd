@@ -1,3 +1,6 @@
+import CategoryCarousel from '@/components/accommodation/category/CarouselCategory'
+import FilterButton from '@/components/common/button/FilterButton'
+import Image from 'next/image'
 import Link from 'next/link'
 import FilterButton from '@/components/common/button/FilterButton'
 import fetchAccommodations from '@/utils/fetchAccommodations'
@@ -21,12 +24,12 @@ export default async function Home() {
   const accommodations = await fetchAccommodations()
 
   return (
-    <div className='flex flex-col items-center justify-start'>
-      <div className='flex h-[100px] w-full flex-row items-center justify-between bg-slate-300'>
-        <div className='flex w-full flex-row items-center justify-center'>
-          캐로셀 카테고리가 위치할 자리입니다.
+    <div className="flex flex-col items-center justify-start">
+      <div className="flex flex-row items-center h-26">
+        <div className="flex flex-row items-center justify-center max-w-[1760px]">
+          <CategoryCarousel />
         </div>
-        <div className='flex flex-row items-center justify-between bg-white'>
+        <div className="flex flex-row items-center justify-between bg-white">
           <FilterButton />
         </div>
       </div>
