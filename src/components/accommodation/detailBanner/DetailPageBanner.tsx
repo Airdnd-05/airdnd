@@ -36,7 +36,7 @@ async function DetailPageBanner({ id }) {
 
       <div className='grid grid-cols-4 grid-rows-2 gap-2 overflow-hidden rounded-lg'>
         <div className='col-span-2 row-span-2 -mb-2 -ml-2'>
-          <div className='relative h-[700px]'>
+          <div className='relative h-[400px]'>
             <Image
               alt={'큰 갤러리'}
               className='w-full hover:brightness-75'
