@@ -23,15 +23,15 @@ export default async function Home() {
 
   return (
     <div className='flex flex-col items-center justify-start'>
-      <div className='h-26 flex flex-row items-center'>
-        <div className='flex max-w-[1760px] flex-row items-center justify-center'>
+      <div className='flex w-full max-w-[1760px] flex-row items-center justify-between px-4'>
+        <div className='flex-1'>
           <CategoryCarousel />
         </div>
-        <div className='flex flex-row items-center justify-between bg-white'>
+        <div className='ml-4 bg-white'>
           <FilterButton />
         </div>
       </div>
-      <div className='flex flex-wrap gap-4'>
+      <div className='mt-8 grid w-full max-w-[1760px] grid-cols-1 gap-4 px-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
         {accommodations.map((accommodation, index) => (
           <RoomsItem key={`RoomsItem-${index}`} accommodation={accommodation} />
         ))}
