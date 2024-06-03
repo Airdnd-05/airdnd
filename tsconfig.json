@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": ".",
     "allowJs": true,
     "checkJs": true, // Auto Import를 위한 추가 설정
     "skipLibCheck": true,
@@ -22,7 +23,8 @@
       "@/*": ["./src/*"],
       // 커스텀 경로 설정
       "@data/*": ["./public/data/*"]
-    }
+    },
+    "allowImportingTsExtensions": true // Auto Import를 위한 추가 설정
   },
   "include": [
     "next-env.d.ts",
