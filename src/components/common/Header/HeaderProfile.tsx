@@ -27,7 +27,13 @@ function HeaderProfile() {
             <div className='h-[0px] w-3.5 border border-solid border-gray-800'></div>
             <div className='h-[0px] w-3.5 border border-solid border-gray-800'></div>
           </div>
-          <Image alt={'HeaderProfile'} src={'/images/HeaderProfile.svg'} width={34} height={36} />
+          <Image
+            alt={'HeaderProfile'}
+            src={'/images/HeaderProfile.svg'}
+            width={34}
+            height={36}
+            style={{ width: 34, height: 36 }}
+          />
         </div>
       </button>
       {modal && <HeaderProfileModal ref={ref} />}

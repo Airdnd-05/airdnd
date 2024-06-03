@@ -10,8 +10,8 @@ function Header() {
             <Image
               alt={'HeaderLogo'}
               src={`/images/HeaderLogo.svg`}
-              width={0}
-              height={0}
+              width={120}
+              height={32}
               style={{ width: 120, height: 32 }}
             />
           </div>
@@ -26,8 +26,8 @@ function Header() {
                 <Image
                   alt={'HeaderSearch'}
                   src={`/images/HeaderSearch.svg`}
-                  width={0}
-                  height={0}
+                  width={32}
+                  height={32}
                   style={{ width: 32, height: 32 }}
                 />
               </button>
@@ -39,8 +39,8 @@ function Header() {
               <Image
                 alt={'HeaderWorld'}
                 src={`/images/HeaderWorld.svg`}
-                width={0}
-                height={0}
+                width={18}
+                height={18}
                 style={{ width: 18, height: 18 }}
               />
             </div>

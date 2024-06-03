@@ -47,7 +47,7 @@ async function DetailPageBanner({ id }) {
           </div>
         </div>
         {detailImg.map((eachImg, index) => (
-          <div key={index} className='relative'>
+          <div key={`detailImg-${index}`} className='relative'>
             <Image
               alt={'작은 갤러리'}
               className='w-full hover:brightness-75'
