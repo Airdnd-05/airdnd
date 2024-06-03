@@ -23,7 +23,7 @@ async function HostDetail({ id }) {
   const { hostResponseRate, hostResponseTime } = hostContact
 
   return (
-    <div className='bg-host-detail-gray flex h-[30rem] flex-row rounded-[17px]'>
+    <div className='flex h-[30rem] flex-row rounded-[17px] bg-host-detail-gray'>
       <div className='ml-10 flex flex-row'>
         <div className='flex basis-1/3 flex-col'>
           {hostReviewCount === 0 ? (

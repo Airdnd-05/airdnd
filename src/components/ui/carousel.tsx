@@ -3,6 +3,7 @@
 import * as React from 'react'
 import useEmblaCarousel, { type UseEmblaCarouselType } from 'embla-carousel-react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { WheelGesturesPlugin } from 'embla-carousel-wheel-gestures'
 
 import { cn } from '@/lib/utils'
@@ -111,7 +112,7 @@ const Carousel = React.forwardRef<
     <CarouselContext.Provider
       value={{
         carouselRef,
-        api: api,
+        api,
         opts,
         orientation: orientation || (opts?.axis === 'y' ? 'vertical' : 'horizontal'),
         scrollPrev,
