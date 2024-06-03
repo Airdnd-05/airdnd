@@ -73,17 +73,15 @@ function CarouselEachButtonServer() {
   const [clickedId, setIdClicked] = useState(1)
   return (
     <>
-      {category.map((eachButton, idx) => {
-        return (
-          <CarouselItem key={idx} className='basis-1/7 flex w-auto items-center justify-center'>
-            <CarouselEachButton
-              clickedId={clickedId}
-              setIdClicked={setIdClicked}
-              eachButton={eachButton}
-            />
-          </CarouselItem>
-        )
-      })}
+      {category.map((eachButton, idx) => (
+        <CarouselItem key={idx} className='basis-1/7 flex w-auto items-center justify-center'>
+          <CarouselEachButton
+            clickedId={clickedId}
+            setIdClicked={setIdClicked}
+            eachButton={eachButton}
+          />
+        </CarouselItem>
+      ))}
     </>
   )
 }
