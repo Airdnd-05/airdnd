@@ -5,6 +5,8 @@ import { useState } from 'react'
 
 function RoomBedsInfo({ roomInfo }) {
   const [currentIndex, setCurrentIndex] = useState(0)
+  if (!roomInfo?.length) return null
+
   const itemsPerPage = 3
 
   function next() {
@@ -22,29 +24,35 @@ function RoomBedsInfo({ roomInfo }) {
   const displayedRooms = roomInfo.slice(currentIndex, currentIndex + itemsPerPage)
 
   return (
-    <div className="py-12 border-b border-solid border-neutral-300 ">
-      <h2 className="mb-4 text-xl font-bold">숙박 장소</h2>
-      <div className="flex items-center">
+    <div className='border-b border-solid border-neutral-300 py-12'>
+      <h2 className='mb-4 text-xl font-bold'>숙박 장소</h2>
+      <div className='flex items-center'>
         {currentIndex > 0 && (
-          <button className="p-2 mr-2 bg-white border rounded-full" onClick={prev}>
+          <button className='mr-2 rounded-full border bg-white p-2' onClick={prev}>
             &lt;
           </button>
         )}
-        <div className="grid flex-grow grid-cols-1 gap-4 md:grid-cols-3">
+        <div className='grid flex-grow grid-cols-1 gap-4 md:grid-cols-3'>
           {displayedRooms.map((room, index) => (
             <div
-              key={index}
-              className="p-4 overflow-hidden border border-solid rounded-lg border-neutral-400 h-[212px]">
-              <div className="flex mb-2 justify-left">
+              key={`displayedRooms-${index}`}
+              className='h-[212px] overflow-hidden rounded-lg border border-solid border-neutral-400 p-4'>
+              <div className='justify-left mb-2 flex'>
                 {room.beds.map((bed, bedIndex) => (
-                  <Image alt={bed.icon} src={`/images/${bed.icon}.svg`} width={32} height={32} />
+                  <Image
+                    key={`roomBedsTop-${bedIndex}`}
+                    alt={bed.icon}
+                    src={`/images/${bed.icon}.svg`}
+                    width={32}
+                    height={32}
+                  />
                 ))}
               </div>
-              <div className="text-left">
-                <h3 className="font-bold">침실 {room.roomId}</h3>
-                <p className="text-sm">
+              <div className='text-left'>
+                <h3 className='font-bold'>침실 {room.roomId}</h3>
+                <p className='text-sm'>
                   {room.beds.map((bed, bedIndex) => (
-                    <span key={bedIndex}>
+                    <span key={`roomBedsBottom-${bedIndex}`}>
                       {bed.bedType} {bed.count}개,{' '}
                     </span>
                   ))}
@@ -54,7 +62,7 @@ function RoomBedsInfo({ roomInfo }) {
           ))}
         </div>
         {currentIndex + itemsPerPage < roomInfo.length && (
-          <button className="p-2 ml-2 bg-white border rounded-full" onClick={next}>
+          <button className='ml-2 rounded-full border bg-white p-2' onClick={next}>
             &gt;
           </button>
         )}
