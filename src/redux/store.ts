@@ -1,9 +1,15 @@
 import { configureStore } from '@reduxjs/toolkit'
-import filterModalReducer from '@/redux/filterModal/slice'
+import modalReducer from '@/redux/features/modal/slice'
+import filterReducer from '@/redux/features/filter/slice'
+import signupReducer from '@/redux/features/signup/slice'
+import reviewReducer from '@/redux/features/review/slice'
 
 const store = configureStore({
   reducer: {
-    filterModal: filterModalReducer,
+    modal: modalReducer,
+    filter: filterReducer,
+    signup: signupReducer,
+    review: reviewReducer,
   },
 })
 

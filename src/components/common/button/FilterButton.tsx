@@ -1,15 +1,22 @@
 'use client'
 
+import { useDispatch, useSelector } from 'react-redux'
 import Image from 'next/image'
-import { useDispatch } from 'react-redux'
-import { openModal } from '@/redux/filterModal/slice'
+import { openModal } from '@/redux/features/modal/slice'
 import FilterModal from '@/modals/FilterModal'
 
 function FilterButton() {
   const dispatch = useDispatch()
+  const isOpen = useSelector(state => state.modal.isOpen)
 
   const handleOpenModal = () => {
-    dispatch(openModal())
+    dispatch(
+      openModal({
+        modalProps: {
+          // ...modalProps,
+        },
+      }),
+    )
   }
 
   return (
@@ -28,7 +35,11 @@ function FilterButton() {
           <span className='text-xs font-semibold'>필터</span>
         </span>
       </button>
-      <FilterModal />
+      {isOpen && (
+        <FilterModal
+        // {...modalProps}
+        />
+      )}
     </div>
   )
 }
