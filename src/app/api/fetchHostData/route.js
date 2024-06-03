@@ -1,9 +1,8 @@
 /* eslint-disable import/prefer-default-export */
 
 import { NextResponse } from 'next/server'
-import data from '@data/Host.json'
 
-export function GET(request) {
+export async function GET(request) {
   // 1 호스트 조회의 기준이 되는 hostId를 가져온다.
   const url = new URL(request.url)
   // console.log('----------------------url: ', url)
@@ -19,7 +18,23 @@ export function GET(request) {
       throw new Error('hostId is missing')
     }
 
-    // 2 데이베이스 역할의 JSON 파일을 가져온다.
+    // 2 데이베이스 역할의 JSON 파일을 fetch로 가져온다.
+    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/Host.json`)
+    // const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/Host.json`, {
+    //   cache: 'no-store',
+    // })
+    // console.log('----------------------response: ', response)
+
+    if (!response.ok) {
+      throw new Error('Failed to fetch rooms data')
+    }
+
+    const data = await response.json()
+    // console.log('----------------------data: ', data)
+
+    if (!data) {
+      throw new Error('Failed to parse response')
+    }
 
     const hosts = data.hostInfo
     // console.log('----------------------hosts: ', hosts)
