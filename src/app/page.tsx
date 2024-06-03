@@ -2,7 +2,7 @@ import CategoryCarousel from '@/components/accommodation/category/CarouselCatego
 import FilterButton from '@/components/common/button/FilterButton'
 import Image from 'next/image'
 import Link from 'next/link'
-import FilterButton from '@/components/common/button/FilterButton'
+
 import fetchAccommodations from '@/utils/fetchAccommodations'
 import Card from '@/components/card/card'
 
@@ -24,12 +24,12 @@ export default async function Home() {
   const accommodations = await fetchAccommodations()
 
   return (
-    <div className="flex flex-col items-center justify-start">
-      <div className="flex flex-row items-center h-26">
-        <div className="flex flex-row items-center justify-center max-w-[1760px]">
+    <div className='flex flex-col items-center justify-start'>
+      <div className='h-26 flex flex-row items-center'>
+        <div className='flex max-w-[1760px] flex-row items-center justify-center'>
           <CategoryCarousel />
         </div>
-        <div className="flex flex-row items-center justify-between bg-white">
+        <div className='flex flex-row items-center justify-between bg-white'>
           <FilterButton />
         </div>
       </div>
