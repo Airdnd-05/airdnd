@@ -2,7 +2,6 @@ import CategoryCarousel from '@/components/accommodation/category/CarouselCatego
 import FilterButton from '@/components/common/button/FilterButton'
 import Image from 'next/image'
 import Link from 'next/link'
-
 import fetchAccommodations from '@/utils/fetchAccommodations'
 import Card from '@/components/card/card'
 
