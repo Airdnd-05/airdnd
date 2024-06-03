@@ -56,7 +56,7 @@ function Footer() {
       <div className='mx-[8.5rem] flex flex-col bg-gray-100'>
         <div className='gap-16px grid grid-cols-3 border-y-2 py-[30px]'>
           {FooterItem.map((section, index) => (
-            <FooterSection key={index} section={section} />
+            <FooterSection key={`FooterSection-${index}`} section={section} />
           ))}
         </div>
 
@@ -64,7 +64,7 @@ function Footer() {
           <div className='flex w-full justify-between'>
             <ul className='flex flex-row items-center pr-10 text-sm'>
               {FooterInfo.map((item, index) => (
-                <FooterInfoItem key={index} item={item} index={index} />
+                <FooterInfoItem key={`FooterInfoItem-${index}`} item={item} index={index} />
               ))}
             </ul>
             <ul className='flex flex-row items-center pr-10 text-sm'>
@@ -75,6 +75,7 @@ function Footer() {
                   src={`/images/HeaderWorld.svg`}
                   width={18}
                   height={18}
+                  style={{ width: 18, height: 18 }}
                 />
                 한국어(KR)
               </li>
@@ -82,7 +83,13 @@ function Footer() {
                 <b>₩</b> KRW
               </li>
               <li>
-                <Image alt={'FooterIcon'} src={`/images/FooterIcon.svg`} width={160} height={27} />
+                <Image
+                  alt={'FooterIcon'}
+                  src={`/images/FooterIcon.svg`}
+                  width={160}
+                  height={27}
+                  style={{ width: 160, height: 27 }}
+                />
               </li>
             </ul>
           </div>

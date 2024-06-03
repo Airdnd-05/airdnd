@@ -54,7 +54,13 @@ function HostInfoBox({
             <div className='text-[0.6rem] font-bold'>평점</div>
             <div className='flex flex-row'>
               <div className='text-2xl font-bold'>{hostRate}</div>{' '}
-              <Image alt={'HostRate'} src={`/images/HostRate.svg`} width={20} height={20} />
+              <Image
+                alt={'HostRate'}
+                src={`/images/HostRate.svg`}
+                width={0}
+                height={0}
+                style={{ width: 20, height: 20 }}
+              />
             </div>
             <hr className='mt-[0.4rem] w-[6rem] border-t border-gray-300'></hr>
           </div>

@@ -6,7 +6,13 @@ function HostIntro({ hostLanguage, hostLocation, hostDescription }) {
       <div className='mb-[0.5rem] flex flex-row'>
         {hostLanguage && (
           <>
-            <Image alt={'HostLanguage'} src={`/images/HostLanguage.svg`} width={1} height={1} />
+            <Image
+              alt={'HostLanguage'}
+              src={`/images/HostLanguage.svg`}
+              width={0}
+              height={0}
+              style={{ width: 1, height: 1 }}
+            />
             <div className='ml-[0.3rem] text-left text-sm'>구사 언어: {hostLanguage}</div>
           </>
         )}
@@ -30,8 +36,9 @@ function HostIntro({ hostLanguage, hostLocation, hostDescription }) {
         <Image
           alt={'DescriptionDetail'}
           src={`/images/DescriptionDetail.svg`}
-          width={18}
-          height={18}
+          width={0}
+          height={0}
+          style={{ width: 18, height: 18 }}
         />
       </div>
     </div>

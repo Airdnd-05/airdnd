@@ -30,20 +30,20 @@ function Header() {
             <Image
               alt={'HeaderLogo'}
               src={`/images/HeaderLogo.svg`}
-              width={0}
-              height={0}
-              priority
+              width={120}
+              height={32}
               style={{ width: 120, height: 32 }}
+              priority
             />
           </div>
           <nav className='flex items-center justify-center'>
             <ul className='flex items-center justify-center'>
               {MainNav.map(nav => (
                 <HeaderNavItem
+                  key={nav.key}
                   nav={nav}
                   selected={selected}
                   onSelected={setSelected}
-                  key={nav.key}
                 />
               ))}
             </ul>
@@ -54,8 +54,8 @@ function Header() {
               <Image
                 alt={'HeaderWorld'}
                 src={`/images/HeaderWorld.svg`}
-                width={0}
-                height={0}
+                width={18}
+                height={18}
                 style={{ width: 18, height: 18 }}
               />
             </div>

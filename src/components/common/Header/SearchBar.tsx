@@ -101,8 +101,13 @@ function SearchBar() {
           </div>
           <div>
             <button>
-              <Image alt={'HeaderSearch'} src={`/images/HeaderSearch.svg`} width={40} height={40} />
-              {/* <img src={HeaderSearch} alt="Search Icon" className="w-[40px]" /> */}
+              <Image
+                alt={'HeaderSearch'}
+                src={`/images/HeaderSearch.svg`}
+                width={40}
+                height={40}
+                style={{ width: 40, height: 40 }}
+              />
             </button>
           </div>
         </div>

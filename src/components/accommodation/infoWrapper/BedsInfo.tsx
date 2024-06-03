@@ -35,12 +35,12 @@ function RoomBedsInfo({ roomInfo }) {
         <div className='grid flex-grow grid-cols-1 gap-4 md:grid-cols-3'>
           {displayedRooms.map((room, index) => (
             <div
-              key={index}
+              key={`displayedRooms-${index}`}
               className='h-[212px] overflow-hidden rounded-lg border border-solid border-neutral-400 p-4'>
               <div className='justify-left mb-2 flex'>
                 {room.beds.map((bed, bedIndex) => (
                   <Image
-                    key={bedIndex}
+                    key={`roomBedsTop-${bedIndex}`}
                     alt={bed.icon}
                     src={`/images/${bed.icon}.svg`}
                     width={32}
@@ -52,7 +52,7 @@ function RoomBedsInfo({ roomInfo }) {
                 <h3 className='font-bold'>침실 {room.roomId}</h3>
                 <p className='text-sm'>
                   {room.beds.map((bed, bedIndex) => (
-                    <span key={bedIndex}>
+                    <span key={`roomBedsBottom-${bedIndex}`}>
                       {bed.bedType} {bed.count}개,{' '}
                     </span>
                   ))}

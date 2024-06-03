@@ -1,8 +1,19 @@
-import GuestFavorite from '@/components/accommodation/briefInfo/GuestFavorite'
-import NonGuestFavorite from '@/components/accommodation/briefInfo/NonGuestFavorite'
+import {
+  NonGuestFavorite,
+  GuestFavorite,
+} from '@/components/accommodation/infoWrapper/GuestFavorite'
 import fetchRoomsData from '@/utils/fetchRoomsData'
 
-async function Summary({ id }) {
+function AmenityBriefItem({ info, index }) {
+  return (
+    <li>
+      {index > 0 && '· '}
+      {info}
+    </li>
+  )
+}
+
+async function RoomsBriefInfo({ id }) {
   const fields = ['locationName', 'briefRoomInfo', 'guestFavorite']
   const { locationName, briefRoomInfo, guestFavorite } = await fetchRoomsData(id, fields)
 
@@ -16,10 +27,7 @@ async function Summary({ id }) {
           <div>
             <ol className='flex flex-row space-x-1'>
               {briefRoomInfo.map((info, index) => (
-                <li key={index}>
-                  {index > 0 && '· '}
-                  {info}
-                </li>
+                <AmenityBriefItem key={`AmenityBriefItem-${index}`} info={info} index={index} />
               ))}
             </ol>
           </div>
@@ -31,4 +39,4 @@ async function Summary({ id }) {
   )
 }
 
-export default Summary
+export default RoomsBriefInfo
