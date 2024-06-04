@@ -1,14 +1,14 @@
 import ExperiencedHostInfoBox from '@/components/accommodation/hostDetail/ExperiencedHostInfoBox'
 import HostIntro from '@/components/accommodation/hostDetail/HostIntro'
 import BeginnerHostInfoBox from '@/components/accommodation/hostDetail/BeginnerHostInfoBox'
-import fetchRoomsData from '@/utils/fetchRoomsData'
-import fetchHostData from '@/utils/fetchHostData'
 import Image from 'next/image'
+import getRoomsDetail from '@/app/apis/fetchRoomsData/getRoomsDetail'
+import getHostDetail from '@/app/apis/fetchHostData/getHostDetail'
 
 async function HostDetail({ id }) {
-  const { hostId } = await fetchRoomsData(id, ['hostId'])
+  const { hostId } = await getRoomsDetail(id, ['hostId'])
   const fields = ['hostProfile', 'hostContact', 'hostDescription']
-  const { hostProfile, hostContact, hostDescription } = await fetchHostData(hostId, fields)
+  const { hostProfile, hostContact, hostDescription } = await getHostDetail(hostId, fields)
   const {
     hostName,
     hostReviewCount,
