@@ -30,9 +30,8 @@ function HostIntro({ hostLanguage, hostLocation, hostDescription }) {
         <Image
           alt={'DescriptionDetail'}
           src={`/images/DescriptionDetail.svg`}
-          width={0}
-          height={0}
-          style={{ width: 18, height: 18 }}
+          width={18}
+          height={18}
         />
       </div>
     </div>
