@@ -54,7 +54,7 @@ async function HostDetail({ id }) {
             </div>
           </div>
 
-          <div className='flex w-full flex-col justify-center'>
+          <div className='mt-[2rem] flex w-full flex-col'>
             <div className=' text-left'>
               {isSuperHost ? (
                 <div>
