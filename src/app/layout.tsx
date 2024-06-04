@@ -6,6 +6,7 @@ import './reset.css'
 import './index.css'
 import './App.css'
 import Layout from '@/components/common/layout/Layout'
+import Providers from '@/redux/Providers'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,8 +23,10 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <Layout>{children}</Layout>
-        <div id='modal'></div>
+        <Providers>
+          <Layout>{children}</Layout>
+          <div id='modal'></div>
+        </Providers>
       </body>
     </html>
   )

@@ -8,7 +8,7 @@ export default async function HostProfile({ id }) {
   const { hostName, hostImageUrl, hostExperience } = hostProfile
 
   return (
-    <div className='flex border-b border-solid border-neutral-300 py-5'>
+    <div className='flex border-b border-solid border-neutral-300 pb-7'>
       <div className='relative h-11 w-11 overflow-hidden rounded-full'>
         <Image
           src={hostImageUrl}
