@@ -3,6 +3,7 @@ import modalReducer from '@/redux/features/modal/slice'
 import filterReducer from '@/redux/features/filter/slice'
 import signupReducer from '@/redux/features/signup/slice'
 import reviewReducer from '@/redux/features/review/slice'
+import priceRangeReducer from '@/redux/features/priceRange/slice'
 
 const store = configureStore({
   reducer: {
@@ -10,6 +11,7 @@ const store = configureStore({
     filter: filterReducer,
     signup: signupReducer,
     review: reviewReducer,
+    priceRange: priceRangeReducer,
   },
 })
 
