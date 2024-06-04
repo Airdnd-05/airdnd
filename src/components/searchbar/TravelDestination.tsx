@@ -1,6 +1,9 @@
 import React from 'react'
 
-function TravelDestination({ refCallback, handleClick, handleHover }) {
+function TravelDestination({ refCallback, handleClick, handleHover, selected, setSelected }) {
+  const InputChange = event => {
+    setSelected(event.target.value)
+  }
   return (
     <div
       ref={refCallback}
@@ -13,7 +16,9 @@ function TravelDestination({ refCallback, handleClick, handleHover }) {
         type='search'
         name='q'
         placeholder='여행지 검색'
-        className='w-full bg-inherit font-bold focus:outline-none'
+        className='w-full bg-inherit focus:outline-none'
+        value={selected}
+        onChange={InputChange}
       />
     </div>
   )
