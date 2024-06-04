@@ -1,5 +1,12 @@
 import Image from 'next/image'
 
+function hostNameTextSize(hostName) {
+  // hostName의 길이에 따라 텍스트 크기를 결정
+  const textSizeClass = hostName.length >= 15 ? 'text-[1rem]' : 'text-[2rem]'
+
+  return <div className={` ${textSizeClass} font-bold`}>{hostName}</div>
+}
+
 function HostInfoBox({
   hostImageUrl,
   hostName,
@@ -20,7 +27,8 @@ function HostInfoBox({
             className='mt-6 h-[6rem] w-[6rem] rounded-full object-cover'
           />
           <div className='mt-3 flex flex-col items-center'>
-            <div className='mb-2 text-[1.8rem] font-bold'>{hostName}</div>
+            {hostNameTextSize(hostName)}
+
             <div className='text-xs font-bold'>
               {isSuperHost ? (
                 <div className='flex flex-row'>
@@ -30,7 +38,7 @@ function HostInfoBox({
                     width={16}
                     height={16}
                   />
-                  <div className='text-[0.8rem]'> 슈퍼 호스트</div>
+                  <div className='text-[0.9rem]'> 슈퍼 호스트</div>
                 </div>
               ) : (
                 <div>호스트</div>
