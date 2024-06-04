@@ -15,7 +15,7 @@ async function getHostDetail(hostId, fields) {
         headers: {
           'Content-Type': 'application/json',
         },
-        cache: 'no-store',
+        // cache: 'no-store',
       },
     )
 

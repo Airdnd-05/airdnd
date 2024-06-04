@@ -6,7 +6,7 @@ async function getRoomsList() {
       headers: {
         'Content-Type': 'application/json',
       },
-      cache: 'no-store',
+      // cache: 'no-store',
     })
 
     if (!response.ok) {

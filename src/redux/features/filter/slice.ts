@@ -1,6 +1,10 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
-const initialState = {
+interface FilterState {
+  filters: unknown
+}
+
+const initialState: FilterState = {
   filters: {},
 }
 
@@ -8,7 +12,7 @@ const filterSlice = createSlice({
   name: 'filter',
   initialState,
   reducers: {
-    setFilters(state, action) {
+    setFilters(state, action: PayloadAction<unknown>) {
       state.filters = action.payload
     },
     clearFilters(state) {
