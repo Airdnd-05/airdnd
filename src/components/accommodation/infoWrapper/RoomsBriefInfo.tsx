@@ -2,7 +2,7 @@ import {
   NonGuestFavorite,
   GuestFavorite,
 } from '@/components/accommodation/infoWrapper/GuestFavorite'
-import fetchRoomsData from '@/utils/fetchRoomsData'
+import getRoomsDetail from '@/app/apis/fetchRoomsData/getRoomsDetail'
 
 function AmenityBriefItem({ info, index }) {
   return (
@@ -15,7 +15,7 @@ function AmenityBriefItem({ info, index }) {
 
 async function RoomsBriefInfo({ id }) {
   const fields = ['locationName', 'briefRoomInfo', 'guestFavorite']
-  const { locationName, briefRoomInfo, guestFavorite } = await fetchRoomsData(id, fields)
+  const { locationName, briefRoomInfo, guestFavorite } = await getRoomsDetail(id, fields)
 
   return (
     <>

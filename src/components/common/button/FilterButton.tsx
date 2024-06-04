@@ -4,10 +4,11 @@ import { useDispatch, useSelector } from 'react-redux'
 import Image from 'next/image'
 import { openModal } from '@/redux/features/modal/slice'
 import FilterModal from '@/modals/FilterModal'
+import { RootState } from '@/redux/store'
 
 function FilterButton() {
   const dispatch = useDispatch()
-  const isOpen = useSelector(state => state.modal.isOpen)
+  const isOpen = useSelector((state: RootState) => state.modal.isOpen)
 
   const handleOpenModal = () => {
     dispatch(
@@ -35,11 +36,7 @@ function FilterButton() {
           <span className='text-xs font-semibold'>필터</span>
         </span>
       </button>
-      {isOpen && (
-        <FilterModal
-        // {...modalProps}
-        />
-      )}
+      {isOpen && <FilterModal />}
     </div>
   )
 }

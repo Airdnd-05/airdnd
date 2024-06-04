@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import HeartButton from '@/components/accommodation/detailBanner/HeartButton'
-import fetchRoomsData from '@/utils/fetchRoomsData'
+import getRoomsDetail from '@/app/apis/fetchRoomsData/getRoomsDetail'
 
 function ShareButton() {
   return (
@@ -19,7 +19,7 @@ function ShareButton() {
 
 async function DetailPageBanner({ id }) {
   const fields = ['accommodationName', 'imageUrl']
-  const { accommodationName, imageUrl } = await fetchRoomsData(id, fields)
+  const { accommodationName, imageUrl } = await getRoomsDetail(id, fields)
 
   const mainIng = imageUrl[0]
   const detailImg = [imageUrl[1], imageUrl[2], imageUrl[3], imageUrl[4]]

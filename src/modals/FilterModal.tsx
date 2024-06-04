@@ -2,6 +2,7 @@
 
 import { useDispatch } from 'react-redux'
 import { IoMdClose } from 'react-icons/io'
+import { ReactNode } from 'react'
 import { setFilters, clearFilters } from '@/redux/features/filter/slice'
 import { closeModal } from '@/redux/features/modal/slice'
 import Portal from '@/portal/Portal'
@@ -35,7 +36,7 @@ function FilterModal() {
     )
   }
 
-  function Body({ children }) {
+  function Body({ children }: { children: ReactNode }) {
     return <div className='relative flex-auto p-6'>{children}</div>
   }
 

@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import fetchRoomsData from '@/utils/fetchRoomsData'
+import getRoomsDetail from '@/app/apis/fetchRoomsData/getRoomsDetail'
 
 export default async function AccommodationDesc({ id }) {
-  const { desc } = await fetchRoomsData(id, ['desc'])
+  const { desc } = await getRoomsDetail(id, ['desc'])
 
   return (
     <div className='whitespace-pre border-b border-solid border-neutral-300 pb-12 pt-8'>
