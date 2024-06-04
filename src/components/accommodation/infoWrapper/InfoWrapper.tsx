@@ -1,4 +1,4 @@
-import fetchRoomsData from '@/utils/fetchRoomsData'
+import getRoomsDetail from '@/app/apis/fetchRoomsData/getRoomsDetail'
 import RoomsBriefInfo from '@/components/accommodation/infoWrapper/RoomsBriefInfo'
 import BedsInfo from '@/components/accommodation/infoWrapper/BedsInfo'
 import ReservationCard from '@/components/accommodation/infoWrapper/ReservationCard'
@@ -7,7 +7,7 @@ import AccommodationDesc from './AccommodationDesc'
 
 async function BriefInfo({ id }) {
   const fields = ['roomInfo']
-  const roomInfo = await fetchRoomsData(id, fields)
+  const roomInfo = await getRoomsDetail(id, fields)
 
   return (
     <div className='flex flex-row justify-between'>

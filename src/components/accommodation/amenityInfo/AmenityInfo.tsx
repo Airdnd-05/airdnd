@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import fetchRoomsData from '@/utils/fetchRoomsData'
+import getRoomsDetail from '@/app/apis/fetchRoomsData/getRoomsDetail'
 
 function AmenityItem({ amenity }) {
   return (
@@ -19,7 +19,7 @@ function AmenityItem({ amenity }) {
 }
 
 async function AmenityInfo({ id }) {
-  const { amenities } = await fetchRoomsData(id, ['amenities'])
+  const { amenities } = await getRoomsDetail(id, ['amenities'])
   return (
     <div className='border-b border-solid border-neutral-300 py-12'>
       <h2 className='mb-4 text-xl font-bold'>숙소 편의시설</h2>

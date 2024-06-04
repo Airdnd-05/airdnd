@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import CategoryCarousel from '@/components/accommodation/category/CarouselCategory'
 import FilterButton from '@/components/common/button/FilterButton'
-import fetchAccommodations from '@/utils/fetchAccommodations'
+import getRoomsList from '@/app/apis/fetchMainPage/getRoomsList'
 import Card from '@/components/card/card'
 
 function RoomsItem({ accommodation }) {
@@ -19,7 +19,7 @@ function RoomsItem({ accommodation }) {
 }
 
 export default async function Home() {
-  const accommodations = await fetchAccommodations()
+  const accommodations = await getRoomsList()
 
   return (
     <div className='flex flex-col items-center justify-start'>
