@@ -6,7 +6,7 @@ async function NonGuestFavorite({ id }) {
   const { rating, reviewCount } = await fetchRoomsData(id, fields)
 
   return (
-    <div className='mt-2 border-b border-solid border-neutral-300 pb-12'>
+    <div className='mt-2 border-b border-solid border-neutral-300 pb-10'>
       <div className='flex items-center gap-1'>
         <Image
           alt={'RatingStar'}

@@ -17,7 +17,7 @@ async function BriefInfo({ id }) {
         <AccommodationDesc id={id} />
         <BedsInfo roomInfo={roomInfo.roomInfo} />
       </div>
-      <div className='flex w-4/12 justify-end pt-8 md:inline'>
+      <div className='flex hidden w-4/12 justify-end pt-8 md:inline'>
         <ReservationCard />
       </div>
     </div>

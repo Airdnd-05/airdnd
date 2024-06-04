@@ -1,10 +1,13 @@
-/* eslint-disable no-unused-vars */
-
 'use client'
 
 import * as React from 'react'
 import useEmblaCarousel, { type UseEmblaCarouselType } from 'embla-carousel-react'
-import { ArrowLeft, ArrowRight } from 'lucide-react'
+import { ChevronLeft, ChevronRight } from 'lucide-react'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { WheelGesturesPlugin } from 'embla-carousel-wheel-gestures'
+
+import { cn } from '@/lib/utils'
+import { Button } from '@/components/ui/button'
 
 type CarouselApi = UseEmblaCarouselType[1]
 type UseCarouselParameters = Parameters<typeof useEmblaCarousel>
@@ -38,7 +41,6 @@ function useCarousel() {
 
   return context
 }
-
 
 const Carousel = React.forwardRef<
   HTMLDivElement,
@@ -79,7 +81,6 @@ const Carousel = React.forwardRef<
       } else if (event.key === 'ArrowRight') {
         event.preventDefault()
         scrollNext()
-
       }
     },
     [scrollPrev, scrollNext],
@@ -90,10 +91,8 @@ const Carousel = React.forwardRef<
       return
     }
 
-
     setApi(api)
   }, [api, setApi])
-
 
   React.useEffect(() => {
     if (!api) {
@@ -108,7 +107,6 @@ const Carousel = React.forwardRef<
       api?.off('select', onSelect)
     }
   }, [api, onSelect])
-
 
   return (
     <CarouselContext.Provider
@@ -164,7 +162,6 @@ const CarouselItem = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLD
     return (
       <div
         ref={ref}
-
         role='group'
         aria-roledescription='slide'
         className={cn(
@@ -172,7 +169,6 @@ const CarouselItem = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLD
           orientation === 'horizontal' ? 'pl-4' : 'pt-4',
           className,
         )}
-
         {...props}
       />
     )
@@ -190,7 +186,7 @@ const CarouselPrevious = React.forwardRef<HTMLButtonElement, React.ComponentProp
         variant={variant}
         size={size}
         className={cn(
-          'absolute h-8 w-8 rounded-full',
+          'absolute  h-8 w-8 rounded-full',
           orientation === 'horizontal'
             ? '-left-12 top-1/2 -translate-y-1/2'
             : '-top-12 left-1/2 -translate-x-1/2 rotate-90',
@@ -199,7 +195,7 @@ const CarouselPrevious = React.forwardRef<HTMLButtonElement, React.ComponentProp
         disabled={!canScrollPrev}
         onClick={scrollPrev}
         {...props}>
-        <ArrowLeft className='h-4 w-4' />
+        <ChevronLeft className='h-4 w-4' />
         <span className='sr-only'>Previous slide</span>
       </Button>
     )
@@ -226,7 +222,7 @@ const CarouselNext = React.forwardRef<HTMLButtonElement, React.ComponentProps<ty
         disabled={!canScrollNext}
         onClick={scrollNext}
         {...props}>
-        <ArrowRight className='h-4 w-4' />
+        <ChevronRight className='h-4 w-4' />
         <span className='sr-only'>Next slide</span>
       </Button>
     )
