@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import HostInfoBox from '@/components/accommodation/hostDetail/HostInfoBox'
+import HostInfoBox from '@/components/accommodation/hostDetail/ExperiencedHostInfoBox'
 import HostIntro from '@/components/accommodation/hostDetail/HostIntro'
 import HostDetailInfo from '@/components/accommodation/hostDetail/HostDetailInfo'
 import BeginnerHostInfoBox from '@/components/accommodation/hostDetail/BeginnerHostInfoBox'
@@ -26,23 +26,24 @@ async function HostDetail({ id }) {
     <div className='flex h-[30rem] flex-row rounded-[17px] bg-host-detail-gray'>
       <div className='ml-10 flex flex-row'>
         <div className='flex basis-1/3 flex-col'>
-          {hostReviewCount === 0 ? (
-            <BeginnerHostInfoBox
-              hostImageUrl={hostImageUrl}
-              hostExperience={hostExperience}
-              hostName={hostName}
-            />
-          ) : (
-            <HostInfoBox
-              hostImageUrl={hostImageUrl}
-              hostName={hostName}
-              hostReviewCount={hostReviewCount}
-              hostRate={hostRate}
-              hostExperience={hostExperience}
-              isSuperHost={isSuperHost}
-            />
-          )}
-
+          <div className='mt-10 h-[14rem] w-96 flex-col justify-center rounded-[21px] bg-[white] shadow-lg'>
+            {hostReviewCount === 0 ? (
+              <BeginnerHostInfoBox
+                hostImageUrl={hostImageUrl}
+                hostExperience={hostExperience}
+                hostName={hostName}
+              />
+            ) : (
+              <HostInfoBox
+                hostImageUrl={hostImageUrl}
+                hostName={hostName}
+                hostReviewCount={hostReviewCount}
+                hostRate={hostRate}
+                hostExperience={hostExperience}
+                isSuperHost={isSuperHost}
+              />
+            )}
+          </div>
           <HostIntro
             hostLanguage={hostLanguage}
             hostLocation={hostLocation}
