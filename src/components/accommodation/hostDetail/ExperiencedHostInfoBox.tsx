@@ -16,7 +16,7 @@ function HostInfoBox({
   isSuperHost,
 }) {
   return (
-    <div className='flex flex-row'>
+    <div className='flex h-full flex-row justify-center'>
       <div className='flex basis-2/3 flex-col items-center justify-center'>
         <div>
           <Image

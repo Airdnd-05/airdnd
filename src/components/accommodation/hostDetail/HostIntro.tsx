@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 function HostIntro({ hostLanguage, hostLocation, hostDescription }) {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col justify-around'>
       <div className='mb-[0.5rem] flex flex-row'>
         {hostLanguage && (
           <>

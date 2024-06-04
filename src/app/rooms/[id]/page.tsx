@@ -1,5 +1,5 @@
 import DetailPageBanner from '@/components/accommodation/detailBanner/DetailPageBanner'
-import HostDetail from '@/components/accommodation/hostDetail/HostDetail'
+import HostDetail from '@/components/accommodation/hostDetail/HostDetailContainer'
 import InfoWrapper from '@/components/accommodation/infoWrapper/InfoWrapper'
 import AmenityInfo from '@/components/accommodation/amenityInfo/AmenityInfo'
 

@@ -5,7 +5,7 @@ const YEAR = currentDate.getFullYear()
 
 function BeginnerHostInfoBox({ hostName, hostExperience, hostImageUrl }) {
   return (
-    <div>
+    <div className='flex h-full flex-col items-center justify-center'>
       <div className='h-24 w-24 overflow-hidden rounded-full bg-gray-200'>
         <Image
           alt='호스트 이미지'
