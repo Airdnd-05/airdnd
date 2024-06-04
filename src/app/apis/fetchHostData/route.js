@@ -1,18 +1,13 @@
-/* eslint-disable import/prefer-default-export */
-
 import { NextResponse } from 'next/server'
 
 export async function GET(request) {
   // 1 호스트 조회의 기준이 되는 hostId를 가져온다.
   const url = new URL(request.url)
-  // console.log('----------------------url: ', url)
 
   const { searchParams } = url
-  // console.log('----------------------searchParams: ', searchParams)
 
   try {
     const hostId = Number(searchParams.get('hostId'))
-    // console.log('----------------------hostId: ', hostId)
 
     if (!hostId) {
       throw new Error('hostId is missing')
@@ -20,24 +15,18 @@ export async function GET(request) {
 
     // 2 데이베이스 역할의 JSON 파일을 fetch로 가져온다.
     const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/Host.json`)
-    // const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/Host.json`, {
-    //   cache: 'no-store',
-    // })
-    // console.log('----------------------response: ', response)
 
     if (!response.ok) {
       throw new Error('Failed to fetch rooms data')
     }
 
     const data = await response.json()
-    // console.log('----------------------data: ', data)
 
     if (!data) {
       throw new Error('Failed to parse response')
     }
 
     const hosts = data.hostInfo
-    // console.log('----------------------hosts: ', hosts)
 
     if (!Array.isArray(hosts)) {
       throw new Error('hosts is not an array')
@@ -54,7 +43,6 @@ export async function GET(request) {
     */
 
     const host = hosts.find(host => host.hostProfile.hostId === hostId)
-    // console.log('----------------------host: ', host)
 
     if (!host) {
       throw new Error('no host found with the given hostId')
@@ -63,7 +51,6 @@ export async function GET(request) {
     searchParams.delete('hostId')
 
     const fields = Array.from(searchParams.keys())
-    // console.log('----------------------fields: ', fields)
 
     if (!fields.length) {
       throw new Error('fields are missing')
@@ -74,7 +61,6 @@ export async function GET(request) {
     for (const field of fields) {
       record[field] = host[field]
     }
-    // console.log('----------------------record: ', record)
 
     if (!Object.keys(record).length) {
       throw new Error('no fields found')
@@ -91,4 +77,8 @@ export async function GET(request) {
   } catch (error) {
     return NextResponse.json({ error: 'Failed to fetch accommodation data' }, { status: 500 })
   }
+}
+
+export function POST() {
+  return NextResponse.json({ error: 'Method not allowed' }, { status: 405 })
 }
