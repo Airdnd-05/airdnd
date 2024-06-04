@@ -23,6 +23,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <Layout>{children}</Layout>
+        <div id='modal'></div>
       </body>
     </html>
   )

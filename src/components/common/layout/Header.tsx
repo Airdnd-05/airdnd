@@ -5,6 +5,7 @@ import Image from 'next/image'
 import HeaderNavItem from '@/components/common/Header/HeaderNavItem'
 import SearchBar from '@/components/common/Header/SearchBar'
 import HeaderProfile from '@/components/common/Header/HeaderProfile'
+import Link from 'next/link'
 
 function Header() {
   const [selected, setSelected] = useState('accommodation')
@@ -26,15 +27,17 @@ function Header() {
     <>
       <header className='h-[168px] border-b border-solid border-gray-200 bg-white px-20'>
         <div className='mx-[8.5rem] grid h-[80px] grid-cols-3'>
-          <div className='flex'>
-            <Image
-              alt={'HeaderLogo'}
-              src={`/images/HeaderLogo.svg`}
-              width={120}
-              height={32}
-              style={{ width: 120, height: 32 }}
-              priority
-            />
+          <div className='flex items-center'>
+            <Link href='/'>
+              <Image
+                alt={'HeaderLogo'}
+                src={`/images/HeaderLogo.svg`}
+                width={120}
+                height={32}
+                style={{ width: 120, height: 32 }}
+                priority
+              />
+            </Link>
           </div>
           <nav className='flex items-center justify-center'>
             <ul className='flex items-center justify-center'>
