@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import HostInfoBox from '@/components/accommodation/hostDetail/ExperiencedHostInfoBox'
+import ExperiencedHostInfoBox from '@/components/accommodation/hostDetail/ExperiencedHostInfoBox'
 import HostIntro from '@/components/accommodation/hostDetail/HostIntro'
 import HostDetailInfo from '@/components/accommodation/hostDetail/HostDetailInfo'
 import BeginnerHostInfoBox from '@/components/accommodation/hostDetail/BeginnerHostInfoBox'
@@ -34,7 +34,7 @@ async function HostDetail({ id }) {
                 hostName={hostName}
               />
             ) : (
-              <HostInfoBox
+              <ExperiencedHostInfoBox
                 hostImageUrl={hostImageUrl}
                 hostName={hostName}
                 hostReviewCount={hostReviewCount}
