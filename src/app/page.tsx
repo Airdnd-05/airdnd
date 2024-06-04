@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import CategoryCarousel from '@/components/accommodation/category/CarouselCategory'
+import Category from '@/components/accommodation/categoryBundle/Category'
 import FilterButton from '@/components/common/button/FilterButton'
 import getRoomsList from '@/app/apis/fetchMainPage/getRoomsList'
 import Card from '@/components/card/card'
@@ -25,7 +25,7 @@ export default async function Home() {
     <div className='flex flex-col items-center justify-start'>
       <div className='flex w-full max-w-[1760px] flex-row items-center justify-between px-4'>
         <div className='flex-1'>
-          <CategoryCarousel />
+          <Category />
         </div>
         <div className='ml-4 bg-white'>
           <FilterButton />
