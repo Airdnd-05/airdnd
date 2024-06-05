@@ -10,15 +10,6 @@ body:
       value: |
         ### 기능 설명
 
-  - type: input
-    id: feature_name
-    attributes:
-      label: 기능 이름
-      description: 추가할 기능의 이름을 입력하세요.
-      placeholder: 예) 사용자 로그인 기능
-    validations:
-      required: true
-
   - type: textarea
     id: feature_description
     attributes:
