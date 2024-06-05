@@ -61,6 +61,13 @@ const Carousel = React.forwardRef<
     if (!api) {
       return
     }
+    const { limit, location, scrollTo } = api.internalEngine()
+    if (location.get() > limit.max) {
+      scrollTo.index(0, 0)
+    }
+    if (location.get() < limit.min) {
+      scrollTo.index(api.scrollSnapList().length - 1, 1)
+    }
 
     setCanScrollPrev(api.canScrollPrev())
     setCanScrollNext(api.canScrollNext())
@@ -103,6 +110,7 @@ const Carousel = React.forwardRef<
     onSelect(api)
     api.on('reInit', onSelect)
     api.on('select', onSelect)
+    api.on('settle', onSelect)
 
     return () => {
       api?.off('select', onSelect)
@@ -187,7 +195,7 @@ const CarouselPrevious = React.forwardRef<HTMLButtonElement, React.ComponentProp
         variant={variant}
         size={size}
         className={cn(
-          'absolute  h-8 w-8 rounded-full hover:scale-105 hover:bg-white hover:drop-shadow-[7px_7px_7px_rgba(0,0,0,0.3)] hover:ease-in-out',
+          'absolute h-8  w-8 rounded-full hover:scale-105 hover:bg-white hover:drop-shadow-[7px_7px_7px_rgba(0,0,0,0.3)] hover:ease-in-out',
           orientation === 'horizontal'
             ? '-left-12 top-1/2 -translate-y-1/2'
             : '-top-12 left-1/2 -translate-x-1/2 rotate-90',
@@ -214,7 +222,7 @@ const CarouselNext = React.forwardRef<HTMLButtonElement, React.ComponentProps<ty
         variant={variant}
         size={size}
         className={cn(
-          ' absolute h-8 w-8 rounded-full bg-blend-multiply hover:scale-105 hover:bg-white hover:drop-shadow-[7px_7px_7px_rgba(0,0,0,0.3)] hover:ease-in-out',
+          'absolute h-8 w-8 rounded-full hover:scale-105 hover:bg-white hover:drop-shadow-[7px_7px_7px_rgba(0,0,0,0.3)] hover:ease-in-out',
           orientation === 'horizontal'
             ? '-right-12 top-1/2 -translate-y-1/2'
             : '-bottom-12 left-1/2 -translate-x-1/2 rotate-90',
