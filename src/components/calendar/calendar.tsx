@@ -3,10 +3,10 @@
 import { addDays } from 'date-fns'
 import { useState, useEffect } from 'react'
 import { DateRangePicker } from 'react-date-range'
+import { ko } from 'date-fns/locale'
 import { formatYearMonthDay, getDayBetween } from '@/utils/formatingDate'
 
-import './Calendar.css'
-import { ko } from 'date-fns/locale'
+import './calendar.css'
 
 function Calendar({ months }) {
   const today = new Date()
@@ -24,7 +24,7 @@ function Calendar({ months }) {
   }, [])
 
   return (
-    <div className='relative mb-2 w-full border-b border-solid  border-neutral-300 pb-10'>
+    <div className='relative w-full pb-10 mb-2 border-b border-solid border-neutral-300'>
       {/* {isRendered && (
         <div>
           <div>{getDayBetween(state[0].startDate, state[0].endDate)}박</div>

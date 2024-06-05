@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Category from '@/components/accommodation/categoryBundle/Category'
-import FilterButton from '@/components/common/button/FilterButton'
 import getRoomsList from '@/app/apis/fetchMainPage/getRoomsList'
 import Card from '@/components/card/card'
 
@@ -19,15 +18,24 @@ function RoomsItem({ accommodation }) {
 }
 
 export default async function Home() {
-  const accommodations = await getRoomsList()
+  // 설정한 id부터 40개의 숙소 데이터를 가져옵니다.
+  const id = 1
+  // 리스트에 어떤 항목을 포함할지 배열로 전달합니다.
+  const fields = [
+    'accommodationId',
+    'accommodationName',
+    'imageUrl',
+    'guestFavorite',
+    'rating',
+    'pricePerDay',
+  ]
+  // 설정된 정보를 조회해서 배열로 반환된 정보를 할당합니다.
+  const accommodations = await getRoomsList(id, fields)
 
   return (
     <div className='flex flex-col items-center justify-start'>
-      <div className='flex w-full max-w-[1760px] flex-row items-center justify-between px-4'>
-        <div className='flex-1'>
-          <Category />
-        </div>
-        <div className='ml-4 bg-white'>{/* <FilterButton /> */}</div>
+      <div className='w-full max-w-[1760px] grow items-center justify-between px-4'>
+        <Category />
       </div>
       <div className='mt-8 grid w-full max-w-[1760px] grid-cols-1 gap-4 px-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
         {accommodations.map((accommodation, index) => (
