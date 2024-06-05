@@ -7,9 +7,10 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '@/components/accommodation/category/ui/carousel'
+} from '@/components/accommodation/categoryBundle/ui/carousel'
 import { useState } from 'react'
 import Image from 'next/image'
+import FilterButton from '@/components/common/button/FilterButton'
 
 function ClickedButtonContent({ eachButton }) {
   return (
@@ -73,20 +74,22 @@ function CarouselEachButtonServer() {
   const [clickedId, setIdClicked] = useState(1)
   return (
     <>
-      {category.map((eachButton, idx) => (
-        <CarouselItem key={idx} className='basis-1/7 flex w-auto items-center justify-center'>
-          <CarouselEachButton
-            clickedId={clickedId}
-            setIdClicked={setIdClicked}
-            eachButton={eachButton}
-          />
-        </CarouselItem>
-      ))}
+      {category.map((eachButton, idx) => {
+        return (
+          <CarouselItem key={idx} className='basis-1/7 flex w-auto items-center justify-center'>
+            <CarouselEachButton
+              clickedId={clickedId}
+              setIdClicked={setIdClicked}
+              eachButton={eachButton}
+            />
+          </CarouselItem>
+        )
+      })}
     </>
   )
 }
 
-function CategoryCarousel() {
+function CarouselCategory() {
   return (
     <Carousel
       opts={{
@@ -94,11 +97,10 @@ function CategoryCarousel() {
         skipSnaps: true,
         loop: false,
         dragFree: false,
-        watchDrag: false,
         axis: 'x',
         containScroll: 'trimSnaps',
       }}
-      className='w-full max-w-[70rem]'>
+      className='flex w-full flex-row lg:max-w-[30rem] xl:max-w-[50rem] 2xl:max-w-[70rem]'>
       <CarouselPrevious />
       <CarouselContent className='-ml-5'>
         <CarouselEachButtonServer />
@@ -108,4 +110,15 @@ function CategoryCarousel() {
   )
 }
 
-export default CategoryCarousel
+function Category() {
+  return (
+    <div className='flex'>
+      <CarouselCategory />
+      <div className='ml-16 mt-[47px]'>
+        <FilterButton />
+      </div>
+    </div>
+  )
+}
+
+export default Category

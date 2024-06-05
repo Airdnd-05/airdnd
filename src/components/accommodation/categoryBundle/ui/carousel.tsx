@@ -5,11 +5,11 @@ import useEmblaCarousel, { type UseEmblaCarouselType } from 'embla-carousel-reac
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 import { cn } from '@/lib/utils'
-import { Button } from '@/components/accommodation/category/ui/button'
+import { Button } from '@/components/accommodation/categoryBundle/ui/button'
 import { WheelGesturesPlugin } from 'embla-carousel-wheel-gestures'
 
 type CarouselApi = UseEmblaCarouselType[1]
-type UseCarouselParameters = Parameters<typeof useEmblaCarousel>
+type UseCarouselParameters = Parameters<typeof useEmbslaCarousel>
 type CarouselOptions = UseCarouselParameters[0]
 type CarouselPlugin = UseCarouselParameters[1]
 
@@ -61,6 +61,13 @@ const Carousel = React.forwardRef<
     if (!api) {
       return
     }
+    const { limit, location, scrollTo } = api.internalEngine()
+    if (location.get() > limit.max) {
+      scrollTo.index(0, 0)
+    }
+    if (location.get() < limit.min) {
+      scrollTo.index(api.scrollSnapList().length - 1, 1)
+    }
 
     setCanScrollPrev(api.canScrollPrev())
     setCanScrollNext(api.canScrollNext())
@@ -103,6 +110,7 @@ const Carousel = React.forwardRef<
     onSelect(api)
     api.on('reInit', onSelect)
     api.on('select', onSelect)
+    api.on('settle', onSelect)
 
     return () => {
       api?.off('select', onSelect)
@@ -113,7 +121,7 @@ const Carousel = React.forwardRef<
     <CarouselContext.Provider
       value={{
         carouselRef,
-        api,
+        api: api,
         opts,
         orientation: orientation || (opts?.axis === 'y' ? 'vertical' : 'horizontal'),
         scrollPrev,
@@ -187,7 +195,7 @@ const CarouselPrevious = React.forwardRef<HTMLButtonElement, React.ComponentProp
         variant={variant}
         size={size}
         className={cn(
-          'absolute  h-8 w-8 rounded-full hover:scale-105 hover:bg-white hover:drop-shadow-[7px_7px_7px_rgba(0,0,0,0.3)] hover:ease-in-out',
+          'absolute h-8  w-8 rounded-full hover:scale-105 hover:bg-white hover:drop-shadow-[7px_7px_7px_rgba(0,0,0,0.3)] hover:ease-in-out',
           orientation === 'horizontal'
             ? '-left-12 top-1/2 -translate-y-1/2'
             : '-top-12 left-1/2 -translate-x-1/2 rotate-90',

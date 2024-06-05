@@ -1,0 +1,251 @@
+@import url('react-date-range/dist/styles.css');
+@import url('react-date-range/dist/theme/default.css');
+
+.rdrWeekDays {
+  width: inherit;
+}
+
+.rdrDateRangePickerWrapper {
+  margin-left: -20px;
+}
+
+.rdrDayDisabled {
+  background-color: transparent;
+}
+
+.rdrDefinedRangesWrapper {
+  display: none;
+}
+
+.rdrDateDisplayWrapper {
+  display: none;
+}
+
+.rdrMonthAndYearPickers {
+  display: none;
+}
+
+.rdrNextPrevButton {
+  position: relative;
+  top: 50px;
+  background-color: transparent;
+}
+
+.rdrMonth {
+  margin-right: 20px;
+}
+
+.rdrDayPassive {
+  visibility: hidden;
+}
+
+.rdrMonthName {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+}
+
+.rdrWeekDay {
+  color: black;
+}
+
+.rdrInRange {
+  background-color: rgb(
+    247,
+    247,
+    247
+  );
+  height: 50px;
+}
+
+.rdrDayEndOfMonth
+  .rdrInRange {
+  background: linear-gradient(
+    to
+      right,
+    rgb(
+      247,
+      247,
+      247
+    ),
+    #ffffff
+  );
+}
+
+.rdrDayStartOfMonth
+  .rdrInRange {
+  background: linear-gradient(
+    to
+      left,
+    rgb(
+      247,
+      247,
+      247
+    ),
+    #ffffff
+  );
+}
+
+.rdrDayEndOfWeek
+  .rdrInRange,
+.rdrDayEndOfMonth
+  .rdrInRange {
+  /* Range안에 있는데 한주의 끝일때 */
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+}
+
+.rdrDayStartOfWeek
+  .rdrInRange,
+.rdrDayStartOfMonth
+  .rdrInRange {
+  /* Range안에 있는데 한주의 시작일때 */
+  border-top-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+}
+
+.rdrDay:not(
+    .rdrDayPassive
+  )
+  .rdrInRange
+  ~ .rdrDayNumber
+  span {
+  /*Range 에 있는 숫자들*/
+  color: black;
+}
+
+.rdrDay {
+  width: 4em;
+  height: 4em;
+  margin-bottom: 5px;
+}
+
+.rdrDayStartPreview:not(
+    .rdrDayStartOfWeek
+  ) {
+  border: 1.5px
+    solid
+    black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  z-index: 2;
+}
+
+.rdrDayEndPreview:not(
+    .rdrDayStartOfWeek
+  ) {
+  border: 1.5px
+    solid
+    black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  z-index: 2;
+}
+
+.rdrDayInPreview {
+  border: none;
+  background-color: rgb(
+    247,
+    247,
+    247
+  );
+  height: 50px;
+}
+
+.rdrDayEndOfWeek
+  .rdrDayInPreview,
+.rdrDayEndOfMonth
+  .rdrDayInPreview {
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+}
+
+.rdrDayStartOfWeek
+  .rdrDayInPreview,
+.rdrDayStartOfMonth
+  .rdrDayInPreview {
+  border-top-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+}
+
+.rdrDays {
+  width: 340px;
+}
+
+.rdrDayNumber {
+  height: 50px;
+  width: 50px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.rdrEndEdge {
+  height: 50px;
+  background: linear-gradient(
+    to
+      right,
+    rgb(
+        247,
+        247,
+        247
+      )
+      50%,
+    #ffffff
+      50%
+  );
+}
+
+.rdrEndEdge::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%; /* 원 모양으로 만들기 위해 반지름을 50%로 설정 */
+  left: 0px;
+  z-index: 2; /* 배경에 추가하기 위해 z-index 설정 */
+}
+
+.rdrStartEdge {
+  height: 50px;
+  background: linear-gradient(
+    to
+      left,
+    rgb(
+        247,
+        247,
+        247
+      )
+      50%,
+    #ffffff
+      50%
+  );
+}
+
+.rdrStartEdge::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%; /* 원 모양으로 만들기 위해 반지름을 50%로 설정 */
+  left: 0px;
+  z-index: 2; /* 배경에 추가하기 위해 z-index 설정 */
+}
+
+.rdrDayToday
+  .rdrDayNumber
+  span:after {
+  content: none;
+}
+
+.rdrDay
+  .rdrDayToday
+  button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
