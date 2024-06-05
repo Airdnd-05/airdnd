@@ -112,12 +112,12 @@ function CarouselCategory() {
 
 function Category() {
   return (
-    <>
+    <div className='flex'>
       <CarouselCategory />
-      <div className='ml-20'>
+      <div className='ml-16 mt-[47px]'>
         <FilterButton />
       </div>
-    </>
+    </div>
   )
 }
 

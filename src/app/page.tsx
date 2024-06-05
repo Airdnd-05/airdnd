@@ -27,9 +27,7 @@ export default async function Home() {
         <div className='flex-1'>
           <Category />
         </div>
-        <div className='ml-4 bg-white'>
-          <FilterButton />
-        </div>
+        <div className='ml-4 bg-white'>{/* <FilterButton /> */}</div>
       </div>
       <div className='mt-8 grid w-full max-w-[1760px] grid-cols-1 gap-4 px-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
         {accommodations.map((accommodation, index) => (
