@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import fetchRoomsData from '@/utils/fetchRoomsData'
+import getRoomsDetail from '@/app/apis/fetchRoomsData/getRoomsDetail'
 
 async function NonGuestFavorite({ id }) {
   const fields = ['rating', 'reviewCount']
-  const { rating, reviewCount } = await fetchRoomsData(id, fields)
+  const { rating, reviewCount } = await getRoomsDetail(id, fields)
 
   return (
     <div className='mt-2 border-b border-solid border-neutral-300 pb-10'>
@@ -29,7 +29,7 @@ async function NonGuestFavorite({ id }) {
 
 async function GuestFavorite({ id }) {
   const fields = ['rating', 'reviewCount']
-  const { rating, reviewCount } = await fetchRoomsData(id, fields)
+  const { rating, reviewCount } = await getRoomsDetail(id, fields)
 
   return (
     <div className='border-b border-solid border-neutral-300 pb-6'>

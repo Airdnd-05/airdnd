@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import fetchRoomsData from '@/utils/fetchRoomsData'
-import fetchHostData from '@/utils/fetchHostData'
+import getRoomsDetail from '@/app/apis/fetchRoomsData/getRoomsDetail'
+import getHostDetail from '@/app/apis/fetchHostData/getHostDetail'
 
 export default async function HostProfile({ id }) {
-  const { hostId } = await fetchRoomsData(id, ['hostId'])
-  const { hostProfile } = await fetchHostData(hostId, ['hostProfile'])
+  const { hostId } = await getRoomsDetail(id, ['hostId'])
+  const { hostProfile } = await getHostDetail(hostId, ['hostProfile'])
   const { hostName, hostImageUrl, hostExperience } = hostProfile
 
   return (

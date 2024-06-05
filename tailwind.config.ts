@@ -18,8 +18,11 @@ const config = {
       },
     },
     extend: {
+      boxShadow: {
+        'host-detail-shadow': '3px 3px 13px 13px rgba(0, 0, 0, 0.1)',
+      },
+
       colors: {
-        'host-detail-gray': '#f0efe9',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',

@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import CategoryCarousel from '@/components/accommodation/category/CarouselCategory'
+import Category from '@/components/accommodation/categoryBundle/Category'
 import FilterButton from '@/components/common/button/FilterButton'
-import fetchAccommodations from '@/utils/fetchAccommodations'
+import getRoomsList from '@/app/apis/fetchMainPage/getRoomsList'
 import Card from '@/components/card/card'
 
 function RoomsItem({ accommodation }) {
@@ -19,17 +19,15 @@ function RoomsItem({ accommodation }) {
 }
 
 export default async function Home() {
-  const accommodations = await fetchAccommodations()
+  const accommodations = await getRoomsList()
 
   return (
     <div className='flex flex-col items-center justify-start'>
       <div className='flex w-full max-w-[1760px] flex-row items-center justify-between px-4'>
         <div className='flex-1'>
-          <CategoryCarousel />
+          <Category />
         </div>
-        <div className='ml-4 bg-white'>
-          <FilterButton />
-        </div>
+        <div className='ml-4 bg-white'>{/* <FilterButton /> */}</div>
       </div>
       <div className='mt-8 grid w-full max-w-[1760px] grid-cols-1 gap-4 px-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
         {accommodations.map((accommodation, index) => (
