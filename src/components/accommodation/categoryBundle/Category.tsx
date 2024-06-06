@@ -1,6 +1,8 @@
 'use client'
 
 import carouselImg from '@data/carousel.json'
+import { useState } from 'react'
+import Image from 'next/image'
 import {
   Carousel,
   CarouselContent,
@@ -8,14 +10,12 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/accommodation/categoryBundle/ui/carousel'
-import { useState } from 'react'
-import Image from 'next/image'
 import FilterButton from '@/components/common/button/FilterButton'
 
 function ClickedButtonContent({ eachButton }) {
   return (
     <>
-      <div className='inline-flex h-4 w-6 items-center justify-center' />
+      <div className='inline-flex items-center justify-center w-6 h-4' />
       <Image
         className='opacity-75 group-hover:opacity-100'
         src={eachButton.src}
@@ -36,7 +36,7 @@ function ClickedButtonContent({ eachButton }) {
 function DefaultButtonContent({ eachButton }) {
   return (
     <>
-      <div className='inline-flex h-4 w-6 items-center justify-center' />
+      <div className='inline-flex items-center justify-center w-6 h-4' />
       <Image
         className='opacity-100'
         src={eachButton.src}
@@ -74,17 +74,15 @@ function CarouselEachButtonServer() {
   const [clickedId, setIdClicked] = useState(1)
   return (
     <>
-      {category.map((eachButton, idx) => {
-        return (
-          <CarouselItem key={idx} className='basis-1/7 flex w-auto items-center justify-center'>
-            <CarouselEachButton
-              clickedId={clickedId}
-              setIdClicked={setIdClicked}
-              eachButton={eachButton}
-            />
-          </CarouselItem>
-        )
-      })}
+      {category.map((eachButton, idx) => (
+        <CarouselItem key={idx} className='flex items-center justify-center w-auto basis-1/7'>
+          <CarouselEachButton
+            clickedId={clickedId}
+            setIdClicked={setIdClicked}
+            eachButton={eachButton}
+          />
+        </CarouselItem>
+      ))}
     </>
   )
 }

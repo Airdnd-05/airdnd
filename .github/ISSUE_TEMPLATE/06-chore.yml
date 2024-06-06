@@ -10,15 +10,6 @@ body:
       value: |
         ### 작업 설명
 
-  - type: input
-    id: chore_title
-    attributes:
-      label: 작업 제목
-      description: 작업의 제목을 입력하세요.
-      placeholder: 예) 의존성 업데이트
-    validations:
-      required: true
-
   - type: textarea
     id: chore_description
     attributes:

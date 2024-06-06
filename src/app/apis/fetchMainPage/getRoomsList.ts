@@ -1,13 +1,23 @@
-async function getRoomsList() {
+async function getRoomsList(id, fields) {
   try {
+    if (!id || !Array.isArray(fields) || fields.length === 0) {
+      throw new Error('조회를 위한 파라미터가 적절하지 않습니다.')
+    }
+
+    // 숙소 DB에서 숙소 리스트에 포함되어야할 필드를 쿼리 스트링으로 결합힙니다.
+    const queryParams = fields.map(field => `${field}=`).join('&')
+
     // 메인 페이지 렌더링에 필요한 정보 조회시 캐싱을 하지 않습니다.
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/apis/fetchMainPage`, {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
+    const response = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/apis/fetchMainPage?id=${id}&${queryParams}`,
+      {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        // cache: 'no-store',
       },
-      // cache: 'no-store',
-    })
+    )
 
     if (!response.ok) {
       throw new Error(
