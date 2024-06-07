@@ -15,6 +15,13 @@ function SearchBar() {
   //   메뉴 요소의 참조를 저장하는 Ref 배열
   const [activeIndex, setActiveIndex] = useState(null)
   const [selected, setSelected] = useState('')
+  const [dateRange, setDateRange] = useState([
+    {
+      startDate: null,
+      endDate: null,
+      key: 'selection',
+    },
+  ])
 
   /**
    * 메뉴 아이템 클릭 이벤트를 처리하고 스타일을 업데이트
@@ -70,6 +77,7 @@ function SearchBar() {
           }}
           handleClick={handleClick}
           handleHover={handleHover}
+          selectedDate={dateRange[0].startDate}
         />
         <div className='h-5 border-r border-solid border-gray-300'></div>
 
@@ -79,6 +87,7 @@ function SearchBar() {
           }}
           handleClick={handleClick}
           handleHover={handleHover}
+          selectedDate={dateRange[0].endDate}
         />
         <div className='h-5 border-r border-solid border-gray-300'></div>
 
@@ -94,6 +103,8 @@ function SearchBar() {
             index={activeIndex}
             setActiveIndex={setActiveIndex}
             handleClick={handleClick}
+            dateRange={dateRange}
+            setDateRange={setDateRange}
           />
         )}
       </div>

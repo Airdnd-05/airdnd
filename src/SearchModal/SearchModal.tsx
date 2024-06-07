@@ -1,5 +1,11 @@
+'use client'
+
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
+import { DateRangePicker } from 'react-date-range'
+import { ko } from 'date-fns/locale'
+import '@/SearchModal/SearchCalender.css'
+import clsx from 'clsx'
 
 const imageData = [
   {
@@ -63,6 +69,21 @@ const localItem = [
   },
 ]
 
+const CalenderItem = [
+  {
+    title: '날짜 지정',
+    key: 'date',
+  },
+  {
+    title: '월 단위',
+    key: 'month',
+  },
+  {
+    title: '유연한 일정',
+    key: 'schedule',
+  },
+]
+
 function TravelDestinationModal({ setActiveIndex, handleClick }) {
   const handleItemClick = title => {
     handleClick(1, title)
@@ -111,27 +132,75 @@ function TravelDestinationModal({ setActiveIndex, handleClick }) {
     </div>
   )
 }
-function CheckInModal() {
-  return <div className='absolute left-0 top-20 w-[768px] rounded-2xl bg-white shadow-lg'>달력</div>
-}
-function CheckOutModal() {
+
+function CalenderModal({ dateRange, setDateRange, setActiveIndex, handleClick }) {
+  const today = new Date()
+  const [selected, setSelected] = useState('date')
+
+  const handleDateChange = ranges => {
+    const { startDate, endDate } = ranges.selection
+
+    if (startDate && !endDate) {
+      console.log('Selected Start Date:', startDate)
+      const newRange = { ...dateRange[0], startDate }
+      setDateRange([newRange])
+      handleClick(2)
+      setActiveIndex(2)
+    } else {
+      setDateRange([ranges.selection])
+    }
+  }
+
   return (
-    <div className='absolute left-0 top-20 w-[768px] rounded-2xl bg-white shadow-lg'>달력2</div>
+    <div className='absolute left-0 top-20 z-50 w-[768px] rounded-2xl bg-white shadow-lg'>
+      <div className='flex items-center justify-center'>
+        <div className='flex items-center justify-center gap-3 rounded-full bg-gray-200 px-5 py-1'>
+          {CalenderItem.map(item => (
+            <button
+              key={item.key}
+              className={clsx('px-4 py-2 hover:rounded-full hover:bg-gray-100', {
+                'rounded-full bg-white font-bold': selected === item.key,
+              })}
+              onClick={() => setSelected(item.key)}>
+              {item.title}
+            </button>
+          ))}
+        </div>
+      </div>
+      <DateRangePicker
+        minDate={today}
+        onChange={handleDateChange}
+        showSelectionPreview={true}
+        ranges={dateRange}
+        months={2}
+        direction='horizontal'
+        locale={ko}
+        preventSnapRefocus={true}
+        monthDisplayFormat='yyyy년 MMM'
+      />
+    </div>
   )
 }
+
 function TravelersModal() {
   return <div className='absolute right-0 top-20 rounded-2xl bg-white shadow-lg'>추가</div>
 }
 
-function SearchModal({ index, setActiveIndex, handleClick }) {
+function SearchModal({ index, setActiveIndex, handleClick, dateRange, setDateRange }) {
   const EachModal = () => {
     switch (index) {
       case 0:
         return <TravelDestinationModal setActiveIndex={setActiveIndex} handleClick={handleClick} />
       case 1:
-        return <CheckInModal />
       case 2:
-        return <CheckOutModal />
+        return (
+          <CalenderModal
+            dateRange={dateRange}
+            setDateRange={setDateRange}
+            setActiveIndex={setActiveIndex}
+            handleClick={handleClick}
+          />
+        )
       case 3:
         return <TravelersModal />
       default:
