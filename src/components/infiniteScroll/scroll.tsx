@@ -21,13 +21,12 @@ function RoomsItem({ accommodation }) {
 
 function MainInfiniteScroll() {
   const [accommodations, setAccommodations] = useState([])
-  const [isLoading, setIsLoading] = useState(false)
   const [id, setId] = useState(21)
   const loaderRef = useRef(null)
 
   const fetchAccommodation = useCallback(async () => {
     if (id > 340) return
-    if (isLoading) return
+
     const fields = [
       'accommodationId',
       'accommodationName',
@@ -37,16 +36,12 @@ function MainInfiniteScroll() {
       'pricePerDay',
     ]
 
-    setIsLoading(true)
-
     const newAccommodation = await getRoomList(id, fields)
 
     setAccommodations(prev => [...prev, ...newAccommodation])
 
     setId(prevId => prevId + 20)
-
-    setIsLoading(false)
-  }, [id, isLoading])
+  }, [id])
 
   useEffect(() => {
     const observer = new IntersectionObserver(
