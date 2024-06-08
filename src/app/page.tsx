@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Category from '@/components/accommodation/categoryBundle/Category'
 import getRoomsList from '@/app/apis/fetchMainPage/getRoomsList'
 import Card from '@/components/card/card'
+import InfiniteScroll from '@/components/infiniteScroll/scroll'
 
 function RoomsItem({ accommodation }) {
   return (
@@ -41,6 +42,7 @@ export default async function Home() {
         {accommodations.map((accommodation, index) => (
           <RoomsItem key={`RoomsItem-${index}`} accommodation={accommodation} />
         ))}
+        <InfiniteScroll></InfiniteScroll>
       </div>
     </div>
   )
