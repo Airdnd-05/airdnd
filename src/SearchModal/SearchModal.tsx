@@ -84,13 +84,20 @@ const CalenderItem = [
   },
 ]
 
+const TravelerItem = [
+  { id: 1, label: '성인', description: '13세 이상', count: 0 },
+  { id: 2, label: '어린이', description: '2세~12세', count: 0 },
+  { id: 3, label: '유아', description: '2세미만', count: 0 },
+  { id: 4, label: '반려동물', description: '보조동물을 동반하시나요?', count: 0 },
+]
+
 function TravelDestinationModal({ setActiveIndex, handleClick }) {
   const handleItemClick = title => {
     handleClick(1, title)
     setActiveIndex(1)
   }
   return (
-    <div className='absolute left-0 top-20 z-50 rounded-2xl bg-white p-[30px] shadow-lg'>
+    <div className='absolute left-0 top-20 z-50 rounded-3xl bg-white p-[30px] shadow-lg'>
       <div className='flex flex-col p-5'>
         <div className='flex flex-col'>
           <h3 className='ml-[8px] pb-[10px] text-sm font-bold'>지역으로 검색하기</h3>
@@ -138,14 +145,17 @@ function CalenderModal({ dateRange, setDateRange, setActiveIndex, handleClick })
   const [selected, setSelected] = useState('date')
 
   const handleDateChange = ranges => {
-    const { startDate, endDate } = ranges.selection
+    handleClick(2)
+    setActiveIndex(2)
 
-    if (startDate && !endDate) {
-      console.log('Selected Start Date:', startDate)
-      const newRange = { ...dateRange[0], startDate }
-      setDateRange([newRange])
-      handleClick(2)
-      setActiveIndex(2)
+    // if (!dateRange[0].startDate && !dateRange[0].endDate) { // 어떤것도 선택되지 않았을때
+    //   // 시작 날짜의 달력을 클릭했을때 시작 날짜로 설정되고
+    //   // 종료 날짜의 달력을 클릭했을때 종료 날짜로 설정되야한다.
+    // }
+
+    if (dateRange[0].startDate === null) {
+      const { startDate } = ranges.selection
+      setDateRange([{ startDate, endDate: null, key: 'selection' }])
     } else {
       setDateRange([ranges.selection])
     }
@@ -183,7 +193,33 @@ function CalenderModal({ dateRange, setDateRange, setActiveIndex, handleClick })
 }
 
 function TravelersModal() {
-  return <div className='absolute right-0 top-20 rounded-2xl bg-white shadow-lg'>추가</div>
+  return (
+    <div className='absolute right-0 top-20 z-50 rounded-3xl bg-white px-8 py-4 shadow-lg'>
+      <div className='flex w-[330px] flex-col'>
+        {TravelerItem.map(({ id, label, description, count }) => (
+          <div
+            key={id}
+            className={`flex items-center justify-between py-6 ${id !== 4 ? 'border-b border-solid border-gray-200' : ''}`}>
+            <div className='flex flex-col'>
+              <h3 className='pb-1 text-base font-bold'>{label}</h3>
+              <p className={`text-sm text-gray-400 ${id === 4 ? 'cursor-pointer underline' : ''}`}>
+                {description}
+              </p>
+            </div>
+            <div className='flex items-center'>
+              <button className='h-[32px] w-[32px] rounded-full border border-solid text-gray-200'>
+                -
+              </button>
+              <span className='px-4'>{count}</span>
+              <button className='h-[32px] w-[32px] rounded-full border border-solid border-gray-400'>
+                +
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
 }
 
 function SearchModal({ index, setActiveIndex, handleClick, dateRange, setDateRange }) {

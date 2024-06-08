@@ -17,7 +17,7 @@ function CheckOut({ refCallback, handleClick, handleHover, selectedDate }) {
       <input
         type='text'
         placeholder='날짜 추가'
-        className='cursor-pointer bg-inherit focus:outline-none'
+        className='w-[92.5px] cursor-pointer bg-inherit focus:outline-none'
         value={selectedDate ? formatDate(selectedDate) : ''}
         readOnly
       />

@@ -11,7 +11,12 @@ function Travelers({ refCallback, handleClick, handleHover }) {
       className='group relative flex h-full flex-grow justify-between rounded-full px-[14px] py-[10px] hover:bg-gray-200'>
       <div className='flex flex-col justify-center'>
         <div className='pb-1 text-xs'>여행자</div>
-        <div className=''>게스트 추가</div>
+        <input
+          type='text'
+          placeholder='게스트 추가'
+          className='w-[143px] cursor-pointer bg-inherit focus:outline-none'
+          readOnly
+        />
       </div>
       <div>
         <button>
