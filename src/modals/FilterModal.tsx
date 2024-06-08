@@ -2,80 +2,153 @@
 
 import { useDispatch, useSelector } from 'react-redux'
 import { IoMdClose } from 'react-icons/io'
-import { ReactNode } from 'react'
-import { setFilters, clearFilters } from '@/redux/features/filter/slice'
-import { closeModal } from '@/redux/features/modal/slice'
-import { resetPriceRange } from '@/redux/features/priceRange/slice'
-import Portal from '@/portal/Portal'
-import RangeBar from '@/components/filter/RangeBar'
+import { useEffect, useMemo, useRef } from 'react'
 import { RootState } from '@/redux/store'
+import { useGetRoomsCountQuery } from '@/redux/apiSlice'
+import PriceRangeFilter from '@/components/filters/PriceRangeFilter'
+import RoomTypeFilter from '@/components/filters/RoomTypeFilter'
+import BedFilter from '@/components/filters/BedFilter'
+import AmenitiesFilter from '@/components/filters/AmenitiesFilter'
+import BookingOptionFilter from '@/components/filters/BookingOptionFilter'
+import GuestFavoriteFilter from '@/components/filters/GuestFavoriteFilter'
+import BuildingTypeFilter from '@/components/filters/BuildingTypeFilter'
+import { resetPriceRangeFilter } from '@/redux/features/priceRangeFilterSlice'
+import { resetRoomTypeFilter } from '@/redux/features/roomTypeFilterSlice'
+import { resetBedFilter } from '@/redux/features/bedFilterSlice'
+import { resetAmenitiesFilter } from '@/redux/features/amenitiesFilterSlice'
+import { resetBookingOptionFilter } from '@/redux/features/bookingOptionFilterSlice'
+import { resetGuestFavorite } from '@/redux/features/guestFavoriteSlice'
+import { resetBuildingType } from '@/redux/features/buildingTypeSlice'
+import { closeModal, setModalScrollPosition } from '@/redux/features/modalSlice'
+import Portal from '@/portal/Portal'
 
 function FilterModal() {
   const dispatch = useDispatch()
-  const isOpen = useSelector((state: RootState) => state.modal.isOpen)
-  if (isOpen) {
-    document.body.style.overflow = 'hidden'
-  } else {
-    document.body.style.overflow = 'auto'
-  }
+  const scrollRef = useRef<HTMLDivElement>(null)
+  const modalScrollPosition = useSelector((state: RootState) => state.modal.modalScrollPosition)
+  const priceRangeFilter = useSelector((state: RootState) => state.priceRangeFilter)
+  const roomTypeFilter = useSelector((state: RootState) => state.roomTypeFilter)
+  const bedFilter = useSelector((state: RootState) => state.bedFilter)
+  const amenitiesFilter = useSelector((state: RootState) => state.amenitiesFilter)
+  const bookingOptionFilter = useSelector(
+    (state: RootState) => state.bookingOptionFilter.bookingOptions,
+  )
+  const guestFavorite = useSelector((state: RootState) => state.guestFavorite.guestFavorite)
+  const buildingTypes = useSelector((state: RootState) => state.buildingType.buildingTypes)
+
+  const filters = useMemo(
+    () => ({
+      priceMin: priceRangeFilter.priceMin || null,
+      priceMax: priceRangeFilter.priceMax || null,
+      roomType: roomTypeFilter.roomType || '',
+      bedrooms: bedFilter.bedrooms || null,
+      beds: bedFilter.beds || null,
+      bathRooms: bedFilter.bathrooms || null,
+      amenities: amenitiesFilter.amenities.length > 0 ? amenitiesFilter.amenities : [],
+      bookingOptions: bookingOptionFilter.length > 0 ? bookingOptionFilter : [],
+      guestFavorite: guestFavorite || null,
+      buildingTypes: buildingTypes.length > 0 ? buildingTypes : [],
+    }),
+    [
+      priceRangeFilter,
+      roomTypeFilter,
+      bedFilter,
+      amenitiesFilter,
+      bookingOptionFilter,
+      guestFavorite,
+      buildingTypes,
+    ],
+  )
 
   const handleApplyFilters = () => {
-    dispatch(setFilters({}))
+    // 검색 로직 후추
     dispatch(closeModal())
   }
 
   const handleClearFilters = () => {
-    dispatch(clearFilters())
-    dispatch(resetPriceRange())
+    dispatch(resetAmenitiesFilter())
+    dispatch(resetBedFilter())
+    dispatch(resetPriceRangeFilter())
+    dispatch(resetRoomTypeFilter())
+    dispatch(resetBookingOptionFilter())
+    dispatch(resetGuestFavorite())
+    dispatch(resetBuildingType())
   }
 
-  const handleClose = () => {
+  const handleCloseModal = () => {
     dispatch(closeModal())
   }
 
+  const { data, error, isLoading } = useGetRoomsCountQuery(filters)
+
   function Header() {
     return (
-      <div className='flex items-center justify-center p-6 border-b border-solid rounded-t border-slate-200'>
+      <div className='relative flex items-center justify-center px-6 border-b border-solid rounded-t border-slate-200'>
         <button
-          onClick={handleClose}
-          className='absolute p-1 transition border-0 left-9 hover:opacity-70'>
+          onClick={handleCloseModal}
+          className='absolute p-1 transition border-0 left-4 hover:opacity-70'>
           <IoMdClose size={18} />
         </button>
-        <div className='text-lg font-semibold'>필터</div>
+        <div className='flex items-center h-16 text-lg font-semibold'>필터</div>
       </div>
     )
-  }
-
-  function Body({ children }: { children: ReactNode }) {
-    return <div className='relative flex-auto overflow-y-auto'>{children}</div>
   }
 
   function Footer() {
     return (
-      <div className='flex flex-col items-center w-full gap-4 p-6 border-t'>
+      <div className='flex items-center justify-between w-full px-6 py-4 border-t border-gray-300 border-solid'>
         <button
           onClick={handleClearFilters}
-          className='w-full py-3 font-semibold text-black transition bg-white border-2 border-black rounded-lg text-md hover:opacity-80'>
+          className='px-4 py-3 font-semibold text-black transition bg-white rounded-lg hover:opacity-80'>
           전체 해제
         </button>
         <button
           onClick={handleApplyFilters}
-          className='w-full py-3 font-semibold text-white transition bg-black rounded-lg text-md hover:opacity-80'>
-          숙소 1,000개 이상 표시
+          className='h-12 px-4 py-3 font-semibold text-white transition bg-black rounded-lg hover:opacity-80'>
+          {roomTypeFilter.roomType === '방'
+            ? '방'
+            : roomTypeFilter.roomType === '집 전체'
+              ? '집 전체 숙소'
+              : '숙소'}{' '}
+          {isLoading ? 'Loading...' : data?.count}개 보기
         </button>
+        {error && <p className='text-red-500'>데이터를 가져오는데 실패했습니다.</p>}
       </div>
     )
   }
 
+  // 컴포넌트 마운트될때 스크롤 위치를 복원
+  useEffect(() => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollTop = modalScrollPosition
+    }
+  }, [modalScrollPosition])
+
+  // 컴포넌트가 언마운트될 때 스크롤 위치를 저장
+  useEffect(
+    () => () => {
+      if (scrollRef.current) {
+        dispatch(setModalScrollPosition(scrollRef.current.scrollTop))
+      }
+    },
+    [dispatch],
+  )
+
   return (
     <Portal>
-      <div className='fixed inset-0 z-50 flex items-center justify-center outline-none bg-neutral-800/70 focus:outline-none'>
-        <div className='relative w-full max-w-3xl mx-auto my-6 overflow-hidden h-5/6'>
-          <div className='relative flex flex-col w-full h-full bg-white border-0 rounded-lg shadow-lg outline-none focus:outline-none'>
+      <div className='fixed inset-0 z-50 flex items-center justify-center p-10 outline-none bg-neutral-800/70 focus:outline-none'>
+        <div className='w-full h-full max-w-3xl overflow-hidden max-h-3xl'>
+          <div className='flex flex-col w-full h-full bg-white border-0 rounded-lg shadow-lg outline-none focus:outline-none'>
             <Header />
-            <Body>
-              <RangeBar />
-            </Body>
+            <div ref={scrollRef} className='flex-auto overflow-y-auto'>
+              <PriceRangeFilter />
+              <RoomTypeFilter />
+              <BedFilter />
+              <AmenitiesFilter />
+              <BookingOptionFilter />
+              <GuestFavoriteFilter />
+              <BuildingTypeFilter />
+            </div>
             <Footer />
           </div>
         </div>

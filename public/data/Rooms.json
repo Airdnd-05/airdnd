@@ -1,0 +1,6714 @@
+[
+  {
+      "id": 1,
+      "name": "Beautiful Villa",
+      "pricePerDay": 112798,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 1,
+      "bathrooms": 5,
+      "amenities": [
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "제주도",
+      "age": 56
+  },
+  {
+      "id": 2,
+      "name": "Cozy Apartment",
+      "pricePerDay": 304786,
+      "roomType": "집 전체",
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 9,
+      "amenities": [
+          "에어컨",
+          "난방",
+          "건조기",
+          "무선 인터넷",
+          "주방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "속초",
+      "age": 55
+  },
+  {
+      "id": 3,
+      "name": "Beautiful Villa",
+      "pricePerDay": 384963,
+      "roomType": "방",
+      "bedrooms": 3,
+      "beds": 2,
+      "bathrooms": 10,
+      "amenities": [
+          "세탁기",
+          "난방",
+          "건조기",
+          "주방",
+          "무선 인터넷",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "대전",
+      "age": 93
+  },
+  {
+      "id": 4,
+      "name": "Luxury Condo",
+      "pricePerDay": 242117,
+      "roomType": "집 전체",
+      "bedrooms": 2,
+      "beds": 1,
+      "bathrooms": 8,
+      "amenities": [
+          "난방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "인천",
+      "age": 36
+  },
+  {
+      "id": 5,
+      "name": "Cozy Apartment",
+      "pricePerDay": 438138,
+      "roomType": "집 전체",
+      "bedrooms": 10,
+      "beds": 0,
+      "bathrooms": 9,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "대전",
+      "age": 70
+  },
+  {
+      "id": 6,
+      "name": "Luxury Condo",
+      "pricePerDay": 31414,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 1,
+      "bathrooms": 7,
+      "amenities": [
+          "난방",
+          "세탁기",
+          "에어컨",
+          "주방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "서울",
+      "age": 4
+  },
+  {
+      "id": 7,
+      "name": "Luxury Condo",
+      "pricePerDay": 511527,
+      "roomType": "집 전체",
+      "bedrooms": 0,
+      "beds": 3,
+      "bathrooms": 3,
+      "amenities": [
+          "건조기",
+          "세탁기",
+          "주방",
+          "에어컨",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "전주",
+      "age": 75
+  },
+  {
+      "id": 8,
+      "name": "Charming House",
+      "pricePerDay": 415173,
+      "roomType": "집 전체",
+      "bedrooms": 10,
+      "beds": 0,
+      "bathrooms": 10,
+      "amenities": [
+          "건조기",
+          "에어컨",
+          "난방",
+          "무선 인터넷",
+          "주방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "대구",
+      "age": 99
+  },
+  {
+      "id": 9,
+      "name": "Beautiful Villa",
+      "pricePerDay": 379220,
+      "roomType": "집 전체",
+      "bedrooms": 0,
+      "beds": 3,
+      "bathrooms": 8,
+      "amenities": [
+          "무선 인터넷",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "경주",
+      "age": 18
+  },
+  {
+      "id": 10,
+      "name": "Charming House",
+      "pricePerDay": 278690,
+      "roomType": "방",
+      "bedrooms": 7,
+      "beds": 7,
+      "bathrooms": 8,
+      "amenities": [
+          "건조기",
+          "주방",
+          "무선 인터넷",
+          "에어컨",
+          "난방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "제주도",
+      "age": 16
+  },
+  {
+      "id": 11,
+      "name": "Luxury Condo",
+      "pricePerDay": 279330,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 0,
+      "bathrooms": 4,
+      "amenities": [
+          "건조기",
+          "에어컨",
+          "세탁기",
+          "주방",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "대구",
+      "age": 76
+  },
+  {
+      "id": 12,
+      "name": "Charming House",
+      "pricePerDay": 237085,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 7,
+      "bathrooms": 1,
+      "amenities": [
+          "세탁기",
+          "에어컨",
+          "건조기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "대전",
+      "age": 10
+  },
+  {
+      "id": 13,
+      "name": "Cozy Apartment",
+      "pricePerDay": 474264,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 6,
+      "bathrooms": 0,
+      "amenities": [
+          "주방",
+          "건조기",
+          "무선 인터넷",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "대전",
+      "age": 5
+  },
+  {
+      "id": 14,
+      "name": "Cozy Apartment",
+      "pricePerDay": 168442,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 0,
+      "bathrooms": 10,
+      "amenities": [
+          "주방",
+          "세탁기",
+          "건조기",
+          "에어컨",
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "인천",
+      "age": 17
+  },
+  {
+      "id": 15,
+      "name": "Cozy Apartment",
+      "pricePerDay": 445752,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 10,
+      "bathrooms": 7,
+      "amenities": [
+          "에어컨",
+          "세탁기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "강릉",
+      "age": 71
+  },
+  {
+      "id": 16,
+      "name": "Beautiful Villa",
+      "pricePerDay": 445289,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 0,
+      "bathrooms": 6,
+      "amenities": [
+          "무선 인터넷",
+          "세탁기",
+          "건조기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "서울",
+      "age": 38
+  },
+  {
+      "id": 17,
+      "name": "Luxury Condo",
+      "pricePerDay": 440665,
+      "roomType": "집 전체",
+      "bedrooms": 5,
+      "beds": 0,
+      "bathrooms": 4,
+      "amenities": [
+          "주방",
+          "건조기",
+          "에어컨",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "대전",
+      "age": 15
+  },
+  {
+      "id": 18,
+      "name": "Beautiful Villa",
+      "pricePerDay": 87522,
+      "roomType": "집 전체",
+      "bedrooms": 4,
+      "beds": 8,
+      "bathrooms": 10,
+      "amenities": [
+          "주방",
+          "난방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "서귀포",
+      "age": 42
+  },
+  {
+      "id": 19,
+      "name": "Cozy Apartment",
+      "pricePerDay": 60897,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 10,
+      "bathrooms": 2,
+      "amenities": [
+          "난방",
+          "주방",
+          "에어컨",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "제주도",
+      "age": 35
+  },
+  {
+      "id": 20,
+      "name": "Luxury Condo",
+      "pricePerDay": 530789,
+      "roomType": "방",
+      "bedrooms": 9,
+      "beds": 7,
+      "bathrooms": 5,
+      "amenities": [
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "대전",
+      "age": 61
+  },
+  {
+      "id": 21,
+      "name": "Cozy Apartment",
+      "pricePerDay": 120443,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 6,
+      "bathrooms": 1,
+      "amenities": [
+          "난방",
+          "건조기",
+          "에어컨",
+          "무선 인터넷",
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "서울",
+      "age": 78
+  },
+  {
+      "id": 22,
+      "name": "Modern Studio",
+      "pricePerDay": 620970,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 1,
+      "bathrooms": 7,
+      "amenities": [
+          "건조기",
+          "무선 인터넷",
+          "주방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "서귀포",
+      "age": 91
+  },
+  {
+      "id": 23,
+      "name": "Luxury Condo",
+      "pricePerDay": 474016,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 8,
+      "bathrooms": 1,
+      "amenities": [
+          "주방",
+          "에어컨",
+          "세탁기",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "전주",
+      "age": 22
+  },
+  {
+      "id": 24,
+      "name": "Luxury Condo",
+      "pricePerDay": 89086,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 8,
+      "bathrooms": 4,
+      "amenities": [
+          "에어컨",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "서울",
+      "age": 73
+  },
+  {
+      "id": 25,
+      "name": "Modern Studio",
+      "pricePerDay": 480081,
+      "roomType": "집 전체",
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 2,
+      "amenities": [
+          "무선 인터넷",
+          "주방"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "제주도",
+      "age": 30
+  },
+  {
+      "id": 26,
+      "name": "Charming House",
+      "pricePerDay": 556685,
+      "roomType": "방",
+      "bedrooms": 10,
+      "beds": 6,
+      "bathrooms": 10,
+      "amenities": [
+          "난방",
+          "무선 인터넷",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "서울",
+      "age": 0
+  },
+  {
+      "id": 27,
+      "name": "Modern Studio",
+      "pricePerDay": 240417,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 2,
+      "bathrooms": 0,
+      "amenities": [
+          "건조기",
+          "무선 인터넷",
+          "에어컨",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "서울",
+      "age": 95
+  },
+  {
+      "id": 28,
+      "name": "Beautiful Villa",
+      "pricePerDay": 396238,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 7,
+      "bathrooms": 3,
+      "amenities": [
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "전주",
+      "age": 72
+  },
+  {
+      "id": 29,
+      "name": "Luxury Condo",
+      "pricePerDay": 450648,
+      "roomType": "방",
+      "bedrooms": 1,
+      "beds": 7,
+      "bathrooms": 10,
+      "amenities": [
+          "에어컨",
+          "건조기",
+          "세탁기",
+          "주방",
+          "난방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "전주",
+      "age": 88
+  },
+  {
+      "id": 30,
+      "name": "Cozy Apartment",
+      "pricePerDay": 121896,
+      "roomType": "집 전체",
+      "bedrooms": 0,
+      "beds": 6,
+      "bathrooms": 8,
+      "amenities": [
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "제주도",
+      "age": 12
+  },
+  {
+      "id": 31,
+      "name": "Cozy Apartment",
+      "pricePerDay": 436299,
+      "roomType": "방",
+      "bedrooms": 10,
+      "beds": 10,
+      "bathrooms": 6,
+      "amenities": [
+          "난방",
+          "세탁기",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "대전",
+      "age": 92
+  },
+  {
+      "id": 32,
+      "name": "Luxury Condo",
+      "pricePerDay": 156269,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 8,
+      "amenities": [
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "전주",
+      "age": 0
+  },
+  {
+      "id": 33,
+      "name": "Charming House",
+      "pricePerDay": 137113,
+      "roomType": "방",
+      "bedrooms": 3,
+      "beds": 9,
+      "bathrooms": 2,
+      "amenities": [
+          "에어컨",
+          "무선 인터넷",
+          "주방",
+          "세탁기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "제주도",
+      "age": 58
+  },
+  {
+      "id": 34,
+      "name": "Luxury Condo",
+      "pricePerDay": 231745,
+      "roomType": "방",
+      "bedrooms": 10,
+      "beds": 6,
+      "bathrooms": 9,
+      "amenities": [
+          "무선 인터넷",
+          "난방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "여수",
+      "age": 36
+  },
+  {
+      "id": 35,
+      "name": "Modern Studio",
+      "pricePerDay": 557248,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 4,
+      "bathrooms": 3,
+      "amenities": [
+          "주방",
+          "건조기",
+          "무선 인터넷",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "경주",
+      "age": 79
+  },
+  {
+      "id": 36,
+      "name": "Beautiful Villa",
+      "pricePerDay": 263000,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 8,
+      "bathrooms": 5,
+      "amenities": [
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "강릉",
+      "age": 100
+  },
+  {
+      "id": 37,
+      "name": "Beautiful Villa",
+      "pricePerDay": 267561,
+      "roomType": "집 전체",
+      "bedrooms": 4,
+      "beds": 3,
+      "bathrooms": 10,
+      "amenities": [
+          "난방",
+          "세탁기",
+          "주방",
+          "무선 인터넷",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "전주",
+      "age": 63
+  },
+  {
+      "id": 38,
+      "name": "Charming House",
+      "pricePerDay": 103017,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 0,
+      "bathrooms": 1,
+      "amenities": [
+          "세탁기",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "대구",
+      "age": 93
+  },
+  {
+      "id": 39,
+      "name": "Modern Studio",
+      "pricePerDay": 405007,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 10,
+      "bathrooms": 4,
+      "amenities": [
+          "건조기",
+          "난방",
+          "세탁기",
+          "무선 인터넷",
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "인천",
+      "age": 10
+  },
+  {
+      "id": 40,
+      "name": "Cozy Apartment",
+      "pricePerDay": 455571,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 10,
+      "bathrooms": 3,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "경주",
+      "age": 21
+  },
+  {
+      "id": 41,
+      "name": "Luxury Condo",
+      "pricePerDay": 154219,
+      "roomType": "집 전체",
+      "bedrooms": 4,
+      "beds": 3,
+      "bathrooms": 6,
+      "amenities": [
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "경주",
+      "age": 78
+  },
+  {
+      "id": 42,
+      "name": "Cozy Apartment",
+      "pricePerDay": 558317,
+      "roomType": "방",
+      "bedrooms": 3,
+      "beds": 7,
+      "bathrooms": 0,
+      "amenities": [
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "서울",
+      "age": 74
+  },
+  {
+      "id": 43,
+      "name": "Modern Studio",
+      "pricePerDay": 152450,
+      "roomType": "집 전체",
+      "bedrooms": 4,
+      "beds": 5,
+      "bathrooms": 8,
+      "amenities": [
+          "난방",
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "서울",
+      "age": 27
+  },
+  {
+      "id": 44,
+      "name": "Modern Studio",
+      "pricePerDay": 247847,
+      "roomType": "집 전체",
+      "bedrooms": 7,
+      "beds": 7,
+      "bathrooms": 0,
+      "amenities": [
+          "무선 인터넷",
+          "세탁기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "속초",
+      "age": 90
+  },
+  {
+      "id": 45,
+      "name": "Luxury Condo",
+      "pricePerDay": 206931,
+      "roomType": "집 전체",
+      "bedrooms": 5,
+      "beds": 9,
+      "bathrooms": 10,
+      "amenities": [
+          "무선 인터넷",
+          "주방",
+          "세탁기",
+          "에어컨",
+          "건조기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "대구",
+      "age": 63
+  },
+  {
+      "id": 46,
+      "name": "Cozy Apartment",
+      "pricePerDay": 229990,
+      "roomType": "집 전체",
+      "bedrooms": 4,
+      "beds": 8,
+      "bathrooms": 5,
+      "amenities": [
+          "건조기",
+          "에어컨",
+          "주방",
+          "난방",
+          "무선 인터넷",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "강릉",
+      "age": 2
+  },
+  {
+      "id": 47,
+      "name": "Luxury Condo",
+      "pricePerDay": 161998,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 7,
+      "bathrooms": 9,
+      "amenities": [
+          "에어컨",
+          "세탁기",
+          "주방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "서귀포",
+      "age": 9
+  },
+  {
+      "id": 48,
+      "name": "Beautiful Villa",
+      "pricePerDay": 535737,
+      "roomType": "방",
+      "bedrooms": 9,
+      "beds": 1,
+      "bathrooms": 6,
+      "amenities": [
+          "무선 인터넷",
+          "에어컨",
+          "주방"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "대구",
+      "age": 7
+  },
+  {
+      "id": 49,
+      "name": "Charming House",
+      "pricePerDay": 151840,
+      "roomType": "집 전체",
+      "bedrooms": 9,
+      "beds": 2,
+      "bathrooms": 0,
+      "amenities": [
+          "세탁기",
+          "주방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "인천",
+      "age": 42
+  },
+  {
+      "id": 50,
+      "name": "Cozy Apartment",
+      "pricePerDay": 197656,
+      "roomType": "집 전체",
+      "bedrooms": 0,
+      "beds": 10,
+      "bathrooms": 0,
+      "amenities": [
+          "건조기",
+          "세탁기",
+          "난방",
+          "에어컨",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "전주",
+      "age": 71
+  },
+  {
+      "id": 51,
+      "name": "Luxury Condo",
+      "pricePerDay": 495825,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 9,
+      "bathrooms": 9,
+      "amenities": [
+          "세탁기",
+          "건조기",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "부산",
+      "age": 2
+  },
+  {
+      "id": 52,
+      "name": "Cozy Apartment",
+      "pricePerDay": 403208,
+      "roomType": "집 전체",
+      "bedrooms": 1,
+      "beds": 4,
+      "bathrooms": 8,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "인천",
+      "age": 94
+  },
+  {
+      "id": 53,
+      "name": "Cozy Apartment",
+      "pricePerDay": 585121,
+      "roomType": "집 전체",
+      "bedrooms": 5,
+      "beds": 0,
+      "bathrooms": 5,
+      "amenities": [
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "여수",
+      "age": 41
+  },
+  {
+      "id": 54,
+      "name": "Charming House",
+      "pricePerDay": 139439,
+      "roomType": "방",
+      "bedrooms": 1,
+      "beds": 6,
+      "bathrooms": 6,
+      "amenities": [
+          "무선 인터넷",
+          "에어컨",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "대전",
+      "age": 93
+  },
+  {
+      "id": 55,
+      "name": "Modern Studio",
+      "pricePerDay": 561808,
+      "roomType": "방",
+      "bedrooms": 2,
+      "beds": 0,
+      "bathrooms": 5,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "전주",
+      "age": 35
+  },
+  {
+      "id": 56,
+      "name": "Charming House",
+      "pricePerDay": 526057,
+      "roomType": "집 전체",
+      "bedrooms": 1,
+      "beds": 7,
+      "bathrooms": 8,
+      "amenities": [
+          "난방",
+          "세탁기",
+          "건조기",
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "대구",
+      "age": 26
+  },
+  {
+      "id": 57,
+      "name": "Luxury Condo",
+      "pricePerDay": 200490,
+      "roomType": "집 전체",
+      "bedrooms": 7,
+      "beds": 10,
+      "bathrooms": 7,
+      "amenities": [
+          "주방"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "경주",
+      "age": 75
+  },
+  {
+      "id": 58,
+      "name": "Luxury Condo",
+      "pricePerDay": 125388,
+      "roomType": "방",
+      "bedrooms": 3,
+      "beds": 6,
+      "bathrooms": 4,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "인천",
+      "age": 16
+  },
+  {
+      "id": 59,
+      "name": "Modern Studio",
+      "pricePerDay": 31091,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 5,
+      "bathrooms": 5,
+      "amenities": [
+          "무선 인터넷",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "대구",
+      "age": 26
+  },
+  {
+      "id": 60,
+      "name": "Luxury Condo",
+      "pricePerDay": 314296,
+      "roomType": "집 전체",
+      "bedrooms": 0,
+      "beds": 1,
+      "bathrooms": 2,
+      "amenities": [
+          "건조기",
+          "에어컨",
+          "주방",
+          "무선 인터넷",
+          "세탁기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "속초",
+      "age": 18
+  },
+  {
+      "id": 61,
+      "name": "Beautiful Villa",
+      "pricePerDay": 346743,
+      "roomType": "방",
+      "bedrooms": 3,
+      "beds": 0,
+      "bathrooms": 9,
+      "amenities": [
+          "주방",
+          "세탁기",
+          "무선 인터넷",
+          "난방",
+          "건조기",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "인천",
+      "age": 28
+  },
+  {
+      "id": 62,
+      "name": "Beautiful Villa",
+      "pricePerDay": 674255,
+      "roomType": "방",
+      "bedrooms": 10,
+      "beds": 4,
+      "bathrooms": 4,
+      "amenities": [
+          "무선 인터넷",
+          "에어컨",
+          "건조기",
+          "난방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "대전",
+      "age": 69
+  },
+  {
+      "id": 63,
+      "name": "Charming House",
+      "pricePerDay": 196563,
+      "roomType": "방",
+      "bedrooms": 9,
+      "beds": 7,
+      "bathrooms": 4,
+      "amenities": [
+          "주방",
+          "건조기",
+          "난방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "여수",
+      "age": 15
+  },
+  {
+      "id": 64,
+      "name": "Luxury Condo",
+      "pricePerDay": 335115,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 6,
+      "bathrooms": 8,
+      "amenities": [
+          "주방",
+          "에어컨",
+          "세탁기",
+          "난방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "대구",
+      "age": 0
+  },
+  {
+      "id": 65,
+      "name": "Modern Studio",
+      "pricePerDay": 126242,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 2,
+      "bathrooms": 0,
+      "amenities": [
+          "난방",
+          "에어컨",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "속초",
+      "age": 29
+  },
+  {
+      "id": 66,
+      "name": "Modern Studio",
+      "pricePerDay": 642912,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 2,
+      "bathrooms": 9,
+      "amenities": [
+          "주방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "서귀포",
+      "age": 62
+  },
+  {
+      "id": 67,
+      "name": "Charming House",
+      "pricePerDay": 265774,
+      "roomType": "집 전체",
+      "bedrooms": 0,
+      "beds": 2,
+      "bathrooms": 4,
+      "amenities": [
+          "주방",
+          "난방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "서울",
+      "age": 66
+  },
+  {
+      "id": 68,
+      "name": "Cozy Apartment",
+      "pricePerDay": 385765,
+      "roomType": "방",
+      "bedrooms": 9,
+      "beds": 2,
+      "bathrooms": 8,
+      "amenities": [
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "여수",
+      "age": 35
+  },
+  {
+      "id": 69,
+      "name": "Charming House",
+      "pricePerDay": 347082,
+      "roomType": "집 전체",
+      "bedrooms": 4,
+      "beds": 6,
+      "bathrooms": 2,
+      "amenities": [
+          "에어컨",
+          "세탁기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "부산",
+      "age": 100
+  },
+  {
+      "id": 70,
+      "name": "Charming House",
+      "pricePerDay": 629539,
+      "roomType": "집 전체",
+      "bedrooms": 7,
+      "beds": 3,
+      "bathrooms": 5,
+      "amenities": [
+          "주방",
+          "건조기",
+          "무선 인터넷",
+          "난방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "인천",
+      "age": 77
+  },
+  {
+      "id": 71,
+      "name": "Modern Studio",
+      "pricePerDay": 543228,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 9,
+      "bathrooms": 6,
+      "amenities": [
+          "건조기",
+          "주방",
+          "무선 인터넷",
+          "세탁기",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "대전",
+      "age": 68
+  },
+  {
+      "id": 72,
+      "name": "Beautiful Villa",
+      "pricePerDay": 50571,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 8,
+      "bathrooms": 2,
+      "amenities": [
+          "에어컨",
+          "주방",
+          "무선 인터넷",
+          "건조기",
+          "난방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "전주",
+      "age": 23
+  },
+  {
+      "id": 73,
+      "name": "Luxury Condo",
+      "pricePerDay": 646416,
+      "roomType": "방",
+      "bedrooms": 1,
+      "beds": 6,
+      "bathrooms": 8,
+      "amenities": [
+          "무선 인터넷",
+          "세탁기",
+          "난방",
+          "건조기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "제주도",
+      "age": 89
+  },
+  {
+      "id": 74,
+      "name": "Charming House",
+      "pricePerDay": 388064,
+      "roomType": "집 전체",
+      "bedrooms": 4,
+      "beds": 3,
+      "bathrooms": 6,
+      "amenities": [
+          "세탁기",
+          "주방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "제주도",
+      "age": 95
+  },
+  {
+      "id": 75,
+      "name": "Modern Studio",
+      "pricePerDay": 580094,
+      "roomType": "방",
+      "bedrooms": 1,
+      "beds": 4,
+      "bathrooms": 1,
+      "amenities": [
+          "무선 인터넷",
+          "주방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "서울",
+      "age": 43
+  },
+  {
+      "id": 76,
+      "name": "Beautiful Villa",
+      "pricePerDay": 583074,
+      "roomType": "방",
+      "bedrooms": 7,
+      "beds": 6,
+      "bathrooms": 2,
+      "amenities": [
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "경주",
+      "age": 43
+  },
+  {
+      "id": 77,
+      "name": "Luxury Condo",
+      "pricePerDay": 634968,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 10,
+      "bathrooms": 2,
+      "amenities": [
+          "주방",
+          "무선 인터넷",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "부산",
+      "age": 68
+  },
+  {
+      "id": 78,
+      "name": "Modern Studio",
+      "pricePerDay": 398953,
+      "roomType": "방",
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 4,
+      "amenities": [
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "전주",
+      "age": 81
+  },
+  {
+      "id": 79,
+      "name": "Luxury Condo",
+      "pricePerDay": 25596,
+      "roomType": "방",
+      "bedrooms": 7,
+      "beds": 1,
+      "bathrooms": 4,
+      "amenities": [
+          "건조기",
+          "난방",
+          "무선 인터넷",
+          "세탁기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "여수",
+      "age": 9
+  },
+  {
+      "id": 80,
+      "name": "Cozy Apartment",
+      "pricePerDay": 347897,
+      "roomType": "집 전체",
+      "bedrooms": 2,
+      "beds": 10,
+      "bathrooms": 4,
+      "amenities": [
+          "난방",
+          "에어컨",
+          "세탁기",
+          "건조기",
+          "무선 인터넷",
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "경주",
+      "age": 59
+  },
+  {
+      "id": 81,
+      "name": "Luxury Condo",
+      "pricePerDay": 230737,
+      "roomType": "집 전체",
+      "bedrooms": 9,
+      "beds": 1,
+      "bathrooms": 7,
+      "amenities": [
+          "건조기",
+          "무선 인터넷",
+          "주방",
+          "세탁기",
+          "난방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "서귀포",
+      "age": 43
+  },
+  {
+      "id": 82,
+      "name": "Luxury Condo",
+      "pricePerDay": 310864,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 9,
+      "bathrooms": 3,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "서울",
+      "age": 31
+  },
+  {
+      "id": 83,
+      "name": "Charming House",
+      "pricePerDay": 645205,
+      "roomType": "집 전체",
+      "bedrooms": 4,
+      "beds": 3,
+      "bathrooms": 10,
+      "amenities": [
+          "세탁기",
+          "에어컨",
+          "무선 인터넷",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "속초",
+      "age": 44
+  },
+  {
+      "id": 84,
+      "name": "Beautiful Villa",
+      "pricePerDay": 343869,
+      "roomType": "집 전체",
+      "bedrooms": 0,
+      "beds": 10,
+      "bathrooms": 2,
+      "amenities": [
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "강릉",
+      "age": 31
+  },
+  {
+      "id": 85,
+      "name": "Luxury Condo",
+      "pricePerDay": 594651,
+      "roomType": "집 전체",
+      "bedrooms": 10,
+      "beds": 2,
+      "bathrooms": 3,
+      "amenities": [
+          "무선 인터넷",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "경주",
+      "age": 82
+  },
+  {
+      "id": 86,
+      "name": "Beautiful Villa",
+      "pricePerDay": 481160,
+      "roomType": "집 전체",
+      "bedrooms": 7,
+      "beds": 10,
+      "bathrooms": 8,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "전주",
+      "age": 17
+  },
+  {
+      "id": 87,
+      "name": "Luxury Condo",
+      "pricePerDay": 192941,
+      "roomType": "집 전체",
+      "bedrooms": 5,
+      "beds": 4,
+      "bathrooms": 3,
+      "amenities": [
+          "무선 인터넷",
+          "에어컨",
+          "세탁기",
+          "주방",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "강릉",
+      "age": 75
+  },
+  {
+      "id": 88,
+      "name": "Beautiful Villa",
+      "pricePerDay": 284683,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 9,
+      "bathrooms": 2,
+      "amenities": [
+          "주방",
+          "세탁기",
+          "건조기",
+          "난방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "강릉",
+      "age": 69
+  },
+  {
+      "id": 89,
+      "name": "Luxury Condo",
+      "pricePerDay": 247621,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 9,
+      "amenities": [
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "속초",
+      "age": 15
+  },
+  {
+      "id": 90,
+      "name": "Luxury Condo",
+      "pricePerDay": 629122,
+      "roomType": "집 전체",
+      "bedrooms": 7,
+      "beds": 6,
+      "bathrooms": 3,
+      "amenities": [
+          "세탁기",
+          "난방",
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "부산",
+      "age": 87
+  },
+  {
+      "id": 91,
+      "name": "Modern Studio",
+      "pricePerDay": 501562,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 9,
+      "bathrooms": 2,
+      "amenities": [
+          "에어컨",
+          "난방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "강릉",
+      "age": 76
+  },
+  {
+      "id": 92,
+      "name": "Cozy Apartment",
+      "pricePerDay": 569616,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 9,
+      "bathrooms": 9,
+      "amenities": [
+          "주방",
+          "세탁기",
+          "무선 인터넷",
+          "에어컨",
+          "난방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "인천",
+      "age": 32
+  },
+  {
+      "id": 93,
+      "name": "Cozy Apartment",
+      "pricePerDay": 58229,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 4,
+      "bathrooms": 1,
+      "amenities": [
+          "세탁기",
+          "무선 인터넷",
+          "주방",
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "전주",
+      "age": 30
+  },
+  {
+      "id": 94,
+      "name": "Charming House",
+      "pricePerDay": 298047,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 3,
+      "bathrooms": 3,
+      "amenities": [
+          "세탁기",
+          "주방",
+          "건조기",
+          "무선 인터넷",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "부산",
+      "age": 92
+  },
+  {
+      "id": 95,
+      "name": "Charming House",
+      "pricePerDay": 380585,
+      "roomType": "집 전체",
+      "bedrooms": 10,
+      "beds": 2,
+      "bathrooms": 0,
+      "amenities": [
+          "주방",
+          "건조기",
+          "에어컨",
+          "세탁기",
+          "무선 인터넷",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "전주",
+      "age": 87
+  },
+  {
+      "id": 96,
+      "name": "Beautiful Villa",
+      "pricePerDay": 564842,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 8,
+      "bathrooms": 6,
+      "amenities": [
+          "건조기",
+          "무선 인터넷",
+          "세탁기",
+          "주방",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "강릉",
+      "age": 41
+  },
+  {
+      "id": 97,
+      "name": "Cozy Apartment",
+      "pricePerDay": 435186,
+      "roomType": "집 전체",
+      "bedrooms": 0,
+      "beds": 1,
+      "bathrooms": 3,
+      "amenities": [
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "강릉",
+      "age": 14
+  },
+  {
+      "id": 98,
+      "name": "Modern Studio",
+      "pricePerDay": 473455,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 7,
+      "bathrooms": 10,
+      "amenities": [
+          "세탁기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "부산",
+      "age": 0
+  },
+  {
+      "id": 99,
+      "name": "Charming House",
+      "pricePerDay": 533130,
+      "roomType": "방",
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 5,
+      "amenities": [
+          "에어컨",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "전주",
+      "age": 80
+  },
+  {
+      "id": 100,
+      "name": "Luxury Condo",
+      "pricePerDay": 281283,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 1,
+      "bathrooms": 4,
+      "amenities": [
+          "난방",
+          "에어컨",
+          "주방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "대전",
+      "age": 20
+  },
+  {
+      "id": 101,
+      "name": "Cozy Apartment",
+      "pricePerDay": 58320,
+      "roomType": "집 전체",
+      "bedrooms": 5,
+      "beds": 2,
+      "bathrooms": 8,
+      "amenities": [
+          "주방",
+          "세탁기",
+          "건조기",
+          "에어컨",
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "대전",
+      "age": 55
+  },
+  {
+      "id": 102,
+      "name": "Luxury Condo",
+      "pricePerDay": 216206,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 10,
+      "bathrooms": 4,
+      "amenities": [
+          "난방",
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "부산",
+      "age": 17
+  },
+  {
+      "id": 103,
+      "name": "Beautiful Villa",
+      "pricePerDay": 576000,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 3,
+      "bathrooms": 6,
+      "amenities": [
+          "무선 인터넷",
+          "건조기",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "경주",
+      "age": 28
+  },
+  {
+      "id": 104,
+      "name": "Charming House",
+      "pricePerDay": 81414,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 5,
+      "bathrooms": 1,
+      "amenities": [
+          "에어컨",
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "서귀포",
+      "age": 23
+  },
+  {
+      "id": 105,
+      "name": "Charming House",
+      "pricePerDay": 34051,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 10,
+      "bathrooms": 8,
+      "amenities": [
+          "세탁기",
+          "무선 인터넷",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "경주",
+      "age": 79
+  },
+  {
+      "id": 106,
+      "name": "Modern Studio",
+      "pricePerDay": 640655,
+      "roomType": "방",
+      "bedrooms": 2,
+      "beds": 6,
+      "bathrooms": 10,
+      "amenities": [
+          "주방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "전주",
+      "age": 8
+  },
+  {
+      "id": 107,
+      "name": "Beautiful Villa",
+      "pricePerDay": 333319,
+      "roomType": "방",
+      "bedrooms": 2,
+      "beds": 9,
+      "bathrooms": 7,
+      "amenities": [
+          "건조기",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "경주",
+      "age": 35
+  },
+  {
+      "id": 108,
+      "name": "Cozy Apartment",
+      "pricePerDay": 594711,
+      "roomType": "집 전체",
+      "bedrooms": 1,
+      "beds": 4,
+      "bathrooms": 5,
+      "amenities": [
+          "주방",
+          "난방",
+          "무선 인터넷",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "대전",
+      "age": 18
+  },
+  {
+      "id": 109,
+      "name": "Cozy Apartment",
+      "pricePerDay": 128221,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 6,
+      "bathrooms": 1,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "강릉",
+      "age": 47
+  },
+  {
+      "id": 110,
+      "name": "Beautiful Villa",
+      "pricePerDay": 40331,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 1,
+      "bathrooms": 5,
+      "amenities": [
+          "주방",
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "제주도",
+      "age": 0
+  },
+  {
+      "id": 111,
+      "name": "Modern Studio",
+      "pricePerDay": 456355,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 6,
+      "bathrooms": 4,
+      "amenities": [
+          "무선 인터넷",
+          "주방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "대전",
+      "age": 64
+  },
+  {
+      "id": 112,
+      "name": "Charming House",
+      "pricePerDay": 593221,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 7,
+      "bathrooms": 7,
+      "amenities": [
+          "난방",
+          "건조기",
+          "에어컨",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "인천",
+      "age": 32
+  },
+  {
+      "id": 113,
+      "name": "Luxury Condo",
+      "pricePerDay": 591276,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 10,
+      "bathrooms": 7,
+      "amenities": [
+          "주방",
+          "난방",
+          "건조기",
+          "에어컨",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "대구",
+      "age": 67
+  },
+  {
+      "id": 114,
+      "name": "Cozy Apartment",
+      "pricePerDay": 33472,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 9,
+      "bathrooms": 1,
+      "amenities": [
+          "에어컨",
+          "무선 인터넷",
+          "건조기",
+          "주방",
+          "세탁기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "경주",
+      "age": 55
+  },
+  {
+      "id": 115,
+      "name": "Beautiful Villa",
+      "pricePerDay": 211464,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 10,
+      "amenities": [
+          "난방",
+          "에어컨",
+          "세탁기",
+          "주방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "속초",
+      "age": 69
+  },
+  {
+      "id": 116,
+      "name": "Charming House",
+      "pricePerDay": 241726,
+      "roomType": "집 전체",
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 10,
+      "amenities": [
+          "주방"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "여수",
+      "age": 90
+  },
+  {
+      "id": 117,
+      "name": "Modern Studio",
+      "pricePerDay": 158986,
+      "roomType": "집 전체",
+      "bedrooms": 10,
+      "beds": 10,
+      "bathrooms": 0,
+      "amenities": [
+          "주방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "인천",
+      "age": 36
+  },
+  {
+      "id": 118,
+      "name": "Charming House",
+      "pricePerDay": 565686,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 5,
+      "bathrooms": 8,
+      "amenities": [
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "대구",
+      "age": 81
+  },
+  {
+      "id": 119,
+      "name": "Charming House",
+      "pricePerDay": 221176,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 0,
+      "bathrooms": 2,
+      "amenities": [
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "여수",
+      "age": 20
+  },
+  {
+      "id": 120,
+      "name": "Beautiful Villa",
+      "pricePerDay": 157217,
+      "roomType": "집 전체",
+      "bedrooms": 9,
+      "beds": 7,
+      "bathrooms": 9,
+      "amenities": [
+          "세탁기",
+          "주방",
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "서울",
+      "age": 6
+  },
+  {
+      "id": 121,
+      "name": "Beautiful Villa",
+      "pricePerDay": 228112,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 9,
+      "bathrooms": 4,
+      "amenities": [
+          "건조기",
+          "에어컨",
+          "세탁기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "서울",
+      "age": 52
+  },
+  {
+      "id": 122,
+      "name": "Charming House",
+      "pricePerDay": 382770,
+      "roomType": "방",
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 7,
+      "amenities": [
+          "무선 인터넷",
+          "난방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "경주",
+      "age": 37
+  },
+  {
+      "id": 123,
+      "name": "Cozy Apartment",
+      "pricePerDay": 448537,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 6,
+      "bathrooms": 10,
+      "amenities": [
+          "세탁기",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "대전",
+      "age": 86
+  },
+  {
+      "id": 124,
+      "name": "Beautiful Villa",
+      "pricePerDay": 353562,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 7,
+      "bathrooms": 1,
+      "amenities": [
+          "주방",
+          "에어컨",
+          "세탁기",
+          "무선 인터넷",
+          "건조기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "대전",
+      "age": 60
+  },
+  {
+      "id": 125,
+      "name": "Beautiful Villa",
+      "pricePerDay": 518049,
+      "roomType": "집 전체",
+      "bedrooms": 7,
+      "beds": 3,
+      "bathrooms": 8,
+      "amenities": [
+          "난방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "대전",
+      "age": 50
+  },
+  {
+      "id": 126,
+      "name": "Modern Studio",
+      "pricePerDay": 567896,
+      "roomType": "집 전체",
+      "bedrooms": 2,
+      "beds": 1,
+      "bathrooms": 8,
+      "amenities": [
+          "난방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "대전",
+      "age": 0
+  },
+  {
+      "id": 127,
+      "name": "Charming House",
+      "pricePerDay": 629990,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 7,
+      "bathrooms": 1,
+      "amenities": [
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "전주",
+      "age": 52
+  },
+  {
+      "id": 128,
+      "name": "Charming House",
+      "pricePerDay": 601713,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 5,
+      "bathrooms": 4,
+      "amenities": [
+          "주방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "속초",
+      "age": 3
+  },
+  {
+      "id": 129,
+      "name": "Modern Studio",
+      "pricePerDay": 238806,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 5,
+      "bathrooms": 10,
+      "amenities": [
+          "무선 인터넷",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "전주",
+      "age": 3
+  },
+  {
+      "id": 130,
+      "name": "Luxury Condo",
+      "pricePerDay": 427714,
+      "roomType": "집 전체",
+      "bedrooms": 7,
+      "beds": 10,
+      "bathrooms": 5,
+      "amenities": [
+          "주방",
+          "세탁기",
+          "건조기",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "제주도",
+      "age": 35
+  },
+  {
+      "id": 131,
+      "name": "Luxury Condo",
+      "pricePerDay": 130500,
+      "roomType": "집 전체",
+      "bedrooms": 0,
+      "beds": 2,
+      "bathrooms": 9,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "강릉",
+      "age": 1
+  },
+  {
+      "id": 132,
+      "name": "Cozy Apartment",
+      "pricePerDay": 258219,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 9,
+      "bathrooms": 1,
+      "amenities": [
+          "주방",
+          "난방",
+          "에어컨",
+          "건조기",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "서귀포",
+      "age": 0
+  },
+  {
+      "id": 133,
+      "name": "Beautiful Villa",
+      "pricePerDay": 193604,
+      "roomType": "방",
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 8,
+      "amenities": [
+          "에어컨",
+          "난방",
+          "주방",
+          "건조기",
+          "세탁기",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "강릉",
+      "age": 28
+  },
+  {
+      "id": 134,
+      "name": "Luxury Condo",
+      "pricePerDay": 105618,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 10,
+      "bathrooms": 7,
+      "amenities": [
+          "에어컨",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "대구",
+      "age": 82
+  },
+  {
+      "id": 135,
+      "name": "Modern Studio",
+      "pricePerDay": 107082,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 6,
+      "bathrooms": 7,
+      "amenities": [
+          "주방",
+          "건조기",
+          "무선 인터넷",
+          "난방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "인천",
+      "age": 54
+  },
+  {
+      "id": 136,
+      "name": "Modern Studio",
+      "pricePerDay": 332476,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 1,
+      "bathrooms": 6,
+      "amenities": [
+          "세탁기",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "속초",
+      "age": 76
+  },
+  {
+      "id": 137,
+      "name": "Beautiful Villa",
+      "pricePerDay": 39806,
+      "roomType": "방",
+      "bedrooms": 9,
+      "beds": 0,
+      "bathrooms": 1,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "속초",
+      "age": 68
+  },
+  {
+      "id": 138,
+      "name": "Charming House",
+      "pricePerDay": 496505,
+      "roomType": "집 전체",
+      "bedrooms": 2,
+      "beds": 4,
+      "bathrooms": 4,
+      "amenities": [
+          "주방",
+          "에어컨",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "인천",
+      "age": 30
+  },
+  {
+      "id": 139,
+      "name": "Luxury Condo",
+      "pricePerDay": 344245,
+      "roomType": "집 전체",
+      "bedrooms": 9,
+      "beds": 6,
+      "bathrooms": 0,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "속초",
+      "age": 18
+  },
+  {
+      "id": 140,
+      "name": "Modern Studio",
+      "pricePerDay": 484835,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 9,
+      "bathrooms": 5,
+      "amenities": [
+          "건조기",
+          "세탁기",
+          "에어컨",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "전주",
+      "age": 6
+  },
+  {
+      "id": 141,
+      "name": "Modern Studio",
+      "pricePerDay": 357524,
+      "roomType": "집 전체",
+      "bedrooms": 0,
+      "beds": 8,
+      "bathrooms": 6,
+      "amenities": [
+          "건조기",
+          "주방",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "여수",
+      "age": 56
+  },
+  {
+      "id": 142,
+      "name": "Beautiful Villa",
+      "pricePerDay": 123815,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 10,
+      "bathrooms": 4,
+      "amenities": [
+          "주방",
+          "난방",
+          "에어컨",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "대구",
+      "age": 22
+  },
+  {
+      "id": 143,
+      "name": "Luxury Condo",
+      "pricePerDay": 278084,
+      "roomType": "방",
+      "bedrooms": 7,
+      "beds": 8,
+      "bathrooms": 4,
+      "amenities": [
+          "난방",
+          "주방",
+          "무선 인터넷",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "부산",
+      "age": 91
+  },
+  {
+      "id": 144,
+      "name": "Charming House",
+      "pricePerDay": 243978,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 9,
+      "bathrooms": 0,
+      "amenities": [
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "강릉",
+      "age": 59
+  },
+  {
+      "id": 145,
+      "name": "Luxury Condo",
+      "pricePerDay": 449224,
+      "roomType": "집 전체",
+      "bedrooms": 2,
+      "beds": 5,
+      "bathrooms": 10,
+      "amenities": [
+          "세탁기",
+          "건조기",
+          "무선 인터넷",
+          "에어컨",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "서귀포",
+      "age": 4
+  },
+  {
+      "id": 146,
+      "name": "Beautiful Villa",
+      "pricePerDay": 255007,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 2,
+      "bathrooms": 8,
+      "amenities": [
+          "세탁기",
+          "에어컨",
+          "난방",
+          "주방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "전주",
+      "age": 59
+  },
+  {
+      "id": 147,
+      "name": "Modern Studio",
+      "pricePerDay": 312251,
+      "roomType": "방",
+      "bedrooms": 2,
+      "beds": 0,
+      "bathrooms": 7,
+      "amenities": [
+          "무선 인터넷",
+          "에어컨",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "여수",
+      "age": 85
+  },
+  {
+      "id": 148,
+      "name": "Beautiful Villa",
+      "pricePerDay": 101702,
+      "roomType": "집 전체",
+      "bedrooms": 0,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+          "세탁기",
+          "에어컨",
+          "주방",
+          "난방",
+          "건조기",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "경주",
+      "age": 46
+  },
+  {
+      "id": 149,
+      "name": "Luxury Condo",
+      "pricePerDay": 394880,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 10,
+      "bathrooms": 5,
+      "amenities": [
+          "주방"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "서귀포",
+      "age": 82
+  },
+  {
+      "id": 150,
+      "name": "Beautiful Villa",
+      "pricePerDay": 324305,
+      "roomType": "집 전체",
+      "bedrooms": 5,
+      "beds": 8,
+      "bathrooms": 2,
+      "amenities": [
+          "세탁기",
+          "에어컨",
+          "주방",
+          "난방",
+          "무선 인터넷",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "부산",
+      "age": 74
+  },
+  {
+      "id": 151,
+      "name": "Modern Studio",
+      "pricePerDay": 538819,
+      "roomType": "방",
+      "bedrooms": 3,
+      "beds": 8,
+      "bathrooms": 3,
+      "amenities": [
+          "난방",
+          "주방",
+          "건조기",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "부산",
+      "age": 30
+  },
+  {
+      "id": 152,
+      "name": "Charming House",
+      "pricePerDay": 384516,
+      "roomType": "방",
+      "bedrooms": 7,
+      "beds": 4,
+      "bathrooms": 10,
+      "amenities": [
+          "난방",
+          "에어컨",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "인천",
+      "age": 64
+  },
+  {
+      "id": 153,
+      "name": "Charming House",
+      "pricePerDay": 118927,
+      "roomType": "집 전체",
+      "bedrooms": 2,
+      "beds": 8,
+      "bathrooms": 9,
+      "amenities": [
+          "주방",
+          "무선 인터넷",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "제주도",
+      "age": 73
+  },
+  {
+      "id": 154,
+      "name": "Charming House",
+      "pricePerDay": 525611,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 6,
+      "bathrooms": 3,
+      "amenities": [
+          "난방",
+          "건조기",
+          "에어컨",
+          "무선 인터넷",
+          "주방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "부산",
+      "age": 58
+  },
+  {
+      "id": 155,
+      "name": "Modern Studio",
+      "pricePerDay": 292743,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 3,
+      "bathrooms": 10,
+      "amenities": [
+          "주방",
+          "세탁기",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "강릉",
+      "age": 85
+  },
+  {
+      "id": 156,
+      "name": "Modern Studio",
+      "pricePerDay": 161914,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 7,
+      "bathrooms": 6,
+      "amenities": [
+          "에어컨",
+          "무선 인터넷",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "경주",
+      "age": 28
+  },
+  {
+      "id": 157,
+      "name": "Cozy Apartment",
+      "pricePerDay": 262722,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 10,
+      "bathrooms": 5,
+      "amenities": [
+          "난방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "경주",
+      "age": 12
+  },
+  {
+      "id": 158,
+      "name": "Charming House",
+      "pricePerDay": 285784,
+      "roomType": "방",
+      "bedrooms": 9,
+      "beds": 0,
+      "bathrooms": 5,
+      "amenities": [
+          "난방",
+          "주방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "부산",
+      "age": 40
+  },
+  {
+      "id": 159,
+      "name": "Cozy Apartment",
+      "pricePerDay": 218950,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 7,
+      "bathrooms": 9,
+      "amenities": [
+          "주방",
+          "세탁기",
+          "무선 인터넷",
+          "난방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "여수",
+      "age": 6
+  },
+  {
+      "id": 160,
+      "name": "Luxury Condo",
+      "pricePerDay": 201244,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 7,
+      "bathrooms": 6,
+      "amenities": [
+          "건조기",
+          "주방",
+          "에어컨",
+          "무선 인터넷",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "경주",
+      "age": 98
+  },
+  {
+      "id": 161,
+      "name": "Beautiful Villa",
+      "pricePerDay": 616087,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 3,
+      "bathrooms": 0,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "대구",
+      "age": 3
+  },
+  {
+      "id": 162,
+      "name": "Cozy Apartment",
+      "pricePerDay": 369739,
+      "roomType": "방",
+      "bedrooms": 10,
+      "beds": 2,
+      "bathrooms": 0,
+      "amenities": [
+          "세탁기",
+          "건조기",
+          "난방",
+          "무선 인터넷",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "대전",
+      "age": 20
+  },
+  {
+      "id": 163,
+      "name": "Charming House",
+      "pricePerDay": 192264,
+      "roomType": "방",
+      "bedrooms": 7,
+      "beds": 1,
+      "bathrooms": 8,
+      "amenities": [
+          "에어컨",
+          "난방",
+          "건조기",
+          "세탁기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "강릉",
+      "age": 7
+  },
+  {
+      "id": 164,
+      "name": "Modern Studio",
+      "pricePerDay": 619215,
+      "roomType": "방",
+      "bedrooms": 2,
+      "beds": 1,
+      "bathrooms": 1,
+      "amenities": [
+          "주방",
+          "난방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "강릉",
+      "age": 10
+  },
+  {
+      "id": 165,
+      "name": "Charming House",
+      "pricePerDay": 226952,
+      "roomType": "방",
+      "bedrooms": 7,
+      "beds": 5,
+      "bathrooms": 4,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "제주도",
+      "age": 85
+  },
+  {
+      "id": 166,
+      "name": "Modern Studio",
+      "pricePerDay": 88521,
+      "roomType": "방",
+      "bedrooms": 7,
+      "beds": 10,
+      "bathrooms": 1,
+      "amenities": [
+          "무선 인터넷",
+          "에어컨",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "서귀포",
+      "age": 98
+  },
+  {
+      "id": 167,
+      "name": "Cozy Apartment",
+      "pricePerDay": 158596,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 0,
+      "bathrooms": 7,
+      "amenities": [
+          "주방",
+          "난방",
+          "무선 인터넷",
+          "세탁기",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "경주",
+      "age": 20
+  },
+  {
+      "id": 168,
+      "name": "Cozy Apartment",
+      "pricePerDay": 32452,
+      "roomType": "방",
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 10,
+      "amenities": [
+          "무선 인터넷",
+          "건조기",
+          "세탁기",
+          "에어컨",
+          "난방",
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "서울",
+      "age": 83
+  },
+  {
+      "id": 169,
+      "name": "Cozy Apartment",
+      "pricePerDay": 73798,
+      "roomType": "방",
+      "bedrooms": 9,
+      "beds": 4,
+      "bathrooms": 8,
+      "amenities": [
+          "세탁기",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "전주",
+      "age": 10
+  },
+  {
+      "id": 170,
+      "name": "Beautiful Villa",
+      "pricePerDay": 385149,
+      "roomType": "방",
+      "bedrooms": 1,
+      "beds": 5,
+      "bathrooms": 6,
+      "amenities": [
+          "건조기",
+          "에어컨",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "여수",
+      "age": 48
+  },
+  {
+      "id": 171,
+      "name": "Beautiful Villa",
+      "pricePerDay": 48438,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 0,
+      "bathrooms": 8,
+      "amenities": [
+          "세탁기",
+          "에어컨",
+          "무선 인터넷",
+          "주방",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "제주도",
+      "age": 8
+  },
+  {
+      "id": 172,
+      "name": "Charming House",
+      "pricePerDay": 244467,
+      "roomType": "집 전체",
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 5,
+      "amenities": [
+          "세탁기",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "서울",
+      "age": 54
+  },
+  {
+      "id": 173,
+      "name": "Cozy Apartment",
+      "pricePerDay": 469229,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 9,
+      "bathrooms": 7,
+      "amenities": [
+          "건조기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "대전",
+      "age": 7
+  },
+  {
+      "id": 174,
+      "name": "Charming House",
+      "pricePerDay": 86564,
+      "roomType": "방",
+      "bedrooms": 3,
+      "beds": 1,
+      "bathrooms": 3,
+      "amenities": [
+          "건조기",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "속초",
+      "age": 43
+  },
+  {
+      "id": 175,
+      "name": "Luxury Condo",
+      "pricePerDay": 535143,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 7,
+      "bathrooms": 8,
+      "amenities": [
+          "주방",
+          "세탁기",
+          "난방",
+          "건조기",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "서울",
+      "age": 39
+  },
+  {
+      "id": 176,
+      "name": "Luxury Condo",
+      "pricePerDay": 429123,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 7,
+      "bathrooms": 10,
+      "amenities": [
+          "세탁기",
+          "난방",
+          "건조기",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "인천",
+      "age": 83
+  },
+  {
+      "id": 177,
+      "name": "Cozy Apartment",
+      "pricePerDay": 221581,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 3,
+      "bathrooms": 5,
+      "amenities": [
+          "에어컨",
+          "난방",
+          "건조기",
+          "무선 인터넷",
+          "주방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "경주",
+      "age": 39
+  },
+  {
+      "id": 178,
+      "name": "Beautiful Villa",
+      "pricePerDay": 196086,
+      "roomType": "집 전체",
+      "bedrooms": 4,
+      "beds": 6,
+      "bathrooms": 2,
+      "amenities": [
+          "무선 인터넷",
+          "난방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "대전",
+      "age": 70
+  },
+  {
+      "id": 179,
+      "name": "Modern Studio",
+      "pricePerDay": 236971,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 1,
+      "bathrooms": 5,
+      "amenities": [
+          "세탁기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "부산",
+      "age": 10
+  },
+  {
+      "id": 180,
+      "name": "Modern Studio",
+      "pricePerDay": 158953,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 3,
+      "bathrooms": 8,
+      "amenities": [
+          "주방",
+          "난방",
+          "세탁기",
+          "건조기",
+          "에어컨",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "서귀포",
+      "age": 100
+  },
+  {
+      "id": 181,
+      "name": "Modern Studio",
+      "pricePerDay": 609662,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 5,
+      "bathrooms": 5,
+      "amenities": [
+          "주방",
+          "에어컨",
+          "건조기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "대구",
+      "age": 99
+  },
+  {
+      "id": 182,
+      "name": "Luxury Condo",
+      "pricePerDay": 141941,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 9,
+      "amenities": [
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "대전",
+      "age": 70
+  },
+  {
+      "id": 183,
+      "name": "Beautiful Villa",
+      "pricePerDay": 201914,
+      "roomType": "방",
+      "bedrooms": 2,
+      "beds": 7,
+      "bathrooms": 6,
+      "amenities": [
+          "난방",
+          "에어컨",
+          "건조기",
+          "주방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "대구",
+      "age": 44
+  },
+  {
+      "id": 184,
+      "name": "Modern Studio",
+      "pricePerDay": 448920,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 3,
+      "bathrooms": 9,
+      "amenities": [
+          "건조기",
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "대구",
+      "age": 24
+  },
+  {
+      "id": 185,
+      "name": "Luxury Condo",
+      "pricePerDay": 612990,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 4,
+      "bathrooms": 1,
+      "amenities": [
+          "주방",
+          "세탁기",
+          "건조기",
+          "난방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "서울",
+      "age": 80
+  },
+  {
+      "id": 186,
+      "name": "Charming House",
+      "pricePerDay": 252304,
+      "roomType": "집 전체",
+      "bedrooms": 5,
+      "beds": 1,
+      "bathrooms": 2,
+      "amenities": [
+          "난방",
+          "에어컨",
+          "주방",
+          "세탁기",
+          "무선 인터넷",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "대구",
+      "age": 87
+  },
+  {
+      "id": 187,
+      "name": "Cozy Apartment",
+      "pricePerDay": 447099,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 9,
+      "bathrooms": 5,
+      "amenities": [
+          "난방",
+          "건조기",
+          "무선 인터넷",
+          "세탁기",
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "서울",
+      "age": 50
+  },
+  {
+      "id": 188,
+      "name": "Cozy Apartment",
+      "pricePerDay": 422660,
+      "roomType": "방",
+      "bedrooms": 7,
+      "beds": 6,
+      "bathrooms": 2,
+      "amenities": [
+          "건조기",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "서울",
+      "age": 38
+  },
+  {
+      "id": 189,
+      "name": "Charming House",
+      "pricePerDay": 179703,
+      "roomType": "집 전체",
+      "bedrooms": 10,
+      "beds": 5,
+      "bathrooms": 1,
+      "amenities": [
+          "에어컨",
+          "난방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "서귀포",
+      "age": 19
+  },
+  {
+      "id": 190,
+      "name": "Charming House",
+      "pricePerDay": 362348,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 7,
+      "bathrooms": 7,
+      "amenities": [
+          "세탁기",
+          "에어컨",
+          "난방",
+          "건조기",
+          "주방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "제주도",
+      "age": 57
+  },
+  {
+      "id": 191,
+      "name": "Charming House",
+      "pricePerDay": 493726,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 9,
+      "bathrooms": 6,
+      "amenities": [
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "전주",
+      "age": 78
+  },
+  {
+      "id": 192,
+      "name": "Charming House",
+      "pricePerDay": 381988,
+      "roomType": "집 전체",
+      "bedrooms": 10,
+      "beds": 10,
+      "bathrooms": 4,
+      "amenities": [
+          "무선 인터넷",
+          "주방",
+          "건조기",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "대전",
+      "age": 42
+  },
+  {
+      "id": 193,
+      "name": "Cozy Apartment",
+      "pricePerDay": 514637,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 4,
+      "bathrooms": 3,
+      "amenities": [
+          "에어컨",
+          "건조기",
+          "난방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "대구",
+      "age": 85
+  },
+  {
+      "id": 194,
+      "name": "Cozy Apartment",
+      "pricePerDay": 328548,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 1,
+      "bathrooms": 7,
+      "amenities": [
+          "세탁기",
+          "주방",
+          "건조기",
+          "무선 인터넷",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "제주도",
+      "age": 100
+  },
+  {
+      "id": 195,
+      "name": "Cozy Apartment",
+      "pricePerDay": 317078,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 7,
+      "amenities": [
+          "무선 인터넷",
+          "세탁기",
+          "주방",
+          "건조기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "인천",
+      "age": 68
+  },
+  {
+      "id": 196,
+      "name": "Charming House",
+      "pricePerDay": 194658,
+      "roomType": "집 전체",
+      "bedrooms": 5,
+      "beds": 4,
+      "bathrooms": 3,
+      "amenities": [
+          "주방",
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "대구",
+      "age": 54
+  },
+  {
+      "id": 197,
+      "name": "Modern Studio",
+      "pricePerDay": 215629,
+      "roomType": "방",
+      "bedrooms": 10,
+      "beds": 9,
+      "bathrooms": 8,
+      "amenities": [
+          "난방",
+          "무선 인터넷",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "전주",
+      "age": 96
+  },
+  {
+      "id": 198,
+      "name": "Cozy Apartment",
+      "pricePerDay": 530074,
+      "roomType": "집 전체",
+      "bedrooms": 9,
+      "beds": 5,
+      "bathrooms": 6,
+      "amenities": [
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "속초",
+      "age": 48
+  },
+  {
+      "id": 199,
+      "name": "Luxury Condo",
+      "pricePerDay": 166164,
+      "roomType": "방",
+      "bedrooms": 9,
+      "beds": 4,
+      "bathrooms": 2,
+      "amenities": [
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "서귀포",
+      "age": 28
+  },
+  {
+      "id": 200,
+      "name": "Beautiful Villa",
+      "pricePerDay": 329202,
+      "roomType": "집 전체",
+      "bedrooms": 5,
+      "beds": 7,
+      "bathrooms": 6,
+      "amenities": [
+          "세탁기",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "제주도",
+      "age": 40
+  },
+  {
+      "id": 201,
+      "name": "Cozy Apartment",
+      "pricePerDay": 198759,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 7,
+      "bathrooms": 2,
+      "amenities": [
+          "건조기",
+          "세탁기",
+          "에어컨",
+          "주방",
+          "난방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "서울",
+      "age": 62
+  },
+  {
+      "id": 202,
+      "name": "Beautiful Villa",
+      "pricePerDay": 449725,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 10,
+      "bathrooms": 9,
+      "amenities": [
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "경주",
+      "age": 34
+  },
+  {
+      "id": 203,
+      "name": "Charming House",
+      "pricePerDay": 652986,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 8,
+      "bathrooms": 0,
+      "amenities": [
+          "건조기",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "대구",
+      "age": 0
+  },
+  {
+      "id": 204,
+      "name": "Modern Studio",
+      "pricePerDay": 301770,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 6,
+      "bathrooms": 9,
+      "amenities": [
+          "세탁기",
+          "주방",
+          "에어컨",
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "대구",
+      "age": 66
+  },
+  {
+      "id": 205,
+      "name": "Beautiful Villa",
+      "pricePerDay": 631887,
+      "roomType": "방",
+      "bedrooms": 9,
+      "beds": 6,
+      "bathrooms": 4,
+      "amenities": [
+          "에어컨",
+          "난방",
+          "무선 인터넷",
+          "건조기",
+          "세탁기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "부산",
+      "age": 81
+  },
+  {
+      "id": 206,
+      "name": "Modern Studio",
+      "pricePerDay": 462880,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 3,
+      "bathrooms": 2,
+      "amenities": [
+          "에어컨",
+          "건조기",
+          "주방",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "경주",
+      "age": 90
+  },
+  {
+      "id": 207,
+      "name": "Beautiful Villa",
+      "pricePerDay": 148293,
+      "roomType": "집 전체",
+      "bedrooms": 2,
+      "beds": 1,
+      "bathrooms": 0,
+      "amenities": [
+          "건조기",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "제주도",
+      "age": 92
+  },
+  {
+      "id": 208,
+      "name": "Luxury Condo",
+      "pricePerDay": 371888,
+      "roomType": "방",
+      "bedrooms": 7,
+      "beds": 8,
+      "bathrooms": 6,
+      "amenities": [
+          "에어컨",
+          "난방",
+          "세탁기",
+          "주방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "경주",
+      "age": 86
+  },
+  {
+      "id": 209,
+      "name": "Luxury Condo",
+      "pricePerDay": 160612,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 5,
+      "bathrooms": 4,
+      "amenities": [
+          "무선 인터넷",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "서귀포",
+      "age": 29
+  },
+  {
+      "id": 210,
+      "name": "Cozy Apartment",
+      "pricePerDay": 451987,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 7,
+      "bathrooms": 10,
+      "amenities": [
+          "건조기",
+          "무선 인터넷",
+          "주방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "강릉",
+      "age": 1
+  },
+  {
+      "id": 211,
+      "name": "Modern Studio",
+      "pricePerDay": 127681,
+      "roomType": "방",
+      "bedrooms": 9,
+      "beds": 6,
+      "bathrooms": 10,
+      "amenities": [
+          "세탁기",
+          "난방",
+          "주방",
+          "에어컨",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "대전",
+      "age": 74
+  },
+  {
+      "id": 212,
+      "name": "Luxury Condo",
+      "pricePerDay": 90964,
+      "roomType": "집 전체",
+      "bedrooms": 9,
+      "beds": 5,
+      "bathrooms": 7,
+      "amenities": [
+          "건조기",
+          "무선 인터넷",
+          "에어컨",
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "서귀포",
+      "age": 19
+  },
+  {
+      "id": 213,
+      "name": "Beautiful Villa",
+      "pricePerDay": 590963,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 8,
+      "bathrooms": 3,
+      "amenities": [
+          "난방",
+          "건조기",
+          "무선 인터넷",
+          "에어컨",
+          "세탁기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "대구",
+      "age": 89
+  },
+  {
+      "id": 214,
+      "name": "Charming House",
+      "pricePerDay": 242074,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 3,
+      "bathrooms": 7,
+      "amenities": [
+          "세탁기",
+          "무선 인터넷",
+          "난방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "부산",
+      "age": 25
+  },
+  {
+      "id": 215,
+      "name": "Luxury Condo",
+      "pricePerDay": 211052,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 7,
+      "bathrooms": 4,
+      "amenities": [
+          "무선 인터넷",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "전주",
+      "age": 7
+  },
+  {
+      "id": 216,
+      "name": "Luxury Condo",
+      "pricePerDay": 39160,
+      "roomType": "집 전체",
+      "bedrooms": 7,
+      "beds": 7,
+      "bathrooms": 9,
+      "amenities": [
+          "세탁기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "부산",
+      "age": 34
+  },
+  {
+      "id": 217,
+      "name": "Beautiful Villa",
+      "pricePerDay": 95806,
+      "roomType": "방",
+      "bedrooms": 7,
+      "beds": 5,
+      "bathrooms": 0,
+      "amenities": [
+          "세탁기",
+          "난방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "여수",
+      "age": 85
+  },
+  {
+      "id": 218,
+      "name": "Charming House",
+      "pricePerDay": 230215,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 1,
+      "bathrooms": 0,
+      "amenities": [
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "경주",
+      "age": 84
+  },
+  {
+      "id": 219,
+      "name": "Cozy Apartment",
+      "pricePerDay": 480489,
+      "roomType": "집 전체",
+      "bedrooms": 7,
+      "beds": 10,
+      "bathrooms": 7,
+      "amenities": [
+          "무선 인터넷",
+          "건조기",
+          "에어컨",
+          "주방",
+          "난방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "서귀포",
+      "age": 77
+  },
+  {
+      "id": 220,
+      "name": "Charming House",
+      "pricePerDay": 53553,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 10,
+      "bathrooms": 7,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "전주",
+      "age": 8
+  },
+  {
+      "id": 221,
+      "name": "Beautiful Villa",
+      "pricePerDay": 504784,
+      "roomType": "방",
+      "bedrooms": 1,
+      "beds": 10,
+      "bathrooms": 8,
+      "amenities": [
+          "건조기",
+          "무선 인터넷",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "강릉",
+      "age": 49
+  },
+  {
+      "id": 222,
+      "name": "Charming House",
+      "pricePerDay": 667493,
+      "roomType": "방",
+      "bedrooms": 5,
+      "beds": 1,
+      "bathrooms": 7,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "속초",
+      "age": 2
+  },
+  {
+      "id": 223,
+      "name": "Charming House",
+      "pricePerDay": 664100,
+      "roomType": "방",
+      "bedrooms": 10,
+      "beds": 6,
+      "bathrooms": 10,
+      "amenities": [
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "대구",
+      "age": 67
+  },
+  {
+      "id": 224,
+      "name": "Modern Studio",
+      "pricePerDay": 479233,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 0,
+      "bathrooms": 10,
+      "amenities": [
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "부산",
+      "age": 34
+  },
+  {
+      "id": 225,
+      "name": "Luxury Condo",
+      "pricePerDay": 470079,
+      "roomType": "집 전체",
+      "bedrooms": 10,
+      "beds": 3,
+      "bathrooms": 7,
+      "amenities": [
+          "주방",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "제주도",
+      "age": 41
+  },
+  {
+      "id": 226,
+      "name": "Cozy Apartment",
+      "pricePerDay": 646039,
+      "roomType": "방",
+      "bedrooms": 9,
+      "beds": 5,
+      "bathrooms": 2,
+      "amenities": [
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "경주",
+      "age": 45
+  },
+  {
+      "id": 227,
+      "name": "Luxury Condo",
+      "pricePerDay": 425923,
+      "roomType": "집 전체",
+      "bedrooms": 0,
+      "beds": 5,
+      "bathrooms": 7,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "경주",
+      "age": 58
+  },
+  {
+      "id": 228,
+      "name": "Charming House",
+      "pricePerDay": 52289,
+      "roomType": "집 전체",
+      "bedrooms": 7,
+      "beds": 4,
+      "bathrooms": 6,
+      "amenities": [
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "서울",
+      "age": 41
+  },
+  {
+      "id": 229,
+      "name": "Charming House",
+      "pricePerDay": 429201,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 0,
+      "bathrooms": 5,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "서귀포",
+      "age": 10
+  },
+  {
+      "id": 230,
+      "name": "Beautiful Villa",
+      "pricePerDay": 221568,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 5,
+      "bathrooms": 4,
+      "amenities": [
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "대구",
+      "age": 55
+  },
+  {
+      "id": 231,
+      "name": "Charming House",
+      "pricePerDay": 157291,
+      "roomType": "방",
+      "bedrooms": 9,
+      "beds": 2,
+      "bathrooms": 7,
+      "amenities": [
+          "에어컨",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "속초",
+      "age": 51
+  },
+  {
+      "id": 232,
+      "name": "Modern Studio",
+      "pricePerDay": 672369,
+      "roomType": "집 전체",
+      "bedrooms": 1,
+      "beds": 3,
+      "bathrooms": 6,
+      "amenities": [
+          "건조기",
+          "세탁기",
+          "주방",
+          "무선 인터넷",
+          "난방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "부산",
+      "age": 54
+  },
+  {
+      "id": 233,
+      "name": "Modern Studio",
+      "pricePerDay": 454699,
+      "roomType": "방",
+      "bedrooms": 10,
+      "beds": 9,
+      "bathrooms": 7,
+      "amenities": [
+          "주방",
+          "건조기",
+          "세탁기",
+          "무선 인터넷",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "인천",
+      "age": 32
+  },
+  {
+      "id": 234,
+      "name": "Cozy Apartment",
+      "pricePerDay": 514740,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 4,
+      "bathrooms": 3,
+      "amenities": [
+          "건조기",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "경주",
+      "age": 50
+  },
+  {
+      "id": 235,
+      "name": "Charming House",
+      "pricePerDay": 45537,
+      "roomType": "집 전체",
+      "bedrooms": 5,
+      "beds": 9,
+      "bathrooms": 7,
+      "amenities": [
+          "난방",
+          "주방",
+          "세탁기",
+          "에어컨",
+          "무선 인터넷",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "강릉",
+      "age": 42
+  },
+  {
+      "id": 236,
+      "name": "Luxury Condo",
+      "pricePerDay": 642377,
+      "roomType": "방",
+      "bedrooms": 7,
+      "beds": 2,
+      "bathrooms": 9,
+      "amenities": [
+          "난방",
+          "건조기",
+          "무선 인터넷",
+          "세탁기",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "대전",
+      "age": 81
+  },
+  {
+      "id": 237,
+      "name": "Luxury Condo",
+      "pricePerDay": 578118,
+      "roomType": "집 전체",
+      "bedrooms": 9,
+      "beds": 3,
+      "bathrooms": 6,
+      "amenities": [
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "전주",
+      "age": 82
+  },
+  {
+      "id": 238,
+      "name": "Modern Studio",
+      "pricePerDay": 328758,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 10,
+      "bathrooms": 2,
+      "amenities": [
+          "에어컨",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "강릉",
+      "age": 92
+  },
+  {
+      "id": 239,
+      "name": "Cozy Apartment",
+      "pricePerDay": 138366,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 10,
+      "bathrooms": 1,
+      "amenities": [
+          "건조기",
+          "무선 인터넷",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "경주",
+      "age": 30
+  },
+  {
+      "id": 240,
+      "name": "Modern Studio",
+      "pricePerDay": 89501,
+      "roomType": "방",
+      "bedrooms": 1,
+      "beds": 6,
+      "bathrooms": 4,
+      "amenities": [
+          "세탁기",
+          "난방",
+          "에어컨",
+          "주방",
+          "건조기",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "경주",
+      "age": 83
+  },
+  {
+      "id": 241,
+      "name": "Charming House",
+      "pricePerDay": 94289,
+      "roomType": "방",
+      "bedrooms": 10,
+      "beds": 7,
+      "bathrooms": 2,
+      "amenities": [
+          "난방",
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "인천",
+      "age": 39
+  },
+  {
+      "id": 242,
+      "name": "Beautiful Villa",
+      "pricePerDay": 650263,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 10,
+      "bathrooms": 0,
+      "amenities": [
+          "무선 인터넷",
+          "건조기",
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "강릉",
+      "age": 2
+  },
+  {
+      "id": 243,
+      "name": "Modern Studio",
+      "pricePerDay": 138928,
+      "roomType": "집 전체",
+      "bedrooms": 10,
+      "beds": 2,
+      "bathrooms": 6,
+      "amenities": [
+          "주방",
+          "에어컨",
+          "건조기",
+          "무선 인터넷",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "서울",
+      "age": 90
+  },
+  {
+      "id": 244,
+      "name": "Beautiful Villa",
+      "pricePerDay": 240047,
+      "roomType": "집 전체",
+      "bedrooms": 7,
+      "beds": 5,
+      "bathrooms": 2,
+      "amenities": [
+          "난방",
+          "에어컨",
+          "주방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "대구",
+      "age": 25
+  },
+  {
+      "id": 245,
+      "name": "Luxury Condo",
+      "pricePerDay": 130499,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 1,
+      "bathrooms": 6,
+      "amenities": [
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "제주도",
+      "age": 12
+  },
+  {
+      "id": 246,
+      "name": "Cozy Apartment",
+      "pricePerDay": 426885,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 9,
+      "bathrooms": 3,
+      "amenities": [
+          "난방",
+          "에어컨",
+          "무선 인터넷",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "제주도",
+      "age": 31
+  },
+  {
+      "id": 247,
+      "name": "Charming House",
+      "pricePerDay": 341866,
+      "roomType": "방",
+      "bedrooms": 1,
+      "beds": 9,
+      "bathrooms": 8,
+      "amenities": [
+          "무선 인터넷",
+          "에어컨",
+          "주방",
+          "건조기",
+          "세탁기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "제주도",
+      "age": 17
+  },
+  {
+      "id": 248,
+      "name": "Charming House",
+      "pricePerDay": 186841,
+      "roomType": "집 전체",
+      "bedrooms": 10,
+      "beds": 2,
+      "bathrooms": 3,
+      "amenities": [
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "속초",
+      "age": 52
+  },
+  {
+      "id": 249,
+      "name": "Modern Studio",
+      "pricePerDay": 168050,
+      "roomType": "방",
+      "bedrooms": 0,
+      "beds": 7,
+      "bathrooms": 6,
+      "amenities": [
+          "세탁기",
+          "건조기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "대구",
+      "age": 59
+  },
+  {
+      "id": 250,
+      "name": "Luxury Condo",
+      "pricePerDay": 341889,
+      "roomType": "집 전체",
+      "bedrooms": 5,
+      "beds": 5,
+      "bathrooms": 9,
+      "amenities": [
+          "에어컨",
+          "무선 인터넷",
+          "세탁기",
+          "주방",
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "강릉",
+      "age": 45
+  },
+  {
+      "id": 251,
+      "name": "Charming House",
+      "pricePerDay": 591718,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 0,
+      "bathrooms": 8,
+      "amenities": [
+          "에어컨",
+          "건조기",
+          "난방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "서울",
+      "age": 66
+  },
+  {
+      "id": 252,
+      "name": "Modern Studio",
+      "pricePerDay": 185732,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 0,
+      "bathrooms": 2,
+      "amenities": [
+          "난방",
+          "세탁기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "부산",
+      "age": 68
+  },
+  {
+      "id": 253,
+      "name": "Charming House",
+      "pricePerDay": 196687,
+      "roomType": "집 전체",
+      "bedrooms": 7,
+      "beds": 3,
+      "bathrooms": 9,
+      "amenities": [
+          "건조기",
+          "세탁기",
+          "무선 인터넷",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "서귀포",
+      "age": 5
+  },
+  {
+      "id": 254,
+      "name": "Cozy Apartment",
+      "pricePerDay": 402010,
+      "roomType": "방",
+      "bedrooms": 10,
+      "beds": 5,
+      "bathrooms": 7,
+      "amenities": [
+          "난방",
+          "세탁기",
+          "건조기",
+          "무선 인터넷",
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "전주",
+      "age": 83
+  },
+  {
+      "id": 255,
+      "name": "Luxury Condo",
+      "pricePerDay": 128305,
+      "roomType": "집 전체",
+      "bedrooms": 9,
+      "beds": 0,
+      "bathrooms": 2,
+      "amenities": [
+          "세탁기",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "경주",
+      "age": 77
+  },
+  {
+      "id": 256,
+      "name": "Cozy Apartment",
+      "pricePerDay": 505098,
+      "roomType": "방",
+      "bedrooms": 2,
+      "beds": 4,
+      "bathrooms": 0,
+      "amenities": [
+          "에어컨",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "인천",
+      "age": 10
+  },
+  {
+      "id": 257,
+      "name": "Charming House",
+      "pricePerDay": 159762,
+      "roomType": "집 전체",
+      "bedrooms": 7,
+      "beds": 2,
+      "bathrooms": 3,
+      "amenities": [
+          "세탁기",
+          "에어컨",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "대전",
+      "age": 5
+  },
+  {
+      "id": 258,
+      "name": "Luxury Condo",
+      "pricePerDay": 504855,
+      "roomType": "집 전체",
+      "bedrooms": 7,
+      "beds": 7,
+      "bathrooms": 0,
+      "amenities": [
+          "난방",
+          "무선 인터넷",
+          "에어컨",
+          "세탁기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "여수",
+      "age": 88
+  },
+  {
+      "id": 259,
+      "name": "Cozy Apartment",
+      "pricePerDay": 434769,
+      "roomType": "집 전체",
+      "bedrooms": 4,
+      "beds": 2,
+      "bathrooms": 7,
+      "amenities": [
+          "무선 인터넷",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "여수",
+      "age": 3
+  },
+  {
+      "id": 260,
+      "name": "Luxury Condo",
+      "pricePerDay": 528294,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 8,
+      "bathrooms": 3,
+      "amenities": [
+          "세탁기",
+          "무선 인터넷",
+          "에어컨",
+          "주방",
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "인천",
+      "age": 50
+  },
+  {
+      "id": 261,
+      "name": "Modern Studio",
+      "pricePerDay": 435851,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 10,
+      "bathrooms": 2,
+      "amenities": [
+          "건조기",
+          "무선 인터넷",
+          "세탁기",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "경주",
+      "age": 37
+  },
+  {
+      "id": 262,
+      "name": "Beautiful Villa",
+      "pricePerDay": 67109,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 7,
+      "bathrooms": 1,
+      "amenities": [
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "제주도",
+      "age": 89
+  },
+  {
+      "id": 263,
+      "name": "Cozy Apartment",
+      "pricePerDay": 415351,
+      "roomType": "집 전체",
+      "bedrooms": 9,
+      "beds": 1,
+      "bathrooms": 2,
+      "amenities": [
+          "난방",
+          "주방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "인천",
+      "age": 87
+  },
+  {
+      "id": 264,
+      "name": "Luxury Condo",
+      "pricePerDay": 178997,
+      "roomType": "집 전체",
+      "bedrooms": 0,
+      "beds": 10,
+      "bathrooms": 2,
+      "amenities": [
+          "난방",
+          "주방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "여수",
+      "age": 14
+  },
+  {
+      "id": 265,
+      "name": "Beautiful Villa",
+      "pricePerDay": 49133,
+      "roomType": "방",
+      "bedrooms": 2,
+      "beds": 6,
+      "bathrooms": 0,
+      "amenities": [
+          "세탁기",
+          "건조기",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "제주도",
+      "age": 54
+  },
+  {
+      "id": 266,
+      "name": "Luxury Condo",
+      "pricePerDay": 485426,
+      "roomType": "방",
+      "bedrooms": 3,
+      "beds": 7,
+      "bathrooms": 5,
+      "amenities": [
+          "주방",
+          "세탁기",
+          "난방",
+          "에어컨",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "경주",
+      "age": 86
+  },
+  {
+      "id": 267,
+      "name": "Beautiful Villa",
+      "pricePerDay": 56037,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 0,
+      "bathrooms": 3,
+      "amenities": [
+          "건조기",
+          "세탁기",
+          "무선 인터넷",
+          "난방",
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "부산",
+      "age": 40
+  },
+  {
+      "id": 268,
+      "name": "Cozy Apartment",
+      "pricePerDay": 479700,
+      "roomType": "집 전체",
+      "bedrooms": 10,
+      "beds": 3,
+      "bathrooms": 7,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "여수",
+      "age": 42
+  },
+  {
+      "id": 269,
+      "name": "Modern Studio",
+      "pricePerDay": 593561,
+      "roomType": "집 전체",
+      "bedrooms": 4,
+      "beds": 6,
+      "bathrooms": 6,
+      "amenities": [
+          "건조기",
+          "난방",
+          "에어컨",
+          "주방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "대전",
+      "age": 42
+  },
+  {
+      "id": 270,
+      "name": "Charming House",
+      "pricePerDay": 423061,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 9,
+      "bathrooms": 10,
+      "amenities": [
+          "주방",
+          "에어컨",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "대전",
+      "age": 84
+  },
+  {
+      "id": 271,
+      "name": "Cozy Apartment",
+      "pricePerDay": 206807,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 3,
+      "bathrooms": 10,
+      "amenities": [
+          "에어컨",
+          "건조기",
+          "세탁기",
+          "난방",
+          "주방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "서귀포",
+      "age": 70
+  },
+  {
+      "id": 272,
+      "name": "Modern Studio",
+      "pricePerDay": 294283,
+      "roomType": "방",
+      "bedrooms": 9,
+      "beds": 0,
+      "bathrooms": 2,
+      "amenities": [
+          "무선 인터넷",
+          "에어컨",
+          "난방",
+          "건조기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "전주",
+      "age": 25
+  },
+  {
+      "id": 273,
+      "name": "Cozy Apartment",
+      "pricePerDay": 652803,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 6,
+      "bathrooms": 7,
+      "amenities": [
+          "무선 인터넷",
+          "난방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "강릉",
+      "age": 9
+  },
+  {
+      "id": 274,
+      "name": "Cozy Apartment",
+      "pricePerDay": 335532,
+      "roomType": "집 전체",
+      "bedrooms": 2,
+      "beds": 8,
+      "bathrooms": 8,
+      "amenities": [
+          "건조기",
+          "세탁기",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "대전",
+      "age": 62
+  },
+  {
+      "id": 275,
+      "name": "Luxury Condo",
+      "pricePerDay": 261520,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 4,
+      "amenities": [
+          "세탁기",
+          "무선 인터넷",
+          "에어컨",
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "게스트용 별채",
+      "city": "전주",
+      "age": 64
+  },
+  {
+      "id": 276,
+      "name": "Beautiful Villa",
+      "pricePerDay": 424185,
+      "roomType": "집 전체",
+      "bedrooms": 0,
+      "beds": 2,
+      "bathrooms": 8,
+      "amenities": [
+          "에어컨",
+          "건조기",
+          "무선 인터넷",
+          "주방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "대전",
+      "age": 76
+  },
+  {
+      "id": 277,
+      "name": "Charming House",
+      "pricePerDay": 588215,
+      "roomType": "집 전체",
+      "bedrooms": 5,
+      "beds": 5,
+      "bathrooms": 2,
+      "amenities": [
+          "세탁기",
+          "에어컨",
+          "주방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "전주",
+      "age": 86
+  },
+  {
+      "id": 278,
+      "name": "Modern Studio",
+      "pricePerDay": 281418,
+      "roomType": "집 전체",
+      "bedrooms": 4,
+      "beds": 3,
+      "bathrooms": 3,
+      "amenities": [
+          "무선 인터넷",
+          "주방",
+          "난방",
+          "세탁기",
+          "건조기",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "서귀포",
+      "age": 11
+  },
+  {
+      "id": 279,
+      "name": "Luxury Condo",
+      "pricePerDay": 430904,
+      "roomType": "집 전체",
+      "bedrooms": 10,
+      "beds": 0,
+      "bathrooms": 10,
+      "amenities": [
+          "세탁기",
+          "주방",
+          "건조기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "강릉",
+      "age": 49
+  },
+  {
+      "id": 280,
+      "name": "Charming House",
+      "pricePerDay": 42688,
+      "roomType": "집 전체",
+      "bedrooms": 8,
+      "beds": 2,
+      "bathrooms": 6,
+      "amenities": [
+          "세탁기",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "여수",
+      "age": 30
+  },
+  {
+      "id": 281,
+      "name": "Modern Studio",
+      "pricePerDay": 205132,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 8,
+      "bathrooms": 6,
+      "amenities": [
+          "에어컨",
+          "건조기",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "인천",
+      "age": 73
+  },
+  {
+      "id": 282,
+      "name": "Modern Studio",
+      "pricePerDay": 544075,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 0,
+      "bathrooms": 7,
+      "amenities": [
+          "주방",
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "인천",
+      "age": 96
+  },
+  {
+      "id": 283,
+      "name": "Modern Studio",
+      "pricePerDay": 316329,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 8,
+      "bathrooms": 4,
+      "amenities": [
+          "건조기",
+          "난방",
+          "에어컨",
+          "무선 인터넷",
+          "세탁기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "전주",
+      "age": 45
+  },
+  {
+      "id": 284,
+      "name": "Beautiful Villa",
+      "pricePerDay": 576769,
+      "roomType": "방",
+      "bedrooms": 3,
+      "beds": 3,
+      "bathrooms": 0,
+      "amenities": [
+          "무선 인터넷",
+          "에어컨",
+          "건조기",
+          "난방",
+          "주방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "서귀포",
+      "age": 38
+  },
+  {
+      "id": 285,
+      "name": "Modern Studio",
+      "pricePerDay": 163551,
+      "roomType": "방",
+      "bedrooms": 4,
+      "beds": 8,
+      "bathrooms": 0,
+      "amenities": [
+          "세탁기",
+          "건조기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "서울",
+      "age": 5
+  },
+  {
+      "id": 286,
+      "name": "Beautiful Villa",
+      "pricePerDay": 581775,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 6,
+      "bathrooms": 4,
+      "amenities": [
+          "무선 인터넷",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인",
+          "즉시 예약"
+      ],
+      "guestFavorite": false,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "서귀포",
+      "age": 3
+  },
+  {
+      "id": 287,
+      "name": "Beautiful Villa",
+      "pricePerDay": 640397,
+      "roomType": "방",
+      "bedrooms": 8,
+      "beds": 6,
+      "bathrooms": 8,
+      "amenities": [
+          "세탁기",
+          "에어컨",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "대구",
+      "age": 49
+  },
+  {
+      "id": 288,
+      "name": "Beautiful Villa",
+      "pricePerDay": 194244,
+      "roomType": "집 전체",
+      "bedrooms": 9,
+      "beds": 7,
+      "bathrooms": 0,
+      "amenities": [
+          "무선 인터넷"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "인천",
+      "age": 48
+  },
+  {
+      "id": 289,
+      "name": "Modern Studio",
+      "pricePerDay": 300710,
+      "roomType": "집 전체",
+      "bedrooms": 3,
+      "beds": 9,
+      "bathrooms": 7,
+      "amenities": [
+          "세탁기",
+          "무선 인터넷",
+          "난방",
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "여수",
+      "age": 89
+  },
+  {
+      "id": 290,
+      "name": "Cozy Apartment",
+      "pricePerDay": 131254,
+      "roomType": "집 전체",
+      "bedrooms": 9,
+      "beds": 4,
+      "bathrooms": 10,
+      "amenities": [
+          "에어컨",
+          "주방"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "강릉",
+      "age": 60
+  },
+  {
+      "id": 291,
+      "name": "Modern Studio",
+      "pricePerDay": 604543,
+      "roomType": "집 전체",
+      "bedrooms": 1,
+      "beds": 5,
+      "bathrooms": 8,
+      "amenities": [
+          "에어컨",
+          "건조기",
+          "주방"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "제주도",
+      "age": 78
+  },
+  {
+      "id": 292,
+      "name": "Beautiful Villa",
+      "pricePerDay": 583550,
+      "roomType": "집 전체",
+      "bedrooms": 6,
+      "beds": 3,
+      "bathrooms": 0,
+      "amenities": [
+          "무선 인터넷",
+          "에어컨",
+          "세탁기",
+          "주방",
+          "난방",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": false,
+      "buildingType": "아파트",
+      "city": "대전",
+      "age": 66
+  },
+  {
+      "id": 293,
+      "name": "Charming House",
+      "pricePerDay": 504525,
+      "roomType": "집 전체",
+      "bedrooms": 5,
+      "beds": 3,
+      "bathrooms": 10,
+      "amenities": [
+          "난방",
+          "건조기",
+          "세탁기",
+          "무선 인터넷",
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "강릉",
+      "age": 63
+  },
+  {
+      "id": 294,
+      "name": "Modern Studio",
+      "pricePerDay": 442624,
+      "roomType": "방",
+      "bedrooms": 7,
+      "beds": 5,
+      "bathrooms": 2,
+      "amenities": [
+          "주방",
+          "에어컨"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "호텔",
+      "city": "전주",
+      "age": 53
+  },
+  {
+      "id": 295,
+      "name": "Luxury Condo",
+      "pricePerDay": 308886,
+      "roomType": "집 전체",
+      "bedrooms": 9,
+      "beds": 3,
+      "bathrooms": 5,
+      "amenities": [
+          "무선 인터넷",
+          "건조기",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "경주",
+      "age": 28
+  },
+  {
+      "id": 296,
+      "name": "Charming House",
+      "pricePerDay": 137223,
+      "roomType": "집 전체",
+      "bedrooms": 4,
+      "beds": 8,
+      "bathrooms": 9,
+      "amenities": [
+          "에어컨",
+          "무선 인터넷",
+          "난방",
+          "세탁기",
+          "건조기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "아파트",
+      "city": "제주도",
+      "age": 76
+  },
+  {
+      "id": 297,
+      "name": "Beautiful Villa",
+      "pricePerDay": 507513,
+      "roomType": "방",
+      "bedrooms": 6,
+      "beds": 1,
+      "bathrooms": 0,
+      "amenities": [
+          "세탁기",
+          "난방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": false,
+      "buildingType": "호텔",
+      "city": "속초",
+      "age": 95
+  },
+  {
+      "id": 298,
+      "name": "Charming House",
+      "pricePerDay": 284295,
+      "roomType": "집 전체",
+      "bedrooms": 5,
+      "beds": 6,
+      "bathrooms": 0,
+      "amenities": [
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "셀프 체크인",
+          "반려동물 동반 가능",
+          "즉시 예약"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "대구",
+      "age": 21
+  },
+  {
+      "id": 299,
+      "name": "Charming House",
+      "pricePerDay": 366645,
+      "roomType": "집 전체",
+      "bedrooms": 2,
+      "beds": 7,
+      "bathrooms": 7,
+      "amenities": [
+          "주방"
+      ],
+      "bookingOptions": [
+          "반려동물 동반 가능"
+      ],
+      "guestFavorite": true,
+      "buildingType": "게스트용 별채",
+      "city": "부산",
+      "age": 23
+  },
+  {
+      "id": 300,
+      "name": "Modern Studio",
+      "pricePerDay": 401262,
+      "roomType": "집 전체",
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 2,
+      "amenities": [
+          "주방",
+          "건조기",
+          "난방",
+          "세탁기"
+      ],
+      "bookingOptions": [
+          "즉시 예약",
+          "반려동물 동반 가능",
+          "셀프 체크인"
+      ],
+      "guestFavorite": true,
+      "buildingType": "단독 또는 다세대 주택",
+      "city": "전주",
+      "age": 63
+  }
+]

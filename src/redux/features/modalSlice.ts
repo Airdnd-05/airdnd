@@ -4,12 +4,14 @@ interface ModalState {
   isOpen: boolean
   modalProps?: unknown
   scrollPosition: number
+  modalScrollPosition: number
 }
 
 const initialState: ModalState = {
   isOpen: false,
   modalProps: {},
   scrollPosition: 0,
+  modalScrollPosition: 0,
 }
 
 const modalSlice = createSlice({
@@ -19,7 +21,7 @@ const modalSlice = createSlice({
     openModal(state, action: PayloadAction<{ modalProps?: unknown }>) {
       state.isOpen = true
       state.modalProps = action.payload.modalProps
-      state.scrollPosition = window.pageYOffset
+      state.scrollPosition = window.scrollY
       document.body.style.overflow = 'hidden'
       document.body.style.position = 'fixed'
       document.body.style.top = `-${state.scrollPosition}px`
@@ -34,8 +36,11 @@ const modalSlice = createSlice({
       document.body.style.removeProperty('right')
       window.scrollTo(0, state.scrollPosition)
     },
+    setModalScrollPosition(state, action: PayloadAction<number>) {
+      state.modalScrollPosition = action.payload
+    },
   },
 })
 
-export const { openModal, closeModal } = modalSlice.actions
+export const { openModal, closeModal, setModalScrollPosition } = modalSlice.actions
 export default modalSlice.reducer

@@ -2,20 +2,18 @@
 
 import { useDispatch, useSelector } from 'react-redux'
 import Image from 'next/image'
-import { openModal } from '@/redux/features/modal/slice'
+import { openModal } from '@/redux/features/modalSlice'
 import FilterModal from '@/modals/FilterModal'
 import { RootState } from '@/redux/store'
 
-function FilterButton() {
+function FilterModalButton() {
   const dispatch = useDispatch()
   const isOpen = useSelector((state: RootState) => state.modal.isOpen)
 
   const handleOpenModal = () => {
     dispatch(
       openModal({
-        modalProps: {
-          // ...modalProps,
-        },
+        modalProps: {},
       }),
     )
   }
@@ -41,4 +39,4 @@ function FilterButton() {
   )
 }
 
-export default FilterButton
+export default FilterModalButton
