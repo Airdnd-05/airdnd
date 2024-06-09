@@ -1,6 +1,7 @@
-// components/filters/BookingOptionFilter.tsx
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import { FaCheck } from 'react-icons/fa'
+import clsx from 'clsx'
 import { RootState } from '@/redux/store'
 import { setBookingOptionFilter } from '@/redux/features/bookingOptionFilterSlice'
 
@@ -8,23 +9,10 @@ interface FilterOptionProps {
   title: string
   description: string
   checked: boolean
-  onChange: () => void
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void
 }
 
-const FilterOption: React.FC<FilterOptionProps> = ({ title, description, checked, onChange }) => (
-  <div className='flex items-center justify-between'>
-    <div>
-      <div className='text-gray-900'>{title}</div>
-      <div className='text-sm text-gray-500'>{description}</div>
-    </div>
-    <label className='relative inline-flex items-center cursor-pointer'>
-      <input type='checkbox' checked={checked} onChange={onChange} className='sr-only peer' />
-      <div className="peer h-6 w-11 rounded-full bg-gray-200 after:absolute after:left-[2px] after:top-0.5 after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-black peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-blue-600 dark:bg-gray-700 dark:peer-focus:ring-blue-800"></div>
-    </label>
-  </div>
-)
-
-const BookingOptionFilter: React.FC = () => {
+function BookingOptionFilter(): React.ReactElement {
   const dispatch = useDispatch()
   const bookingOptions = useSelector((state: RootState) => state.bookingOptionFilter.bookingOptions)
 
@@ -44,10 +32,63 @@ const BookingOptionFilter: React.FC = () => {
     dispatch(setBookingOptionFilter(newOptions))
   }
 
+  function Heading(): React.ReactElement {
+    return (
+      <div className='flex flex-col w-full pb-6'>
+        <span className='text-2xl font-semibold'>예약 옵션</span>
+      </div>
+    )
+  }
+
+  function FilterOption({
+    title,
+    description,
+    checked,
+    onChange,
+  }: FilterOptionProps): React.ReactElement {
+    return (
+      <div className='flex items-center justify-between pb-3 pr-1 pt-3.5'>
+        <div className='flex flex-col w-full'>
+          <div className='text-gray-900'>{title}</div>
+          <div className='pt-1 text-sm text-gray-500'>{description}</div>
+        </div>
+        <label className='relative inline-flex items-center cursor-pointer'>
+          <input type='checkbox' checked={checked} onChange={onChange} className='sr-only' />
+          <div
+            onClick={() =>
+              onChange({
+                target: { checked: !checked },
+              } as React.ChangeEvent<HTMLInputElement>)
+            }
+            className='flex items-center justify-center w-20 h-10'>
+            <div
+              className={clsx(
+                'relative flex h-8 w-14 items-center rounded-full transition-colors duration-200',
+                checked ? 'bg-black' : 'bg-gray-300',
+              )}>
+              <div
+                className={clsx(
+                  'absolute h-7 w-7 transform rounded-full border bg-white transition-transform duration-200',
+                  checked ? 'translate-x-6 border-black' : 'translate-x-0 border-gray-300',
+                )}>
+                {checked && (
+                  <FaCheck
+                    className='absolute text-black transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2'
+                    size={12}
+                  />
+                )}
+              </div>
+            </div>
+          </div>
+        </label>
+      </div>
+    )
+  }
+
   return (
-    <div className='p-4 bg-white border-b border-solid rounded-md shadow-md border-slate-300'>
-      <h2 className='mb-4 text-lg font-semibold'>예약 옵션</h2>
-      <div className='space-y-4'>
+    <div className='px-6 py-8 bg-white border-b border-solid border-slate-300'>
+      <Heading />
+      <div>
         {options.map(option => (
           <FilterOption
             key={option.title}

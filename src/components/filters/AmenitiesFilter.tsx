@@ -2,36 +2,7 @@ import { ChangeEvent, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { setAmenitiesFilter } from '@/redux/features/amenitiesFilterSlice'
 import { RootState } from '@/redux/store'
-
-const amenitiesCategories: { [key: string]: string[] } = {
-  필수: [
-    '무선 인터넷',
-    '세탁기',
-    '에어컨',
-    '주방',
-    '건조기',
-    '난방',
-    '업무 전용 공간',
-    'TV',
-    '헤어드라이어',
-    '다리미',
-  ],
-  특징: [
-    '수영장',
-    '대형 욕조',
-    '무료 주차 공간',
-    '전기차 충전시설',
-    '아기 침대',
-    '킹사이즈 침대',
-    '헬스장',
-    '바비큐 그릴',
-    '야침식사',
-    '실내 벽난로',
-    '흡연 가능',
-  ],
-  위치: ['해변에 인접', '수변'],
-  안전: ['화재경보기', '일산화탄소 경보기'],
-}
+import { setModalScrollPosition } from '@/redux/features/modalSlice'
 
 interface AmenityItemProps {
   amenity: string
@@ -39,60 +10,62 @@ interface AmenityItemProps {
   handleAmenitiesChange: (e: ChangeEvent<HTMLInputElement>) => void
 }
 
-function AmenityItem({ amenity, checked, handleAmenitiesChange }: AmenityItemProps) {
-  return (
-    <label key={amenity} className='inline-flex items-center flex-grow w-1/2 py-3'>
-      <input
-        type='checkbox'
-        name='amenities'
-        value={amenity}
-        checked={checked}
-        onChange={handleAmenitiesChange}
-        className='w-6 h-6 text-blue-600 form-checkbox'
-      />
-      <span className='pl-2 text-gray-700'>{amenity}</span>
-    </label>
-  )
-}
-
 interface AmenityCategoryProps {
   title: string
-  amenities: string[]
-  visibleCount: number
+  amenities: { itemId: number; label: string }[]
   handleAmenitiesChange: (e: ChangeEvent<HTMLInputElement>) => void
   amenitiesFilter: string[]
 }
 
-function AmenityCategory({
-  title,
-  amenities,
-  visibleCount,
-  handleAmenitiesChange,
-  amenitiesFilter,
-}: AmenityCategoryProps): React.ReactElement {
-  return (
-    <div className='w-full'>
-      <h3 className='pt-2 pb-3 mt-6 font-semibold text-gray-800 text-md'>{title}</h3>
-      <div className='flex flex-wrap'>
-        {amenities.slice(0, visibleCount).map(amenity => (
-          <AmenityItem
-            key={amenity}
-            amenity={amenity}
-            checked={amenitiesFilter.includes(amenity)}
-            handleAmenitiesChange={handleAmenitiesChange}
-          />
-        ))}
-      </div>
-    </div>
-  )
-}
+const amenityCategories = [
+  { categoryId: 1, label: '필수' },
+  { categoryId: 2, label: '특징' },
+  { categoryId: 3, label: '위치' },
+  { categoryId: 4, label: '안전' },
+]
 
-const initialVisibleCount = 6
+const amenityItems = [
+  { itemId: 1, categoryId: 1, label: '무선 인터넷' },
+  { itemId: 2, categoryId: 1, label: '세탁기' },
+  { itemId: 3, categoryId: 1, label: '에어컨' },
+  { itemId: 4, categoryId: 1, label: '주방' },
+  { itemId: 5, categoryId: 1, label: '건조기' },
+  { itemId: 6, categoryId: 1, label: '난방' },
+  { itemId: 7, categoryId: 1, label: '업무 전용 공간' },
+  { itemId: 8, categoryId: 1, label: 'TV' },
+  { itemId: 9, categoryId: 1, label: '헤어드라이어' },
+  { itemId: 10, categoryId: 1, label: '다리미' },
+  { itemId: 11, categoryId: 2, label: '수영장' },
+  { itemId: 12, categoryId: 2, label: '대형 욕조' },
+  { itemId: 13, categoryId: 2, label: '무료 주차 공간' },
+  { itemId: 14, categoryId: 2, label: '전기차 충전시설' },
+  { itemId: 15, categoryId: 2, label: '아기 침대' },
+  { itemId: 16, categoryId: 2, label: '킹사이즈 침대' },
+  { itemId: 17, categoryId: 2, label: '헬스장' },
+  { itemId: 18, categoryId: 2, label: '바비큐 그릴' },
+  { itemId: 19, categoryId: 2, label: '야침식사' },
+  { itemId: 20, categoryId: 2, label: '실내 벽난로' },
+  { itemId: 21, categoryId: 2, label: '흡연 가능' },
+  { itemId: 22, categoryId: 3, label: '해변에 인접' },
+  { itemId: 23, categoryId: 3, label: '수변' },
+  { itemId: 24, categoryId: 4, label: '화재경보기' },
+  { itemId: 25, categoryId: 4, label: '일산화탄소 경보기' },
+]
 
 function AmenitiesFilter(): React.ReactElement {
   const dispatch = useDispatch()
   const amenitiesFilter = useSelector((state: RootState) => state.amenitiesFilter.amenities) || []
   const [isExpanded, setIsExpanded] = useState(false)
+
+  const LIMIT = 6
+
+  // ref 검토 필요
+  const toggleExpand = () => {
+    if (isExpanded) {
+      dispatch(setModalScrollPosition(1000))
+    }
+    setIsExpanded(!isExpanded)
+  }
 
   const handleAmenitiesChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { value, checked } = e.target
@@ -103,45 +76,73 @@ function AmenitiesFilter(): React.ReactElement {
     }
   }
 
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded)
-  }
-
   function Heading(): React.ReactElement {
     return (
-      <div className='flex flex-col'>
-        <span className='text-2xl font-semibold'>편의 시설</span>
+      <div className='flex flex-col w-full pb-6'>
+        <span className='text-2xl font-semibold'>편의시설</span>
+      </div>
+    )
+  }
+
+  function AmenityItem({ amenity, checked, handleAmenitiesChange }: AmenityItemProps) {
+    return (
+      <div className='flex flex-row w-1/2'>
+        <label key={amenity} className='inline-flex items-center flex-grow gap-4 py-3'>
+          <input
+            type='checkbox'
+            name='amenities'
+            value={amenity}
+            checked={checked}
+            onChange={handleAmenitiesChange}
+            className='w-6 h-6 text-black form-checkbox accent-black'
+          />
+          <span className='pl-2 text-gray-700'>{amenity}</span>
+        </label>
+      </div>
+    )
+  }
+
+  function AmenityCategory({
+    title,
+    amenities,
+    handleAmenitiesChange,
+    amenitiesFilter,
+  }: AmenityCategoryProps): React.ReactElement {
+    return (
+      <div className='w-full'>
+        <h3 className='pt-2 pb-3 font-semibold text-gray-800 text-md'>{title}</h3>
+        <div className='flex flex-wrap'>
+          {amenities.map(amenity => (
+            <AmenityItem
+              key={amenity.itemId}
+              amenity={amenity.label}
+              checked={amenitiesFilter.includes(amenity.label)}
+              handleAmenitiesChange={handleAmenitiesChange}
+            />
+          ))}
+        </div>
       </div>
     )
   }
 
   return (
-    <div className='flex flex-col items-start px-6 py-8 space-y-4 border-b border-solid border-slate-300'>
+    <div className='flex flex-col items-start w-full px-6 py-8 border-b border-solid border-slate-300'>
       <Heading />
-      <AmenityCategory
-        title='필수'
-        amenities={amenitiesCategories['필수']}
-        visibleCount={isExpanded ? amenitiesCategories['필수'].length : initialVisibleCount}
-        handleAmenitiesChange={handleAmenitiesChange}
-        amenitiesFilter={amenitiesFilter}
-      />
-      {isExpanded && (
-        <>
-          {['특징', '위치', '안전'].map(category => (
-            <AmenityCategory
-              key={category}
-              title={category}
-              amenities={amenitiesCategories[category]}
-              visibleCount={amenitiesCategories[category].length}
-              handleAmenitiesChange={handleAmenitiesChange}
-              amenitiesFilter={amenitiesFilter}
-            />
-          ))}
-        </>
-      )}
+      {amenityCategories.slice(0, isExpanded ? amenityCategories.length : 1).map(category => (
+        <div className='w-full mt-6' key={category.categoryId}>
+          <AmenityCategory
+            title={category.label}
+            amenities={amenityItems
+              .slice(0, isExpanded ? amenityItems.length : LIMIT)
+              .filter(item => item.categoryId === category.categoryId)}
+            handleAmenitiesChange={handleAmenitiesChange}
+            amenitiesFilter={amenitiesFilter}
+          />
+        </div>
+      ))}
       <div
         onClick={toggleExpand}
-        className='mt-2 text-black underline cursor-pointer underline-offset-4 focus:outline-none'>
+        className='text-black underline cursor-pointer underline-offset-4 focus:outline-none'>
         {isExpanded ? '접기' : '더 보기'}
       </div>
     </div>

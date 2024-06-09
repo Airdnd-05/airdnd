@@ -1,13 +1,20 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import Image from 'next/image'
+import clsx from 'clsx'
 import { RootState } from '@/redux/store'
-import { setBuildingType } from '@/redux/features/buildingTypeSlice'
+import { setBuildingType } from '@/redux/features/buildingTypeFilterSlice'
 
-const buildingTypes = ['단독 또는 다세대 주택', '아파트', '게스트용 별채', '호텔']
+const buildingTypes = [
+  { type: '단독 또는 다세대 주택', image: '/images/BuildingTypeHome.jpg' },
+  { type: '아파트', image: '/images/BuildingTypeApart.jpg' },
+  { type: '게스트용 별채', image: '/images/BuildingTypeVilla.jpg' },
+  { type: '호텔', image: '/images/BuildingTypeHotel.jpg' },
+]
 
 const BuildingTypeFilter = () => {
   const dispatch = useDispatch()
-  const selectedTypes = useSelector((state: RootState) => state.buildingType.buildingTypes)
+  const selectedTypes = useSelector((state: RootState) => state.buildingTypeFilter.buildingTypes)
 
   const handleToggle = (type: string) => {
     const updatedTypes = selectedTypes.includes(type)
@@ -16,19 +23,39 @@ const BuildingTypeFilter = () => {
     dispatch(setBuildingType(updatedTypes))
   }
 
+  const BuildingTypeButton = ({ type, image, selected, onClick }) => (
+    <button
+      className={clsx(
+        'flex h-32 w-1/5 cursor-pointer items-start justify-start rounded-lg p-3',
+        { 'outline outline-2 outline-black': selected },
+        { 'border border-solid border-gray-300': !selected },
+      )}
+      onClick={onClick}>
+      <div className='flex flex-col items-start justify-between h-full gap-4'>
+        <div className='flex flex-row items-start justify-start'>
+          <Image alt={type} src={image} width={30} height={30} />
+        </div>
+        <div className='mt-auto text-left'>
+          <p className='text-base font-semibold'>{type}</p>
+        </div>
+      </div>
+    </button>
+  )
+
   return (
-    <div className='p-4 border-b border-gray-300'>
-      <h2 className='mb-2 text-lg font-semibold'>건물 유형</h2>
-      <div className='grid grid-cols-2 gap-2'>
-        {buildingTypes.map(type => (
-          <div
+    <div className='flex flex-col px-6 py-8 border-b border-solid border-slate-300'>
+      <div className='flex flex-col pb-6'>
+        <span className='text-2xl font-semibold'>건물 유형</span>
+      </div>
+      <div className='flex flex-row flex-wrap justify-between gap-2'>
+        {buildingTypes.map(({ type, image }) => (
+          <BuildingTypeButton
             key={type}
-            className={`flex aspect-square cursor-pointer items-center justify-center rounded-lg border p-4 ${selectedTypes.includes(type) ? 'border-2 border-black' : 'border border-gray-300'}`}
-            onClick={() => handleToggle(type)}>
-            <div>
-              <p className='font-semibold text-center'>{type}</p>
-            </div>
-          </div>
+            type={type}
+            image={image}
+            selected={selectedTypes.includes(type)}
+            onClick={() => handleToggle(type)}
+          />
         ))}
       </div>
     </div>

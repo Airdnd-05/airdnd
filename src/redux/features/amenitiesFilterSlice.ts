@@ -3,6 +3,7 @@ import { Filters } from '@/types/Filters'
 
 const initialState: Partial<Filters> = {
   amenities: [],
+  isExpanded: false,
 }
 
 const amenitiesFilterSlice = createSlice({
@@ -13,9 +14,12 @@ const amenitiesFilterSlice = createSlice({
       state.amenities = action.payload
     },
     resetAmenitiesFilter: () => initialState,
+    toggleAmenitiesVisibility: state => {
+      state.isExpanded = !state.isExpanded
+    },
   },
 })
 
-export const { setAmenitiesFilter, resetAmenitiesFilter } =
+export const { setAmenitiesFilter, resetAmenitiesFilter, toggleAmenitiesVisibility } =
   amenitiesFilterSlice.actions
 export default amenitiesFilterSlice.reducer

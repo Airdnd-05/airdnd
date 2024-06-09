@@ -6,11 +6,9 @@ import roomTypeFilterReducer from '@/redux/features/roomTypeFilterSlice'
 import bedFilterReducer from '@/redux/features/bedFilterSlice'
 import amenitiesFilterReducer from '@/redux/features/amenitiesFilterSlice'
 import bookingOptionFilterReducer from '@/redux/features/bookingOptionFilterSlice'
-import guestFavoriteReducer from '@/redux/features/guestFavoriteSlice'
-import buildingTypeReducer from '@/redux/features/buildingTypeSlice'
+import guestFavoriteFilterReducer from '@/redux/features/guestFavoriteFilterSlice'
+import buildingTypeFilterReducer from '@/redux/features/buildingTypeFilterSlice'
 import { apiSlice } from '@/redux/apiSlice'
-import cityFilterReducer from '@/redux/features/cityFilterSlice'
-import dateFilterReducer from '@/redux/features/dateFilterSlice'
 import travelersFilterReducer from '@/redux/features/travelersFilterSlice'
 
 const store = configureStore({
@@ -22,11 +20,9 @@ const store = configureStore({
     bedFilter: bedFilterReducer,
     amenitiesFilter: amenitiesFilterReducer,
     bookingOptionFilter: bookingOptionFilterReducer,
-    guestFavorite: guestFavoriteReducer,
-    buildingType: buildingTypeReducer,
+    guestFavoriteFilter: guestFavoriteFilterReducer,
+    buildingTypeFilter: buildingTypeFilterReducer,
     [apiSlice.reducerPath]: apiSlice.reducer,
-    cityFilter: cityFilterReducer,
-    dateFilter: dateFilterReducer,
     travelersFilter: travelersFilterReducer,
   },
   middleware: getDefaultMiddleware => getDefaultMiddleware().concat(apiSlice.middleware),

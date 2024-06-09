@@ -17,10 +17,11 @@ import { resetRoomTypeFilter } from '@/redux/features/roomTypeFilterSlice'
 import { resetBedFilter } from '@/redux/features/bedFilterSlice'
 import { resetAmenitiesFilter } from '@/redux/features/amenitiesFilterSlice'
 import { resetBookingOptionFilter } from '@/redux/features/bookingOptionFilterSlice'
-import { resetGuestFavorite } from '@/redux/features/guestFavoriteSlice'
-import { resetBuildingType } from '@/redux/features/buildingTypeSlice'
+import { resetGuestFavorite } from '@/redux/features/guestFavoriteFilterSlice'
+import { resetBuildingType } from '@/redux/features/buildingTypeFilterSlice'
 import { closeModal, setModalScrollPosition } from '@/redux/features/modalSlice'
 import Portal from '@/portal/Portal'
+import TravelersModalButton from '@/modals/TravelersModalButton'
 
 function FilterModal() {
   const dispatch = useDispatch()
@@ -33,17 +34,17 @@ function FilterModal() {
   const bookingOptionFilter = useSelector(
     (state: RootState) => state.bookingOptionFilter.bookingOptions,
   )
-  const guestFavorite = useSelector((state: RootState) => state.guestFavorite.guestFavorite)
-  const buildingTypes = useSelector((state: RootState) => state.buildingType.buildingTypes)
+  const guestFavorite = useSelector((state: RootState) => state.guestFavoriteFilter.guestFavorite)
+  const buildingTypes = useSelector((state: RootState) => state.buildingTypeFilter.buildingTypes)
 
   const filters = useMemo(
     () => ({
       priceMin: priceRangeFilter.priceMin || null,
       priceMax: priceRangeFilter.priceMax || null,
       roomType: roomTypeFilter.roomType || '',
-      bedrooms: bedFilter.bedrooms || null,
+      bedRooms: bedFilter.bedRooms || null,
       beds: bedFilter.beds || null,
-      bathRooms: bedFilter.bathrooms || null,
+      bathRooms: bedFilter.bathRooms || null,
       amenities: amenitiesFilter.amenities.length > 0 ? amenitiesFilter.amenities : [],
       bookingOptions: bookingOptionFilter.length > 0 ? bookingOptionFilter : [],
       guestFavorite: guestFavorite || null,
@@ -148,6 +149,7 @@ function FilterModal() {
               <BookingOptionFilter />
               <GuestFavoriteFilter />
               <BuildingTypeFilter />
+              <TravelersModalButton />
             </div>
             <Footer />
           </div>

@@ -2,9 +2,9 @@ export interface Filters {
   priceMin: number | null
   priceMax: number | null
   roomType: string
-  bedrooms: number | null
+  bedRooms: number | null
   beds: number | null
-  bathrooms: number | null
+  bathRooms: number | null
   amenities: string[]
   bookingOptions: string[]
   guestFavorite: boolean

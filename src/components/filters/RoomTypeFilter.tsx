@@ -27,7 +27,7 @@ function RoomTypeFilter(): React.ReactElement {
 
   function Heading(): React.ReactElement {
     return (
-      <div className='flex flex-col'>
+      <div className='flex flex-col pb-6'>
         <span className='text-2xl font-semibold'>숙소 유형</span>
         <span className='pt-2 text-sm text-gray-500'>{desc[roomTypeFilter]}</span>
       </div>
@@ -38,7 +38,7 @@ function RoomTypeFilter(): React.ReactElement {
     return (
       <button
         onClick={() => onClick(value)}
-        className={clsx('w-1/3 border px-4 py-2', className, {
+        className={clsx('w-1/3 border px-2 py-4', className, {
           'bg-black text-white': currentFilter === value,
           'border-gray-300 bg-white text-black': currentFilter !== value,
         })}>
@@ -48,9 +48,9 @@ function RoomTypeFilter(): React.ReactElement {
   }
 
   return (
-    <div className='flex flex-col px-6 py-8 space-y-4 border-b border-solid border-slate-300'>
+    <div className='flex flex-col px-6 py-8 border-b border-solid border-slate-300'>
       <Heading />
-      <div className='flex h-16 overflow-hidden'>
+      <div className='flex flex-row w-full h-16 px-10 overflow-hidden'>
         <FilterButton
           value=''
           currentFilter={roomTypeFilter}

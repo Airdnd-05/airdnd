@@ -19,7 +19,7 @@ interface FilterButtonsProps {
 
 function BedFilter(): React.ReactElement {
   const dispatch = useDispatch()
-  const { bedrooms, beds, bathrooms } = useSelector((state: RootState) => state.bedFilter)
+  const { bedRooms, beds, bathRooms } = useSelector((state: RootState) => state.bedFilter)
 
   const handleBedroomClick = (value: number | null) => {
     dispatch(setBedrooms(value))
@@ -62,7 +62,7 @@ function BedFilter(): React.ReactElement {
   function FilterButtons({ selectedValue, handleClick, label }: FilterButtonsProps) {
     return (
       <div className='flex flex-col '>
-        <label className='text-lg font-medium text-gray-700'>{label}</label>
+        <label className='px-0.5 pb-5 pt-1 text-base font-medium text-gray-700'>{label}</label>
         <div className='flex justify-between'>
           <FilterButton
             value={null}
@@ -97,9 +97,9 @@ function BedFilter(): React.ReactElement {
     <div className='px-6 py-8 border-b border-solid border-slate-300'>
       <Heading />
       <div className='flex h-[306px] flex-col justify-between'>
-        <FilterButtons selectedValue={bedrooms} handleClick={handleBedroomClick} label='침실' />
+        <FilterButtons selectedValue={bedRooms} handleClick={handleBedroomClick} label='침실' />
         <FilterButtons selectedValue={beds} handleClick={handleBedClick} label='침대' />
-        <FilterButtons selectedValue={bathrooms} handleClick={handleBathroomClick} label='욕실' />
+        <FilterButtons selectedValue={bathRooms} handleClick={handleBathroomClick} label='욕실' />
       </div>
     </div>
   )
