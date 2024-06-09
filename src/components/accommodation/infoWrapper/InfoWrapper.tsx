@@ -2,9 +2,9 @@ import getRoomsDetail from '@/app/apis/fetchRoomsData/getRoomsDetail'
 import RoomsBriefInfo from '@/components/accommodation/infoWrapper/RoomsBriefInfo'
 import BedsInfo from '@/components/accommodation/infoWrapper/BedsInfo'
 import ReservationCard from '@/components/accommodation/infoWrapper/ReservationCard'
+import TravelersModalButton from '@/modals/TravelersModalButton'
 import HostProfile from './HostProfile'
 import AccommodationDesc from './AccommodationDesc'
-import TravelersModalButton from '@/modals/TravelersModalButton'
 
 async function BriefInfo({ id }) {
   const fields = ['roomInfo']

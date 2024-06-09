@@ -109,10 +109,9 @@ export async function GET(request: NextRequest) {
     const accommodations = data.accommodationInfo
 
     const filteredAccommodations = accommodations.filter(
-      acc => acc.accommodationId >= id && acc.accommodationId <= id + 40,
+      acc => acc.accommodationId >= id && acc.accommodationId <= id + 20,
     )
     const records = extractFieldsForList(filteredAccommodations, fields)
-
     return NextResponse.json(records, {
       status: 200,
       headers: {

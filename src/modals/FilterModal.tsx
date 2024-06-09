@@ -21,7 +21,6 @@ import { resetGuestFavorite } from '@/redux/features/guestFavoriteFilterSlice'
 import { resetBuildingType } from '@/redux/features/buildingTypeFilterSlice'
 import { closeModal, setModalScrollPosition } from '@/redux/features/modalSlice'
 import Portal from '@/portal/Portal'
-import TravelersModalButton from '@/modals/TravelersModalButton'
 
 function FilterModal() {
   const dispatch = useDispatch()
@@ -149,7 +148,6 @@ function FilterModal() {
               <BookingOptionFilter />
               <GuestFavoriteFilter />
               <BuildingTypeFilter />
-              <TravelersModalButton />
             </div>
             <Footer />
           </div>
