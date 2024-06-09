@@ -6,7 +6,7 @@ import './reset.css'
 import './index.css'
 import './App.css'
 import Layout from '@/components/common/layout/Layout'
-import Providers from '@/redux/Providers'
+import Providers from '@/app/Providers'
 
 const inter = Inter({ subsets: ['latin'] })
 

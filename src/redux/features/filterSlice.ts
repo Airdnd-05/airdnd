@@ -1,22 +1,23 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+import { Filters, FilterKeyValue } from '@/types/Filters'
 
 interface FilterState {
-  filters: unknown
+  selectedFilters: Record<string, Filters>
 }
 
 const initialState: FilterState = {
-  filters: {},
+  selectedFilters: {},
 }
 
 const filterSlice = createSlice({
   name: 'filter',
   initialState,
   reducers: {
-    setFilters(state, action: PayloadAction<unknown>) {
-      state.filters = action.payload
+    setFilters(state, action: PayloadAction<FilterKeyValue>) {
+      state.selectedFilters[action.payload.key] = action.payload.value
     },
     clearFilters(state) {
-      state.filters = {}
+      state.selectedFilters = {}
     },
   },
 })

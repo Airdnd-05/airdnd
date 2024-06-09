@@ -10,7 +10,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/accommodation/categoryBundle/ui/carousel'
-import FilterButton from '@/components/common/button/FilterButton'
+import FilterButton from '@/modals/FilterModalButton'
 
 function ClickedButtonContent({ eachButton }) {
   return (
