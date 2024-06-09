@@ -14,6 +14,7 @@ export interface Filters {
   city: string
   checkInDate: string | null
   checkOutDate: string | null
+  guests: number | null
   adults: number | null
   children: number | null
   infants: number | null
@@ -40,3 +41,5 @@ export interface Room {
   age: number
   city: string
 }
+
+export type TravelersType = '성인' | '어린이' | '유아' | '반려동물'

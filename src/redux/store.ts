@@ -11,7 +11,7 @@ import buildingTypeReducer from '@/redux/features/buildingTypeSlice'
 import { apiSlice } from '@/redux/apiSlice'
 import cityFilterReducer from '@/redux/features/cityFilterSlice'
 import dateFilterReducer from '@/redux/features/dateFilterSlice'
-import guestFilterReducer from '@/redux/features/guestFilterSlice'
+import travelersFilterReducer from '@/redux/features/travelersFilterSlice'
 
 const store = configureStore({
   reducer: {
@@ -27,7 +27,7 @@ const store = configureStore({
     [apiSlice.reducerPath]: apiSlice.reducer,
     cityFilter: cityFilterReducer,
     dateFilter: dateFilterReducer,
-    guestFilter: guestFilterReducer,
+    travelersFilter: travelersFilterReducer,
   },
   middleware: getDefaultMiddleware => getDefaultMiddleware().concat(apiSlice.middleware),
 })
