@@ -12,6 +12,12 @@ export interface Filters {
   name: string
   age: number | null
   city: string
+  checkInDate: string | null
+  checkOutDate: string | null
+  adults: number | null
+  children: number | null
+  infants: number | null
+  pets: number | null
 }
 
 export interface FilterKeyValue {
