@@ -29,12 +29,12 @@ export async function GET(req: NextRequest) {
       ? parseInt(searchParams.get('priceMax') as string, 10)
       : null,
     roomType: searchParams.get('roomType') || '',
-    bedrooms: searchParams.get('bedrooms')
-      ? parseInt(searchParams.get('bedrooms') as string, 10)
+    bedRooms: searchParams.get('bedRooms')
+      ? parseInt(searchParams.get('bedRooms') as string, 10)
       : null,
     beds: searchParams.get('beds') ? parseInt(searchParams.get('beds') as string, 10) : null,
-    bathrooms: searchParams.get('bathrooms')
-      ? parseInt(searchParams.get('bathrooms') as string, 10)
+    bathRooms: searchParams.get('bathRooms')
+      ? parseInt(searchParams.get('bathRooms') as string, 10)
       : null,
     amenities: searchParams.get('amenities') ? searchParams.get('amenities')?.split(',') : [],
     bookingOptions: searchParams.get('bookingOptions')
@@ -54,21 +54,20 @@ export async function GET(req: NextRequest) {
   const filteredRooms = data.filter((item: Room) => {
     const itemAmenities = new Set(item.amenities)
     const itemBookingOptions = new Set(item.bookingOptions)
-    const itemBuildingTypes = new Set(item.buildingTypes)
 
     return (
       (filters.priceMin === null || item.pricePerDay >= filters.priceMin) &&
       (filters.priceMax === null || item.pricePerDay <= filters.priceMax) &&
       (filters.roomType === '' || item.roomType === filters.roomType) &&
-      (filters.bedrooms === null || item.bedrooms === filters.bedrooms) &&
+      (filters.bedRooms === null || item.bedRooms === filters.bedRooms) &&
       (filters.beds === null || item.beds === filters.beds) &&
-      (filters.bathrooms === null || item.bathrooms === filters.bathrooms) &&
+      (filters.bathRooms === null || item.bathRooms === filters.bathRooms) &&
       (filters.amenities.length === 0 ||
         filters.amenities.every(amenity => itemAmenities.has(amenity))) &&
       (filters.bookingOptions.length === 0 ||
         filters.bookingOptions.every(option => itemBookingOptions.has(option))) &&
       (filters.buildingTypes.length === 0 ||
-        filters.buildingTypes.every(type => itemBuildingTypes.has(type))) &&
+        filters.buildingTypes.some(type => type === item.buildingType)) &&
       (filters.name === '' || item.name.includes(filters.name)) &&
       (filters.age === null || item.age === filters.age) &&
       (filters.city === '' || item.city.includes(filters.city)) &&

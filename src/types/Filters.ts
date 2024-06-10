@@ -19,6 +19,7 @@ export interface Filters {
   children: number | null
   infants: number | null
   pets: number | null
+  isExpanded: boolean
 }
 
 export interface FilterKeyValue {
@@ -31,13 +32,14 @@ export interface Room {
   name: string
   pricePerDay: number
   roomType: string
-  bedrooms: number
+  bedRooms: number
   beds: number
-  bathrooms: number
+  bathRooms: number
   amenities: string[]
   guestFavorite: boolean
   bookingOptions: string[]
   buildingTypes: string[]
+  buildingType: string
   age: number
   city: string
 }

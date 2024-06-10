@@ -2,7 +2,6 @@ import getRoomsDetail from '@/app/apis/fetchRoomsData/getRoomsDetail'
 import RoomsBriefInfo from '@/components/accommodation/infoWrapper/RoomsBriefInfo'
 import BedsInfo from '@/components/accommodation/infoWrapper/BedsInfo'
 import ReservationCard from '@/components/accommodation/infoWrapper/ReservationCard'
-import TravelersModalButton from '@/modals/TravelersModalButton'
 import HostProfile from './HostProfile'
 import AccommodationDesc from './AccommodationDesc'
 
@@ -21,7 +20,6 @@ async function BriefInfo({ id }) {
       <div className='flex justify-end hidden w-4/12 pt-8 md:inline'>
         <ReservationCard />
       </div>
-      <TravelersModalButton />
     </div>
   )
 }
