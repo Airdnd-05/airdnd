@@ -80,5 +80,9 @@ module.exports = {
     'react/prop-types': 'off',
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['error'],
+    '@typescript-eslint/no-explicit-any': 'error',
+  },
+  globals: {
+    React: 'writable', // React를 전역 변수로 설정
   },
 }

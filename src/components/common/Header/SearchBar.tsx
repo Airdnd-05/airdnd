@@ -1,3 +1,5 @@
+'use client'
+
 import SearchModal from '@/SearchModal/SearchModal'
 import CheckIn from '@/components/searchbar/CheckIn'
 import CheckOut from '@/components/searchbar/CheckOut'
