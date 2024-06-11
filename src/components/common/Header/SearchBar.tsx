@@ -1,28 +1,45 @@
 'use client'
 
-import Image from 'next/image'
+import SearchModal from '@/SearchModal/SearchModal'
+import CheckIn from '@/components/searchbar/CheckIn'
+import CheckOut from '@/components/searchbar/CheckOut'
+import TravelDestination from '@/components/searchbar/TravelDestination'
+import Travelers from '@/components/searchbar/Travelers'
 import { useRef, useState } from 'react'
 
 /**
  * 검색 바 컴포넌트. 4개의 메뉴 아이템을 포함
  * @component
  * @example
- * return (
- *   <SearchBar />
- * )
  */
 function SearchBar() {
   const MenuRef = useRef([]) // ref를 여러번 사용해야할 때는 배열에 담아서 사용해 보자
   //   메뉴 요소의 참조를 저장하는 Ref 배열
   const [activeIndex, setActiveIndex] = useState(null)
+  const [selected, setSelected] = useState('')
+  const [dateRange, setDateRange] = useState([
+    {
+      startDate: null,
+      endDate: null,
+      key: 'selection',
+    },
+  ])
 
   /**
    * 메뉴 아이템 클릭 이벤트를 처리하고 스타일을 업데이트
    * @param {number} index - 클릭된 메뉴 아이템의 인덱스.
+   * @param {string} [select=''] - 선택된 항목, 기본값은 빈 문자열.
    */
 
-  const handleClick = index => {
-    setActiveIndex(index)
+  const handleClick = (index, select = '') => {
+    if (select) {
+      // 선택된 항목이 있을 경우
+      setSelected(select) // setSelected를 통해 업데이트 됨
+      setActiveIndex(null) // 활성화된 모달이 닫힘
+    } else {
+      // 선택된 항목이 없을 경우
+      setActiveIndex(index) //  클릭된 항목의 모달을 엽니다
+    }
     MenuRef.current.forEach((ref, i) => {
       const MenuElement = ref
       const ParentMenuElement = MenuElement.parentElement // 메뉴들의 상위 div
@@ -43,76 +60,55 @@ function SearchBar() {
   }
 
   return (
-    <div className='flex items-center justify-center'>
-      <div className='flex h-[66px] w-full max-w-3xl items-center rounded-full border border-solid border-gray-200 bg-white text-sm shadow'>
-        <div
-          ref={el => {
+    <div className='relative flex items-center justify-center'>
+      <div className='relative flex h-[66px] w-full max-w-3xl items-center rounded-full border border-solid border-gray-200 bg-white text-sm shadow'>
+        <TravelDestination
+          refCallback={el => {
             MenuRef.current[0] = el
           }}
-          onClick={() => handleClick(0)}
-          onMouseEnter={() => handleHover(0, true)}
-          onMouseLeave={() => handleHover(0, false)}
-          className='group relative flex h-full flex-grow flex-col justify-center rounded-full px-2 pl-[14px] hover:bg-gray-200'>
-          <div className='pb-1 text-xs'>여행지</div>
-          <input
-            type='search'
-            name='q'
-            placeholder='여행지 검색'
-            className='w-full bg-inherit font-bold focus:outline-none'
-          />
-        </div>
+          handleClick={handleClick}
+          handleHover={handleHover}
+          selected={selected}
+          setSelected={setSelected}
+        />
         <div className='h-5 border-r border-solid border-gray-300'></div>
 
-        <div
-          ref={el => {
+        <CheckIn
+          refCallback={el => {
             MenuRef.current[1] = el
           }}
-          onClick={() => handleClick(1)}
-          onMouseEnter={() => handleHover(1, true)}
-          onMouseLeave={() => handleHover(1, false)}
-          className='display-block group relative flex h-full flex-grow flex-col justify-center rounded-full px-[14px] py-[10px] hover:bg-gray-200'>
-          <div className='pb-1 text-xs'>체크인</div>
-          <div className=''>날짜 추가</div>
-        </div>
+          handleClick={handleClick}
+          handleHover={handleHover}
+          selectedDate={dateRange[0].startDate}
+        />
         <div className='h-5 border-r border-solid border-gray-300'></div>
 
-        <div
-          ref={el => {
+        <CheckOut
+          refCallback={el => {
             MenuRef.current[2] = el
           }}
-          onClick={() => handleClick(2)}
-          onMouseEnter={() => handleHover(2, true)}
-          onMouseLeave={() => handleHover(2, false)}
-          className='display-block group relative flex h-full flex-grow flex-col justify-center rounded-full px-[14px] py-[10px] hover:bg-gray-200'>
-          <div className='pb-1 text-xs'>체크아웃</div>
-          <div className='relative z-10'>날짜 추가</div>
-        </div>
+          handleClick={handleClick}
+          handleHover={handleHover}
+          selectedDate={dateRange[0].endDate}
+        />
         <div className='h-5 border-r border-solid border-gray-300'></div>
 
-        <div
-          ref={el => {
+        <Travelers
+          refCallback={el => {
             MenuRef.current[3] = el
           }}
-          onClick={() => handleClick(3)}
-          onMouseEnter={() => handleHover(3, true)}
-          onMouseLeave={() => handleHover(3, false)}
-          className='display-block group relative flex h-full flex-grow justify-between rounded-full px-[14px] py-[10px] hover:bg-gray-200'>
-          <div className='flex flex-col justify-center'>
-            <div className='pb-1 text-xs'>여행자</div>
-            <div className=''>게스트 추가</div>
-          </div>
-          <div>
-            <button>
-              <Image
-                alt={'HeaderSearch'}
-                src={`/images/HeaderSearch.svg`}
-                width={40}
-                height={40}
-                style={{ width: 40, height: 40 }}
-              />
-            </button>
-          </div>
-        </div>
+          handleClick={handleClick}
+          handleHover={handleHover}
+        />
+        {activeIndex !== null && (
+          <SearchModal
+            index={activeIndex}
+            setActiveIndex={setActiveIndex}
+            handleClick={handleClick}
+            dateRange={dateRange}
+            setDateRange={setDateRange}
+          />
+        )}
       </div>
     </div>
   )
