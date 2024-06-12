@@ -1,6 +1,6 @@
 import Calendar from '@/components/common/calendar/calendar'
 import AccommodationDate from '@/components/accommodation/AccommodationDate'
-import RefreshDateButton from '@/components/common/button/RefreshDateButton'
+import RefreshDateButton from '@/components/common/calendar/RefreshDateButton'
 
 export default function ReservationCalendarModal({
   close,
@@ -25,11 +25,6 @@ export default function ReservationCalendarModal({
         />
       </div>
       <div className='mb-1 mr-6 flex justify-between'>
-        {/* <button
-          className='mr-4 rounded-lg p-2 text-sm font-semibold underline hover:bg-neutral-100'
-          onClick={refreshDates}>
-          날짜 지우기
-        </button> */}
         <RefreshDateButton
           className={'mr-4 rounded-lg p-2 text-sm font-semibold underline hover:bg-neutral-100'}
           refreshDates={handleRefreshDates}>
