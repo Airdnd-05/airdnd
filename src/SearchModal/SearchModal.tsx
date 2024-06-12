@@ -171,17 +171,19 @@ function CalenderModal({ dateRange, setDateRange, setActiveIndex, handleClick })
           ))}
         </div>
       </div>
-      <DateRangePicker
-        minDate={today}
-        onChange={handleDateChange}
-        showSelectionPreview={true}
-        ranges={dateRange}
-        months={2}
-        direction='horizontal'
-        locale={ko}
-        preventSnapRefocus={true}
-        monthDisplayFormat='yyyy년 MMM'
-      />
+      <div className='cal'>
+        <DateRangePicker
+          minDate={today}
+          onChange={handleDateChange}
+          showSelectionPreview={true}
+          ranges={dateRange}
+          months={2}
+          direction='horizontal'
+          locale={ko}
+          preventSnapRefocus={true}
+          monthDisplayFormat='yyyy년 MMM'
+        />
+      </div>
     </div>
   )
 }

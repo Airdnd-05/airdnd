@@ -7,7 +7,7 @@ import SearchBar from '@/components/common/Header/SearchBar'
 import HeaderProfile from '@/components/common/Header/HeaderProfile'
 import Link from 'next/link'
 
-function Header() {
+function Header({ layoutStyle }) {
   const [selected, setSelected] = useState('accommodation')
   const MainNav = [
     {
@@ -24,9 +24,9 @@ function Header() {
     },
   ]
   return (
-    <>
-      <header className='h-[168px] border-b border-solid border-gray-200 bg-white px-20'>
-        <div className='mx-[8.5rem] grid h-[80px] grid-cols-3'>
+    <header className='h-[168px] border-b border-solid border-gray-200 bg-white'>
+      <div className={layoutStyle}>
+        <div className='grid h-[80px] grid-cols-3'>
           <div className='flex items-center'>
             <Link href='/'>
               <Image
@@ -66,8 +66,8 @@ function Header() {
           </div>
         </div>
         <SearchBar />
-      </header>
-    </>
+      </div>
+    </header>
   )
 }
 

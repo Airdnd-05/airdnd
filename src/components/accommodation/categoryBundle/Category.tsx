@@ -15,7 +15,7 @@ import FilterButton from '@/modals/FilterModalButton'
 function ClickedButtonContent({ eachButton }) {
   return (
     <>
-      <div className='inline-flex items-center justify-center w-6 h-4' />
+      <div className='inline-flex h-4 w-6 items-center justify-center' />
       <Image
         className='opacity-75 group-hover:opacity-100'
         src={eachButton.categoryIcon}
@@ -36,7 +36,7 @@ function ClickedButtonContent({ eachButton }) {
 function DefaultButtonContent({ eachButton }) {
   return (
     <>
-      <div className='inline-flex items-center justify-center w-6 h-4' />
+      <div className='inline-flex h-4 w-6 items-center justify-center' />
       <Image
         className='opacity-100'
         src={eachButton.categoryIcon}
@@ -75,7 +75,7 @@ function CarouselEachButtonServer() {
   return (
     <>
       {category.map((eachButton, idx) => (
-        <CarouselItem key={idx} className='flex items-center justify-center w-auto basis-1/7'>
+        <CarouselItem key={idx} className='basis-1/7 flex w-auto items-center justify-center'>
           <CarouselEachButton
             clickedId={clickedId}
             setIdClicked={setIdClicked}
@@ -98,7 +98,7 @@ function CarouselCategory() {
         axis: 'x',
         containScroll: 'trimSnaps',
       }}
-      className='flex w-full flex-row lg:max-w-[30rem] xl:max-w-[50rem] 2xl:max-w-[70rem]'>
+      className='flex w-full flex-row lg:max-w-[30rem] xl:max-w-[50rem] 2xl:max-w-[87rem]'>
       <CarouselPrevious />
       <CarouselContent className='-ml-5'>
         <CarouselEachButtonServer />
@@ -110,9 +110,9 @@ function CarouselCategory() {
 
 function Category() {
   return (
-    <div className='flex'>
+    <div className='flex w-full items-center justify-between'>
       <CarouselCategory />
-      <div className='ml-16 mt-[47px]'>
+      <div className=''>
         <FilterButton />
       </div>
     </div>

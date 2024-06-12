@@ -27,7 +27,7 @@ function Histogram({ priceMin, priceMax, histogramData }) {
   const binWidth = (MAX - MIN) / BINS
 
   return (
-    <div className='flex items-end w-full h-20 '>
+    <div className='flex h-20 w-full items-end '>
       {histogramData.map((count, index) => {
         const binMin = MIN + index * binWidth
         const binMax = binMin + binWidth
@@ -69,7 +69,7 @@ function RangeBar({ localMin, localMax, onChange, onFinalChange }) {
         renderTrack={({ props, children }) => (
           <div
             {...props}
-            className='flex w-full h-1 bg-gray-300 rounded'
+            className='flex h-1 w-full rounded bg-gray-300'
             style={{
               background: getTrackBackground({
                 values: [localMin, localMax],
@@ -85,7 +85,7 @@ function RangeBar({ localMin, localMax, onChange, onFinalChange }) {
           <div
             {...props}
             key={props.key}
-            className='w-8 h-8 bg-white border border-gray-200 border-solid rounded-full shadow'
+            className='h-8 w-8 rounded-full border border-solid border-gray-200 bg-white shadow'
           />
         )}
       />
@@ -107,19 +107,21 @@ function RangeBar({ localMin, localMax, onChange, onFinalChange }) {
 function InputBox({ label, value, onChange, onBlur }) {
   return (
     <div className='relative flex flex-col items-center'>
-      <div className='w-74 h-14'>
-        <span className='absolute text-lg transform -translate-y-1/2 left-3 top-1/2'>₩</span>
+      <div className='w-74 h-14 rounded-xl border border-solid border-slate-500'>
+        <span className='absolute left-3 top-1/2 mt-[6px] -translate-y-1/2 transform text-base'>
+          ₩
+        </span>
         <input
           type='text'
           value={value}
           onChange={onChange}
           onBlur={onBlur}
-          className='w-full h-full pl-8 text-lg text-left border border-solid rounded-xl border-slate-500 '
+          className='mt-[21px] pl-8 text-base'
           min={MIN}
           max={MAX}
         />
       </div>
-      <label className='absolute text-sm text-gray-500 left-2 top-1'>{label}</label>
+      <label className='absolute left-2 top-1 text-sm text-gray-500'>{label}</label>
     </div>
   )
 }
@@ -214,9 +216,9 @@ function PriceRangeFilter() {
   }
 
   return (
-    <div className='flex flex-col px-6 py-8 space-y-4 border-b border-solid border-slate-300'>
+    <div className='flex flex-col space-y-4 border-b border-solid border-slate-300 px-6 py-8'>
       <Heading />
-      <div className='flex flex-col justify-between mx-8 h-44'>
+      <div className='mx-8 flex h-44 flex-col justify-between'>
         <div>
           <MemoizedHistogram priceMin={min} priceMax={max} histogramData={histogramData} />
           <RangeBar

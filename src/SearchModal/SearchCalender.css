@@ -1,16 +1,18 @@
 @import url('react-date-range/dist/styles.css');
 @import url('react-date-range/dist/theme/default.css');
 
-.rdrDateRangePickerWrapper {
+.rdrWeekDays {
+  width: inherit;
+}
+
+.cal
+  .rdrDateRangePickerWrapper {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-
-.rdrWeekDays {
-  width: inherit;
-}
+/*  */
 
 .rdrDayDisabled {
   background-color: transparent;
@@ -20,9 +22,11 @@
   display: none;
 }
 
-.rdrMonthAndYearWrapper {
+.cal
+  .rdrMonthAndYearWrapper {
   height: 0;
 }
+/*  */
 
 .rdrDateDisplayWrapper {
   display: none;
@@ -32,15 +36,19 @@
   display: none;
 }
 
-.rdrNextPrevButton {
+.cal
+  .rdrNextPrevButton {
   position: relative;
   top: 40px;
   background-color: transparent;
 }
+/*  */
 
-.rdrMonth {
+.cal
+  .rdrMonth {
   margin-right: 40px;
 }
+/*  */
 
 .rdrDayPassive {
   visibility: hidden;
