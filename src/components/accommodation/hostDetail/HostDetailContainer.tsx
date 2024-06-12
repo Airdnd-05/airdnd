@@ -23,12 +23,12 @@ async function HostDetail({ id }) {
 
   return (
     <>
-      <div className='mb-[1.2rem] mt-[1.2rem] text-[1.3rem] font-bold'>호스트 소개</div>
+      <div className='mb-[1.2rem] mt-[1.2rem] text-[22px] font-semibold'>호스트 소개</div>
       <div>
         <div className='ml-[1rem]  flex h-[30rem] flex-row rounded-[17px]'>
           <div className='mr-[4rem] flex flex-row'>
             <div className='flex basis-1/3 flex-col justify-around'>
-              <div className='shadow-host-detail-shadow h-[14rem] w-96 flex-col justify-center rounded-[21px] bg-[white]'>
+              <div className='h-[14rem] w-96 flex-col justify-center rounded-[21px] bg-[white] shadow-host-detail-shadow'>
                 {hostReviewCount === 0 ? (
                   <BeginnerHostInfoBox
                     hostImageUrl={hostImageUrl}

@@ -25,7 +25,7 @@ function RoomBedsInfo({ roomInfo }) {
 
   return (
     <div className='border-b border-solid border-neutral-300 py-12'>
-      <h2 className='mb-4 text-xl font-bold'>숙박 장소</h2>
+      <h2 className='mb-4 text-[22px] font-semibold'>숙박 장소</h2>
       <div className='flex items-center'>
         {currentIndex > 0 && (
           <button className='mr-2 rounded-full border bg-white p-2' onClick={prev}>
