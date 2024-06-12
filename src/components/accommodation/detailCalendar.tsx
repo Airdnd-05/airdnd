@@ -3,7 +3,7 @@
 import useCalendar from '@/hooks/useCalendar'
 import Calendar from '@/components/common/calendar/calendar'
 import AccommodationDate from '@/components/accommodation/AccommodationDate'
-import RefreshDateButton from '../common/button/RefreshDateButton'
+import RefreshDateButton from '../common/calendar/RefreshDateButton'
 
 export default function DetailCalendar() {
   const { start, end, handleDateChange, handleRefreshDates } = useCalendar()
