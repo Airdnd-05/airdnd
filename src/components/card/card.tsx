@@ -14,7 +14,7 @@ function getNextThreeDays(currentDate) {
   const result = new Date(currentDate)
   result.setDate(result.getDate() + 3)
   return (
-    <div>
+    <div className='text-sm'>
       {currentDate.getMonth() + 1}월 {currentDate.getDate()}일~{result.getDate()}일
     </div>
   )
@@ -29,7 +29,7 @@ function guestFavorite(isFavorite) {
   return (
     <>
       {isFavorite ? (
-        <div className='absolute z-10 ml-[1rem] mt-[1rem] flex h-[1.7rem] w-[6.5rem] items-center justify-center rounded-xl bg-white font-bold shadow-xl'>
+        <div className='absolute z-10 ml-[1rem] mt-[1rem] flex h-[1.7rem] w-[5.5rem] items-center justify-center rounded-xl bg-white text-sm font-bold shadow-xl'>
           게스트 선호
         </div>
       ) : null}
@@ -40,7 +40,7 @@ function guestFavorite(isFavorite) {
 function wishHeart(like, setLike) {
   return (
     <div
-      className='absolute z-10 ml-[16.3rem] mt-[1rem] transform transition-transform duration-300 hover:scale-110 '
+      className='absolute z-10 ml-[15.3rem] mt-[1rem] transform transition-transform duration-300 hover:scale-110 '
       onClick={event => {
         event.preventDefault()
         setLike(prev => !prev)
@@ -67,7 +67,7 @@ const buttonDuration = 'opacity-0 group-hover:opacity-100 transition-opacity dur
 function Card({ accommodationName, imageUrl, pricePerDay, rating, guestFavorite: isFavorite }) {
   const [like, setLike] = useState(false)
   return (
-    <div className=' h-[24.19rem] w-[19.468rem] rounded-xl bg-white'>
+    <div className=' h-[23.5rem] w-[18.15rem] rounded-xl bg-white'>
       <div className='h-[17.938rem] w-full rounded-xl bg-slate-100'>
         {guestFavorite(isFavorite)}
         {wishHeart(like, setLike)}
@@ -89,11 +89,11 @@ function Card({ accommodationName, imageUrl, pricePerDay, rating, guestFavorite:
             ))}
           </CarouselContent>
           <div className='mt-[1rem] flex w-full flex-col '>
-            <div className='flex w-full flex-row '>
-              <div className='  h-[1.5rem] w-[75%] items-center truncate font-bold'>
+            <div className='flex w-full flex-row justify-between'>
+              <div className='h-[1.5rem] w-[70%] items-center truncate text-sm font-bold'>
                 {accommodationName}
               </div>
-              <span className='ml-[1rem] w-[15%] '>★{rating}</span>
+              <span className='w-[15%] text-sm'>★{rating}</span>
             </div>
 
             <div className='inline-flex items-center justify-start gap-1'>
