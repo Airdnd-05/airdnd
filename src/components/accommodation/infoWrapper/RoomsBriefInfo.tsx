@@ -19,7 +19,7 @@ async function RoomsBriefInfo({ id }) {
 
   return (
     <>
-      <div className='flex h-auto flex-col justify-between py-6'>
+      <div className='flex h-auto flex-col justify-between pt-6'>
         <section>
           <div className='mb-1'>
             <h2 className='text-2xl font-semibold'>{locationName}</h2>
