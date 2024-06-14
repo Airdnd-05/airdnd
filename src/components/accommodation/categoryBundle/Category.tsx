@@ -98,7 +98,7 @@ function CarouselCategory() {
         axis: 'x',
         containScroll: 'trimSnaps',
       }}
-      className='flex w-full flex-row lg:max-w-[30rem] xl:max-w-[50rem] 2xl:max-w-[87rem]'>
+      className='flex max-w-full'>
       <CarouselPrevious />
       <CarouselContent className='-ml-5'>
         <CarouselEachButtonServer />
@@ -112,9 +112,7 @@ function Category() {
   return (
     <div className='flex w-full items-center justify-between'>
       <CarouselCategory />
-      <div className=''>
-        <FilterButton />
-      </div>
+      <FilterButton />
     </div>
   )
 }

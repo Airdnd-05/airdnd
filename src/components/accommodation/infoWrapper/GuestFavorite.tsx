@@ -8,13 +8,7 @@ async function NonGuestFavorite({ id }) {
   return (
     <div className='mt-2 border-b border-solid border-neutral-300 pb-10'>
       <div className='flex items-center gap-1'>
-        <Image
-          alt={'RatingStar'}
-          src={`/images/RatingStar.svg`}
-          width={32}
-          height={32}
-          style={{ width: 32, height: 32 }}
-        />
+        <Image alt={'RatingStar'} src={`/images/RatingStar.svg`} width={20} height={20} />
         <span className='text-base font-semibold'>{rating}</span>
         {reviewCount && (
           <>

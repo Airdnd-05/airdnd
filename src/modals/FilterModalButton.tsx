@@ -22,8 +22,8 @@ function FilterModalButton() {
     <div className='flex items-center justify-center'>
       <button
         onClick={handleOpenModal}
-        className='flex h-full cursor-pointer flex-col items-center justify-center rounded-lg border-[1px] border-solid border-neutral-300 px-0 py-2 transition hover:shadow-md'>
-        <span className='flex flex-row items-center justify-between gap-2 px-4 pb-0 pt-0.5'>
+        className='flex h-full w-20 cursor-pointer flex-col items-center justify-center rounded-xl border-[1px] border-solid border-neutral-300 transition hover:shadow-md'>
+        <span className='flex flex-row items-center justify-center gap-2 px-1 py-3'>
           <Image
             alt={'FilterIcon'}
             src={`/images/FilterIcon.svg`}

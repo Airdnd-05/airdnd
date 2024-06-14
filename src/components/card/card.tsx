@@ -9,6 +9,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/card/carousel'
+import { formatWithComma } from '@/utils/formatingPrice'
 
 function getNextThreeDays(currentDate) {
   const result = new Date(currentDate)
@@ -20,16 +21,11 @@ function getNextThreeDays(currentDate) {
   )
 }
 
-function formatWithComma(number: number): string {
-  // 3자리 마다 ,를 붙입니다. 1000 => ₩1,000
-  return `₩${number.toLocaleString()}/박`
-}
-
 function guestFavorite(isFavorite) {
   return (
     <>
       {isFavorite ? (
-        <div className='absolute z-10 ml-[1rem] mt-[1rem] flex h-[1.7rem] w-[5.5rem] items-center justify-center rounded-xl bg-white text-sm font-bold shadow-xl'>
+        <div className='absolute left-3 top-3 z-10 flex h-[1.7rem] w-[5.5rem] items-center justify-center rounded-xl bg-white text-sm font-bold shadow-xl'>
           게스트 선호
         </div>
       ) : null}
@@ -40,7 +36,7 @@ function guestFavorite(isFavorite) {
 function wishHeart(like, setLike) {
   return (
     <div
-      className='absolute z-10 ml-[15.3rem] mt-[1rem] transform transition-transform duration-300 hover:scale-110 '
+      className='absolute right-3 top-3 z-10 transform transition-transform duration-300 hover:scale-110'
       onClick={event => {
         event.preventDefault()
         setLike(prev => !prev)
@@ -67,27 +63,31 @@ const buttonDuration = 'opacity-0 group-hover:opacity-100 transition-opacity dur
 function Card({ accommodationName, imageUrl, pricePerDay, rating, guestFavorite: isFavorite }) {
   const [like, setLike] = useState(false)
   return (
-    <div className=' h-[23.5rem] w-[18.15rem] rounded-xl bg-white'>
-      <div className='h-[17.938rem] w-full rounded-xl bg-slate-100'>
+    <div className='mb-6 rounded-xl bg-white'>
+      <div className='relative rounded-xl bg-slate-100'>
         {guestFavorite(isFavorite)}
         {wishHeart(like, setLike)}
 
-        <Carousel className='group h-full'>
-          <CarouselContent className='h-full '>
-            {imageUrl.map((eachImg, index) => (
-              <CarouselItem
-                key={`CarouselItem-${index}`}
-                className='relative h-full w-full rounded-xl'>
-                <Image
-                  className=''
-                  alt={`banner-${index}`}
-                  src={eachImg}
-                  fill
-                  sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
-                />
-              </CarouselItem>
-            ))}
-          </CarouselContent>
+        <Carousel className='group w-full bg-white'>
+          <div className='relative'>
+            <CarouselContent className='h-full '>
+              {imageUrl.map((eachImg, index) => (
+                <CarouselItem
+                  key={`CarouselItem-${index}`}
+                  className='relative aspect-square h-full w-full rounded-xl'>
+                  <Image
+                    className=''
+                    alt={`banner-${index}`}
+                    src={eachImg}
+                    fill
+                    sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+                  />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className={`z-30 ${buttonDuration}`} />
+            <CarouselNext className={`z-30 ${buttonDuration}`} />
+          </div>
           <div className='mt-[1rem] flex w-full flex-col '>
             <div className='flex w-full flex-row justify-between'>
               <div className='h-[1.5rem] w-[70%] items-center truncate text-sm font-bold'>
@@ -101,14 +101,12 @@ function Card({ accommodationName, imageUrl, pricePerDay, rating, guestFavorite:
                 <div className='mb-[0.5rem] text-[1rem] text-slate-500 '>
                   {getNextThreeDays(new Date())}
                 </div>
-                <div className='text-sm font-bold text-neutral-800'>
-                  {formatWithComma(pricePerDay)}
+                <div className='text-sm font-semibold text-neutral-800'>
+                  {formatWithComma(pricePerDay)} <span className='font-normal'>{` /박`}</span>
                 </div>
               </div>
             </div>
           </div>
-          <CarouselPrevious className={`z-30 ${buttonDuration}`} />
-          <CarouselNext className={`z-30 ${buttonDuration}`} />
         </Carousel>
       </div>
     </div>
