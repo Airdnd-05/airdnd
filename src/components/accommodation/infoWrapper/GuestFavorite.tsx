@@ -37,7 +37,7 @@ async function GuestFavorite({ id }) {
             style={{ width: 36, height: 23 }}
           />
           <div className='flex flex-col text-center'>
-            <span className='text-lg font-semibold leading-none'>
+            <span className='whitespace-nowrap text-lg font-semibold leading-none'>
               게스트 <br /> 선호
             </span>
           </div>
