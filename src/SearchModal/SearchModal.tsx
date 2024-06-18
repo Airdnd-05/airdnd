@@ -85,6 +85,57 @@ const CalenderItem = [
   },
 ]
 
+const locationInfo = [
+  {
+    location_name: '서울',
+    desc: '대한민국',
+  },
+  {
+    location_name: '부산',
+    desc: '우동 · 해운대 · 지역',
+  },
+  {
+    location_name: '속초',
+    desc: '대한민국 · 강원도 · 도시',
+  },
+  {
+    location_name: '강릉',
+    desc: '대한민국 · 강원도 · 도시',
+  },
+  {
+    location_name: '전주',
+    desc: '대한민국 · 전라북도 · 도시',
+  },
+  {
+    location_name: '대구',
+    desc: '대한민국 · 경상북도 · 도시',
+  },
+  {
+    location_name: '경주',
+    desc: '대한민국 · 경상북도 · 도시',
+  },
+  {
+    location_name: '여수',
+    desc: '대한민국 · 전라남도 · 도시',
+  },
+  {
+    location_name: '서귀포',
+    desc: '대한민국 · 서귀포시 · 도시',
+  },
+  {
+    location_name: '대전',
+    desc: '대한민국 · 대전광역시 · 도시',
+  },
+  {
+    location_name: '제주도',
+    desc: '대한민국 · 제주특별자치도 · 도시',
+  },
+  {
+    location_name: '인천',
+    desc: '대한민국 · 인천광역시 · 도시',
+  },
+]
+
 function TravelDestinationModal({ setActiveIndex, handleClick }) {
   const handleItemClick = title => {
     handleClick(1, title)
@@ -129,6 +180,41 @@ function TravelDestinationModal({ setActiveIndex, handleClick }) {
             </ul>
           </div>
         </div>
+      </div>
+    </div>
+  )
+}
+
+function SearchResultsModal({ searchTerm, setActiveIndex, handleClick }) {
+  const filterLocation = locationInfo.filter(location =>
+    location.location_name.includes(searchTerm),
+  )
+
+  const handleItemClick = locationName => {
+    handleClick(1, locationName)
+    setActiveIndex(1)
+  }
+  return (
+    <div className='absolute left-0 top-20 z-50 rounded-2xl bg-white px-4 py-4 shadow-lg'>
+      <div className='flex w-[330px] flex-col'>
+        {filterLocation.length > 0 ? (
+          filterLocation.map(location => (
+            <div
+              key={location.location_name}
+              onClick={() => handleItemClick(location.location_name)}
+              className='flex cursor-pointer gap-4 rounded-xl px-4 py-2 hover:bg-gray-100'>
+              <div className='rounded-xl bg-gray-200 p-[13px]'>
+                <Image alt={'locationLogo'} src={`/images/location.svg`} width={22} height={22} />
+              </div>
+              <div className='flex grow flex-col justify-center'>
+                <div className='text-base'>{location.location_name}</div>
+                <div className='text-xs text-gray-600'>{location.desc}</div>
+              </div>
+            </div>
+          ))
+        ) : (
+          <div>일치하는 결과가 없습니다.</div>
+        )}
       </div>
     </div>
   )
@@ -188,10 +274,19 @@ function CalenderModal({ dateRange, setDateRange, setActiveIndex, handleClick })
   )
 }
 
-function SearchModal({ index, setActiveIndex, handleClick, dateRange, setDateRange }) {
+function SearchModal({ index, setActiveIndex, handleClick, dateRange, setDateRange, selected }) {
   const EachModal = () => {
     switch (index) {
       case 0:
+        if (selected) {
+          return (
+            <SearchResultsModal
+              searchTerm={selected}
+              setActiveIndex={setActiveIndex}
+              handleClick={handleClick}
+            />
+          )
+        }
         return <TravelDestinationModal setActiveIndex={setActiveIndex} handleClick={handleClick} />
       case 1:
       case 2:

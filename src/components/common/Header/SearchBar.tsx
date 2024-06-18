@@ -107,6 +107,7 @@ function SearchBar() {
             handleClick={handleClick}
             dateRange={dateRange}
             setDateRange={setDateRange}
+            selected={selected}
           />
         )}
       </div>

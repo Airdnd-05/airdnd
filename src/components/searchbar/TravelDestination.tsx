@@ -2,7 +2,9 @@ import React from 'react'
 
 function TravelDestination({ refCallback, handleClick, handleHover, selected, setSelected }) {
   const InputChange = event => {
-    setSelected(event.target.value)
+    const InputValue = event.target.value
+    setSelected(InputValue)
+    handleClick(0)
   }
   return (
     <div
