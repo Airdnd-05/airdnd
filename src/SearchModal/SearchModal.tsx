@@ -1,11 +1,13 @@
 'use client'
 
 import Image from 'next/image'
-import React, { useState } from 'react'
 import { DateRangePicker } from 'react-date-range'
 import { ko } from 'date-fns/locale'
 import '@/SearchModal/SearchCalender.css'
 import clsx from 'clsx'
+import { useDispatch, useSelector } from 'react-redux'
+import { setActiveIndex } from '@/redux/features/SearchSlice'
+import { RootState } from '@/redux/store'
 import TravelersModal from './TravelersModal'
 
 const imageData = [
@@ -136,10 +138,11 @@ const locationInfo = [
   },
 ]
 
-function TravelDestinationModal({ setActiveIndex, handleClick }) {
+function TravelDestinationModal({ handleClick }) {
+  const dispatch = useDispatch()
   const handleItemClick = title => {
     handleClick(1, title)
-    setActiveIndex(1)
+    dispatch(setActiveIndex(1))
   }
   return (
     <div className='absolute left-0 top-20 z-50 rounded-3xl bg-white p-[30px] shadow-lg'>
@@ -185,14 +188,16 @@ function TravelDestinationModal({ setActiveIndex, handleClick }) {
   )
 }
 
-function SearchResultsModal({ searchTerm, setActiveIndex, handleClick }) {
-  const filterLocation = locationInfo.filter(location =>
-    location.location_name.includes(searchTerm),
-  )
+function SearchResultsModal({ handleClick }) {
+  const dispatch = useDispatch()
+  const selected = useSelector((state: RootState) => state.search.selected)
+  console.log('searchTerm ', selected)
+  const filterLocation = locationInfo.filter(location => location.location_name.includes(selected))
+  console.log('filterLocation ', filterLocation)
 
   const handleItemClick = locationName => {
     handleClick(1, locationName)
-    setActiveIndex(1)
+    dispatch(setActiveIndex(1))
   }
   return (
     <div className='absolute left-0 top-20 z-50 rounded-2xl bg-white px-4 py-4 shadow-lg'>
@@ -220,18 +225,13 @@ function SearchResultsModal({ searchTerm, setActiveIndex, handleClick }) {
   )
 }
 
-function CalenderModal({ dateRange, setDateRange, setActiveIndex, handleClick }) {
+function CalenderModal({ handleClick, dateRange, setDateRange }) {
+  const dispatch = useDispatch()
   const today = new Date()
-  const [selected, setSelected] = useState('date')
 
   const handleDateChange = ranges => {
     handleClick(2)
-    setActiveIndex(2)
-
-    // if (!dateRange[0].startDate && !dateRange[0].endDate) { // 어떤것도 선택되지 않았을때
-    //   // 시작 날짜의 달력을 클릭했을때 시작 날짜로 설정되고
-    //   // 종료 날짜의 달력을 클릭했을때 종료 날짜로 설정되야한다.
-    // }
+    dispatch(setActiveIndex(2))
 
     if (dateRange[0].startDate === null) {
       const { startDate } = ranges.selection
@@ -249,9 +249,8 @@ function CalenderModal({ dateRange, setDateRange, setActiveIndex, handleClick })
             <button
               key={item.key}
               className={clsx('px-4 py-2 hover:rounded-full hover:bg-gray-100', {
-                'rounded-full bg-white font-bold': selected === item.key,
-              })}
-              onClick={() => setSelected(item.key)}>
+                'rounded-full bg-white font-bold': item.key === 'date',
+              })}>
               {item.title}
             </button>
           ))}
@@ -274,27 +273,21 @@ function CalenderModal({ dateRange, setDateRange, setActiveIndex, handleClick })
   )
 }
 
-function SearchModal({ index, setActiveIndex, handleClick, dateRange, setDateRange, selected }) {
+function SearchModal({ handleClick, dateRange, setDateRange }) {
+  const { activeIndex, selected } = useSelector((state: RootState) => state.search)
   const EachModal = () => {
-    switch (index) {
+    switch (activeIndex) {
       case 0:
         if (selected) {
-          return (
-            <SearchResultsModal
-              searchTerm={selected}
-              setActiveIndex={setActiveIndex}
-              handleClick={handleClick}
-            />
-          )
+          return <SearchResultsModal handleClick={handleClick} />
         }
-        return <TravelDestinationModal setActiveIndex={setActiveIndex} handleClick={handleClick} />
+        return <TravelDestinationModal handleClick={handleClick} />
       case 1:
       case 2:
         return (
           <CalenderModal
             dateRange={dateRange}
             setDateRange={setDateRange}
-            setActiveIndex={setActiveIndex}
             handleClick={handleClick}
           />
         )

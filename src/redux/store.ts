@@ -11,6 +11,7 @@ import buildingTypeFilterReducer from '@/redux/features/buildingTypeFilterSlice'
 import { apiSlice } from '@/redux/apiSlice'
 import travelersFilterReducer from '@/redux/features/travelersFilterSlice'
 import calendarReducer from '@/redux/features/calendar/slice'
+import SearchSlice from './features/SearchSlice'
 
 const store = configureStore({
   reducer: {
@@ -26,6 +27,7 @@ const store = configureStore({
     [apiSlice.reducerPath]: apiSlice.reducer,
     travelersFilter: travelersFilterReducer,
     calendar: calendarReducer,
+    search: SearchSlice,
   },
   middleware: getDefaultMiddleware => getDefaultMiddleware().concat(apiSlice.middleware),
 })
