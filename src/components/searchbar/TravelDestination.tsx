@@ -1,9 +1,18 @@
+import { setSelected } from '@/redux/features/SearchSlice'
+import { RootState } from '@/redux/store'
 import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 
-function TravelDestination({ refCallback, handleClick, handleHover, selected, setSelected }) {
+function TravelDestination({ refCallback, handleClick, handleHover }) {
+  const dispatch = useDispatch()
+  const selected = useSelector((state: RootState) => state.search.selected)
   const InputChange = event => {
-    setSelected(event.target.value)
+    const InputValue = event.target.value
+    dispatch(setSelected(InputValue))
+    handleClick(0)
   }
+
+  console.log('selected:', selected)
   return (
     <div
       ref={refCallback}

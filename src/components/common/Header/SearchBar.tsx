@@ -5,7 +5,10 @@ import CheckIn from '@/components/searchbar/CheckIn'
 import CheckOut from '@/components/searchbar/CheckOut'
 import TravelDestination from '@/components/searchbar/TravelDestination'
 import Travelers from '@/components/searchbar/Travelers'
+import { setActiveIndex, setSelected } from '@/redux/features/SearchSlice'
+import { RootState } from '@/redux/store'
 import { useRef, useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 
 /**
  * 검색 바 컴포넌트. 4개의 메뉴 아이템을 포함
@@ -13,10 +16,10 @@ import { useRef, useState } from 'react'
  * @example
  */
 function SearchBar() {
+  const dispatch = useDispatch()
+  const activeIndex = useSelector((state: RootState) => state.search.activeIndex)
   const MenuRef = useRef([]) // ref를 여러번 사용해야할 때는 배열에 담아서 사용해 보자
-  //   메뉴 요소의 참조를 저장하는 Ref 배열
-  const [activeIndex, setActiveIndex] = useState(null)
-  const [selected, setSelected] = useState('')
+  // //   메뉴 요소의 참조를 저장하는 Ref 배열
   const [dateRange, setDateRange] = useState([
     {
       startDate: null,
@@ -24,7 +27,7 @@ function SearchBar() {
       key: 'selection',
     },
   ])
-
+  console.log('부모 컴포넌트의 date:', dateRange)
   /**
    * 메뉴 아이템 클릭 이벤트를 처리하고 스타일을 업데이트
    * @param {number} index - 클릭된 메뉴 아이템의 인덱스.
@@ -34,11 +37,11 @@ function SearchBar() {
   const handleClick = (index, select = '') => {
     if (select) {
       // 선택된 항목이 있을 경우
-      setSelected(select) // setSelected를 통해 업데이트 됨
-      setActiveIndex(null) // 활성화된 모달이 닫힘
+      dispatch(setSelected(select)) // setSelected를 통해 업데이트 됨
+      dispatch(setActiveIndex(null)) // 활성화된 모달이 닫힘
     } else {
       // 선택된 항목이 없을 경우
-      setActiveIndex(index) //  클릭된 항목의 모달을 엽니다
+      dispatch(setActiveIndex(index)) //  클릭된 항목의 모달을 엽니다
     }
     MenuRef.current.forEach((ref, i) => {
       const MenuElement = ref
@@ -68,8 +71,6 @@ function SearchBar() {
           }}
           handleClick={handleClick}
           handleHover={handleHover}
-          selected={selected}
-          setSelected={setSelected}
         />
         <div className='h-5 border-r border-solid border-gray-300'></div>
 
@@ -99,11 +100,12 @@ function SearchBar() {
           }}
           handleClick={handleClick}
           handleHover={handleHover}
+          setDateRange={setDateRange}
+          selectedStart={dateRange[0].startDate}
+          selectedEnd={dateRange[0].endDate}
         />
         {activeIndex !== null && (
           <SearchModal
-            index={activeIndex}
-            setActiveIndex={setActiveIndex}
             handleClick={handleClick}
             dateRange={dateRange}
             setDateRange={setDateRange}

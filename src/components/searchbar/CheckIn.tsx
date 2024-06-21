@@ -2,11 +2,13 @@ import React from 'react'
 
 function CheckIn({ refCallback, handleClick, handleHover, selectedDate }) {
   const formatDate = date => {
-    const options = { month: 'long', day: 'numeric' }
-    const formattedDate = date.toLocaleDateString('ko-KR', options)
+    // const options = { month: 'long', day: 'numeric' }
+    const formattedDate = new Date(date).toLocaleDateString('ko-KR', {
+      month: 'long',
+      day: 'numeric',
+    })
     return `${formattedDate}`
   }
-
   return (
     <div
       ref={refCallback}
