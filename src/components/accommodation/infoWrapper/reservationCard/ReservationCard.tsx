@@ -3,9 +3,12 @@
 import { getDayDiff } from '@/utils/formatingDate'
 import { formatWithComma, priceWithDays, totalPrice } from '@/utils/formatingPrice'
 import useCalendar from '@/hooks/useCalendar'
-import { useState } from 'react'
-import CalendarButton from './CalendarModalButton'
-import ReservationCalendarModal from './ReservationCalendarModal'
+import { useState, useRef } from 'react'
+import useOnClickOutside from '@/hooks/useOnclickOutside'
+import CalendarModalButton from './CalendarModalButton'
+import CalendarModal from './CalendarModal'
+import GuestModalButton from './GuestModalButton'
+import GuestModal from './GuestModal'
 
 function ReservationCard(pricePerDay) {
   const feePerDay = pricePerDay.pricePerDay
@@ -13,15 +16,29 @@ function ReservationCard(pricePerDay) {
   const { start, end, handleDateChange, handleRefreshDates } = useCalendar()
 
   const [isCalendarModalOpen, setIsCalendarModalOpen] = useState(false)
-  // const [isGuestModalOpen, setIsGuestModalOpen] = useState(false);
+  const [isGuestModalOpen, setIsGuestModalOpen] = useState(false)
 
-  function open() {
+  function openCalendarModal() {
+    setIsGuestModalOpen(false)
     setIsCalendarModalOpen(true)
   }
 
-  function close() {
+  function closeCalendarModal() {
     setIsCalendarModalOpen(false)
   }
+
+  function openGuestModal() {
+    setIsGuestModalOpen(prev => !prev)
+  }
+
+  function closeGuestModal() {
+    setIsGuestModalOpen(false)
+  }
+
+  const calendarModalRef = useRef()
+  useOnClickOutside(calendarModalRef, () => {
+    setIsCalendarModalOpen(false)
+  })
 
   function handleReservationButtonClick() {
     if (start !== null && start !== end) {
@@ -44,20 +61,23 @@ function ReservationCard(pricePerDay) {
       </div>
 
       <div className='mb-3 rounded-lg border border-solid border-neutral-400 text-left'>
-        <CalendarButton start={start} end={end} open={open} isOpen={isCalendarModalOpen} />
+        <CalendarModalButton
+          start={start}
+          end={end}
+          open={openCalendarModal}
+          isOpen={isCalendarModalOpen}
+        />
         {isCalendarModalOpen && (
-          <ReservationCalendarModal
+          <CalendarModal
             start={start}
             end={end}
             handleDateChange={handleDateChange}
-            close={close}
+            close={closeCalendarModal}
             handleRefreshDates={handleRefreshDates}
           />
         )}
-        <div className='border-t border-solid border-neutral-400 py-2 pl-2'>
-          <div className='mb-1 text-[10px] font-extrabold'>인원</div>
-          <div className='text-sm'>{`게스트 n명`}</div>
-        </div>
+        <GuestModalButton open={openGuestModal} isOpen={isGuestModalOpen} />
+        {isGuestModalOpen && <GuestModal close={closeGuestModal} />}
       </div>
 
       <button
