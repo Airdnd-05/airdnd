@@ -191,7 +191,7 @@ function TravelDestinationModal({ handleClick }) {
 function SearchResultsModal({ handleClick }) {
   const dispatch = useDispatch()
   const selected = useSelector((state: RootState) => state.search.selected)
-  console.log('searchTerm ', selected)
+  console.log('selected ', selected)
   const filterLocation = locationInfo.filter(location => location.location_name.includes(selected))
   console.log('filterLocation ', filterLocation)
 

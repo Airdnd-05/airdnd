@@ -27,7 +27,7 @@ function SearchBar() {
       key: 'selection',
     },
   ])
-
+  console.log('부모 컴포넌트의 date:', dateRange)
   /**
    * 메뉴 아이템 클릭 이벤트를 처리하고 스타일을 업데이트
    * @param {number} index - 클릭된 메뉴 아이템의 인덱스.
@@ -100,6 +100,9 @@ function SearchBar() {
           }}
           handleClick={handleClick}
           handleHover={handleHover}
+          setDateRange={setDateRange}
+          selectedStart={dateRange[0].startDate}
+          selectedEnd={dateRange[0].endDate}
         />
         {activeIndex !== null && (
           <SearchModal

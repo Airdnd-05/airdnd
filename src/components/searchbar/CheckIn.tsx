@@ -9,7 +9,6 @@ function CheckIn({ refCallback, handleClick, handleHover, selectedDate }) {
     })
     return `${formattedDate}`
   }
-
   return (
     <div
       ref={refCallback}
