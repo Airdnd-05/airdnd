@@ -1,7 +1,7 @@
 import { formatymd } from '@/utils/formatingDate'
 import clsx from 'clsx'
 
-export default function CalendarButton({ open, start, end, isOpen }) {
+export default function CalendarModalButton({ open, start, end, isOpen }) {
   return (
     <div
       className={clsx(
@@ -14,7 +14,6 @@ export default function CalendarButton({ open, start, end, isOpen }) {
           'flex-1 py-2 pl-2',
           !isOpen && 'border-r border-solid border-neutral-400',
           isOpen && !start && 'border-neutral rounded-lg border-[1.5px] border-solid',
-          // isOpen && 'focus:border-neutral rounded-lg focus:border-[1.5px] focus:border-solid',
         )}>
         <div className='mb-1 text-[10px] font-extrabold'>체크인</div>
         <div className='text-sm'>
