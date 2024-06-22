@@ -27,7 +27,6 @@ function SearchBar() {
       key: 'selection',
     },
   ])
-  console.log('부모 컴포넌트의 date:', dateRange)
   /**
    * 메뉴 아이템 클릭 이벤트를 처리하고 스타일을 업데이트
    * @param {number} index - 클릭된 메뉴 아이템의 인덱스.
@@ -60,6 +59,15 @@ function SearchBar() {
     if (index !== activeIndex && activeIndex !== null) {
       MenuRef.current[index].style.backgroundColor = isHover ? '#dddd' : ''
     }
+  }
+
+  const resetSearchStyle = () => {
+    MenuRef.current.forEach(ref => {
+      const MenuElement = ref
+      const ParentElement = MenuElement.parentElement
+      MenuElement.style.backgroundColor = '#fff'
+      ParentElement.style.backgroundColor = '#fff'
+    })
   }
 
   return (
@@ -109,6 +117,7 @@ function SearchBar() {
             handleClick={handleClick}
             dateRange={dateRange}
             setDateRange={setDateRange}
+            resetSearchStyle={resetSearchStyle}
           />
         )}
       </div>

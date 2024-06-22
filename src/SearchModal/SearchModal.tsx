@@ -8,6 +8,8 @@ import clsx from 'clsx'
 import { useDispatch, useSelector } from 'react-redux'
 import { setActiveIndex } from '@/redux/features/SearchSlice'
 import { RootState } from '@/redux/store'
+import { useRef } from 'react'
+import useOnClickOutside from '@/hooks/useOnclickOutside'
 import TravelersModal from './TravelersModal'
 
 const imageData = [
@@ -273,8 +275,18 @@ function CalenderModal({ handleClick, dateRange, setDateRange }) {
   )
 }
 
-function SearchModal({ handleClick, dateRange, setDateRange }) {
+function SearchModal({ handleClick, dateRange, setDateRange, resetSearchStyle }) {
+  const dispatch = useDispatch()
   const { activeIndex, selected } = useSelector((state: RootState) => state.search)
+
+  const modalRef = useRef(null)
+
+  useOnClickOutside(modalRef, () => {
+    dispatch(setActiveIndex(null))
+    handleClick(false)
+    resetSearchStyle()
+  })
+
   const EachModal = () => {
     switch (activeIndex) {
       case 0:
@@ -297,7 +309,7 @@ function SearchModal({ handleClick, dateRange, setDateRange }) {
         return null
     }
   }
-  return <div>{EachModal()}</div>
+  return <div ref={modalRef}>{EachModal()}</div>
 }
 
 export default SearchModal

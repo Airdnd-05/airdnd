@@ -12,7 +12,7 @@ function TravelDestination({ refCallback, handleClick, handleHover }) {
     handleClick(0)
   }
 
-  console.log('selected:', selected)
+  // console.log('selected:', selected)
   return (
     <div
       ref={refCallback}
