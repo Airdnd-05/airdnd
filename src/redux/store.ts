@@ -12,6 +12,7 @@ import { apiSlice } from '@/redux/apiSlice'
 import travelersFilterReducer from '@/redux/features/travelersFilterSlice'
 import calendarReducer from '@/redux/features/calendar/slice'
 import SearchSlice from './features/SearchSlice'
+import profileModalSlice from './features/profileModalSlice'
 
 const store = configureStore({
   reducer: {
@@ -28,6 +29,7 @@ const store = configureStore({
     travelersFilter: travelersFilterReducer,
     calendar: calendarReducer,
     search: SearchSlice,
+    profile: profileModalSlice,
   },
   middleware: getDefaultMiddleware => getDefaultMiddleware().concat(apiSlice.middleware),
 })

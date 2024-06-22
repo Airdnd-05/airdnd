@@ -1,19 +1,18 @@
 'use client'
 
-import { useRef, useState } from 'react'
 import Image from 'next/image'
-import useOnClickOutside from '@/hooks/useOnclickOutside'
 import HeaderProfileModal from '@/modals/HeaderProfileModal'
+import { useDispatch, useSelector } from 'react-redux'
+import { RootState } from '@/redux/store'
+import { setModal } from '@/redux/features/profileModalSlice'
 
 function HeaderProfile() {
-  const [modal, setModal] = useState(false)
-  const ref = useRef()
-  useOnClickOutside(ref, () => {
-    setModal(false)
-  })
+  const dispatch = useDispatch()
+
+  const modal = useSelector((state: RootState) => state.profile.modal)
 
   const handleButtonClick = () => {
-    setModal(prev => !prev)
+    dispatch(setModal(!modal))
   }
 
   return (
@@ -36,7 +35,7 @@ function HeaderProfile() {
           />
         </div>
       </button>
-      {modal && <HeaderProfileModal ref={ref} />}
+      {modal && <HeaderProfileModal />}
     </div>
   )
 }

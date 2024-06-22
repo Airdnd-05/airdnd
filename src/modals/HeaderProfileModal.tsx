@@ -1,6 +1,6 @@
 'use client'
 
-import { forwardRef, useState } from 'react'
+import { useState } from 'react'
 import HeaderProfileItem from '@/components/common/Header/HeaderProfileItem'
 
 const HeaderProfileInfo = [
@@ -21,12 +21,11 @@ const HeaderProfileInfo = [
     title: '도움말 센터',
   },
 ]
-const HeaderProfileModal = forwardRef<HTMLDivElement>((props, ref) => {
+function HeaderProfileModal() {
   const [chosenItem, setChosenItem] = useState('signup')
+
   return (
-    <div
-      ref={ref}
-      className='absolute right-0 top-[80%] z-10 h-[200px] w-[250px] rounded-2xl bg-white shadow-lg'>
+    <div className='absolute right-0 top-[65px] z-10 h-[200px] w-[250px] rounded-2xl bg-white shadow-lg'>
       <ul className='flex h-full w-full flex-col justify-between'>
         {HeaderProfileInfo.map(section => (
           <HeaderProfileItem
@@ -39,8 +38,6 @@ const HeaderProfileModal = forwardRef<HTMLDivElement>((props, ref) => {
       </ul>
     </div>
   )
-})
-
-HeaderProfileModal.displayName = 'HeaderProfileModal'
+}
 
 export default HeaderProfileModal

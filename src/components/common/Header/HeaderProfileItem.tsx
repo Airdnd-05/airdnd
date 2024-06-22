@@ -1,19 +1,22 @@
 'use client'
 
 import clsx from 'clsx'
-import { useState } from 'react'
 import LoginModal from '@/modals/LoginModal'
 import Portal from '@/portal/Portal'
+import { useDispatch, useSelector } from 'react-redux'
+import { RootState } from '@/redux/store'
+import { setIsOpen } from '@/redux/features/profileModalSlice'
 
 function HeaderProfileItem({ section, chosenItem, setChosenItem }) {
-  const [isOpen, setIsOpen] = useState(false)
+  const dispatch = useDispatch()
+  const isOpen = useSelector((state: RootState) => state.profile.isOpen)
 
   function showModal() {
-    setIsOpen(true)
+    dispatch(setIsOpen(true))
   }
 
   function closeModal() {
-    setIsOpen(false)
+    dispatch(setIsOpen(false))
   }
   function handleClick() {
     if (section.key === 'signup') {
@@ -21,7 +24,6 @@ function HeaderProfileItem({ section, chosenItem, setChosenItem }) {
     }
     setChosenItem(section.key)
   }
-
   return (
     <>
       <li
