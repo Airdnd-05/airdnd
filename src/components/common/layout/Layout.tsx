@@ -10,7 +10,7 @@ function Layout({ children }) {
 
   return (
     <div className='flex w-full flex-col'>
-      <Header layoutStyle={layoutClassName} />
+      <Header layoutStyle={layoutClassName} pathName={pathName} />
       <main className='w-full flex-grow'>
         <div className={layoutClassName}>{children}</div>
       </main>
