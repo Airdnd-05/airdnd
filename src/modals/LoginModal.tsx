@@ -12,9 +12,7 @@ function LoginModal({ onClose }) {
     },
   ]
   return (
-    <div
-      className='fixed inset-0 z-50 flex items-center justify-center bg-gray-500 bg-opacity-25'
-      onClick={onClose}>
+    <div className='fixed inset-0 z-50 flex items-center justify-center bg-gray-500 bg-opacity-25'>
       <div className='w-[500px] rounded-lg bg-white'>
         <header className='flex w-full items-center justify-between border-b border-solid border-gray-200 p-4 pb-5'>
           <button onClick={onClose} className='text-red-500'>

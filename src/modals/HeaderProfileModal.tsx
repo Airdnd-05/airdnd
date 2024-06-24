@@ -2,7 +2,11 @@
 
 import { useState } from 'react'
 import HeaderProfileItem from '@/components/common/Header/HeaderProfileItem'
-import Link from 'next/link'
+import { useDispatch, useSelector } from 'react-redux'
+import { setIsOpen } from '@/redux/features/profileModalSlice'
+import { RootState } from '@/redux/store'
+import Portal from '@/portal/Portal'
+import LoginModal from './LoginModal'
 
 const HeaderProfileInfo = [
   {
@@ -28,6 +32,14 @@ const HeaderProfileInfo = [
 ]
 function HeaderProfileModal() {
   const [chosenItem, setChosenItem] = useState('signup')
+  const dispatch = useDispatch()
+  const isOpen = useSelector((state: RootState) => state.profile.isOpen)
+
+  function closeModal() {
+    if (isOpen) {
+      dispatch(setIsOpen(false))
+    }
+  }
 
   return (
     <div className='absolute right-0 top-[65px] z-10 h-[250px] w-[250px] rounded-2xl bg-white shadow-lg'>
@@ -41,6 +53,11 @@ function HeaderProfileModal() {
           />
         ))}
       </ul>
+      {isOpen && (
+        <Portal>
+          <LoginModal onClose={closeModal} />
+        </Portal>
+      )}
     </div>
   )
 }
