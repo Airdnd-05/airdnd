@@ -40,9 +40,9 @@ function Travelers({
         end: selectedEnd && dateToString(selectedEnd),
       }),
     )
-    console.log('지역', selected)
-    console.log('시작 날짜', selectedStart, '종료날짜', selectedEnd)
-    console.log('여행자', adults, children, infants, pets)
+    // console.log('지역', selected)
+    // console.log('시작 날짜', selectedStart, '종료날짜', selectedEnd)
+    // console.log('여행자', adults, children, infants, pets)
   }
 
   const addGuest = () => {

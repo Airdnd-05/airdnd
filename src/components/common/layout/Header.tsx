@@ -6,8 +6,9 @@ import HeaderNavItem from '@/components/common/Header/HeaderNavItem'
 import SearchBar from '@/components/common/Header/SearchBar'
 import HeaderProfile from '@/components/common/Header/HeaderProfile'
 import Link from 'next/link'
+import clsx from 'clsx'
 
-function Header({ layoutStyle }) {
+function Header({ layoutStyle, pathName }) {
   const [selected, setSelected] = useState('accommodation')
   const MainNav = [
     {
@@ -24,7 +25,11 @@ function Header({ layoutStyle }) {
     },
   ]
   return (
-    <header className='h-[168px] border-b border-solid border-gray-200 bg-white'>
+    <header
+      className={clsx('border-b border-solid border-gray-200 bg-white', {
+        'h-[80px]': pathName === '/profile',
+        'h-[168px]': pathName !== '/profile',
+      })}>
       <div className={layoutStyle}>
         <div className='grid h-[80px] grid-cols-3'>
           <div className='flex items-center'>
@@ -65,7 +70,7 @@ function Header({ layoutStyle }) {
             <HeaderProfile />
           </div>
         </div>
-        <SearchBar />
+        {pathName !== '/profile' && <SearchBar />}
       </div>
     </header>
   )
