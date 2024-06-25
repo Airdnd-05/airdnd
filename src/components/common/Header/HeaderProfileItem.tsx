@@ -28,7 +28,7 @@ function HeaderProfileItem({ section, chosenItem, setChosenItem }) {
         },
       )}>
       {section.key === 'profile' ? (
-        <Link href='/profile' onClick={handleClick}>
+        <Link href='/profile' onClick={handleClick} className='block'>
           {section.title}
         </Link>
       ) : (
