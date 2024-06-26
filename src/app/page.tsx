@@ -1,13 +1,13 @@
 import Link from 'next/link'
-import Category from '@/components/accommodation/categoryBundle/Category'
+import CategoryWrapper from '@/components/mainPage/categoryWrapper/CategoryWrapper'
 import getRoomsList from '@/app/apis/fetchMainPage/getRoomsList'
-import Card from '@/components/card/card'
-import InfiniteScroll from '@/components/infiniteScroll/scroll'
+import RoomCard from '@/components/mainPage/RoomCardWrapper/RoomCard'
+import MainInfiniteScroll from '@/components/mainPage/MainInfiniteScroll'
 
-function RoomsItem({ accommodation }) {
+function RoomCardWrapper({ accommodation }) {
   return (
     <Link href={`/rooms/${accommodation.accommodationId}`}>
-      <Card
+      <RoomCard
         accommodationName={accommodation.accommodationName}
         imageUrl={accommodation.imageUrl}
         pricePerDay={accommodation.pricePerDay}
@@ -36,13 +36,13 @@ export default async function Home() {
   return (
     <div className='flex flex-col items-center justify-start'>
       <div className='w-full max-w-[1760px] grow items-center justify-between'>
-        <Category />
+        <CategoryWrapper />
       </div>
       <div className='mt-3 grid w-full max-w-[1760px] grid-cols-1 gap-4  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
         {accommodations.map((accommodation, index) => (
-          <RoomsItem key={`RoomsItem-${index}`} accommodation={accommodation} />
+          <RoomCardWrapper key={`RoomsItem-${index}`} accommodation={accommodation} />
         ))}
-        <InfiniteScroll></InfiniteScroll>
+        <MainInfiniteScroll />
       </div>
     </div>
   )

@@ -2,11 +2,11 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
-import HeaderNavItem from '@/components/common/Header/HeaderNavItem'
-import SearchBar from '@/components/common/Header/SearchBar'
-import HeaderProfile from '@/components/common/Header/HeaderProfile'
 import Link from 'next/link'
 import clsx from 'clsx'
+import HeaderNavItem from '@/components/common/Header/HeaderNavItem'
+import SearchBar from '@/components/common/searchNav/SearchBar'
+import HeaderProfileButton from '@/components/common/Header/HeaderProfileButton'
 
 function Header({ layoutStyle, pathName }) {
   const [selected, setSelected] = useState('accommodation')
@@ -67,7 +67,7 @@ function Header({ layoutStyle, pathName }) {
                 style={{ width: 18, height: 18 }}
               />
             </div>
-            <HeaderProfile />
+            <HeaderProfileButton />
           </div>
         </div>
         {pathName !== '/profile' && <SearchBar />}

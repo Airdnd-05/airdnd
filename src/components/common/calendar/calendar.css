@@ -1,6 +1,23 @@
 @import url('react-date-range/dist/styles.css');
 @import url('react-date-range/dist/theme/default.css');
 
+.rdrDateRangePickerWrapper {
+  width: 100%;
+  display: inline-block;
+}
+
+.rdrCalendarWrapper
+  .rdrDateRangeWrapper {
+  width: 100%;
+  display: inline-block;
+}
+
+.rdrMonths
+  .rdrMonthsHorizontal {
+  width: 100%;
+  display: inline-block;
+}
+
 .rdrDayNumber {
   height: 50px;
   width: 50px;
@@ -45,8 +62,8 @@
 }
 
 .rdrDay {
-  width: 4em;
-  height: 4em;
+  width: 50px;
+  height: 50px;
   margin-bottom: 5px;
 }
 
@@ -90,6 +107,7 @@
 }
 
 .rdrMonth {
+  width: 33%;
   margin-right: 20px;
   display: flex;
   flex-direction: column;
