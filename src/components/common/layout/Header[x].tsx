@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import HeaderProfile from '@/components/common/Header/HeaderProfile'
+import HeaderProfileButton from '@/components/common/Header/HeaderProfileButton'
 
 function Header() {
   return (
@@ -44,7 +44,7 @@ function Header() {
                 style={{ width: 18, height: 18 }}
               />
             </div>
-            <HeaderProfile />
+            <HeaderProfileButton />
           </div>
         </div>
       </header>

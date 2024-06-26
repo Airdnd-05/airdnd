@@ -2,10 +2,10 @@
 
 import clsx from 'clsx'
 import { useDispatch } from 'react-redux'
-import { setIsOpen } from '@/redux/features/profileModalSlice'
 import Link from 'next/link'
+import { setIsOpen } from '@/redux/features/profileModalSlice'
 
-function HeaderProfileItem({ section, chosenItem, setChosenItem }) {
+function HeaderProfileModalItem({ section, chosenItem, setChosenItem }) {
   const dispatch = useDispatch()
 
   function showModal() {
@@ -38,4 +38,4 @@ function HeaderProfileItem({ section, chosenItem, setChosenItem }) {
   )
 }
 
-export default HeaderProfileItem
+export default HeaderProfileModalItem

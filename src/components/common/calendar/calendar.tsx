@@ -8,27 +8,25 @@ function Calendar({ className, months, start, end, handleDateChange }) {
   const shownDate = start ? new Date(start) : new Date()
 
   return (
-    <div className=''>
-      <DateRangePicker
-        className={className}
-        minDate={new Date()}
-        shownDate={shownDate}
-        onChange={item => handleDateChange(item)}
-        showSelectionPreview={true}
-        ranges={[
-          {
-            startDate,
-            endDate,
-            key: 'selection',
-          },
-        ]}
-        months={months}
-        direction='horizontal'
-        locale={ko}
-        preventSnapRefocus={true}
-        monthDisplayFormat='yyyy년 MMM'
-      />
-    </div>
+    <DateRangePicker
+      className={className}
+      minDate={new Date()}
+      shownDate={shownDate}
+      onChange={item => handleDateChange(item)}
+      showSelectionPreview={true}
+      ranges={[
+        {
+          startDate,
+          endDate,
+          key: 'selection',
+        },
+      ]}
+      months={months}
+      direction='horizontal'
+      locale={ko}
+      preventSnapRefocus={true}
+      monthDisplayFormat='yyyy년 MMM'
+    />
   )
 }
 
