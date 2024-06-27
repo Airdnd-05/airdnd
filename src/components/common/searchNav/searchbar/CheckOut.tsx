@@ -21,7 +21,13 @@ function CheckOut({ refCallback, handleClick, handleHover, selectedDate }) {
         type='text'
         placeholder='날짜 추가'
         className='w-[92.5px] cursor-pointer bg-inherit focus:outline-none'
-        value={selectedDate ? formatDate(selectedDate) : ''}
+        value={
+          selectedDate
+            ? selectedDate.getTime() === new Date(1).getTime()
+              ? ''
+              : formatDate(selectedDate)
+            : ''
+        }
         readOnly
       />
     </div>
