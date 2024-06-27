@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import { DateRangePicker } from 'react-date-range'
 import { ko } from 'date-fns/locale'
-import '@/components/common/searchNav/SearchModal/SearchCalender.css'
+import '@/components/common/calendar/calendar.css'
 import clsx from 'clsx'
 import { useDispatch, useSelector } from 'react-redux'
 import { useRef } from 'react'
@@ -177,7 +177,7 @@ function TravelDestinationModal({ handleClick }) {
               {localItem.map(item => (
                 <li
                   onClick={() => handleItemClick(item.title)}
-                  className='p-3 text-sm text-center border border-gray-300 border-solid rounded-3xl hover:border-black'
+                  className='rounded-3xl border border-solid border-gray-300 p-3 text-center text-sm hover:border-black'
                   key={item.title}>
                   {item.title}
                 </li>
@@ -202,18 +202,18 @@ function SearchResultsModal({ handleClick }) {
     dispatch(setActiveIndex(1))
   }
   return (
-    <div className='absolute left-0 z-50 px-4 py-4 bg-white shadow-lg top-20 rounded-2xl'>
+    <div className='absolute left-0 top-20 z-50 rounded-2xl bg-white px-4 py-4 shadow-lg'>
       <div className='flex w-[330px] flex-col'>
         {filterLocation.length > 0 ? (
           filterLocation.map(location => (
             <div
               key={location.location_name}
               onClick={() => handleItemClick(location.location_name)}
-              className='flex gap-4 px-4 py-2 cursor-pointer rounded-xl hover:bg-gray-100'>
+              className='flex cursor-pointer gap-4 rounded-xl px-4 py-2 hover:bg-gray-100'>
               <div className='rounded-xl bg-gray-200 p-[13px]'>
                 <Image alt={'locationLogo'} src={`/images/location.svg`} width={22} height={22} />
               </div>
-              <div className='flex flex-col justify-center grow'>
+              <div className='flex grow flex-col justify-center'>
                 <div className='text-base'>{location.location_name}</div>
                 <div className='text-xs text-gray-600'>{location.desc}</div>
               </div>
@@ -244,9 +244,9 @@ function CalenderModal({ handleClick, dateRange, setDateRange }) {
   }
 
   return (
-    <div className='absolute left-0 top-20 z-50 w-[768px] rounded-2xl bg-white shadow-lg'>
+    <div className='absolute left-0 top-20 z-50 w-[768px] rounded-3xl bg-white py-9 shadow-lg'>
       <div className='flex items-center justify-center'>
-        <div className='flex items-center justify-center gap-3 px-5 py-1 bg-gray-200 rounded-full'>
+        <div className='flex items-center justify-center gap-3 rounded-full bg-gray-200 px-5 py-1'>
           {CalenderItem.map(item => (
             <button
               key={item.key}
@@ -258,7 +258,7 @@ function CalenderModal({ handleClick, dateRange, setDateRange }) {
           ))}
         </div>
       </div>
-      <div className='cal'>
+      <div className='search'>
         <DateRangePicker
           minDate={today}
           onChange={handleDateChange}
