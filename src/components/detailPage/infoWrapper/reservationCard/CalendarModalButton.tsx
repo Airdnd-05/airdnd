@@ -20,7 +20,7 @@ export default function CalendarModalButton({ open, start, end, isOpen }) {
           {start ? (
             <div>{formatymd(start)}</div>
           ) : (
-            <div className='text-neutral-500'>날짜 추가</div>
+            <div className='text-neutral-700'>날짜 추가</div>
           )}
         </div>
       </div>
@@ -34,7 +34,7 @@ export default function CalendarModalButton({ open, start, end, isOpen }) {
           {end && start !== end ? (
             <div>{formatymd(end)}</div>
           ) : (
-            <div className='text-neutral-500'>날짜 추가</div>
+            <div className='text-neutral-700'>날짜 추가</div>
           )}
         </div>
       </div>

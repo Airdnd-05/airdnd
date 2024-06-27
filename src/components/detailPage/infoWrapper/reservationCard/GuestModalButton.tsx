@@ -31,7 +31,7 @@ export default function GuestModalButton({ open, isOpen }) {
       <input
         type='text'
         placeholder='게스트 추가'
-        className='w-full cursor-pointer text-sm focus:outline-none'
+        className='w-full cursor-pointer bg-transparent text-sm placeholder-neutral-700 focus:outline-none'
         readOnly
         value={addGuest()}
       />
