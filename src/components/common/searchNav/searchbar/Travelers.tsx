@@ -76,7 +76,7 @@ function Travelers({
           value={addGuest()}
         />
       </div>
-      <div>
+      <div className='w-[40px]'>
         <button onClick={handleChange}>
           <Image alt='HeaderSearch' src='/images/HeaderSearch.svg' width={40} height={40} />
         </button>

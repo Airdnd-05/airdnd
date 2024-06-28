@@ -19,19 +19,15 @@ function Header({ layoutStyle, pathName }) {
       key: 'experience',
       title: '체험',
     },
-    {
-      key: 'online',
-      title: '온라인 체험',
-    },
   ]
   return (
     <header
       className={clsx('border-b border-solid border-gray-200 bg-white', {
-        'h-[80px]': pathName === '/profile',
-        'h-[168px]': pathName !== '/profile',
+        'h-[80px]': pathName === '/user',
+        'h-[168px]': pathName !== '/user',
       })}>
       <div className={layoutStyle}>
-        <div className='grid h-[80px] grid-cols-3'>
+        <div className='md:gird-cols-2 grid h-[80px] grid-cols-3 sm:grid-cols-2 lg:grid-cols-3'>
           <div className='flex items-center'>
             <Link href='/'>
               <Image
@@ -44,7 +40,7 @@ function Header({ layoutStyle, pathName }) {
               />
             </Link>
           </div>
-          <nav className='flex items-center justify-center'>
+          <nav className='flex items-center justify-center sm:hidden md:hidden lg:flex'>
             <ul className='flex items-center justify-center'>
               {MainNav.map(nav => (
                 <HeaderNavItem
@@ -57,8 +53,8 @@ function Header({ layoutStyle, pathName }) {
             </ul>
           </nav>
           <div className='flex flex-row justify-end'>
-            <div className='flex flex-row items-center'>
-              <p className='mr-5 text-sm'>당신의 공간을 에어비앤비하세요.</p>
+            <div className='flex flex-row items-center sm:hidden md:flex'>
+              <p className='mr-3 text-sm'>당신의 공간을 에어비앤비하세요.</p>
               <Image
                 alt={'HeaderWorld'}
                 src={`/images/HeaderWorld.svg`}
