@@ -54,7 +54,12 @@ function Header({ layoutStyle, pathName }) {
           </nav>
           <div className='flex flex-row justify-end'>
             <div className='flex flex-row items-center sm:hidden md:flex'>
-              <p className='mr-3 text-sm'>당신의 공간을 에어비앤비하세요.</p>
+              <p
+                className={clsx('mr-3 text-sm', {
+                  'lg:hidden': pathName === '/rooms',
+                })}>
+                당신의 공간을 에어비앤비하세요.
+              </p>
               <Image
                 alt={'HeaderWorld'}
                 src={`/images/HeaderWorld.svg`}
@@ -66,7 +71,7 @@ function Header({ layoutStyle, pathName }) {
             <HeaderProfileButton />
           </div>
         </div>
-        {pathName !== '/profile' && <SearchBar />}
+        {pathName !== '/user' && <SearchBar />}
       </div>
     </header>
   )

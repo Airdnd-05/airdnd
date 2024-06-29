@@ -9,11 +9,11 @@ const layoutClassName = cva('', {
   variants: {
     pathName: {
       home: 'px-4 sm:px-6 md:px-10 lg:px-12 xl:px-20',
-      detail: 'px-4 sm:px-6 md:px-8 lg:mx-[5rem] lg:px-10 xl:mx-[8.5rem] xl:px-20',
+      detail: 'px-4 sm:px-6 md:px-8 lg:px-10 xl:px-20 2xl:mx-[13.5rem] 2xl:px-20',
     },
   },
   defaultVariants: {
-    pathName: 'detail',
+    pathName: 'home',
   },
 })
 
