@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { decrementGuests, incrementGuests } from '@/redux/features/travelersFilterSlice'
 import { RootState } from '@/redux/store'
 import { TravelersType } from '@/types/Filters'
+import clsx from 'clsx'
 
 function TravelersModal() {
   const dispatch = useDispatch()
@@ -37,13 +38,19 @@ function TravelersModal() {
                 {description}
               </p>
             </div>
-            <div className='flex items-center'>
+            <div className='flex items-center justify-center'>
               <button
                 onClick={() => handleDecrement(label as TravelersType)}
-                className='h-[32px] w-[32px] rounded-full border border-solid text-gray-200'>
+                className={clsx('h-[32px] w-[32px] rounded-full border border-solid', {
+                  // count가 0이 아니면 버튼 스타일 변경
+                  'border-gray-400 text-gray-400': count !== 0,
+                  'text-gray-200': count === 0,
+                })}>
                 -
               </button>
-              <span className='px-4'>{count}</span>
+              <div className='flex h-[32px] w-[32px] items-center justify-center'>
+                <span>{count}</span>
+              </div>
               <button
                 onClick={() => handleIncrement(label as TravelersType)}
                 className='h-[32px] w-[32px] rounded-full border border-solid border-gray-400'>
