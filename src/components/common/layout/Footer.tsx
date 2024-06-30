@@ -62,8 +62,8 @@ function Footer({ layoutStyle }) {
           </div>
 
           <div className='flex flex-row border-y border-solid border-gray-200 py-[10px]'>
-            <div className='flex w-full justify-between'>
-              <ul className='flex flex-row items-center pr-10 text-sm'>
+            <div className='flex w-full justify-between sm:flex-col md:flex-col lg:flex-row'>
+              <ul className='flex flex-row items-center pr-10 text-sm sm:pr-0'>
                 {FooterInfo.map((item, index) => (
                   <FooterInfoItem key={`FooterInfoItem-${index}`} item={item} index={index} />
                 ))}
@@ -89,7 +89,7 @@ function Footer({ layoutStyle }) {
                     src={`/images/FooterIcon.svg`}
                     width={160}
                     height={27}
-                    style={{ width: 160, height: 27 }}
+                    style={{ width: 'auto', height: 'auto' }}
                   />
                 </li>
               </ul>

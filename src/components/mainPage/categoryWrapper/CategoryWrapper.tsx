@@ -4,8 +4,12 @@ import CarouselCategory from '@/components/mainPage/categoryWrapper/CarouselCate
 function CategoryWrapper() {
   return (
     <div className='flex w-full items-center justify-between'>
-      <CarouselCategory />
-      <FilterButton />
+      <div className='flex-grow overflow-hidden'>
+        <CarouselCategory />
+      </div>
+      <div className='ml-4 flex-shrink-0'>
+        <FilterButton />
+      </div>
     </div>
   )
 }

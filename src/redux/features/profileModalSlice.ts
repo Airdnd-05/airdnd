@@ -14,11 +14,14 @@ const profileModalSlice = createSlice({
   name: 'profileModal',
   initialState,
   reducers: {
-    setModal(state, action: PayloadAction<boolean>) {
-      state.modal = action.payload
+    setModal(state) {
+      state.modal = !state.modal
     },
     setIsOpen(state, action: PayloadAction<boolean>) {
       state.isOpen = action.payload
+      if (action.payload) {
+        state.modal = false
+      }
     },
   },
 })

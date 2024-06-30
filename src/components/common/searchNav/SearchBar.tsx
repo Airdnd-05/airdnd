@@ -9,6 +9,7 @@ import TravelDestination from '@/components/common/searchNav/searchbar/TravelDes
 import Travelers from '@/components/common/searchNav/searchbar/Travelers'
 import { setActiveIndex, setSelected } from '@/redux/features/SearchSlice'
 import { RootState } from '@/redux/store'
+import { resetGuestFilter } from '@/redux/features/travelersFilterSlice'
 
 /**
  * 검색 바 컴포넌트. 4개의 메뉴 아이템을 포함
@@ -68,6 +69,15 @@ function SearchBar() {
       MenuElement.style.backgroundColor = '#fff'
       ParentElement.style.backgroundColor = '#fff'
     })
+    dispatch(setSelected(''))
+    setDateRange([
+      {
+        startDate: null,
+        endDate: null,
+        key: 'selection',
+      },
+    ])
+    dispatch(resetGuestFilter())
   }
 
   return (
@@ -80,7 +90,7 @@ function SearchBar() {
           handleClick={handleClick}
           handleHover={handleHover}
         />
-        <div className='h-5 border-r border-gray-300 border-solid'></div>
+        <div className='h-5 border-r border-solid border-gray-300'></div>
 
         <CheckIn
           refCallback={el => {
@@ -90,7 +100,7 @@ function SearchBar() {
           handleHover={handleHover}
           selectedDate={dateRange[0].startDate}
         />
-        <div className='h-5 border-r border-gray-300 border-solid'></div>
+        <div className='h-5 border-r border-solid border-gray-300'></div>
 
         <CheckOut
           refCallback={el => {
@@ -100,7 +110,7 @@ function SearchBar() {
           handleHover={handleHover}
           selectedDate={dateRange[0].endDate}
         />
-        <div className='h-5 border-r border-gray-300 border-solid'></div>
+        <div className='h-5 border-r border-solid border-gray-300'></div>
 
         <Travelers
           refCallback={el => {

@@ -1,22 +1,18 @@
-'use client'
-
 import clsx from 'clsx'
 import { useDispatch } from 'react-redux'
 import Link from 'next/link'
-import { setIsOpen } from '@/redux/features/profileModalSlice'
+import { setIsOpen, setModal } from '@/redux/features/profileModalSlice'
 
 function HeaderProfileModalItem({ section, chosenItem, setChosenItem }) {
   const dispatch = useDispatch()
 
-  function showModal() {
-    dispatch(setIsOpen(true))
-  }
-
   function handleClick() {
     if (section.key === 'signup') {
-      showModal()
+      dispatch(setIsOpen(true)) // 로그인 모달이 열리고
+    } else {
+      setChosenItem(section.key)
+      dispatch(setModal()) // 프로필 모달이 닫힘
     }
-    setChosenItem(section.key)
   }
 
   return (
@@ -28,11 +24,13 @@ function HeaderProfileModalItem({ section, chosenItem, setChosenItem }) {
         },
       )}>
       {section.key === 'profile' ? (
-        <Link href='/profile' onClick={handleClick} className='block'>
+        <Link href='/user' onClick={handleClick} className='block'>
           {section.title}
         </Link>
       ) : (
-        <li onClick={handleClick}>{section.title}</li>
+        <span className='block' onClick={handleClick}>
+          {section.title}
+        </span>
       )}
     </li>
   )

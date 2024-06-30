@@ -19,7 +19,7 @@ function FilterModalButton() {
   }
 
   return (
-    <div className='flex items-center justify-center'>
+    <div className='flex w-[100px] flex-shrink-0 items-center justify-center md:w-[100px]'>
       <button
         onClick={handleOpenModal}
         className='flex h-full w-20 cursor-pointer flex-col items-center justify-center rounded-xl border-[1px] border-solid border-neutral-300 transition hover:shadow-md'>
