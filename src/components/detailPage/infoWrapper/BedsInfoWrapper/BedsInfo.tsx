@@ -9,22 +9,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/detailPage/infoWrapper/BedsInfoWrapper/carousel'
-async function RoomBedsInfo({ roomInfo }) {
-  const [bedType, setBedType] = useState([])
-  const [currentPage, setCurrentPage] = useState(0)
-  const pageSize = 3
-  const currentItems = roomInfo.slice(currentPage * pageSize, (currentPage + 1) * pageSize)
-
-  const goToPrevPage = () => {
-    setCurrentPage(prevPage => (prevPage > 0 ? prevPage - 1 : 0))
-  }
-
-  const goToNextPage = () => {
-    setCurrentPage(prevPage =>
-      prevPage < Math.ceil(roomInfo.length / pageSize) - 1 ? prevPage + 1 : prevPage,
-    )
-  }
-
+function RoomBedsInfo({ roomInfo }) {
   return (
     <div className='border-b border-solid border-neutral-300 py-12'>
       <h2 className='mb-4 text-[22px] font-semibold'>숙박 장소</h2>
