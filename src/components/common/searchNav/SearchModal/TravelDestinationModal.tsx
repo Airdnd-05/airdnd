@@ -1,5 +1,6 @@
 import { setActiveIndex } from '@/redux/features/SearchSlice'
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 
 const imageData = [
@@ -25,51 +26,69 @@ const imageData = [
   },
 ]
 
-const localItem = [
-  {
-    title: '서울',
-  },
-  {
-    title: '부산',
-  },
-  {
-    title: '속초',
-  },
-  {
-    title: '강릉',
-  },
-  {
-    title: '전주',
-  },
-  {
-    title: '대구',
-  },
-  {
-    title: '경주',
-  },
-  {
-    title: '여수',
-  },
-  {
-    title: '서귀포',
-  },
-  {
-    title: '대전',
-  },
-  {
-    title: '제주도',
-  },
-  {
-    title: '인천',
-  },
-]
+// const localItem = [
+//   {
+//     title: '서울',
+//   },
+//   {
+//     title: '부산',
+//   },
+//   {
+//     title: '속초',
+//   },
+//   {
+//     title: '강릉',
+//   },
+//   {
+//     title: '전주',
+//   },
+//   {
+//     title: '대구',
+//   },
+//   {
+//     title: '경주',
+//   },
+//   {
+//     title: '여수',
+//   },
+//   {
+//     title: '서귀포',
+//   },
+//   {
+//     title: '대전',
+//   },
+//   {
+//     title: '제주도',
+//   },
+//   {
+//     title: '인천',
+//   },
+// ]
 
 function TravelDestinationModal({ handleClick }) {
+  const [localItem, setLocalItem] = useState([])
   const dispatch = useDispatch()
-  const handleItemClick = title => {
-    handleClick(1, title)
+
+  const handleItemClick = locationCity => {
+    handleClick(1, locationCity)
     dispatch(setActiveIndex(1))
   }
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await fetch('http://localhost:8080/navbar/city')
+        if (!res.ok) {
+          throw new Error('Network Error')
+        }
+        const data = await res.json()
+        setLocalItem(data)
+      } catch (error) {
+        console.error('Fetch Error', error)
+      }
+    }
+    fetchData()
+  }, [])
   return (
     <div className='absolute left-0 top-20 z-50 rounded-3xl bg-white p-[30px] shadow-lg'>
       <div className='flex flex-col p-5'>
@@ -100,10 +119,10 @@ function TravelDestinationModal({ handleClick }) {
             <ul className='grid grid-cols-4 gap-4'>
               {localItem.map(item => (
                 <li
-                  onClick={() => handleItemClick(item.title)}
+                  onClick={() => handleItemClick(item.locationCity)}
                   className='rounded-3xl border border-solid border-gray-300 p-3 text-center text-sm hover:border-black'
-                  key={item.title}>
-                  {item.title}
+                  key={item.locationCity}>
+                  {item.locationCity}
                 </li>
               ))}
             </ul>
