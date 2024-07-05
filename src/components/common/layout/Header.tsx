@@ -1,12 +1,16 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 import HeaderNavItem from '@/components/common/Header/HeaderNavItem'
 import SearchBar from '@/components/common/searchNav/SearchBar'
 import HeaderProfileButton from '@/components/common/Header/HeaderProfileButton'
+import { useDispatch, useSelector } from 'react-redux'
+import { setIsScrollNav } from '@/redux/features/scrollEventSlice'
+import { throttle } from 'lodash'
+import { RootState } from '@/redux/store'
 
 function Header({ layoutStyle, pathName }) {
   const [selected, setSelected] = useState('accommodation')
@@ -20,11 +24,36 @@ function Header({ layoutStyle, pathName }) {
       title: '체험',
     },
   ]
+  const dispatch = useDispatch()
+  const tabSelectedRef = useRef(null)
+  const isScrollNav = useSelector((state: RootState) => state.Scroll.isScrollNav)
+  const throttledScroll = useMemo(
+    () =>
+      throttle(() => {
+        console.log('스크롤 이벤트 발생')
+        if (!tabSelectedRef.current) return
+        const nextTabNavOn = window.scrollY > tabSelectedRef.current.offsetTop + 100
+        if (nextTabNavOn !== isScrollNav) {
+          dispatch(setIsScrollNav(nextTabNavOn))
+        }
+      }, 300),
+    [isScrollNav, dispatch],
+  )
+
+  useEffect(() => {
+    window.addEventListener('scroll', throttledScroll)
+    return () => {
+      window.removeEventListener('scroll', throttledScroll)
+    }
+  }, [throttledScroll])
+
   return (
     <header
+      ref={tabSelectedRef}
       className={clsx('border-b border-solid border-gray-200 bg-white', {
         'h-[80px]': pathName === '/user',
         'h-[168px]': pathName !== '/user',
+        '-translate-y-full': isScrollNav,
       })}>
       <div className={layoutStyle}>
         <div className='md:gird-cols-2 grid h-[80px] grid-cols-3 sm:grid-cols-2 lg:grid-cols-3'>
