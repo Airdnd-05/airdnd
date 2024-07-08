@@ -3,6 +3,7 @@ import HostDetail from '@/components/detailPage/hostDetail/HostDetailContainer'
 import InfoWrapper from '@/components/detailPage/infoWrapper/InfoWrapper'
 import AmenityInfo from '@/components/detailPage/amenityInfo/AmenityInfo'
 import DetailCalendar from '@/components/detailPage/detailCalendar/DetailCalendar'
+import Comment from '@/components/detailPage/comment/Comment'
 
 function AccommodationPage({ params }) {
   const { id } = params
@@ -11,6 +12,7 @@ function AccommodationPage({ params }) {
     <>
       <DetailPageBanner id={id} />
       <InfoWrapper id={id} />
+      <Comment id={id} />
       <AmenityInfo id={id} />
       <DetailCalendar />
       <HostDetail id={id} />

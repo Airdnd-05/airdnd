@@ -5,9 +5,9 @@ import CloseButton from './CloseButton'
 
 export default function CalendarModal({ close, start, end, handleDateChange, handleRefreshDates }) {
   return (
-    <div className='absolute left-[-340px] top-[50px] flex flex-col items-end rounded-2xl border border-solid border-neutral-200 bg-white px-2 py-4 shadow-xl'>
-      <div>
-        <section className='pt-2 pl-6'>
+    <div className='absolute right-[0px] top-[50px] flex w-[700px] flex-col items-end rounded-2xl border border-solid border-neutral-200 bg-white px-2 py-4 shadow-xl'>
+      <div className='w-full'>
+        <section className='pl-6 pt-2'>
           <AccommodationDate start={start} end={end} idx={0} />
         </section>
 
@@ -19,7 +19,7 @@ export default function CalendarModal({ close, start, end, handleDateChange, han
           handleDateChange={handleDateChange}
         />
       </div>
-      <div className='flex justify-between mb-1 mr-6'>
+      <div className='mb-1 mr-6 flex justify-between'>
         <RefreshDateButton
           className={'mr-4 rounded-lg p-2 text-sm font-semibold underline hover:bg-neutral-100'}
           refreshDates={handleRefreshDates}>
