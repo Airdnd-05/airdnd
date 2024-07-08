@@ -1,6 +1,6 @@
 import getRoomsDetail from '@/app/apis/fetchRoomsData/getRoomsDetail'
 import RoomsBriefInfo from '@/components/detailPage/infoWrapper/RoomsBriefInfo'
-import RoomBedsInfo from '@/components/detailPage/infoWrapper/BedsInfo'
+import RoomBedsInfo from '@/components/detailPage/infoWrapper/BedsInfoWrapper/BedsInfo'
 import ReservationCard from './reservationCard/ReservationCard'
 import HostProfile from './HostProfile'
 import AccommodationDesc from './AccommodationDesc'
